@@ -239,7 +239,7 @@ const LandingPage = () => {
 
 
             {/* NEWS */}
-            <section className='mt-6 md:mb-32 lg:mb-40 xl:mb-44  bg-[#C8F9E4] py-6 relative'>
+            <section id='news' className='mt-6 md:mb-32 lg:mb-40 xl:mb-44  bg-[#C8F9E4] py-6 relative'>
                 <div className='custom_container container px-5 mx-auto'>
                     <div className="flex flex-col md:flex-row md:mt-10 lg:mt-20 -mx-3">
 

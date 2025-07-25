@@ -46,10 +46,10 @@ const Header = () => {
               Bulls
             </NavLink>
             <NavLink onClick={()=>setToggle(false)} to="/calfs" className="text-gray-700 hover:text-[#C62524] text_stroke duration-300 transition-all">
-              Calf
+              Calfs
             </NavLink>
             <NavLink onClick={()=>setToggle(false)} to="/products" className="text-gray-700 hover:text-[#C62524] text_stroke duration-300 transition-all">
-              Product
+              Products
           </NavLink>
           <div onClick={()=>setToggle(false)} className="md:hidden flex">
               <CommonBtn path="/contact-us" btnName="contact us" btnStyling=" py-2.5 px-3 xl:px-6"/>
