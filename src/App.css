@@ -1,0 +1,44 @@
+
+
+
+
+
+.glass_shadow {
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(104px);
+  -webkit-backdrop-filter: blur(104px);
+}
+
+.red_overlay_bg {
+  background: linear-gradient(0deg, #C62524, #C62524),
+    linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+}
+
+.text_stroke:hover {
+  color: black;
+  -webkit-text-stroke: 1px #000000;
+}
+
+.hero_bg_img{
+  background-image: url('/src/assets/images/webp/hero-bg-img.webp');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+.get_in_touch_bg{
+  background-image: url('/src/assets/images/png//get-in-touch-img.png');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+
+.black_star svg path {
+  fill: #000;
+}
+
+@media (min-width: 1400px) {
+  .custom_container {
+    max-width: 1320px;
+  }
+  
+}
