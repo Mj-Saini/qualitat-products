@@ -1,15 +1,15 @@
 /* eslint-disable no-unused-vars */
 import React, { useState } from "react";
-import { Link, NavLink } from "react-router-dom";
+import { Link, NavLink, useLocation } from "react-router-dom";
 import CommonBtn from "./CommonBtn";
 import logo from "../../../src/assets/images/svg/logo.svg";
 import { SearchIcons } from "./Icons";
 
-const Header = ({contactPage}) => {
+const Header = ({ contactPage }) => {
+  const location = useLocation();
   const [toggle, setToggle] = React.useState(false);
-  const [authPopup, setAuthPopup] = useState(false)
 
-  if (authPopup) {
+  if (toggle) {
     document.body.style.overflow="hidden"
   } else {
     document.body.style.overflow="auto"
@@ -34,20 +34,20 @@ const Header = ({contactPage}) => {
             className={`flex justify-center max-md:w-screen max-md:h-screen max-md:items-center gap-5 max-md:fixed flex-col md:flex-row duration-300 ${contactPage ? 'bg-[#C8F9E4]' : 'bg-white '}  ${toggle ? "top-0 left-0" : "-top-full -left-full"
               } `}
           >
-            <NavLink onClick={()=>setToggle(false)} to="/" className="text-gray-700 hover:text-[#C62524] text_stroke duration-300 transition-all">
+            <NavLink onClick={()=>setToggle(false)} to="/" className={` hover:text-[#C62524] text_stroke duration-300 transition-all ${location.pathname === '/' ? 'text-black text_stroke_active' : 'text-black/70'}`}>
               Home
             </NavLink>
           <NavLink
             onClick={()=>setToggle(false)}
               to="/bulls"
-              className="text-gray-700 hover:text-[#C62524] text_stroke duration-300 transition-all"
+              className={` hover:text-[#C62524] text_stroke duration-300 transition-all ${location.pathname === '/bulls' ? 'text-black text_stroke_active' : 'text-black/70'}`}
             >
               Bulls
             </NavLink>
-            <NavLink onClick={()=>setToggle(false)} to="/calfs" className="text-gray-700 hover:text-[#C62524] text_stroke duration-300 transition-all">
+            <NavLink onClick={()=>setToggle(false)} to="/calfs" className={` hover:text-[#C62524] text_stroke duration-300 transition-all ${location.pathname === '/calfs' ? 'text-black text_stroke_active' : 'text-black/70'}`}>
               Calfs
             </NavLink>
-            <NavLink onClick={()=>setToggle(false)} to="/products" className="text-gray-700 hover:text-[#C62524] text_stroke duration-300 transition-all">
+            <NavLink onClick={()=>setToggle(false)} to="/products" className={` hover:text-[#C62524] text_stroke duration-300 transition-all ${location.pathname === '/products' ? 'text-black text_stroke_active' : 'text-black/70'}`}>
               Products
           </NavLink>
           <div onClick={()=>setToggle(false)} className="md:hidden flex">

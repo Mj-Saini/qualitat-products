@@ -18,6 +18,10 @@
   color: black;
   -webkit-text-stroke: 1px #000000;
 }
+.text_stroke_active {
+  color: black;
+  -webkit-text-stroke: 1px #000000;
+}
 
 .hero_bg_img{
   background-image: url('/src/assets/images/webp/hero-bg-img.webp');
