@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { DialIcons, MailBoxIcons, StarIcons } from '../components/common/Icons'
 import CommonBtn from '../components/common/CommonBtn'
 import { Link } from 'react-router'
+import { sendEmail } from '../utils/email'
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -17,11 +18,20 @@ const Contact = () => {
     setFormData(prev => ({ ...prev, [name]: value }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async(e) => {
     e.preventDefault();
     console.log("Submitted Form Data:", formData);
     // Optionally reset form:
     setFormData({ firstName: '', lastName: '', address: '', phone: '', query: '' });
+
+     const success = await sendEmail(formData);
+
+  if (success) {
+    alert("Thanks! Your message has been sent.");
+    setFormData({ firstName: '', lastName: '', address: '', phone: '', query: '' });
+  } else {
+    alert("Something went wrong. Please try again later.");
+  }
   };
   return (
     <>
