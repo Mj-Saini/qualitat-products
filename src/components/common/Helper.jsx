@@ -238,20 +238,89 @@ export const CalfList = [
 
 export  const indexes = [
   { label: "TPI", value: "2754" },
-  { label: "NM$", value: "134", bg: true },
-  { label: "CM$", value: "155", bg: true },
-  { label: "GM$", value: "109", bg: true },
+  { label: "NM$", value: "134",  },
+  { label: "CM$", value: "155",  },
+  { label: "GM$", value: "109",  },
   { label: "Feed Efficiency ($)", value: "19" },
-  { label: "Feed Saved", value: "478", bg: true },
+  { label: "Feed Saved", value: "478",  },
   { label: "HHP$", value: "364" },
-  { label: "DWP$", value: "77", bg: true },
+  { label: "DWP$", value: "77",  },
   { label: "WT$", value: "48" },
-  { label: "CW$", value: "14", bg: true },
+  { label: "CW$", value: "14",  },
 ];
 
 export const fertility = [
   { label: "Fertility Index/Rel %", value: "2.6/98" },
-  { label: "DPR/Rel. %", value: "2.4/98", bg: true },
+  { label: "DPR/Rel. %", value: "2.4/98", },
   { label: "HCR/Rel. %", value: "1.6/96" },
-  { label: "CCR/Rel. %", value: "2.9/98", bg: true },
+  { label: "CCR/Rel. %", value: "2.9/98", },
+];
+
+export const traits = [
+  { label: "Stature", low: "short", value: 2.65, high: "tall" },
+  { label: "Strength", low: "frail", value: 1.66, high: "strong" },
+  { label: "Dairy Form", low: "tight ribbed", value: 0.89, high: "deep" },
+  { label: "Rump Width", low: "narrow", value: -1.23, high: "open ribbed" },
+  { label: "Rump Angle", low: "high pins", value: 0.39, high: "wide" },
+  { label: "Rear Leg (Side View)", low: "posty", value: 0.2, high: "sloped" },
+  { label: "Rear Leg (Rear View)", low: "hook-in", value: -1.22, high: "sickled" },
+  { label: "Foot Angle", low: "Low Angle", value: 0.76, high: "straight" },
+  { label: "Feet & Leg Score", low: "low", value: 2.16, high: "steep angle" },
+  { label: "Fore Udder", low: "loose", value: 0.44, high: "high" },
+  { label: "Rear Udder Height", low: "low", value: 0.89, high: "strong" },
+  { label: "Rear Udder Width", low: "narrow", value: 0.12, high: "high" },
+  { label: "Udder Cleft", low: "weak", value: -0.28, high: "wide" },
+  { label: "Udder Depth", low: "deep", value: 0.26, high: "strong" },
+  { label: "Front Teat Placement", low: "wide", value: 1.29, high: "shallow" },
+  { label: "Rear Teat Placement", low: "wide", value: 1.21, high: "close" },
+  { label: "Teat Length", low: "short", value: 0.0, high: "long" },
+];
+
+
+export const wellnessTraits = [
+    {
+        trait: "Mastitis", zoetis: { value: -103, rel: 77 }, cdcb: { value: 2.7, rel: 93 },
+    },
+    {
+        trait: "Retained Placenta", zoetis: { value: 105, rel: 79 }, cdcb: { value: -0.1, rel: 90 },
+    },
+    {
+        trait: "Metritis", zoetis: { value: -99, rel: 72 }, cdcb: { value: 1.6, rel: 89 },
+    },
+    {
+        trait: "Hypocalcemia/Milk Fever", zoetis: { value: 107, rel: 85 }, cdcb: { value: 0.3, rel: 78 },
+    },
+    {
+        trait: "Ketosis", zoetis: { value: -107, rel: 79 }, cdcb: { value: 70, rel: 90 },
+    },
+    {
+        trait: "Displaced Abomasum", zoetis: { value: 103, rel: 69 }, cdcb: { value: 0.7, rel: 94 },
+    },
+    {
+        trait: "Lameness", zoetis: { value: -88, rel: 74 }, cdcb: {},
+    },
+    {
+        trait: "Cow Respiratory Disease", zoetis: { value: 96, rel: 70 }, cdcb: {},
+    },
+    {
+        trait: "Cow Abortion", zoetis: { value: 107, rel: 59 }, cdcb: {},
+    },
+    {
+        trait: "Twinning", zoetis: { value: -106, rel: 80 }, cdcb: {},
+    },
+    {
+        trait: "Cystic Ovary", zoetis: { value: 101, rel: 39 }, cdcb: {},
+    },
+    {
+        trait: "Heifer Livability", zoetis: { value: "N/A", rel: "N/A" }, cdcb: { value: 0.6, rel: 85 },
+    },
+    {
+        trait: "Calf Respiratory Disease", zoetis: { value: 90, rel: 66 }, cdcb: {},
+    },
+    {
+        trait: "Calf Scours", zoetis: { value: 10, rel: 65 }, cdcb: {},
+    },
+    {
+        trait: "—", zoetis: { value: 98, rel: 80 }, cdcb: {},
+    },
 ];

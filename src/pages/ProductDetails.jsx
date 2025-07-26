@@ -116,7 +116,7 @@ const ProductDetails = () => {
 
 
       {/* NEWS */}
-      <section className='mt-6 bg-[#C8F9E4] py-8 md:py-14 relative'>
+      <section className='mt-6 mb-12 md:mb-16 lg:mb-32 xl:mb-44 bg-[#C8F9E4] py-8 md:py-14 relative'>
         <div className='custom_container container px-5 mx-auto'>
           <div className="flex flex-col md:flex-row md:mt-10 lg:mt-20 -mx-3">
             <div className='w-full md:w-1/2 px-3 mt-6 lg:mt-0'>

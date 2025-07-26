@@ -30,6 +30,7 @@ function App() {
         <Route path="/products" element={<Products />} />
         <Route path="/products-details/:id" element={<ProductDetails />} />
         <Route path="/calfs-details/:id" element={<BullDetails />} />
+        <Route path="/bulls-details/:id" element={<BullDetails />} />
         <Route path="/contact-us" element={<Contact />} />
       </Routes>
         {!contactPage && <GetInTouch />
