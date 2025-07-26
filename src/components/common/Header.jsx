@@ -5,8 +5,7 @@ import CommonBtn from "./CommonBtn";
 import logo from "../../../src/assets/images/svg/logo.svg";
 import { SearchIcons } from "./Icons";
 
-const Header = () => {
-  const [isopen, setIsopen] = useState(false);
+const Header = ({contactPage}) => {
   const [toggle, setToggle] = React.useState(false);
   const [authPopup, setAuthPopup] = useState(false)
 
@@ -20,7 +19,7 @@ const Header = () => {
     setToggle(!toggle);
   };
   return (
-    <header className="bg-white glass_shadow">
+    <header className={`glass_shadow  ${contactPage ? 'bg-[#C8F9E4]' : 'bg-white '}`}>
       <div className="px-5 lg:px-18 mx-auto flex gap-5 items-center justify-between py-4">
         {/* Logo */}
        

@@ -35,6 +35,9 @@
 .black_star svg path {
   fill: #000;
 }
+.red_Icon svg path {
+  fill: #9E1E1D;
+}
 
 @media (min-width: 1400px) {
   .custom_container {
