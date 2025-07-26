@@ -16,7 +16,7 @@ const CalfPage = () => {
             {CalfList.map((obj, index) => {
             return (
               <div key={index} className='w-full lg:w-1/2 sm:px-3 mt-6 lg:mb-0'>
-                <AnimalsCard mapData={obj} />
+                <AnimalsCard mapData={obj} path={`/calfs-details/${obj.id}`} />
               </div>
             )
           })}  

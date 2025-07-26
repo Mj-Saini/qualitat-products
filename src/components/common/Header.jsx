@@ -31,7 +31,7 @@ const Header = ({contactPage}) => {
 
           {/* Navigation Menu */}
           <div
-            className={`flex justify-center max-md:w-screen max-md:h-screen max-md:items-center gap-5 max-md:fixed flex-col md:flex-row bg-white duration-300  ${toggle ? "top-0 left-0" : "-top-full -left-full"
+            className={`flex justify-center max-md:w-screen max-md:h-screen max-md:items-center gap-5 max-md:fixed flex-col md:flex-row duration-300 ${contactPage ? 'bg-[#C8F9E4]' : 'bg-white '}  ${toggle ? "top-0 left-0" : "-top-full -left-full"
               } `}
           >
             <NavLink onClick={()=>setToggle(false)} to="/" className="text-gray-700 hover:text-[#C62524] text_stroke duration-300 transition-all">

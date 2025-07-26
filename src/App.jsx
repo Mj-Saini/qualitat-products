@@ -12,6 +12,7 @@ import Contact from './pages/Contact';
 import GetInTouch from './components/common/GetInTouch';
 import Footer from './components/common/Footer';
 import Header from './components/common/Header';
+import BullDetails from './pages/BullDetails';
 
 function App() {
   const location = useLocation();
@@ -28,6 +29,7 @@ function App() {
         <Route path="/calfs" element={<CalfPage />} />
         <Route path="/products" element={<Products />} />
         <Route path="/products-details/:id" element={<ProductDetails />} />
+        <Route path="/calfs-details/:id" element={<BullDetails />} />
         <Route path="/contact-us" element={<Contact />} />
       </Routes>
         {!contactPage && <GetInTouch />

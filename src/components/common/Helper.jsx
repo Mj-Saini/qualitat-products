@@ -234,3 +234,24 @@ export const CalfList = [
     },
    
 ]
+
+
+export  const indexes = [
+  { label: "TPI", value: "2754" },
+  { label: "NM$", value: "134", bg: true },
+  { label: "CM$", value: "155", bg: true },
+  { label: "GM$", value: "109", bg: true },
+  { label: "Feed Efficiency ($)", value: "19" },
+  { label: "Feed Saved", value: "478", bg: true },
+  { label: "HHP$", value: "364" },
+  { label: "DWP$", value: "77", bg: true },
+  { label: "WT$", value: "48" },
+  { label: "CW$", value: "14", bg: true },
+];
+
+export const fertility = [
+  { label: "Fertility Index/Rel %", value: "2.6/98" },
+  { label: "DPR/Rel. %", value: "2.4/98", bg: true },
+  { label: "HCR/Rel. %", value: "1.6/96" },
+  { label: "CCR/Rel. %", value: "2.9/98", bg: true },
+];
