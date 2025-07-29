@@ -2,14 +2,13 @@
 import React from 'react'
 import Hero from '../components/Hero'
 import { demandsList, FarmSunstainList, keyHighlight } from '../components/common/Helper'
-import ProfitableProduction from '../components/ProfitableProduction'
 import breedProgramImg from '../assets/images/webp/breed-program-img.webp'
 import { DoubleQuoteIcons, StarIcons } from '../components/common/Icons'
 import Slider from 'react-slick'
 import CommonBtn from '../components/common/CommonBtn'
 import MarqueeSlide from '../components/MarqueeSlide'
 
-import profitProductImg from '../assets/images/webp/profitable-product-img.webp'
+import Founder from '../assets/images/png/dr-anil.jpeg'
 import wwsVideo from '../../src/assets/video/WhatsApp Video 2025-07-29 at 11.49.15.mp4'
 import customer1 from '../assets/images/png/customer1.png'
 import newsImg from '../assets/images/png/news-img.jpg'
@@ -50,45 +49,104 @@ const LandingPage = () => {
                     </div>
                 </div>
             </section>
-            <ProfitableProduction image={profitProductImg} heading="QUALITAT PRODUCTS (INDIA): EMPOWERING DAIRY FARMERS NATIONWIDE" founder="Founder & Visionary Leader, Qualitat Products India" founderName="
-Dr. Anil Berry
-" lable="Achieve an effective" para1="From a humble beginning in 1981, Dr. Anil Berry embarked on a visionary journey to revolutionize animal health and livestock productivity in India. Under his inspired leadership, Qualitat Products India has evolved into a respected name in the veterinary and animal husbandry industry, offering innovative solutions across the poultry, dairy, and livestock sectors.
-" para2="Driven by foresight and a commitment to global excellence, Dr. Berry forged a strategic partnership with World Wide Sires (WWS), USA—ushering in world-class bovine genetics to Indian farms. This collaboration has positioned Qualitat as a vital link between international innovation and Indian agriculture, supplying premium WWS semen to progressive farmers, cooperatives, and government agencies nationwide.
 
-His relentless pursuit of genetic improvement has taken Qualitat beyond borders—expanding into Nepal and Bangladesh and supporting dairy development across South Asia. From importing Merino sheep from Australia " />
+            <div className='pt-14 pb-20 md:py-32 lg:py-40 xl:py-44 '>
+                <div className='custom_container container px-5 mx-auto'>
+                    <div className='flex flex-col-reverse lg:flex-row justify-center items-center text-center lg:-mx-4'>
+                        <div className='w-full lg:w-5/12 lg:px-4  mt-8 lg:mt-0'>
+                            <div className='relative h-full lg:pe-10'>
+                             
+                                <img className='h-full object-cover min-h-[230px]' src={Founder} alt="profitable-product" />
+                            </div>
+                        </div>
+                        <div className='w-full lg:w-7/12 lg:px-4'>
+                            <div className='relative text-start'>
+
+                                <p className='font-semibold text-lg md:text-xl xl:text-2xl flex items-center gap-2 uppercase'> <span className='black_star'><StarIcons /></span>QUALITAT PRODUCTS (INDIA): EMPOWERING DAIRY FARMERS NATIONWIDE</p>
+                                <h2 className='font-extrabold text-2xl md:text-5xl xl:leading-[120%] text-start my-4.5'>
+                                    Dr. Anil Berry
+                                </h2>
+                                <h2 className='font-extrabold text-lg md:text-xl xl:leading-[120%] text-start pb-4'>
+                                    Founder & Visionary Leader, Qualitat Products India
+                                </h2>
+                                <div className='font-normal text-lg lg:text-xl text-black text-start'>
+                                    <p className='font-normal text-lg lg:text-xl text-black text-start'>From a humble beginning in 1981, Dr. Anil
+                                        Berry embarked on a visionary journey to revolutionize animal health and livestock productivity in India. Under his inspired
+                                        leadership, Qualitat Products India has
+                                        evolved into a respected name in the
+                                        veterinary and animal husbandry industry,
+                                        offering innovative solutions across the
+                                        poultry, dairy, and livestock sectors.
+
+                                    </p>  <br />
+
+                                    Driven by foresight and a commitment to
+                                    global excellence, Dr. Berry forged a
+                                    strategic partnership with World Wide Sires
+                                    (WWS), USA—ushering in world-class
+                                    bovine genetics to Indian farms. This
+                                    collaboration has positioned Qualitat as a
+                                    vital link between international innovation
+                                    and Indian agriculture, supplying premium
+                                    WWS semen to progressive farmers,
+                                    cooperatives, and government agencies
+                                    nationwide. <br /> <br />
+                                    His relentless pursuit of genetic
+                                    improvement has taken Qualitat beyond
+                                    borders—expanding into Nepal and
+                                    Bangladesh and supporting dairy
+                                    development across South Asia. From
+                                    importing Merino sheep from Australia and
+                                    elite pig genetics from Canada, to sourcing
+                                    top-tier horse semen from Germany, Dr.
+                                    Berry’s efforts are consistently aimed at
+                                    improving animal productivity and
+                                    enhancing rural livelihoods.
+                                    <br /> <br />
+                                    A standout initiative under his leadership is
+                                    Qualitat’s tie-up with Nestlé to promote
+                                    high-yielding cattle genetics. This initiative
+                                    aligns productivity with sustainability—
+                                    empowering farmers to produce more milk
+                                    with fewer animals, thereby reducing the
+                                    overall carbon footprint of dairy farming. It’s
+                                    a perfect example of how innovation can
+                                    serve both economic and environmental
+                                    goals. <br /><br />
+                                    Today, Qualitat is more than a company—
+                                    it’s a movement. A name synonymous with
+                                    reliability, innovation, and global standards
+                                    in livestock development. And at its heart is
+                                    Dr. Anil Berry—a passionate pioneer whose
+                                    vision continues to uplift farming
+                                    communities and shape the future of
+                                    sustainable agriculture.
+                                </div>
+                                <div className='mt-5 md:mt-12 lg:mt-14 flex gap-5 items-center flex-wrap'>
+                                    <CommonBtn btnName="Read All" btnStyling=" py-2.5 px-3 xl:px-6" />
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <div className='pb-24 md:pb-32 lg:pb-40 xl:pb-44 overflow-hidden'>
                 <div className='custom_container container px-5 mx-auto'>
-                    <div className='flex flex-col lg:flex-row-reverse justify-center text-center -mx-4'>
+                    <div className='flex flex-col lg:flex-row-reverse justify-center items-center text-center -mx-4'>
                         <div className='w-full lg:w-6/12 lg:px-4'>
                             <div className='relative h-full lg:ps-10'>
-                                {/* <div className='absolute hidden md:flex lg:-bottom-15 left-0 p-5 w-[400px]  justify-center flex-col gap-5 text-[#030F26] bg-white text-start '>
 
-                                    <p className='text-xl lg:text-2xl font-semibold'>Beef-on-dairy options </p>
-                                    <p className='text-base lg:text-lg font-normal text-[#030F26E5]'>
-                                        We offer premium-quality products at manu reduce compromising on quality.
-                                    </p>
-                                </div>
-                                <div className='absolute hidden md:flex lg:top-1/2 -translate-y-1/2 lg:-right-0 p-5 w-[400px]  justify-center flex-col gap-5 text-[#030F26] bg-white text-start '>
-
-                                    <p className='text-xl lg:text-2xl font-semibold'>Sexed semen for expansion</p>
-                                    <p className='text-base lg:text-lg font-normal text-[#030F26E5]'>
-                                        Our strong and efficient distribution network guarantees timely ipsum and  operations.
-                                    </p>
-                                </div>
-                                <div className='absolute hidden md:flex lg:-top-15 lg:right-10 p-5 w-[400px]  justify-center flex-col gap-5 text-[#030F26] bg-white text-start '>
-
-                                    <p className='text-xl lg:text-2xl font-semibold'>High-fertility sires indexes </p>
-                                    <p className='text-base lg:text-lg font-normal text-[#030F26E5]'>
-                                        Every bottle we supply adheres to pharmacopeial standards.
-                                    </p>
-                                </div> */}
                                 <img className='h-full object-cover' src={breedProgramImg} alt="profitable-product" />
                             </div>
                         </div>
                         <div className='w-full lg:w-6/12 lg:px-4 mt-8 lg:mt-0'>
                             <div className='relative text-start'>
 
-                                <p className='font-semibold text-lg md:text-xl xl:text-2xl flex items-center gap-2 uppercase'> <span className='black_star'><StarIcons /></span> WHY Choose Us</p>
+                                <p className='font-semibold text-lg md:text-xl xl:text-2xl flex items-center gap-2 uppercase'>
+                                    {/* <span className='black_star'><StarIcons /></span> */}
+                                    ✅ WHY Choose Us</p>
                                 <h2 className='font-extrabold text-2xl md:text-5xl xl:text-6xl xl:leading-[120%] text-start my-4.5'>
                                     Precision-Driven Breeding Programs
                                 </h2>
@@ -104,14 +162,25 @@ His relentless pursuit of genetic improvement has taken Qualitat beyond borders�
                                 <ul className='list-disc flex flex-col gap-2 text-start ps-5 ml-2 mt-6'>
                                     <li className='font-normal text-lg lg:text-xl text-[#2E3646] text-start'>
                                         <strong> Increase conception rates
-                                            Reduce calving intervals</strong>
+                                        </strong>
                                     </li>
                                     <li className='font-normal text-lg lg:text-xl text-[#2E3646] text-start'>
-                                        <strong>Strengthen herd health and immunity</strong>
+                                        <strong>Reduce calving intervals</strong>
+                                    </li>
+                                    <li className='font-normal text-lg lg:text-xl text-[#2E3646] text-start'>
+                                        <strong> Strengthen herd health and immunity</strong>
+                                    </li>
+                                    <li className='font-normal text-lg lg:text-xl text-[#2E3646] text-start'>
+                                        <strong> Maximize genetic gain with every generation</strong>
                                     </li>
 
                                 </ul>
 
+                                <p className='font-normal text-lg lg:text-xl text-black text-start'>We also integrate real-time
+                                    performance data and on-ground
+                                    support to help you make smarter,
+                                    faster, and more profitable breeding
+                                    decisions.</p>
 
                                 <div className='mt-5 md:mt-12 lg:mt-14 flex gap-5 items-center flex-wrap'>
                                     <CommonBtn btnName="Read All" btnStyling=" py-2.5 px-3 xl:px-6" />

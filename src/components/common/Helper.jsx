@@ -54,6 +54,11 @@ export const FarmSunstainList = [
         title: "Awareness & Training Programs",
         description:"We regularly conduct farmer training camps, workshops, and awareness drives to educate dairy farmers on genetics, disease prevention, and herd health management"
     },
+    {
+        
+        title: "Digital Farm Record Solutions",
+        description:"With digital support tools and tracking systems, we help you maintain breeding records, monitor cow performance, and make data-based decisions to boost efficiency."
+    },
    
  
 ]

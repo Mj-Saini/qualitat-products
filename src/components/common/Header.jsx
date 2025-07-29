@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import { Link, NavLink, useLocation } from "react-router-dom";
 import CommonBtn from "./CommonBtn";
-import logo from "../../../src/assets/images/svg/logo.svg";
+import logo from "../../../src/assets/images/png/logo.png";
 import { SearchIcons } from "./Icons";
 
 const Header = ({ contactPage }) => {
@@ -24,7 +24,7 @@ const Header = ({ contactPage }) => {
         {/* Logo */}
        
           <div className=" flex items-center relative w-[150px]">
-            <Link to="/" title="Qualitat Products" className="md:absolute -top-10  lg:-left-17 xl:-left-12  2xl:-left-15 md:w-[200px] md:h-[120px]">
+            <Link to="/" title="Qualitat Products" className="md:absolute -top-12  lg:-left-17 xl:-left-12  2xl:-left-15 ">
             <img className="w-full h-full" src={logo} alt="logo" />
             </Link>
           </div>
