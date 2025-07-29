@@ -31,34 +31,30 @@ import calf8 from '../../assets/images/png/calf8.jpg'
 export const FarmSunstainList = [
     {
         
-        title: "Lower methane emissions",
-        description:"Supporting critical care and day-to-day operations with dependable product delivery."
+        title: "Premium Semen Supply",
+        description:"We provide high-quality bovine semen from globally proven sires (WWS bulls) with excellent traits like high TPI, HCR, CCR, and fertility. This ensures better conception rates and healthier calves."
     },
     {
         
-        title: "Improved animal welfare",
-        description:"Ensuring smaller healthcare facilities have timely access to vital supplies."
+        title: " Genetic Advisory & Breeding Planning",
+        description:"Our expert team offers customized breeding plans based on your herd’s needs and goals. We help you select the right sires for improving milk yield, health traits, and profitability."
     },
     {
         
-        title: "Efficient feed conversion",
-        description:"Meeting specific needs for medical testing and timely diagnostics"
+        title: "Heat Detection & Reproduction Support",
+        description:"We assist in timely heat detection and offer solutions to improve conception success, reduce repeat breeding, and improve reproductive efficiency on your farm."
     },
     {
         
-        title: "Longevity and fertility",
-        description:"Providing consistent supply for academic and practical training purposes."
+        title: "On-Farm Technical Support",
+        description:"Our trained field staff and technical team provide hands-on guidance, helping farmers implement best practices in AI, calf care, feeding, and herd management."
     },
     {
         
-        title: "Pharmaceutical Distributors",
-        description:"Strengthening the supply network with seamless wholesale solutions."
+        title: "Awareness & Training Programs",
+        description:"We regularly conduct farmer training camps, workshops, and awareness drives to educate dairy farmers on genetics, disease prevention, and herd health management"
     },
-    {
-        
-        title: "NGO Healthcare Programs",
-        description:"Partnering with social health community healthcare and outreach efforts."
-    },
+   
  
 ]
 export const keyHighlight = [
@@ -69,13 +65,13 @@ export const keyHighlight = [
     },
     {
         img:<ExeperienceIcons/>,
-        title: "8 years of exp.",
-        description:"Serving the Healthcare Industry for Over 8 Years"
+        title: "25 years of exp.",
+        description:"Backed by 25 years of trusted experience in the dairy and genetics industry."
     },
     {
         img:<ProductQltyIcons/>,
         title: "High quality Products",
-        description:"High-Quality Medical-Grade Glucose Bottles"
+        description:"Delivering high-quality products trusted by progressive dairy farmers across India."
     },
 ]
 export const MarqueeList = [

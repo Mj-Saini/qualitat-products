@@ -18,20 +18,20 @@ const Contact = () => {
     setFormData(prev => ({ ...prev, [name]: value }));
   };
 
-  const handleSubmit = async(e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     console.log("Submitted Form Data:", formData);
     // Optionally reset form:
     setFormData({ firstName: '', lastName: '', address: '', phone: '', query: '' });
 
-     const success = await sendEmail(formData);
+    const success = await sendEmail(formData);
 
-  if (success) {
-    alert("Thanks! Your message has been sent.");
-    setFormData({ firstName: '', lastName: '', address: '', phone: '', query: '' });
-  } else {
-    alert("Something went wrong. Please try again later.");
-  }
+    if (success) {
+      alert("Thanks! Your message has been sent.");
+      setFormData({ firstName: '', lastName: '', address: '', phone: '', query: '' });
+    } else {
+      alert("Something went wrong. Please try again later.");
+    }
   };
   return (
     <>
@@ -45,12 +45,15 @@ const Contact = () => {
                 <p className='font-normal text-lg lg:text-xl text-[#2E3646]/90 leading-[160%] border-b border-[#030F26] pb-6'>We're here to help. Whether you have questions, feedback, or simply want to say hello, we'd love to hear from you. Fill out the form below or reach out to us using the contact information provided.</p>
 
                 <div className='flex gap-2.5 mt-6  border-b border-[#030F26] pb-6'>
-                  <span><MailBoxIcons /></span> <Link to={'mailto:info@cmdistributors.in'} className='text-[#9E1E1D] font-semibold text-lg lg:text-xl'>
-                    info@cmdistributors.in</Link>
+                  <span><MailBoxIcons /></span> <Link to={'mailto:qualitatproducts02@gmail.com'} className='text-[#9E1E1D] font-semibold text-lg lg:text-xl'>
+                    qualitatproducts02@gmail.com</Link>
                 </div>
                 <div className='flex gap-2.5 mt-6  border-b border-[#030F26] pb-6'>
-                  <span className='red_Icon'><DialIcons /></span> <Link to={'tel:(123)456-789'} className='text-[#9E1E1D] font-semibold text-lg lg:text-xl'>
-                    (123)456-789</Link>
+                  <span className='red_Icon'><DialIcons /></span>
+                  <Link to={'tel:9592912726'} className='text-[#9E1E1D] font-semibold text-lg lg:text-xl'>
+                    9592912726</Link>
+                  <Link to={'tel:9517772726'} className='text-[#9E1E1D] font-semibold text-lg lg:text-xl'>
+               9517772726</Link>
                 </div>
 
               </div>
@@ -58,7 +61,7 @@ const Contact = () => {
             <div className='w-full lg:w-6/12 bg-white p-4 md:p-8 mt-12 lg:mt-0'>
               <div className='flex flex-col'>
                 <h3 className='text-[#030F26] text-2xl md:text-3xl lg:text-[32px] font-semibold'>Contact Us</h3>
-                 <form onSubmit={handleSubmit} className='flex flex-col gap-8 mt-6'>
+                <form onSubmit={handleSubmit} className='flex flex-col gap-8 mt-6'>
                   <div className='flex gap-6'>
                     <input required
                       type="text"
@@ -103,7 +106,7 @@ const Contact = () => {
                   ></textarea>
                   <div>
                     <button type="submit">
-                    <CommonBtn btnName="Submit" btnStyling=" py-2.5 px-3 xl:px-6" type="submit" />
+                      <CommonBtn btnName="Submit" btnStyling=" py-2.5 px-3 xl:px-6" type="submit" />
                     </button>
                   </div>
                 </form>

@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from 'react'
 import logo from '../../assets/images/svg/logo.svg'
 import { Link } from 'react-router'
@@ -15,7 +16,25 @@ const Footer = () => {
                     <div className="flex flex-wrap lg:-mx-3">
                         <div className='w-full lg:w-1/3 lg:px-3 xl:pe-10'>
                             <img className='mb-6' width={100} src={logo} alt="logo" />
-                            <p className='text-base lg:text-lg text-white leading-[140%]'>Chetan Medical Distributors is India's top vaccine distributor, providing Pediatric, Maternal, Adult, and Travel Vaccines, alongside IVF hormones.</p>
+                       <ul className='text-base lg:text-lg text-white flex gap-3 items-center mt-6'>
+                                        <li>
+                                            <Link onClick={handleScrollTop} to="https://facebook.com" target="_blank" rel="noopener noreferrer" className='hover:text-[#9E1E1D] duration-300 hover:border-[#9E1E1D] group border border-white rounded-full w-10 lg:w-12 h-10 lg:h-12 flex items-center justify-center'><InstaIcons />
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link onClick={handleScrollTop} to="https://facebook.com" target="_blank" rel="noopener noreferrer" className='hover:text-[#9E1E1D] duration-300 hover:border-[#9E1E1D] group border border-white rounded-full w-10 lg:w-12 h-10 lg:h-12 flex items-center justify-center'><TelegramIcons />
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link onClick={handleScrollTop} to="https://facebook.com" target="_blank" rel="noopener noreferrer" className='hover:text-[#9E1E1D] duration-300 hover:border-[#9E1E1D] group border border-white rounded-full w-10 lg:w-12 h-10 lg:h-12 flex items-center justify-center'><TwitterIcons />
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link onClick={handleScrollTop} to="https://facebook.com" target="_blank" rel="noopener noreferrer" className='hover:text-[#9E1E1D] duration-300 hover:border-[#9E1E1D] group border border-white rounded-full w-10 lg:w-12 h-10 lg:h-12 flex items-center justify-center'><FbIcons />
+                                            </Link>
+                                        </li>
+
+                                    </ul>
                         </div>
                         <div className='w-full lg:w-2/3 lg:px-3 mt-6 lg:mt-0'>
                             <div className='flex flex-wrap justify-between'>
@@ -35,14 +54,10 @@ const Footer = () => {
                                 <div className='w-full sm:w-1/5 lg:w-1/3 mb-4 sm:mb-0 mt-8 sm:mt-0'>
                                     <h4 className='font-semibold text-lg text-white'>Products</h4>
                                     <ul className='text-base lg:text-lg text-white mt-6 flex flex-col gap-3'>
-                                        <li><Link onClick={handleScrollTop} to="/" className='hover:text-[#9E1E1D] duration-300'>SemexGO</Link></li>
                                         <li><Link onClick={handleScrollTop} to="/" className='hover:text-[#9E1E1D] duration-300'>Dairy</Link></li>
-                                        <li><Link onClick={handleScrollTop} to="/" className='hover:text-[#9E1E1D] duration-300'>Beef</Link></li>
-                                        <li><Link onClick={handleScrollTop} to="/" className='hover:text-[#9E1E1D] duration-300'>Beef on Dairy</Link></li>
-                                        <li><Link onClick={handleScrollTop} to="/" className='hover:text-[#9E1E1D] duration-300'>Embryos</Link></li>
                                     </ul>
                                 </div>
-                                <div className='w-full sm:w-1/3 mb-4 sm:mb-0 mt-8 sm:mt-0'>
+                                {/* <div className='w-full sm:w-1/3 mb-4 sm:mb-0 mt-8 sm:mt-0'>
                                     <h4 className='font-semibold text-lg lg:text-xl text-white'>Follow Us</h4>
                                     <ul className='text-base lg:text-lg text-white flex gap-3 items-center mt-6'>
                                         <li>
@@ -63,12 +78,12 @@ const Footer = () => {
                                         </li>
 
                                     </ul>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>
                     <p className='text-base lg:text-lg text-white text-center py-5 lg:py-[30px] mt-10 border-t border-white/20'>
-                        Copyright © {currentYear} Chetan Medical & Distributors, All Rights Reserved.
+                        {/* Copyright © {currentYear} Chetan Medical & Distributors, All Rights Reserved. */}
                     </p>
                 </div>
             </section>

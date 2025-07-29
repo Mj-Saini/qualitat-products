@@ -4,13 +4,13 @@ import Hero from '../components/Hero'
 import { demandsList, FarmSunstainList, keyHighlight } from '../components/common/Helper'
 import ProfitableProduction from '../components/ProfitableProduction'
 import breedProgramImg from '../assets/images/webp/breed-program-img.webp'
-import { ArrowIcons, DoubleQuoteIcons, StarIcons } from '../components/common/Icons'
+import { DoubleQuoteIcons, StarIcons } from '../components/common/Icons'
 import Slider from 'react-slick'
 import CommonBtn from '../components/common/CommonBtn'
 import MarqueeSlide from '../components/MarqueeSlide'
 
 import profitProductImg from '../assets/images/webp/profitable-product-img.webp'
-import whoWeServeImg from '../assets/images/png/we-serve.png'
+import wwsVideo from '../../src/assets/video/WhatsApp Video 2025-07-29 at 11.49.15.mp4'
 import customer1 from '../assets/images/png/customer1.png'
 import newsImg from '../assets/images/png/news-img.jpg'
 
@@ -28,7 +28,7 @@ const LandingPage = () => {
     };
     return (
         <div>
-          
+
             <Hero />
             <section className='bg-[#9E1E1D] text-white'>
                 <div className='custom_container container px-5 mx-auto py-10'>
@@ -50,13 +50,18 @@ const LandingPage = () => {
                     </div>
                 </div>
             </section>
-            <ProfitableProduction image={profitProductImg} heading="Sustainable and profitable production" lable="Achieve an effective" para1="At VikingGenetics, we help feed the world’s expanding population and sustain the earth’s natural resources by breeding healthy, efficient, trouble-free cows." para2=" As a co-operative, VikingGenetics' members are dairy and beef farmers in Denmark, Sweden, and Finland. " />
+            <ProfitableProduction image={profitProductImg} heading="QUALITAT PRODUCTS (INDIA): EMPOWERING DAIRY FARMERS NATIONWIDE" founder="Founder & Visionary Leader, Qualitat Products India" founderName="
+Dr. Anil Berry
+" lable="Achieve an effective" para1="From a humble beginning in 1981, Dr. Anil Berry embarked on a visionary journey to revolutionize animal health and livestock productivity in India. Under his inspired leadership, Qualitat Products India has evolved into a respected name in the veterinary and animal husbandry industry, offering innovative solutions across the poultry, dairy, and livestock sectors.
+" para2="Driven by foresight and a commitment to global excellence, Dr. Berry forged a strategic partnership with World Wide Sires (WWS), USA—ushering in world-class bovine genetics to Indian farms. This collaboration has positioned Qualitat as a vital link between international innovation and Indian agriculture, supplying premium WWS semen to progressive farmers, cooperatives, and government agencies nationwide.
+
+His relentless pursuit of genetic improvement has taken Qualitat beyond borders—expanding into Nepal and Bangladesh and supporting dairy development across South Asia. From importing Merino sheep from Australia " />
             <div className='pb-24 md:pb-32 lg:pb-40 xl:pb-44 overflow-hidden'>
                 <div className='custom_container container px-5 mx-auto'>
                     <div className='flex flex-col lg:flex-row-reverse justify-center text-center -mx-4'>
                         <div className='w-full lg:w-6/12 lg:px-4'>
                             <div className='relative h-full lg:ps-10'>
-                                <div className='absolute hidden md:flex lg:-bottom-15 left-0 p-5 w-[400px]  justify-center flex-col gap-5 text-[#030F26] bg-white text-start '>
+                                {/* <div className='absolute hidden md:flex lg:-bottom-15 left-0 p-5 w-[400px]  justify-center flex-col gap-5 text-[#030F26] bg-white text-start '>
 
                                     <p className='text-xl lg:text-2xl font-semibold'>Beef-on-dairy options </p>
                                     <p className='text-base lg:text-lg font-normal text-[#030F26E5]'>
@@ -76,7 +81,7 @@ const LandingPage = () => {
                                     <p className='text-base lg:text-lg font-normal text-[#030F26E5]'>
                                         Every bottle we supply adheres to pharmacopeial standards.
                                     </p>
-                                </div>
+                                </div> */}
                                 <img className='h-full object-cover' src={breedProgramImg} alt="profitable-product" />
                             </div>
                         </div>
@@ -87,7 +92,27 @@ const LandingPage = () => {
                                 <h2 className='font-extrabold text-2xl md:text-5xl xl:text-6xl xl:leading-[120%] text-start my-4.5'>
                                     Precision-Driven Breeding Programs
                                 </h2>
-                                <p className='font-normal text-lg lg:text-xl text-black text-start'>From genomic testing to tailored mating plans, our approach puts data at the heart of every decision. <br /><br /> Our sires are selected using the latest in DNA analysis, ensuring accurate predictions and faster genetic progress. </p>
+                                <p className='font-normal text-lg lg:text-xl text-black text-start'>At Qualitat Products (India), we believe that success in modern dairying starts with precision and science-backed decision-making. Our Precision-Driven Breeding Programs are designed to take the guesswork out of genetics and empower farmers with consistent, high-performing results.
+                                    <br /><br />
+                                    Through advanced genetic selection, data analysis, and reproductive strategies, we ensure that each sire and dam pairing contributes meaningfully to herd improvement. We focus not just on milk production, but on fertility, longevity, health traits, and overall profitability—because real progress is measured in generations.
+                                    <br /><br />By using top-ranking bulls with proven records (such as elite TPI, HCR, and CCR values), our breeding programs aim to:
+
+
+
+                                </p>
+
+                                <ul className='list-disc flex flex-col gap-2 text-start ps-5 ml-2 mt-6'>
+                                    <li className='font-normal text-lg lg:text-xl text-[#2E3646] text-start'>
+                                        <strong> Increase conception rates
+                                            Reduce calving intervals</strong>
+                                    </li>
+                                    <li className='font-normal text-lg lg:text-xl text-[#2E3646] text-start'>
+                                        <strong>Strengthen herd health and immunity</strong>
+                                    </li>
+
+                                </ul>
+
+
                                 <div className='mt-5 md:mt-12 lg:mt-14 flex gap-5 items-center flex-wrap'>
                                     <CommonBtn btnName="Read All" btnStyling=" py-2.5 px-3 xl:px-6" />
 
@@ -99,14 +124,14 @@ const LandingPage = () => {
             </div>
 
 
-            {/* Farm sustainably and enjoy life  */}
+            {/*SHAPING DAIRY FUTURES WITH SMART SOLUTIONS */}
 
 
             <div className='pb-14 md:pb-32 lg:pb-40 xl:pb-44 overflow-hidden'>
                 <div className='custom_container container px-5 mx-auto'>
                     <div className='flex flex-col justify-center items-center gap-4.5'>
-                        <p className='font-semibold text-lg md:text-xl xl:text-2xl flex items-center gap-2 uppercase'> <span className='black_star'><StarIcons /></span> Sustainable Progress</p>
-                        <h2 className='font-semibold text-3xl md:text-5xl xl:text-6xl xl:leading-[120%] text-center'>Farm sustainably and enjoy life</h2>
+                        {/* <p className='font-semibold text-lg md:text-xl xl:text-2xl flex items-center gap-2 uppercase'> <span className='black_star'><StarIcons /></span> Sustainable Progress</p> */}
+                        <h2 className='font-semibold text-3xl md:text-5xl xl:leading-[120%] text-center'>SHAPING DAIRY FUTURES WITH <span className='lg:block text-[#9E1E1D]'>SMART SOLUTIONS</span></h2>
                     </div>
 
                     <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 sm:mt-10 lg:mt-20">
@@ -163,9 +188,38 @@ const LandingPage = () => {
 
 
             <MarqueeSlide />
-            <ProfitableProduction displayHidden="hidden" image={whoWeServeImg} heading="Medical-Grade Glucose Bottle Supply" heading2="OEM / Private Labeling" lable="Who We Serve" para1="Safeguarding the health of children is paramount. Pediatric vaccines ensure that the little ones are protected from a variety of diseases, promoting their health and well-being from an early age. From infancy to adolescence, we provide vaccines that meet the highest standards of safety and efficacy, giving parents peace of mind." para2={"Pregnancy is a special time in a woman's life, and protecting the health of both the mother and the baby is of utmost importance. We distribute specialized maternal vaccines to prioritize the health of expectant mothers and are safe and effective during pregnancy."} />
+            <div className='py-24 md:py-32 lg:py-40 xl:py-44 overflow-hidden'>
+                <div className='custom_container container px-5 mx-auto'>
+                    <div className='flex flex-wrap items-center justify-center text-center -mx-4'>
+                        <div className='w-full lg:w-6/12 lg:px-4'>
+                            <div className='relative h-full lg:ps-10'>
+                                <video autoPlay
+                                    muted
+                                    loop
+                                    playsInline
+                                    controls src={wwsVideo}></video>
+                            </div>
+                        </div>
+                        <div className='w-full lg:w-6/12 lg:px-4 mt-8 lg:mt-0'>
+                            <div className='relative text-start'>
+
+
+                                <p className='font-normal text-lg lg:text-xl text-black text-start'>World Wide Sires is proud to provide superior bovine genetics, innovative services and customized solutions helping our global customers be profitable and sustainable for generations to come. Our team is eager to strengthen current and grow new relationships with distributors and customers around the world.
+
+                                    <br /><br />
+                                    <strong>         World Wide Sires (WWS)</strong> is a global leader in bovine genetics, providing high-quality semen from top-ranking bulls known for their superior fertility, production, and longevity traits. With a presence in over 80 countries, WWS is committed to helping dairy farmers achieve genetic progress and long-term profitability through science
+
+
+
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             {/* GLOBAL DEMANDS */}
-            <section className='pb-14 md:pb-32 lg:pb-40 xl:pb-44 overflow-hidden'>
+            {/* <section className='pb-14 md:pb-32 lg:pb-40 xl:pb-44 overflow-hidden'>
                 <div className='custom_container container px-5 mx-auto'>
                     <div className='flex flex-col justify-center items-center gap-4.5'>
                         <p className='font-semibold text-lg md:text-xl xl:text-2xl flex items-center gap-2 uppercase'> <span className='black_star'><StarIcons /></span> global demand</p>
@@ -193,7 +247,7 @@ const LandingPage = () => {
 
 
                 </div>
-            </section>
+            </section> */}
 
 
             {/* CUSTOMER REVIEW */}
@@ -284,7 +338,7 @@ const LandingPage = () => {
                 </div>
             </section>
 
-           
+
         </div>
     )
 }

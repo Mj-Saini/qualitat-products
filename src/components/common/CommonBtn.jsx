@@ -25,7 +25,7 @@ const CommonBtn = ({ btnName, btnStyling, path, type = "button" }) => {
       <Link
          onClick={handleScrollTop}
         to={path}
-        className={`btn btn-primary bg-[#9E1E1D] capitalize font-semibold text-base lg:text-lg text-white inline-block ${btnStyling}`}
+        className={`btn btn-primary bg-[#9E1E1D] capitalize font-semibold text-base xl:text-lg text-white inline-block ${btnStyling}`}
       >
         {btnName}
       </Link>
