@@ -190,7 +190,7 @@ His relentless pursuit of genetic improvement has taken Qualitat beyond bordersâ
             <MarqueeSlide />
             <div className='py-24 md:py-32 lg:py-40 xl:py-44 overflow-hidden'>
                 <div className='custom_container container px-5 mx-auto'>
-                    <div className='flex flex-wrap items-center justify-center text-center -mx-4'>
+                    <div className='flex flex-wrap items-center justify-center text-center lg:-mx-4'>
                         <div className='w-full lg:w-6/12 lg:px-4'>
                             <div className='relative h-full lg:ps-10'>
                                 <video autoPlay
