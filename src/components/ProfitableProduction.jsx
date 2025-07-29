@@ -7,7 +7,7 @@ const ProfitableProduction = ({ image, lable, heading,heading2, para1, para2 }) 
         <>
             <div className='pt-14 pb-20 md:py-32 lg:py-40 xl:py-44 '>
                 <div className='custom_container container px-5 mx-auto'>
-                    <div className='flex flex-col-reverse lg:flex-row justify-center text-center lg:-mx-4'>
+                    <div className='flex flex-col-reverse lg:flex-row justify-center items-center text-center lg:-mx-4'>
                         <div className='w-full lg:w-5/12 lg:px-4  mt-8 lg:mt-0'>
                             <div className='relative h-full lg:pe-10'>
                                 {/* <div className={`absolute lg:-bottom-15 lg:-left-20 p-5 flex  justify-center flex-col gap-5 text-[#030F26] bg-white text-start h-[190px] w-[300px] ${displayHidden}`}>
