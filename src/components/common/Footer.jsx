@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
-import logo from '../../assets/images/svg/logo.svg'
+import logo from '../../assets/images/png/footer-logo.png'
 import { Link } from 'react-router'
 import {  InstaIcons, LinkedinIcons,  YouTubeIcons } from './Icons'
 
@@ -15,7 +15,7 @@ const Footer = () => {
                 <div className='custom_container container px-5 mx-auto'>
                     <div className="flex flex-wrap lg:-mx-3">
                         <div className='w-full lg:w-1/3 lg:px-3 xl:pe-10'>
-                            <img className='mb-6' width={100} src={logo} alt="logo" />
+                         <Link onClick={handleScrollTop} to="/">   <img className='mb-6' width={100} src={logo} alt="logo" /></Link>
                        <ul className='text-base lg:text-lg text-white flex gap-3 items-center mt-6'>
                                         <li>
                                             <Link onClick={handleScrollTop} to="https://www.instagram.com/qualitatproducts.wws/" target="_blank" rel="noopener noreferrer" className='hover:text-[#9E1E1D] duration-300 hover:border-[#9E1E1D] group border border-white rounded-full w-10 lg:w-12 h-10 lg:h-12 flex items-center justify-center'><InstaIcons />

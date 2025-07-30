@@ -139,24 +139,28 @@ export const BullList = [
         id:1,
         img:bull1,
         title: "BUILD A BETTER CALF®",
+        type: "HF",
         description:"The Build a Better Calf program focuses on four key categories formulated solely for pre-weaned dairy and beef calves. Uniting industry calf and nutrition experts, this program focuses on colostrum management, immune system development, critical health stages and strategic liquid feeding to ensure your calves become healthy, productive replacements in the herd."
     },
     {
         id:2,
         img:bull2,
         title: "MAXIMIZE COW PERFORMANCE®",
+        type: "Red",
         description:"Maximize Cow Performance is Select Sires’ program featuring products for mature dairy cows. This program focuses on the changing needs of the cow throughout each phase of transition, lactation and dry period, as well as management and environmental events."
     },
     {
         id:3,
         img:bull3,
         title: "HEAT DETECTION AIDS",
+        type: "HF",
         description:"Detecting heat and maintaining a healthy estrous cycle can have a significant impact on income. Optimizing breeding efficiencies with precision-designed, economic and easy-to-use breeding tools is essential to getting cows pregnant."
     },
     {
         id:4,
         img:bull4,
         title: "UDDER CARE",
+        type: "Red",
         description:"Promoting udder health and hygiene are imperative. The presence of environmental and contagious pathogens that can cause mastitis are a threat on almost all dairy operations. Implementing stringent protocols for udder health care and milking parlor cleaning and sanitation are effective ways to support milk quality and minimize mastitis occurrence."
     },
  
@@ -164,23 +168,27 @@ export const BullList = [
         id:5,
         img:bull5,
         title: "COWMANAGER®",
+        type: "HF",
         description:"CowManager is a revolutionary ear tag system that provides accurate information about your herd's fertility, health, nutrition and location around the clock."
     }, {
         id:6,
         img:bull6,
         title: "MANURE MANAGEMENT",
+        type: "Jersey",
         description:"Implementing the right manure management strategy is essential to maximize byproduct value. Storage additives and conditioners can help aid dairies in experiencing immediate operational benefits and cost savings, while mitigating the release of emissions and odors. "
     },
     {
         id:7,
         img:bull7,
         title: "BUILD A BETTER CALF®",
+        type: "HF",
         description:"The Build a Better Calf program focuses on four key categories formulated solely for pre-weaned dairy and beef calves. Uniting industry calf and nutrition experts, this program focuses on colostrum management, immune system development, critical health stages and strategic liquid feeding to ensure your calves become healthy, productive replacements in the herd."
     },
     {
         id:8,
         img:bull8,
         title: "UDDER CARE",
+        type: "Jersey",
         description:"Promoting udder health and hygiene are imperative. The presence of environmental and contagious pathogens that can cause mastitis are a threat on almost all dairy operations. Implementing stringent protocols for udder health care and milking parlor cleaning and sanitation are effective ways to support milk quality and minimize mastitis occurrence."
     },
    
