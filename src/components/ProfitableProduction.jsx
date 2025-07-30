@@ -20,7 +20,7 @@ const ProfitableProduction = ({ image, lable, heading,heading2, para1, para2,fou
                         <div className='w-full lg:w-7/12 lg:px-4'>
                             <div className='relative text-start'>
 
-                                <p className='font-semibold text-lg md:text-xl xl:text-2xl flex items-center gap-2 uppercase'> <span className='black_star'><StarIcons /></span> {lable}</p>
+                                <p className='font-semibold text-lg md:text-xl xl:text-2xl flex items-  gap-2 uppercase'> <span className='black_star'><StarIcons /></span> {lable}</p>
                                 <h2 className='font-extrabold text-2xl md:text-5xl xl:leading-[120%] text-start my-4.5'>
                                     {heading}
                                 </h2>

@@ -2,7 +2,7 @@
 import React from 'react'
 import logo from '../../assets/images/svg/logo.svg'
 import { Link } from 'react-router'
-import { FbIcons, InstaIcons, TelegramIcons, TwitterIcons } from './Icons'
+import {  InstaIcons, LinkedinIcons,  YouTubeIcons } from './Icons'
 
 const Footer = () => {
     const currentYear = new Date().getFullYear();
@@ -18,19 +18,16 @@ const Footer = () => {
                             <img className='mb-6' width={100} src={logo} alt="logo" />
                        <ul className='text-base lg:text-lg text-white flex gap-3 items-center mt-6'>
                                         <li>
-                                            <Link onClick={handleScrollTop} to="https://facebook.com" target="_blank" rel="noopener noreferrer" className='hover:text-[#9E1E1D] duration-300 hover:border-[#9E1E1D] group border border-white rounded-full w-10 lg:w-12 h-10 lg:h-12 flex items-center justify-center'><InstaIcons />
+                                            <Link onClick={handleScrollTop} to="https://www.instagram.com/qualitatproducts.wws/" target="_blank" rel="noopener noreferrer" className='hover:text-[#9E1E1D] duration-300 hover:border-[#9E1E1D] group border border-white rounded-full w-10 lg:w-12 h-10 lg:h-12 flex items-center justify-center'><InstaIcons />
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link onClick={handleScrollTop} to="https://facebook.com" target="_blank" rel="noopener noreferrer" className='hover:text-[#9E1E1D] duration-300 hover:border-[#9E1E1D] group border border-white rounded-full w-10 lg:w-12 h-10 lg:h-12 flex items-center justify-center'><TelegramIcons />
+                                            <Link onClick={handleScrollTop} to="https://www.youtube.com/@qualitatproductsindia-worl1283" target="_blank" rel="noopener noreferrer" className='hover:text-[#9E1E1D] duration-300 hover:border-[#9E1E1D] group border border-white rounded-full w-10 lg:w-12 h-10 lg:h-12 flex items-center justify-center'><YouTubeIcons />
                                             </Link>
                                         </li>
+                                      
                                         <li>
-                                            <Link onClick={handleScrollTop} to="https://facebook.com" target="_blank" rel="noopener noreferrer" className='hover:text-[#9E1E1D] duration-300 hover:border-[#9E1E1D] group border border-white rounded-full w-10 lg:w-12 h-10 lg:h-12 flex items-center justify-center'><TwitterIcons />
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link onClick={handleScrollTop} to="https://facebook.com" target="_blank" rel="noopener noreferrer" className='hover:text-[#9E1E1D] duration-300 hover:border-[#9E1E1D] group border border-white rounded-full w-10 lg:w-12 h-10 lg:h-12 flex items-center justify-center'><FbIcons />
+                                            <Link onClick={handleScrollTop} to="https://www.linkedin.com/feed/" target="_blank" rel="noopener noreferrer" className='hover:text-[#9E1E1D] duration-300 hover:border-[#9E1E1D] group border border-white rounded-full w-10 lg:w-12 h-10 lg:h-12 flex items-center justify-center'><LinkedinIcons />
                                             </Link>
                                         </li>
 
@@ -58,28 +55,7 @@ const Footer = () => {
                                         <li><Link onClick={handleScrollTop} to="/" className='hover:text-[#9E1E1D] duration-300 uppercase '>poultry</Link></li>
                                     </ul>
                                 </div>
-                                {/* <div className='w-full sm:w-1/3 mb-4 sm:mb-0 mt-8 sm:mt-0'>
-                                    <h4 className='font-semibold text-lg lg:text-xl text-white'>Follow Us</h4>
-                                    <ul className='text-base lg:text-lg text-white flex gap-3 items-center mt-6'>
-                                        <li>
-                                            <Link onClick={handleScrollTop} to="https://facebook.com" target="_blank" rel="noopener noreferrer" className='hover:text-[#9E1E1D] duration-300 hover:border-[#9E1E1D] group border border-white rounded-full w-10 lg:w-12 h-10 lg:h-12 flex items-center justify-center'><InstaIcons />
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link onClick={handleScrollTop} to="https://facebook.com" target="_blank" rel="noopener noreferrer" className='hover:text-[#9E1E1D] duration-300 hover:border-[#9E1E1D] group border border-white rounded-full w-10 lg:w-12 h-10 lg:h-12 flex items-center justify-center'><TelegramIcons />
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link onClick={handleScrollTop} to="https://facebook.com" target="_blank" rel="noopener noreferrer" className='hover:text-[#9E1E1D] duration-300 hover:border-[#9E1E1D] group border border-white rounded-full w-10 lg:w-12 h-10 lg:h-12 flex items-center justify-center'><TwitterIcons />
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link onClick={handleScrollTop} to="https://facebook.com" target="_blank" rel="noopener noreferrer" className='hover:text-[#9E1E1D] duration-300 hover:border-[#9E1E1D] group border border-white rounded-full w-10 lg:w-12 h-10 lg:h-12 flex items-center justify-center'><FbIcons />
-                                            </Link>
-                                        </li>
-
-                                    </ul>
-                                </div> */}
+                              
                             </div>
                         </div>
                     </div>

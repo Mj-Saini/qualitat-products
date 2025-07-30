@@ -27,7 +27,7 @@ const heroSlides = [
 
 const HeroSlider = () => {
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 800,
     slidesToShow: 1,
@@ -41,7 +41,7 @@ const HeroSlider = () => {
     <Slider {...settings}>
       {heroSlides.map((slide, index) => (
         <div key={index}>
-          <div className="relative h-[calc(100vh-87px)] w-full overflow-hidden flex items-center">
+          <div className="relative h-[calc(100vh-80px)] w-full overflow-hidden flex items-center">
             {/* 🔹 Background media */}
             {slide.type === 'video' ? (
               <video
