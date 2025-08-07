@@ -1,31 +1,31 @@
 
 import React from "react";
-import { traits } from "./common/Helper";
 
 
 
-const TraitsTable = () => {
+const TraitsTable = ({ mapData }) => {
+  console.log(mapData)
   return (
     <>
       <h2 className="text-xl md:text-2xl font-bold mb-6">CDCB/HA TYPE TRAITS</h2>
           <div className="overflow-x-auto">
                  <div className="lg:w-full border border-gray-300 w-[1000px] ">
-        {traits.map((trait) => {
-          const barWidth = Math.abs(trait.value) * 75; // scale width
-          const isNegative = trait.value < 0;
+        {mapData?.typeTraits?.map((trait,i) => {
+          const barWidth = Math.abs(trait.score) * 75; // scale width
+          const isNegative = trait.score < 0;
 
           return (
             <div
-              key={trait.label}
+              key={i}
               className={`flex items-center border-b border-black/40 bg-[#C8F9E4]
               }`}
             >
               {/* Low Value */}
-              <div className="w-[200px] h-14 border-l border-black/40 px-2 text-center  flex items-center justify-center">{trait.low}</div>
+              <div className="w-[200px] h-14 border-l border-black/40 px-2 text-center  flex items-center justify-center">{trait.label}</div>
 
               {/* Label */}
               <div className="w-[200px] h-14 border-x border-black/40 px-2 font-medium text-center  flex items-center justify-center">
-                {trait.label}
+                {trait.value}
               </div>
 
               {/* Center Graph */}
@@ -42,11 +42,11 @@ const TraitsTable = () => {
 
               {/* Value */}
               <div className="w-[200px] h-14 px-2 text-center font-semibold  flex items-center justify-center">
-                {trait.value}
+                {trait.score}
               </div>
 
               {/* High Value */}
-              <div className="w-[200px] h-14 px-2 text-center  flex items-center justify-center">{trait.high}</div>
+              <div className="w-[200px] h-14 px-2 text-center  flex items-center justify-center">{trait.opposite}</div>
             </div>
           );
         })}
