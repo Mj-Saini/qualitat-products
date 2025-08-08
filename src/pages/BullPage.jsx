@@ -53,7 +53,7 @@ const BullPage = () => {
           {/* Filter Buttons */}
           <div className="flex mb-8">
             <div className="flex shadow-sm border border-[#9E1E1D] overflow-clip rounded-full !bg-[#C8F9E4]" role="group">
-              {['HF', 'Jersey', 'Red'].map(type => (
+              {['HF', 'JE', 'Red'].map(type => (
                 <button
                   key={type}
                   type="button"
