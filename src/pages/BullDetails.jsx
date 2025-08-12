@@ -19,7 +19,7 @@ const BullDetails = () => {
           <div className='flex flex-col-reverse lg:flex-row justify-between text-center lg:-mx-4'>
             <div className='w-full lg:w-6/12 lg:pe-6  mt-8 lg:mt-0'>
               <div className='relative h-full'>
-                <img className='h-full object-cover' src={bullImg} alt="profitable-product" />
+                <img className='h-full object-cover' src={state.img} alt="profitable-product" />
               </div>
             </div>
             <div className='w-full lg:w-6/12 lg:px-4'>
@@ -48,7 +48,7 @@ const BullDetails = () => {
           <div className='flex flex-col-reverse lg:flex-row-reverse justify-between items-center text-center lg:-mx-4'>
             <div className='w-full lg:w-6/12 mt-8 lg:mt-0'>
               <div className='relative h-full'>
-                <img className='h-full object-cover' src={bullImg} alt="profitable-product" />
+                <img className='h-full object-cover' src={state.img} alt="profitable-product" />
               </div>
             </div>
             <div className='w-full lg:w-6/12  lg:pe-6  lg:px-4'>
