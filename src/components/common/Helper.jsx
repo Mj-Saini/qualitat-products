@@ -4,11 +4,6 @@ import cow1 from '../../assets/images/png/cow-img1.png'
 import cow2 from '../../assets/images/png/cow-img2.png'
 import cow3 from '../../assets/images/png/cow-img4.jpg'
 
-import demands1 from '../../assets/images/png/demand-img1.png'
-import demands2 from '../../assets/images/png/demand-img2.png'
-import demands3 from '../../assets/images/png/demand-img3.jpg'
-import demands4 from '../../assets/images/png/demand-img4.png'
-
 import bull1 from '../../assets/images/png/bull1.jpg'
 import bull2 from '../../assets/images/png/bull2.jpg'
 import bull3 from '../../assets/images/png/bull3.jpg'
@@ -26,6 +21,11 @@ import calf5 from '../../assets/images/png/calf5.png'
 import calf6 from '../../assets/images/png/calf6.png'
 import calf7 from '../../assets/images/png/calf7.png'
 import calf8 from '../../assets/images/png/calf8.jpg'
+
+import testimonial1 from '../../assets/images/png/testimonial1.png'
+import testimonial2 from '../../assets/images/png/parminder.png'
+import testimonial3 from '../../assets/images/png/varun-komboj.png'
+import testimonial4 from '../../assets/images/png/rajvir-singh.png'
 
 
 export const FarmSunstainList = [
@@ -113,24 +113,24 @@ export const MarqueeList = [
 ]
 export const demandsList = [
     {
-        img:demands1,
-        title: "Longevity",
-        description:"Providing consistent supply for academic and practical training purposes."
+        img:testimonial1,
+        name: "Longevity",
+        comment:"As dedicated distributors of World Wide Sires in India Since 2019, Qualitat Products proudly celebrates the outstanding accomplishments of Utkarsh Dairy Farm, situated in Warwade Solapur District, Maharashtra with more than 100 animals. Under the dynamic leadership of Mr. Waman Gaikwad, a passionate fourth-generation dairy farmer, the farm has set new benchmarks in India’s dairy sector. I sincerely thank Dr. Anil Berry Sir and Qualitat Products for their continuous guidance and support. Their regular visits to our farm and timely solutions to our challenges have been invaluable. By providing us with top-quality semen from World Wide Sires, they have shown us the path to success and helped take our farm to the next level."
     },
     {
-        img:demands2,
-        title: "Longevity",
-        description:"Providing consistent supply for academic and practical training purposes."
+        img:testimonial2,
+        name: "Parminder Singh Dhaliwal ",
+        comment:"My name is Mr. Parminder Singh Dhaliwal from Khairpur, Dhangrali (Ropar). I have been involved in dairy farming since 2008. In the beginning, I ran a modest farm with around 50 cows and faced many challenges related to growth and productivity. Things began to change when Dr. Anil Berry, owner of Qualitat Products, introduced me to World Wide Sires semen and personally guided me on its benefits. Thanks to his expert support and the use of superior genetics, today my farm has reached a top-level standard with more than 150 cows. My HF and Jersey cows have won awards in several competitions, reflecting the progress we've made. I extend my heartfelt thanks to Dr. Anil Berry Sir and Qualitat Products for playing such a key role in the success of my dairy farm."
     },
     {
-        img:demands3,
-        title: "Longevity",
-        description:"Providing consistent supply for academic and practical training purposes."
+        img:testimonial3,
+        name: "Varun Kamboj",
+        comment:"	Mr. Varun Kamboj, returned from Canada and starts his farms. He trusted Qualitat Products and choose WWS Sires for his farm — and the results have been extraordinary. With a increase in production and profitability, his journey is a true inspiration for every progressive farmer.Ready to level up your herd's performance? Choose premium WWS Sires and experience the difference yourself!"
     },
     {
-        img:demands4,
-        title: "Longevity",
-        description:"Providing consistent supply for academic and practical training purposes."
+        img:testimonial4,
+        name: "Rajbir Singh Aulakh",
+        comment:"	I am Rajbir Singh Aulakh, owner of Aulakh Dairy Farm, located in VPO Nissing, District Karnal, Haryana. I have been engaged in dairy farming since 2003, currently managing a herd of 100 animals. When I started, the average milk yield per animal was around 15 liters, and today in 2025, with two-time milking, we have proudly reached up to 60 liters per animal. This growth and success have been possible thanks to the constant support and guidance of Dr. Anil Berry Sir, whose expertise has played a key role in transforming my farm. Qualitat Products has always kept us updated on time and provided valuable guidance whenever needed. I sincerely thank Qualitat Products for being a reliable partner in our dairy journey."
     },
    
 ]

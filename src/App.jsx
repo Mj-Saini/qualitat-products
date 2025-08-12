@@ -6,6 +6,7 @@ import "slick-carousel/slick/slick-theme.css";
 import { Route, Routes, useLocation } from 'react-router';
 import BullPage from './pages/BullPage';
 import CalfPage from './pages/CalfPage';
+import Gallery from './pages/Gallery';
 import Products from './pages/Products';
 import ProductDetails from './pages/ProductDetails';
 import Contact from './pages/Contact';
@@ -27,6 +28,7 @@ function App() {
         <Route path="/" element={<LandingPage />} />
         <Route path="/bulls" element={<BullPage />} />
         <Route path="/calfs" element={<CalfPage />} />
+        <Route path="/gallery" element={<Gallery />} />
         <Route path="/products" element={<Products />} />
         <Route path="/products-details/:id" element={<ProductDetails />} />
         <Route path="/calfs-details/:id" element={<BullDetails />} />

@@ -47,6 +47,9 @@ const Header = ({ contactPage }) => {
             <NavLink onClick={()=>setToggle(false)} to="/calfs" className={` hover:text-[#C62524] text_stroke duration-300 transition-all ${location.pathname === '/calfs' ? 'text-black text_stroke_active' : 'text-black/70'}`}>
               Calfs
             </NavLink>
+            <NavLink onClick={()=>setToggle(false)} to="/gallery" className={` hover:text-[#C62524] text_stroke duration-300 transition-all ${location.pathname === '/gallery' ? 'text-black text_stroke_active' : 'text-black/70'}`}>
+              Gallery
+            </NavLink>
             <NavLink onClick={()=>setToggle(false)} to="/products" className={` hover:text-[#C62524] text_stroke duration-300 transition-all ${location.pathname === '/products' ? 'text-black text_stroke_active' : 'text-black/70'}`}>
               Products
           </NavLink>

@@ -1,11 +1,79 @@
+import aheadbull from '../assets/images/png/ahead.png'
+import banjobull from '../assets/images/png/banjo.png'
+import bigshotbull from '../assets/images/png/bigshot.png'
+// import bokekbull from '../assets/images/png/bobek-bull.png'
+import boldbull from '../assets/images/png/bold-bull.png'
+
+import ulyuess from '../assets/images/png/ulyuess.png'
+import topze from '../assets/images/png/topze.png'
+import tacitus from '../assets/images/png/tacitas.png'
+import talon from '../assets/images/png/talon.png'
+import sunrise from '../assets/images/png/sunrise.png'
+import stoney from '../assets/images/png/stoney.png'
+import stannis from '../assets/images/png/stannis.png'
+import sandman from '../assets/images/png/sandman.png'
+import sam from '../assets/images/png/sam.png'
+import ronald from '../assets/images/png/ronald.png'
+import rockpaul from '../assets/images/png/rockpaul.png'
+import roadster from '../assets/images/png/roadStar.png'
+import revvit from '../assets/images/png/revvit.png'
+import riveting from '../assets/images/png/reveting.png'
+import revee from '../assets/images/png/revee.png'
+// import remeway from '../assets/images/png/rameway.png'
+import porter from '../assets/images/png/porter.png'
+import oliver from '../assets/images/png/oliver.png'
+import ohhm from '../assets/images/png/ohhm.png'
+import nebuls from '../assets/images/png/nebuls.png'
+import milky from '../assets/images/png/milky.png'
+import maximus from '../assets/images/png/maxmus.png'
+import magnum from '../assets/images/png/magnum.png'
+import maccom from '../assets/images/png/maccom.png'
+import logistics from '../assets/images/png/logistic.png'
+// import lisso from '../assets/images/png/lisso.png'
+import letchworth from '../assets/images/png/letchowerth.png'
+import knockOut from '../assets/images/png/knock-out.png'
+import keystone from '../assets/images/png/keystone.png'
+import kamakazi from '../assets/images/png/kamakazi.png'
+// import jmarco from '../assets/images/png/jmarco.png'
+import improbable from '../assets/images/png/importable.png'
+import fineca from '../assets/images/png/fineca.png'
+import delpro from '../assets/images/png/delpro.png'
+import cornalBull from '../assets/images/png/cornal-bull.png'
+import reliant from '../assets/images/png/relaint.png'
+import mellencamp from '../assets/images/png/malencamp.png'
+import supercharge from '../assets/images/png/supercharge.png'
+import fringe from '../assets/images/png/fringe.png'
+import uncommon from '../assets/images/png/uncommon.png'
+import cheddar from '../assets/images/png/cheddar.png'
+import gibson from '../assets/images/png/gibson-bull.png'
+import gameplan from '../assets/images/png/gameplan-bull.png'
+import houston from '../assets/images/png/henson.png'
+import ford from '../assets/images/png/ford.png'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 export const bullList = [
   {
     id: "7HO14326",
     registration_number: "HO840003141274941",
     name: "NEBULUS‑PP",
     full_name: "HOLYLAND NEBULUS‑PP",
-    price: 0, // price not present in image
+    price: 1500,
     category: "HF",
+    img:nebuls,
     pedigree: [
       "RI-VAL-RE POWER TOOL-P-ET",
       "HOLYLAND ERASER SUNDROP-ET VG-85",
@@ -190,8 +258,9 @@ export const bullList = [
     registration_number: "HO840003132923887",
     name: "BANJO‑P",
     full_name: "ENGLAND‑AMMON BANJO‑P‑ET",
-    price: 0,
+    price: 6700,
     category: "HF",
+    img:banjobull,
     pedigree: [
       "S-S-I FERDINAND BIGHIT P-ET",
       "ENGLAND-AMMON BARB12735-ET EX-90",
@@ -326,8 +395,9 @@ export const bullList = [
     registration_number: "HO840003147223744",
     name: "MAXIMUS",
     full_name: "RMD-DOTTERER SSI MAXIMUS-ET",
-    price: 0,
+    price: 1250,
     category: "HF",
+    img:maximus,
     pedigree: [
       "PROGENESIS MODEST ROLAN 512",
       "PINE-TREE SSI 9639 3412-ET GP-83",
@@ -462,8 +532,9 @@ export const bullList = [
     registration_number: "HO840003150910853", // Registration number not visible in image
     name: "STANNIS",
     full_name: "LARS-ACRES S-S-I STANNIS-ET",
-    price: 0, // price not present in image
+    price: 1450, // price not present in image
     category: "HF",
+    img:stannis,
     pedigree: [
       "S-S-I OUTSIDERS NUGENT-ET",
       "S-S-IIA 11399 2001-ET 52x90",
@@ -635,8 +706,9 @@ export const bullList = [
     registration_number: "HO840003062052322",
     name: "BOLD",
     full_name: "S-S-I BASIC BOLD-ET",
-    price: 0, // not shown
+    price: 5800,
     category: "HF",
+    img:boldbull,
     pedigree: [
       "S-S-I ROCKETFIRE 5033 8223-ET",
       "BLUMENFELD FRAZZLD BASIC-ET",
@@ -807,8 +879,9 @@ export const bullList = [
     registration_number: "HO840003203293228",
     name: "RELIANT",
     full_name: "T-SPRUCE HUEY RELIANT-ET",
-    price: 0,
+    price: 4500,
     category: "HF",
+    img:reliant,
     pedigree: [
       "T-SPRUCE FRAZZLED HUEY-ET",
       "PINE-TREE 9882 ACH1 7591-ET",
@@ -979,8 +1052,9 @@ export const bullList = [
     registration_number: "HO84000302551603",
     name: "AMARI",
     full_name: "S-S-I BG MOOLA AMARI-ET",
-    price: 0,
+    price: 1250,
     category: "HF",
+      // img:amari,
     pedigree: [
       "MELLARRY FRAZZLED MOOLA-ET",
       "S-S-I DUKE 11026 11864-ET",
@@ -1151,8 +1225,9 @@ export const bullList = [
     registration_number: "HO840003150997179",
     name: "MELLENCAMP",
     full_name: "FLY-HIGHER MELLENCAMP-ET",
-    price: 0,
+    price: 1750,
     category: "HF",
+    img:mellencamp,
     pedigree: [
       "S-S-I PR RENEGAD-ET",
       "FLY-HIGHER SAMURI MERIDA-ET",
@@ -1323,8 +1398,9 @@ export const bullList = [
     registration_number: "HO840003150687388",
     name: "MILKY",
     full_name: "PINE-TREE LIONEL MILKY-ET",
-    price: 0,
+    price: 8500,
     category: "HF",
+    img:milky,
     pedigree: [
       "T-SPRUCE FRAZZ LIONEL-ET",
       "PINE-TREE 6586 ACHI 7589-ET",
@@ -1501,8 +1577,9 @@ export const bullList = [
     registration_number: "HO840003150687438",
     name: "SAM-RED",
     full_name: "PINE-TREE MARK SAM-RED-ET",
-    price: 0,
+    price: 750,
     category: "HF",
+    img:sam,
     pedigree: [
       "WILDER MARK-ET",
       "PARKHURST MODESTY SAMARIE",
@@ -1679,8 +1756,9 @@ export const bullList = [
     registration_number: "HO840003148929351",
     name: "SUPERCHARGE",
     full_name: "SANDY-VALLEY SUPERCHARGE-ET",
-    price: 0,
+    price: 1250,
     category: "HF",
+    img:supercharge,
     pedigree: [
       "PINE-TREE CW LEGACY-ET",
       "SANDY-VALLEY ETERNITY-ET",
@@ -1857,8 +1935,9 @@ export const bullList = [
     registration_number: "HO840003207538024",
     name: "PORTER",
     full_name: "AARDEMA LIONEL PORTER-ET",
-    price: 0,
+    price: 7800,
     category: "HF",
+    img:porter,
     pedigree: [
       "MR T-SPRUCE FRAZZLIONEL-ET",
       "AARDEMA DELTA 40645",
@@ -2044,8 +2123,9 @@ export const bullList = [
     registration_number: "HO840003145445043",
     name: "REWIT",
     full_name: "HOUN S-S-I MAX REWIT-ET",
-    price: 0, // price not present in image
+    price: 8500,
     category: "HF",
+    img:revvit,
     pedigree: [
       "RMD-DOTTERER SSI MAXIMUS-ET",
       "S-S-I HD 11881 245-ET",
@@ -2218,9 +2298,15 @@ export const bullList = [
     registration_number: "HO840003212245780",
     name: "HEDGEFUND",
     full_name: "AOT MEGA HEDGEFUND-ET",
-    price: 0, // price not present in image
+    price: 1500,
     category: "HF",
-    pedigree: [], // Pedigree information not visible in image
+    // img:hedgefund,
+    pedigree: [
+     ' Sire: PLAIN-KNOLL SI MAGNITUDE-ET',
+     'Dam: AOT POSITIVE HALLMARK-ET VG-85',
+     '2-02 3X 199D 8,623 kgM 4.5% 393 kgF 3.2% 273 kgP',
+     'MGS: PROGENESIS POSITIVE'
+    ], // Pedigree information not visible in image
     genetics: [
       "Born On: June 03, 2020",
       "Beta-casein: A1A2",
@@ -2394,6 +2480,7 @@ export const bullList = [
     full_name: "LADYS-MANOR HIGH OOHM-ET",
     price: 0, // Not available
     category: "HF",
+    img:ohhm,
     pedigree: [
       "Sire: AOT HIGHJUMP-ET",
       "Dam: LADYS-MANOR GRNT OOHM-ET VG-85",
@@ -2514,8 +2601,9 @@ export const bullList = [
     registration_number: "HO840003214541139",
     name: "ROCK PAUL",
     full_name: "WELCOME CONWY ROCK PAUL-ET",
-    price: 0, // Not available
+    price: 2200, // Not available
     category: "HF",
+    img:rockpaul,
     pedigree: [
       "Sire: SANDY-VALLEY R CONWAY-ET",
       "Dam: WELCOME LEGACY ROSE-ET VG-87",
@@ -2636,8 +2724,9 @@ export const bullList = [
     registration_number: "JEUSA000067184544",
     name: "OLIVER-P",
     full_name: "DUTCH HOLLOW OLIVER-P ET",
-    price: 0,
+    price: 1200,
     category: "JE", // Jersey
+    img:oliver,
     pedigree: [
       "ALLLYNNS LOUIE VALENTINO-ET",   // sire (as shown)
       "DUTCH HOLLOW MIK OLIVER-P EX-93", // dam (as shown)
@@ -2820,7 +2909,8 @@ export const bullList = [
     registration_number: "JE840003151456032",
     name: "FRINGE",
     full_name: "VICTORY S-S-I MIAMI FRINGE-ET",
-    price: 0,
+    price: 1050,
+    img:fringe,
     category: "JE", // Jersey
     pedigree: [
       "HILMAR VICEROY MIAMI",                 // sire
@@ -3008,6 +3098,7 @@ export const bullList = [
     full_name: "BLACK LABEL THRASHING KAMAKAZI-ET",
     price: 0,
     category: "JE", // Jersey
+    img:kamakazi,
     pedigree: [
       "JX ODF JLS PILGRIM THRASHER {6}-ET",       // sire
       "YOSEMITE VALENTINO KOKOMOO 25143-ET EX-95", // dam
@@ -3195,8 +3286,9 @@ export const bullList = [
     registration_number: "JE840003221914142",
     name: "UNCOMMON",
     full_name: "VALSIGNA GISLEV UNCOMMON-ET",
-    price: 0,
+    price: 7800,
     category: "JE", // Jersey
+    img:uncommon,
     pedigree: [
       "VJ GISLEV",
       "VALSIGNA STEVE 30482 VG-86",
@@ -3381,6 +3473,7 @@ export const bullList = [
     full_name: "RIVER VALLEY CHARLEY CHEDDAR-ET",
     price: 0,
     category: "JE", // Jersey
+    img:cheddar,
     pedigree: [
       "IGL RISING TEMP-ET",
       "SHAN-MAR HILARIO CHARLEY-ET VG-87",
@@ -3558,13 +3651,14 @@ export const bullList = [
       "aAa: 423"
     ]
   },
-  {
-    "id": "14HO14220",
-    "registration_number": "HO840003133120549",
-    "name": "RIVETING",
-    "full_name": "S-S-I BG FRZZLD RIVETING-ET",
-    "price": 0,
-    "category": "Red",
+    {
+  "id": "14HO14220",
+  "registration_number": "HO840003133120549",
+  "name": "RIVETING",
+  "full_name": "S-S-I BG FRZZLD RIVETING-ET",
+  "price": 8500,
+  "category": "HF",
+  img:riveting,
     "pedigree": [
       "MELLARY JOSUPER FRAZZLED-ET",
       "S-S-I PROFIT 10668 11643-ET VG-87",
@@ -3691,6 +3785,7 @@ export const bullList = [
     "full_name": "WELCOME DELPRO 3565-ET",
     "price": 0,
     "category": "Red",
+    img:delpro,
     "pedigree": [
       "OCB SPRING SAMURI-ET",
       "WELCOME SUPERSHOT DIAMOND-ET VG-85",
@@ -3810,14 +3905,15 @@ export const bullList = [
       "aAa: 432"
     ]
   },
-  {
-    "id": "14HO15154",
-    "registration_number": "HO840003203292370",
-    "name": "BIGSHOT",
-    "full_name": "RENEGADE X FRAZZLED X AHEAD",
-    "price": 0,
-    "category": "Red",
-    "pedigree": [
+    {
+  "id": "14HO15154",
+  "registration_number": "HO840003203292370",
+  "name": "BIGSHOT",
+  'img':bigshotbull,
+  "full_name": "RENEGADE X FRAZZLED X AHEAD",
+  "price": 8500,
+  "category": "HF",
+  "pedigree": [
       "Sire: S-S-I PR RENEGADE-ET",
       "Dam: T-SPRUCE FRAZZLED 10663-ET GP-80",
       "5-06 3X 286D 18,965 kgM 3.8% 713 kgF 3.0% 575 kgP",
@@ -3952,8 +4048,9 @@ export const bullList = [
     "registration_number": "HO840003223871570",
     "name": "GIBSON ",
     "full_name": "MOONSHINER X RENEGADE X FRAZZLED",
-    "price": 0,
+    "price": 7800,
     "category": "Red",
+    img:gibson,
     "pedigree": [
       "Sire: FLY-HIGHER MOONSHINER-ET",
       "Dam: S-S-I RENEGADE ASH 10276-ET GP-82",
@@ -4091,13 +4188,14 @@ export const bullList = [
 
   },
    
-  {
-    "id": "14HO16395",
-    "registration_number": "HO840003217141058",
-    "name": "GAMEPLAN",
-    "full_name": "GAMEDAY X LEGACY X ROLAN",
-    "price": 0,
-    "category": "Red",
+    {
+  "id": "14HO16395",
+  "registration_number": "HO840003217141058",
+  "name": "GAMEPLAN",
+  "full_name": "GAMEDAY X LEGACY X ROLAN",
+  "price": 7800,
+  "category": "HF",
+  img:gameplan,
     "pedigree": [
       "Sire: RMD-DOTTERER SSI GAMEDAY-ET",
       "Dam: CHERRYPENCOL LEE-ET",
@@ -4222,6 +4320,7 @@ export const bullList = [
     "full_name": "WINDHAVENS LOTTO DANDEE\nLOTTO X WINDHAVENS HANDIMAN X PARAMOUNT",
     "price": 0,
     "category": "JE",
+    // img:dandee,
     "pedigree": [
       "Sire: MVP JEVON LOTTO-ET",
       "Dam: WINDHAVENS HANDIMAN DAISY",
@@ -4334,8 +4433,9 @@ export const bullList = [
     "registration_number": "JEUSA000067460157",
     "name": "KEYSTONE",
     "full_name": "LEMONHEAD X HILARIO X LEGAL",
-    "price": 0,
+    "price": 900,
     "category": "JE",
+    img:keystone,
     "pedigree": [
       "Sire: STEINHAUERS SAMSON LEMONHEAD",
       "Dam: SHAN-MAR HILARIO CHARLENE-ET EX-90",
@@ -4440,8 +4540,9 @@ export const bullList = [
     "registration_number": "JE840003011730374",
     "name": "STONEY",
     "full_name": "JX SPRING CREEK MARLO STONEY (3)-ET JNS-TF N1-F JPFF\nJX MARLO (2) X ALLSTAR X Q IMPULS",
-    "price": 0,
+    "price": 6400,
     "category": "JE",
+    img:stoney,
     "pedigree": [
       "Sire: JX FARIA BROTHERS MARLO (2)-ET",
       "Dam: SPRING-CREEK ALLSTAR SPIRT EX-90",
@@ -4559,13 +4660,14 @@ export const bullList = [
       "aAa: 462",
     ],
   },
-  {
-    "id": "250HO15026",
-    "registration_number": "HO840003205703487",
-    "name": "ROADSTER",
-    "full_name": "RIVETING X HIPHOP X RUBICON",
-    "price": 0,
-    "category": "Red",
+    {
+  "id": "250HO15026",
+  "registration_number": "HO840003205703487",
+  "name": "ROADSTER",
+  "full_name": "RIVETING X HIPHOP X RUBICON",
+  "price": 6500,
+  "category": "Red",
+  img:roadster,
     "pedigree": [
       "Sire: S-S-I BG FRZZLD RIVETING-ET",
       "Dam: S-S-I 1BR 11596 3147-ET",
@@ -4683,8 +4785,9 @@ export const bullList = [
   "registration_number": "HO840003223871570",
   "name": "IMPROBABLE",
   "full_name": "S-S-I RENGADE IMPROBABLE-ET\nRENEGADE X TOOK X JEDI",
-  "price": 0,
+  "price": 6400,
   "category": "Red", 
+  img:improbable,
   "pedigree": [
     "Sire: S-S-I PR RENEGADE-ET",
     "Dam: S-S-I TOOK 7261 8495-ET",
@@ -4810,8 +4913,9 @@ export const bullList = [
   "registration_number": "HO840003206144957",
   "name": "AHEAD",
   "full_name": "RENEGADE X MYLES X YODER",
-  "price": 0,
-  "category": "Red",
+  "price": 8000,
+    "category": "Red",
+  'img':aheadbull,
   "pedigree": [
     "Sire: S-S-I PR RENEGADE-ET",
     "Dam: BLUMENFELD MYLES 5797-ET GP-82 3-03 3X 300D 15,327 KG M 4.2% 651 KG F 3.2% 497 KG P",
@@ -4929,8 +5033,9 @@ export const bullList = [
   "registration_number": "HO840003200122612",
   "name": "LOGISTICS",
   "full_name": "COOKIECUTTER LOGISTICS-ET TRIP IM TC TY TV TL TD TE HHLT HH2T HH3T HH4T HH5T HH6T",
-  "price": 0,
-  "category": "Red", 
+  "price": 1200,
+    "category": "Red", 
+    img:logistics,
   "pedigree": [
     "Sire: S-S-T PR RENEGADE-ET",
     "Dam: QUIET-BROOK-D HELX LADIX-ET",
@@ -5059,8 +5164,9 @@ export const bullList = [
   "registration_number": "HO840003218470965",
   "name": "LETCHWORTH",
   "full_name": "CONWAY X RAPID X FRAZZLED",
-  "price": 0,
-  "category": "Red",
+  "price": 8800,
+    "category": "Red",
+  img:letchworth,
   "pedigree": [
     "Sire: SANDY-VALLEY CONWAY-ET",
     "Dam: AURORA RAPID 21849-ET VG-85 1-10 3X 365D 15,129 KG M 4.0% 607 KG F 3.4% 516 KG P",
@@ -5175,8 +5281,9 @@ export const bullList = [
   "registration_number": "JEUSA000075812139",
   "name": "BARLEY",
   "full_name": "PINE-TREE CHROME BARLEY 2139-ET\nNRS-TF\nJHIF JHPF\nCHROME X DISCO X DIMENSION",
-  "price": 0,
-  "category": "JE", 
+  "price": 1800,
+    "category": "JE",
+  // img:barley,
   "pedigree": [
     "Sire: RIVER VALLEY CECE CHROME-ET",
     "Dam: PINE-TREE DISCO BITTY 1702",
@@ -5289,8 +5396,9 @@ export const bullList = [
   "registration_number": "E840003211412088",
   "name": "MCCOMB",
   "full_name": "ROWLEYS 80 URLACHER MCCOMB-ET NIS-TF NHF JHPF\nJX URLACHER (6) X CHROME X VALSON",
-  "price": 0,
-  "category": "JE", 
+  "price": 6500,
+    "category": "JE", 
+  img:maccom,
   "pedigree": [
     "Sire: JX FARIA BROTHERS URLACHER (6)-ET",
     "Dam: PRO-HART CHROME LORETTA (6) EX-90",
@@ -5403,8 +5511,9 @@ export const bullList = [
   "registration_number": "HO840003200059586",
   "name": "TED",
   "full_name": "WILRA S-S-I NUGENT TED-ET TRIP ICH YU LTD TE HNIT HNZT HNST HNST HNST\nNUGENT X MODESTY X JOSUPER",
-  "price": 0,
-  "category": "Red", 
+  "price": 1250,
+    "category": "Red", 
+  // img:ted,
   "pedigree": [
     "Sire: S-S-I OUTSIDERS NUGENT-ET",
     "Dam: WILRA MODESTY 1263",
@@ -5516,8 +5625,9 @@ export const bullList = [
   "registration_number": "JEUSA000067460152",
   "name": "KNOCK-OUT",
   "full_name": "SHAN-MAR ARCHER KNOCK-OUT-ET\nARCHER X HILARIO X LEGAL",
-  "price": 0,
-  "category": "JE", 
+  "price": 950,
+    "category": "JE",
+  img:knockOut,
   "pedigree": [
     "Sire: GABYS ARCHER-ET",
     "Dam: SHAN-MAR HILARIO CHARLENE-ET EX-90",
@@ -5626,129 +5736,15 @@ export const bullList = [
   ],
 
   },
-  {
-  "id": "614JE00758",
-  "registration_number": "JEUSA000067460152",
-  "name": "KNOCK-OUT",
-  "full_name": "SHAN-MAR ARCHER KNOCK-OUT-ET\nARCHER X HILARIO X LEGAL",
-  "price": 0,
-  "category": "JE", 
-  "pedigree": [
-    "Sire: GABYS ARCHER-ET",
-    "Dam: SHAN-MAR HILARIO CHARLENE-ET EX-90",
-    "6-01 3X 8ID 2,599 kgM 5.3% 137 kgF 3.8% 99 kgP",
-    "MGS: CAL-MART RENEGADEHILARIO-ET"
-  ],
-  
-  "allDetails": [
-    {
-      "index": "indexes",
-      "fertility": "DAUGHTER FERTILITY",
-      "indexes": [
-        { "label": "PI", "value": 51 },
-        { "label": "NM$", "value": 164 },
-        { "label": "CM$", "value": 166 },
-        { "label": "Feed Saved", "value": null },
-        { "label": "HHP$", "value": 200 },
-        { "label": "DWP$", "value": 425 },
-        { "label": "WT$", "value": 120 },
-        { "label": "CW$", "value": 116 }
-      ],
-      "fertilities": [
-        { "label": "DR/Rel. %", "value": "1.3/98" },
-        { "label": "HCR/Rel. %", "value": "0.1/95" },
-        { "label": "CCR/Rel. %", "value": "1.3/98" }
-      ]
-    },
-    {
-      "index": "MANAGEMENT TRAITS",
-      "fertility": "SIRE FERTILITY",
-      "indexes": [
-        { "label": "Gestation Length/Rel. %", "value": "1.3/99" },
-        { "label": "Productive Life/Rel. %", "value": "0.4/98" },
-        { "label": "Livability/Rel. %", "value": "-1.5/91" },
-        { "label": "Early First Calving/Rel. %", "value": "1.9/99" },
-        { "label": "DCs/Rel. %", "value": "3.10/97" },
-        { "label": "Milking Speed/Rel. %", "value": "106/77" }
-      ],
-      "fertilities": [
-        { "label": "SCR/Rel. %", "value": "1.3/99" }
-      ]
-    },
-    {
-      "index": "Production",
-      "fertility": "Type",
-      "indexes": [
-        { "label": "PTA Milk (lbs)", "value": 82 },
-        { "label": "PTA Protein (lbs)", "value": 12 },
-        { "label": "PTA Protein (%)", "value": 0.05 },
-        { "label": "PTA Fat (lbs)", "value": 21 },
-        { "label": "PTA Fat (%)", "value": 0.09 },
-        { "label": "Production Reliability %", "value": 99 },
-        { "label": "Dtrs/Herds", "value": "4412/381" }
-      ],
-      "fertilities": [
-        { "label": "PTA Type", "value": 0.60 },
-        { "label": "Type Reliability %", "value": 99 },
-        { "label": "Dtrs/Herds (Type)", "value": "1195/167" }
-      ]
-    }
-  ],
-
-  "typeTraits": [
-    { "label": "Stature", "value": "short" },
-    { "label": "Strength", "value": "frail" },
-    { "label": "Dairy Form", "value": "tight ribbed" },
-    { "label": "Rump Width", "value": "narrow" },
-    { "label": "Rump Angle", "value": "high pins" },
-    { "label": "Rear Leg (side view)", "value": "posty" },
-    { "label": "Foot Angle", "value": "low angle" },
-    { "label": "Fore Udder", "value": "loose" },
-    { "label": "Rear Udder Height", "value": "low" },
-    { "label": "Rear Udder Width", "value": "narrow" },
-    { "label": "Udder Cleft", "value": "weak" },
-    { "label": "Udder Depth", "value": "deep" },
-    { "label": "Front Teat Placement", "value": "wide" },
-    { "label": "Rear Teat (rear view)", "value": "wide" },
-    { "label": "Rear Teat (side view)", "value": "close" },
-    { "label": "Teat Length", "value": "short" }
-  ],
-
-  "wellnessTraits": [
-    { "trait": "Mastitis", "zoetis": { "value": 105, "rel": 55 }, "cdcb": { "value": -1.5, "rel": 91 } },
-    { "trait": "Lameness", "zoetis": { "value": 100, "rel": 74 }, "cdcb": { "value": null, "rel": null } },
-    { "trait": "Retained Placenta", "zoetis": { "value": 106, "rel": 73 }, "cdcb": { "value": 0.2, "rel": 85 } },
-    { "trait": "Metritis", "zoetis": { "value": 103, "rel": 74 }, "cdcb": { "value": 0.5, "rel": 86 } },
-    { "trait": "Cow Abortion", "zoetis": { "value": 95, "rel": 50 }, "cdcb": { "value": null, "rel": null } },
-    { "trait": "Displaced Abomasum", "zoetis": { "value": 91, "rel": 64 }, "cdcb": { "value": 0.5, "rel": 88 } },
-    { "trait": "Twinning", "zoetis": { "value": 107, "rel": 75 }, "cdcb": { "value": null, "rel": null } },
-    { "trait": "Heifer Livability", "zoetis": { "value": null, "rel": "N/A" }, "cdcb": { "value": -0.3, "rel": 82 } },
-    { "trait": "Hypocalcemia/Milk Fever", "zoetis": { "value": 97, "rel": 70 }, "cdcb": { "value": -0.1, "rel": 72 } },
-    { "trait": "Cystic Ovary", "zoetis": { "value": 97, "rel": 39 }, "cdcb": { "value": null, "rel": null } },
-    { "trait": "Ketosis", "zoetis": { "value": 98, "rel": 73 }, "cdcb": { "value": 0.4, "rel": 79 } },
-    { "trait": "Cow Respiratory Disease", "zoetis": { "value": 101, "rel": 60 }, "cdcb": { "value": null, "rel": null } },
-    { "trait": "Calf Respiratory Disease", "zoetis": { "value": 112, "rel": 82 }, "cdcb": { "value": null, "rel": null } },
-    { "trait": "Calf Scours", "zoetis": { "value": 107, "rel": 88 }, "cdcb": { "value": null, "rel": null } },
-    { "trait": "Calf Livability", "zoetis": { "value": 105, "rel": 87 }, "cdcb": { "value": null, "rel": null } }
-  ],
-
-  "genetics": [
-    "Born On: September 11, 2015",
-    "Beta-casein: A2A2",
-    "Kappa-casein: AE",
-    "EFI: 9.2%",
-    "aAa: 435"
-  ],
-  
-
-  },
+ 
   {
   "id": "7H015839",
   "registration_number": "H0840003216574976",
   "name": "MAGNUM",
   "full_name": "OCD ALPHABET MAGNUM-ET TR TP TM TC TY TV TL TD TE HHTT HHZT HHST HHST HHST\nALPHABET X JARED X BURLEY",
-  "price": 0,
+    "price": 8500,
   "category": "Red", 
+  img:magnum,
   "pedigree": [
     "Sire: OCD HELIX ALPHABET-ET",
     "Dam: OCD JARED MENNA 52294-ET EX-90",
@@ -5876,7 +5872,8 @@ export const bullList = [
   "name": "HOUSTON",
   "full_name": "HONEYBEE X KRUNCH X DORCY",
   "price": 0,
-  "category": "Red",
+    "category": "Red",
+  img:houston,
   "pedigree": [
     "Sire: DE-SU SS HONEYBEE 11569-ET",
     "Dam: OCD KRUNCH MASON-ET GP-83",
@@ -5998,8 +5995,9 @@ export const bullList = [
   "registration_number": "HO840003206963799",
   "name": "HANSEN",
   "full_name": "LEGACY X SAMURI X MONTEREY",
-  "price": 0,
-  "category": "Red",
+  "price": 1100,
+    "category": "Red",
+  img:houston,
   "pedigree": [
     "Sire: PINE-TREE CW LEGACY-ET",
     "Dam: WELCOME SAMURI HELMA-ET VG-86",
@@ -6126,8 +6124,9 @@ export const bullList = [
   "registration_number": 'HO840003220234236', // Not provided in image
   "name": "TOPAZ",
   "full_name": "AHEAD X NUGENT X FRAZZLED",
-  "price": 0,
-  "category": "Red",
+  "price": 7000,
+    "category": "Red",
+  img:topze,
   "pedigree": [
     "Sire: BLUMENFELD RENEGAD AHEAD-ET",
     "Dam: T-SPRUCE NUGENT 12660-ET VG-85",
@@ -6252,8 +6251,9 @@ export const bullList = [
   "registration_number": 'HO840003218764734', // Not provided in image
   "name": "ULYSSES",
   "full_name": "TAOS X LEGACY X FRAZZLED",
-  "price": 0,
-  "category": "Red",
+  "price": 6000,
+    "category": "Red",
+  img:ulyuess,
   "pedigree": [
     "Sire: LEANINGHOUSE TAOS-ET",
     "Dam: MELARRY S-S-I 2948 12427-ET G-78",
@@ -6374,8 +6374,9 @@ export const bullList = [
   "registration_number": "HO840003206350171",
   "name": "TALON",
   "full_name": "HOTJOB X PINNACLE X DENVER",
-  "price": 0,
+    "price": 6500,
   "category": "Red",
+  img:talon,
   "pedigree": [
     "Sire: PEAK ALTAHOTJOB-ET",
     "Dam: OCD PINNACL TABORA 45016-ET GP-83",
@@ -6505,7 +6506,8 @@ export const bullList = [
   "name": "PORTER",
   "full_name": "LIONEL X DELTA X CASHFLOW",
   "price": 0,
-  "category": "Red",
+    "category": "Red",
+  img:porter,
   "pedigree": [
     "Sire: MR T-SPRUCE FRAZZ LIONEL-ET",
     "Dam: AARDEMA DELTA 40645",
@@ -6632,7 +6634,8 @@ export const bullList = [
   "name": "FORD",
   "full_name": "RENEGADE X FRAZZLED X BALISTO",
   "price": 0,
-  "category": "Red",
+    "category": "Red",
+  img:ford,
   "pedigree": [
     "Sire: 5-5-1 PR RENEGADE-ET",
     "Dam: MELARRY FRAZZLED FANDANGO-ET",
@@ -6751,9 +6754,980 @@ export const bullList = [
     "Daughter Average: 11,582 kgM 514 kgF 4.40%F 393 kgP 3.40%P",
     "MGGD: Melarry Mogul Freck-ET"
   ]
+  },
+  {
+  "id": "250H014465",
+  "registration_number": "HO840003142352034",
+  "name": "RONALD * RC",
+  "full_name": "SALVATORE RC X SILVER X NUMERO UNO",
+  "price": 0,
+    "category": "Red",
+  img:ronald,
+  "pedigree": [
+    "Sire: MR SALVATORE RC-ET",
+    "Dam: Y-WHISPER SILVER ROYALTY-ET EX-94",
+    "8-00 2X 2990 11,376 kgM 4.8% 547 kgF 3.1% 348 kgP",
+    "MGS: SEAGULL-BAY SILVER-ET"
+  ],
+  "allDetails": [
+    {
+      "index": "indexes",
+      "fertility": "DAUGHTER FERTILITY",
+      "indexes": [
+        { "label": "TPI", "value": 2694 },
+        { "label": "NM$", "value": 197 },
+        { "label": "CM$", "value": 207 },
+        { "label": "GM$", "value": 179 },
+        { "label": "Feed Efficiency ($)", "value": -2 },
+        { "label": "Feed Saved", "value": 49 },
+        { "label": "HHP$", "value": 206 },
+        { "label": "DWP$", "value": 184 },
+        { "label": "WT$", "value": 60 },
+        { "label": "CW$", "value": -11 }
+      ],
+      "fertilities": [
+        { "label": "Fertility Index", "value": "0.497" },
+        { "label": "DPR", "value": "1.197" },
+        { "label": "HCR", "value": "0.596" },
+        { "label": "CCR", "value": "0.8797" }
+      ]
+    },
+    {
+      "index": "MANAGEMENT TRAITS",
+      "fertility": "SIRE FERTILITY",
+      "indexes": [
+        { "label": "SCE", "value": "1.699" },
+        { "label": "DCE", "value": "1.996" },
+        { "label": "Gestation Length", "value": "-1.399" },
+        { "label": "Early First Calving", "value": "-3.795" },
+        { "label": "SSB", "value": "6.397" },
+        { "label": "DSB", "value": "4.896" },
+        { "label": "Productive Life", "value": "3.597" },
+        { "label": "Livability", "value": "1.588" },
+        { "label": "Residual Feed Intake", "value": "437" },
+        { "label": "SCS/Rel", "value": "2.6799" },
+        { "label": "Milking Speed", "value": "102/96" }
+      ],
+      "fertilities": [
+        { "label": "SCR", "value": "" }
+      ]
+    },
+    {
+      "index": "Production",
+      "fertility": "Type",
+      "indexes": [
+        { "label": "PTA Milk (lbs)", "value": 371 },
+        { "label": "PTA Protein (lbs)", "value": 13 },
+        { "label": "PTA Protein (%)", "value": 0.00 },
+        { "label": "PTA Fat (lbs)", "value": -16 },
+        { "label": "PTA Fat (%)", "value": -0.12 },
+        { "label": "Production Reliability", "value": 99 },
+        { "label": "Dtrs/Herds (Production)", "value": "15286/3671" }
+      ],
+      "fertilities": [
+        { "label": "PTA Type", "value": 0.92 },
+        { "label": "Udder Composite", "value": 0.72 },
+        { "label": "Feet & Leg Composite", "value": 1.07 },
+        { "label": "Body Weight Composite", "value": -0.33 },
+        { "label": "Dairy Composite", "value": -0.40 },
+        { "label": "Type Reliability", "value": 99 },
+        { "label": "Dtrs/Herds (Type)", "value": "6810/2037" }
+      ]
+    }
+  ],
+  "typeTraits": [
+    { "label": "Stature", "value": "short", "score": null, "opposite": "tall" },
+    { "label": "Strength", "value": "frail", "score": null, "opposite": "strong" },
+    { "label": "Body Depth", "value": "shallow", "score": null, "opposite": "deep" },
+    { "label": "Dairy Form", "value": "tight ribbed", "score": null, "opposite": "open ribbed" },
+    { "label": "Rump Width", "value": "narrow", "score": null, "opposite": "wide" },
+    { "label": "Rump Angle", "value": "high pins", "score": null, "opposite": "sloped" },
+    { "label": "Rear Leg (side view)", "value": "posty", "score": null, "opposite": "sickled" },
+    { "label": "Rear Leg (rear view)", "value": "hock-in", "score": null, "opposite": "straight" },
+    { "label": "Foot Angle", "value": "low angle", "score": null, "opposite": "steep angle" },
+    { "label": "Feet & Leg Score", "value": "low", "score": null, "opposite": "high" },
+    { "label": "Fore Udder", "value": "loose", "score": null, "opposite": "strong" },
+    { "label": "Rear Udder Height", "value": "low", "score": null, "opposite": "high" },
+    { "label": "Rear Udder Width", "value": "narrow", "score": null, "opposite": "wide" },
+    { "label": "Udder Cleft", "value": "weak", "score": null, "opposite": "strong" },
+    { "label": "Udder Depth", "value": "deep", "score": null, "opposite": "shallow" },
+    { "label": "Front Teat Placement", "value": "wide", "score": null, "opposite": "close" },
+    { "label": "Rear Teat Placement", "value": "wide", "score": null, "opposite": "close" },
+    { "label": "Teat Length", "value": "short", "score": null, "opposite": "long" }
+  ],
+  "wellnessTraits": [
+    { "trait": "Mastitis", "zoetis": { "value": 101, "rel": 82 }, "cdcb": { "value": 2.1, "rel": 93 } },
+    { "trait": "Retained Placenta", "zoetis": { "value": 108, "rel": 84 }, "cdcb": { "value": 0.7, "rel": 88 } },
+    { "trait": "Metritis", "zoetis": { "value": 102, "rel": 76 }, "cdcb": { "value": 1.5, "rel": 87 } },
+    { "trait": "Hypocalcemia/Milk Fever", "zoetis": { "value": 105, "rel": 77 }, "cdcb": { "value": 0.2, "rel": 76 } },
+    { "trait": "Ketosis", "zoetis": { "value": 107, "rel": 78 }, "cdcb": { "value": 1.1, "rel": 87 } },
+    { "trait": "Displaced Abomasum", "zoetis": { "value": 104, "rel": 77 }, "cdcb": { "value": 1, "rel": 92 } },
+    { "trait": "Lameness", "zoetis": { "value": 100, "rel": 79 }, "cdcb": { "value": null, "rel": null } },
+    { "trait": "Cow Respiratory Disease", "zoetis": { "value": 93, "rel": 75 }, "cdcb": { "value": null, "rel": null } },
+    { "trait": "Cow Abortion", "zoetis": { "value": 102, "rel": 68 }, "cdcb": { "value": null, "rel": null } },
+    { "trait": "Twinning", "zoetis": { "value": 106, "rel": 83 }, "cdcb": { "value": null, "rel": null } },
+    { "trait": "Cystic Ovary", "zoetis": { "value": 99, "rel": 50 }, "cdcb": { "value": null, "rel": null } },
+    { "trait": "Heifer Livability", "zoetis": { "value": null, "rel": "N/A" }, "cdcb": { "value": 0, "rel": 83 } },
+    { "trait": "Calf Respiratory Disease", "zoetis": { "value": 93, "rel": 72 }, "cdcb": { "value": null, "rel": null } },
+    { "trait": "Calf Scours", "zoetis": { "value": 102, "rel": 73 }, "cdcb": { "value": null, "rel": null } },
+    { "trait": "Calf Livability", "zoetis": { "value": 98, "rel": 79 }, "cdcb": { "value": null, "rel": null } }
+  ],
+  "genetics": [
+    "Daughter Average: 11,917 kgM 485 kgF 4.10%F 388 kgP 3.30%P",
+    "Jeffrey-Way Spunky-Red-ET",
+    "Jenny-Lou Ronald Aces",
+    "Everlane Ronald Serena"
+  ]
+},
+  
+{
+  id: "14HO14464",
+  registration_number: "HO840003138677210",
+  name: "REEVE-RED",
+  full_name: "SANDERSON REEVE-RED-ET",
+  price: 0, // price not present in image
+  category: "HF",
+  img: revee,
+  pedigree: [
+    "SALVATORE RC",
+    "CARDINAL-RED ROXANE-RED-ET",
+    "SILVER X NUMERO UNO"
+  ],
+  allDetails: [
+    {
+      index: "indexes",
+      fertility: "fertility",
+      indexes: [
+        { label: "TPI", value: 2754 },
+        { label: "NM$", value: 319 },
+        { label: "CM$", value: 327 },
+        { label: "Feed_Efficiency", value: 74 },
+        { label: "Feed_Saved", value: 0 }, // not found
+        { label: "HHP$", value: 317 },
+        { label: "DWP$", value: 0 }, // not found
+        { label: "WT$", value: 27 },
+        { label: "CW$", value: -13 }
+      ],
+      fertilities: [
+        { label: "Fertility Index", value: -0.2 },
+        { label: "DPR", value: -0.2 },
+        { label: "HCR", value: 0.2 },
+        { label: "CCR", value: -0.2 },
+        { label: "Reliability", value: 97 }
+      ]
+    },
+    {
+      index: "MANAGEMENT TRAITS",
+      fertility: "SIRE FERTILITY",
+      indexes: [
+        { label: "SCE", value: 2.1 },
+        { label: "DCE", value: 2.2 },
+        { label: "Gestation Length", value: 0.6 },
+        { label: "Early First Calving", value: 0.7 },
+        { label: "SSB", value: 6.2 },
+        { label: "DSB", value: 7.2 }
+      ],
+      fertilities: [
+        { label: "Sire Conception Rate", value: -2.1 }
+      ]
+    },
+    {
+      index: "PRODUCTION",
+      fertility: "",
+      indexes: [
+        { label: "PTA Milk (lbs)", value: 1137 },
+        { label: "PTA Fat (lbs)", value: 44 },
+        { label: "PTA Fat (%)", value: 0.07 },
+        { label: "PTA Protein (lbs)", value: 42 },
+        { label: "PTA Protein (%)", value: 0.07 },
+        { label: "PL", value: 2.7 },
+        { label: "SCS", value: 2.80 }
+      ]
+    },
+    {
+      index: "TYPE",
+      fertility: "",
+      indexes: [
+        { label: "Type", value: 3.00 },
+        { label: "Udder Composite", value: 2.13 },
+        { label: "Feet & Legs", value: 1.77 },
+        { label: "Stature", value: 2.49 },
+        { label: "Strength", value: 0.67 },
+        { label: "Body Depth", value: 0.67 },
+        { label: "Dairy Form", value: 1.13 },
+        { label: "Rump Angle", value: 0.13 },
+        { label: "Rump Width", value: 1.13 },
+        { label: "Rear Legs Side View", value: 0.13 },
+        { label: "Rear Legs Rear View", value: 1.97 },
+        { label: "Foot Angle", value: 1.77 },
+        { label: "Feet & Legs Score", value: 1.77 },
+        { label: "Fore Udder Attachment", value: 2.13 },
+        { label: "Rear Udder Height", value: 2.97 },
+        { label: "Rear Udder Width", value: 2.67 },
+        { label: "Udder Cleft", value: 1.47 },
+        { label: "Udder Depth", value: 1.97 },
+        { label: "Front Teat Placement", value: 1.37 },
+        { label: "Rear Teat Placement", value: 1.17 },
+        { label: "Teat Length", value: -0.47 }
+      ]
+    }
+  ]
+  },
+
+{
+  "id": '7HO15099',
+  "registration_number": "HO840003203292328",
+  "name": "RELIANT",
+  "full_name": "T-SPRUCE HUEY RELIANT-ET",
+  "price": 4500,
+  "category": "HO",
+  img:reliant,
+  "pedigree": [
+    "Sire: T-SPRUCE FRAZZLED HUEY-ET",
+    "Dam: PINE-TREE 9882 ACHI 7591-ET",
+    "MGS: ABS ACHIEVER-ET",
+    "IMED OCD Supersire 9882-ET"
+  ],
+  "allDetails": [
+    {
+      "index": "indexes",
+      "fertility": "DAUGHTER FERTILITY",
+      "indexes": [
+        { "label": "TPI", "value": 2969 },
+        { "label": "NM$", "value": 664 },
+        { "label": "CM$", "value": 668 },
+        { "label": "GM$", "value": 606 },
+        { "label": "Feed Efficiency ($)", "value": 212 },
+        { "label": "Feed Saved", "value": 3 },
+        { "label": "HHP$", "value": 588 },
+        { "label": "DWP$", "value": 718 },
+        { "label": "WT$", "value": -4 },
+        { "label": "CW$", "value": 22 }
+      ],
+      "fertilities": [
+        { "label": "Fertility Index", "value": "-0.49/8" },
+        { "label": "DPR", "value": "-2.59/8" },
+        { "label": "HCR", "value": "3.69/7" },
+        { "label": "CCR", "value": "-0.19/8" }
+      ]
+    },
+    {
+      "index": "MANAGEMENT TRAITS",
+      "fertility": "SIRE FERTILITY",
+      "indexes": [
+        { "label": "SCE", "value": "2.09/8" },
+        { "label": "DCE", "value": "2.69/5" },
+        { "label": "Gestation Length", "value": "-0.29/9" },
+        { "label": "Early First Calving", "value": "2.59/6" },
+        { "label": "SSB", "value": "6.09/6" },
+        { "label": "DSB", "value": "4.69/5" },
+        { "label": "Productive Life", "value": "3.79/7" },
+        { "label": "Livability", "value": "-0.88/8" },
+        { "label": "Residual Feed Intake", "value": "-21/38" },
+        { "label": "SCS/Rel", "value": "3.17/99" },
+        { "label": "Milking Speed", "value": "103/81" }
+      ],
+      "fertilities": [
+        { "label": "SCR", "value": "" }
+      ]
+    },
+    {
+      "index": "Production",
+      "fertility": "Type",
+      "indexes": [
+        { "label": "PTA Milk (lbs)", "value": 1191 },
+        { "label": "PTA Protein (lbs)", "value": 41 },
+        { "label": "PTA Protein (%)", "value": 0.01 },
+        { "label": "PTA Fat (lbs)", "value": 77 },
+        { "label": "PTA Fat (%)", "value": 0.10 },
+        { "label": "Production Reliability", "value": 99 },
+        { "label": "Dtrs/Herds (Production)", "value": "4477/188" }
+      ],
+      "fertilities": [
+        { "label": "PTA Type", "value": -0.42 },
+        { "label": "Udder Composite", "value": -0.57 },
+        { "label": "Feet & Leg Composite", "value": -0.19 },
+        { "label": "Body Weight Composite", "value": 0.10 },
+        { "label": "Dairy Composite", "value": -0.95 },
+        { "label": "Type Reliability", "value": 96 },
+        { "label": "Dtrs/Herds (Type)", "value": "266/43" }
+      ]
+    }
+  ],
+  "typeTraits": [
+    { "label": "Stature", "value": "short", "score": null, "opposite": "tall" },
+    { "label": "Strength", "value": "frail", "score": null, "opposite": "strong" },
+    { "label": "Body Depth", "value": "shallow", "score": null, "opposite": "deep" },
+    { "label": "Dairy Form", "value": "tight ribbed", "score": null, "opposite": "open ribbed" },
+    { "label": "Rump Width", "value": "narrow", "score": null, "opposite": "wide" },
+    { "label": "Rump Angle", "value": "high pins", "score": null, "opposite": "sloped" },
+    { "label": "Rear Leg (side view)", "value": "posty", "score": null, "opposite": "sickled" },
+    { "label": "Rear Leg (rear view)", "value": "hock-in", "score": null, "opposite": "straight" },
+    { "label": "Foot Angle", "value": "low angle", "score": null, "opposite": "steep angle" },
+    { "label": "Feet & Leg Score", "value": "low", "score": null, "opposite": "high" },
+    { "label": "Fore Udder", "value": "loose", "score": null, "opposite": "strong" },
+    { "label": "Rear Udder Height", "value": "low", "score": null, "opposite": "high" },
+    { "label": "Rear Udder Width", "value": "narrow", "score": null, "opposite": "wide" },
+    { "label": "Udder Cleft", "value": "weak", "score": null, "opposite": "strong" },
+    { "label": "Udder Depth", "value": "deep", "score": null, "opposite": "shallow" },
+    { "label": "Front Teat Placement", "value": "wide", "score": null, "opposite": "close" },
+    { "label": "Rear Teat Placement", "value": "wide", "score": null, "opposite": "close" },
+    { "label": "Teat Length", "value": "short", "score": null, "opposite": "long" }
+  ],
+  "wellnessTraits": [
+    { "trait": "Mastitis", "zoetis": { "value": 103, "rel": 89 }, "cdcb": { "value": 0.1, "rel": 96 } },
+    { "trait": "Retained Placenta", "zoetis": { "value": 95, "rel": 90 }, "cdcb": { "value": 0.1, "rel": 96 } },
+    { "trait": "Metritis", "zoetis": { "value": 102, "rel": 88 }, "cdcb": { "value": 1.8, "rel": 96 } },
+    { "trait": "Hypocalcemia/Milk Fever", "zoetis": { "value": 104, "rel": 86 }, "cdcb": { "value": 0.1, "rel": 88 } },
+    { "trait": "Ketosis", "zoetis": { "value": 101, "rel": 88 }, "cdcb": { "value": 0.6, "rel": 93 } },
+    { "trait": "Displaced Abomasum", "zoetis": { "value": 103, "rel": 86 }, "cdcb": { "value": 0.8, "rel": 98 } },
+    { "trait": "Lameness", "zoetis": { "value": 92, "rel": 87 }, "cdcb": { "value": null, "rel": null } },
+    { "trait": "Cow Respiratory Disease", "zoetis": { "value": 108, "rel": 86 }, "cdcb": { "value": null, "rel": null } },
+    { "trait": "Cow Abortion", "zoetis": { "value": 106, "rel": 79 }, "cdcb": { "value": null, "rel": null } },
+    { "trait": "Twinning", "zoetis": { "value": 99, "rel": 88 }, "cdcb": { "value": null, "rel": null } },
+    { "trait": "Cystic Ovary", "zoetis": { "value": 99, "rel": 55 }, "cdcb": { "value": null, "rel": null } },
+    { "trait": "Heifer Livability", "zoetis": { "value": null, "rel": "N/A" }, "cdcb": { "value": 0, "rel": 80 } },
+    { "trait": "Calf Respiratory Disease", "zoetis": { "value": 104, "rel": 85 }, "cdcb": { "value": null, "rel": null } },
+    { "trait": "Calf Scours", "zoetis": { "value": 103, "rel": 86 }, "cdcb": { "value": null, "rel": null } },
+    { "trait": "Calf Livability", "zoetis": { "value": 98, "rel": 88 }, "cdcb": { "value": null, "rel": null } }
+  ],
+  "genetics": [
+    "Born On: January 12, 2019",
+    "Beta-casein: A2A2",
+    "Kappa-casein: AB",
+    "EFI: 11.7%",
+    "aAa: 243",
+    "Daughter Average: 12,432 kgM 552 kgF 4.40%F 415 kgP 3.30%P",
+    "MGGD: OCD Robust Shimmer-ET"
+  ]
+  },
+  {
+  "id": '250HO15450',
+  "registration_number": 'HO840003206349981',
+  "name": "SANDMAN",
+  "full_name": "OCD LIMELIGHT SANDMAN-ET",
+  "price": 0,
+    "category": "HO",
+  img:sandman,
+  "pedigree": [
+    "Sire: VOGUE LIMELIGHT-P-ET",
+    "Dam: OCD RESOLVE SOY 44699-ET VG-86",
+    "5-05 3X 365D 17,041 kgM 4.3% 728 kgF 3.4% 584 kgP",
+    "MGS: BLUMENFELD JEDI RESOLVE-ET",
+    "MGGD Brandt-View Suprsire Soy..."
+  ],
+  "allDetails": [
+    {
+      "index": "indexes",
+      "fertility": "DAUGHTER FERTILITY",
+      "indexes": [
+        { "label": "TPI", "value": 2893 },
+        { "label": "NM$", "value": 325 },
+        { "label": "CM$", "value": 369 },
+        { "label": "GM$", "value": 328 },
+        { "label": "Feed Efficiency ($)", "value": 66 },
+        { "label": "Feed Saved", "value": -126 },
+        { "label": "HHP$", "value": 433 },
+        { "label": "DWP$", "value": 276 },
+        { "label": "WT$", "value": -16 },
+        { "label": "CW$", "value": 14 }
+      ],
+      "fertilities": [
+        { "label": "Fertility Index", "value": "2.4/82" },
+        { "label": "DPR", "value": "2.0/83" },
+        { "label": "HCR", "value": "0.2/80" },
+        { "label": "CCR", "value": "3.1/82" }
+      ]
+    },
+    {
+      "index": "MANAGEMENT TRAITS",
+      "fertility": "SIRE FERTILITY",
+      "indexes": [
+        { "label": "SCE", "value": "1.8/83" },
+        { "label": "DCE", "value": "1.5/81" },
+        { "label": "Gestation Length", "value": "0.2/90" },
+        { "label": "Early First Calving", "value": "3.0/78" },
+        { "label": "SSB", "value": "5.9/67" },
+        { "label": "DSB", "value": "4.8/74" },
+        { "label": "Productive Life", "value": "3.0/84" },
+        { "label": "Livability", "value": "1.5/75" },
+        { "label": "Residual Feed Intake", "value": "2.4/32" },
+        { "label": "SCS/Rel", "value": "2.97/89" },
+        { "label": "Milking Speed", "value": "107/90" }
+      ],
+      "fertilities": [
+        { "label": "SCR", "value": "" }
+      ]
+    },
+    {
+      "index": "Production",
+      "fertility": "Type",
+      "indexes": [
+        { "label": "PTA Milk (lbs)", "value": -415 },
+        { "label": "PTA Protein (lbs)", "value": 18 },
+        { "label": "PTA Protein (%)", "value": 0.12 },
+        { "label": "PTA Fat (lbs)", "value": 27 },
+        { "label": "PTA Fat (%)", "value": 0.17 },
+        { "label": "Production Reliability", "value": 92 },
+        { "label": "Dtrs/Herds (Production)", "value": "375/136" }
+      ],
+      "fertilities": [
+        { "label": "PTA Type", "value": 0.88 },
+        { "label": "Udder Composite", "value": 1.32 },
+        { "label": "Feet & Leg Composite", "value": -0.24 },
+        { "label": "Body Weight Composite", "value": 0.63 },
+        { "label": "Dairy Composite", "value": -1.14 },
+        { "label": "Type Reliability", "value": 86 },
+        { "label": "Dtrs/Herds (Type)", "value": "165/84" }
+      ]
+    }
+  ],
+  "typeTraits": [
+    { "label": "Stature", "value": "short", "score": 0.51, "opposite": "tall" },
+    { "label": "Strength", "value": "frail", "score": 0.06, "opposite": "strong" },
+    { "label": "Body Depth", "value": "shallow", "score": -0.29, "opposite": "deep" },
+    { "label": "Dairy Form", "value": "tight ribbed", "score": -0.85, "opposite": "open ribbed" },
+    { "label": "Rump Width", "value": "narrow", "score": 0.53, "opposite": "wide" },
+    { "label": "Rump Angle", "value": "high pins", "score": 0.86, "opposite": "sloped" },
+    { "label": "Rear Leg (side view)", "value": "posty", "score": -1.45, "opposite": "sickled" },
+    { "label": "Rear Leg (rear view)", "value": "hock-in", "score": -0.29, "opposite": "straight" },
+    { "label": "Foot Angle", "value": "low angle", "score": 0.90, "opposite": "steep angle" },
+    { "label": "Feet & Leg Score", "value": "low", "score": -0.07, "opposite": "high" },
+    { "label": "Fore Udder", "value": "loose", "score": 2.27, "opposite": "strong" },
+    { "label": "Rear Udder Height", "value": "low", "score": 1.42, "opposite": "high" },
+    { "label": "Rear Udder Width", "value": "narrow", "score": 0.72, "opposite": "wide" },
+    { "label": "Udder Cleft", "value": "weak", "score": -0.03 , "opposite": "strong" },
+    { "label": "Udder Depth", "value": "deep", "score": 2.23, "opposite": "shallow" },
+    { "label": "Front Teat Placement", "value": "wide", "score": 0.31, "opposite": "close" },
+    { "label": "Rear Teat Placement", "value": "wide", "score": 0.10, "opposite": "close" },
+    { "label": "Teat Length", "value": "short", "score": -0.90, "opposite": "long" }
+  ],
+  "wellnessTraits": [
+    { "trait": "Mastitis", "zoetis": { "value": 100, "rel": 62 }, "cdcb": { "value": 0.6, "rel": 81 } },
+    { "trait": "Retained Placenta", "zoetis": { "value": 91, "rel": 62 }, "cdcb": { "value": 0.6, "rel": 72 } },
+    { "trait": "Metritis", "zoetis": { "value": 103, "rel": 56 }, "cdcb": { "value": -0.4, "rel": 72 } },
+    { "trait": "Hypocalcemia/Milk Fever", "zoetis": { "value": 102, "rel": 51 }, "cdcb": { "value": -0.7, "rel": 62 } },
+    { "trait": "Ketosis", "zoetis": { "value": 102, "rel": 53 }, "cdcb": { "value": -0.3, "rel": 71 } },
+    { "trait": "Displaced Abomasum", "zoetis": { "value": 100, "rel": 52 }, "cdcb": { "value": -0.4, "rel": 75 } },
+    { "trait": "Lameness", "zoetis": { "value": 98, "rel": 58 }, "cdcb": { "value": null, "rel": null } },
+    { "trait": "Cow Respiratory Disease", "zoetis": { "value": 101, "rel": 53 }, "cdcb": { "value": null, "rel": null } },
+    { "trait": "Cow Abortion", "zoetis": { "value": 99, "rel": 46 }, "cdcb": { "value": null, "rel": null } },
+    { "trait": "Twinning", "zoetis": { "value": 98, "rel": 58 }, "cdcb": { "value": null, "rel": null } },
+    { "trait": "Cystic Ovary", "zoetis": { "value": 101, "rel": 30 }, "cdcb": { "value": null, "rel": null } },
+    { "trait": "Heifer Livability", "zoetis": { "value": null, "rel": "N/A" }, "cdcb": { "value": null, "rel": null } },
+    { "trait": "Calf Respiratory Disease", "zoetis": { "value": 94, "rel": 49 }, "cdcb": { "value": null, "rel": null } },
+    { "trait": "Calf Scours", "zoetis": { "value": 105, "rel": 54 }, "cdcb": { "value": null, "rel": null } },
+    { "trait": "Calf Livability", "zoetis": { "value": null, "rel": null }, "cdcb": { "value": null, "rel": null } }
+  ],
+  "genetics": [
+    "Born On: September 09, 2019",
+    "Beta-casein: A2A2",
+    "Kappa-casein: BB",
+    "EFI: 10.3%",
+    "aAa: 324",
+    "Daughter Average: 11,139 kgM 522 kgF 4.70%F 386 kgP 3.50%P",
+    "MGGD Brandt-View Suprsire Soy..."
+  ]
 }
-  
-  
+  ,
+  {
+  "id": "7HO15225",
+  "registration_number": "HO840003204988580",
+  "name": "TAHITI",
+  "full_name": "TAHITI X RUBICON X LEAF",
+  "price": 0,
+    "category": "HO",
+  img:sunrise,
+  "pedigree": [
+    "Sire: GE-KOETTERZ RUBICON 9008-ET VG-85",
+    "Dam: SE-U FRAZER TAHITI 14104-ET",
+    "2-01 3X 365D 15,325 kgM 3.7% 606 kgF 3.0% 497 kgP",
+    "MGS: EDG RUBICON-ET"
+  ],
+  "allDetails": [
+    {
+      "index": "indexes",
+      "fertility": "DAUGHTER FERTILITY",
+      "indexes": [
+        { "label": "TPI", "value": 2699 },
+        { "label": "NM$", "value": 303 },
+        { "label": "CM$", "value": 285 },
+        { "label": "GM$", "value": 285 },
+        { "label": "Feed Efficiency ($)", "value": 63 },
+        { "label": "Feed Saved", "value": -63 },
+        { "label": "HHP$", "value": 254 },
+        { "label": "DWP$", "value": 162 },
+        { "label": "WT$", "value": -13 },
+        { "label": "CW$", "value": -24 }
+      ],
+      "fertilities": [
+        { "label": "Fertility Index", "value": "0.9/94" },
+        { "label": "DPR", "value": "0.1/95" },
+        { "label": "HCR", "value": "2.7/92" },
+        { "label": "CCR", "value": "1.4/95" }
+      ]
+    },
+    {
+      "index": "MANAGEMENT TRAITS",
+      "fertility": "SIRE FERTILITY",
+      "indexes": [
+        { "label": "SCE", "value": "1.7/99" },
+        { "label": "DCE", "value": "2.0/92" },
+        { "label": "Gestation Length", "value": "-1.9/99" },
+        { "label": "Early First Calving", "value": "0.8/91" },
+        { "label": "SSB", "value": "5.4/97" },
+        { "label": "DSB", "value": "4.6/93" },
+        { "label": "Productive Life", "value": "2.2/93" },
+        { "label": "Livability", "value": "1.2/82" },
+        { "label": "Residual Feed Intake", "value": "-83/41" },
+        { "label": "SCS/Rel", "value": "3.08/98" },
+        { "label": "Milking Speed", "value": "103/80" }
+      ],
+      "fertilities": [
+        { "label": "SCR", "value": "" }
+      ]
+    },
+    {
+      "index": "Production",
+      "fertility": "Type",
+      "indexes": [
+        { "label": "PTA Milk (lbs)", "value": -127 },
+        { "label": "PTA Protein (lbs)", "value": 10 },
+        { "label": "PTA Protein (%)", "value": 0.05 },
+        { "label": "PTA Fat (lbs)", "value": 33 },
+        { "label": "PTA Fat (%)", "value": 0.15 },
+        { "label": "Production Reliability", "value": 99 },
+        { "label": "Dtrs/Herds (Production)", "value": "1765/309" }
+      ],
+      "fertilities": [
+        { "label": "PTA Type", "value": 0.22 },
+        { "label": "Udder Composite", "value": -0.20 },
+        { "label": "Feet & Leg Composite", "value": -0.60 },
+        { "label": "Body Weight Composite", "value": 0.90 },
+        { "label": "Dairy Composite", "value": 0.10 },
+        { "label": "Type Reliability", "value": 96 },
+        { "label": "Dtrs/Herds (Type)", "value": "244/43" }
+      ]
+    }
+  ],
+  "typeTraits": [
+    { "label": "Stature", "value": "short", "score": 0.72, "opposite": "tall" },
+    { "label": "Strength", "value": "frail", "score": 0.92, "opposite": "strong" },
+    { "label": "Body Depth", "value": "shallow", "score": 0.77, "opposite": "deep" },
+    { "label": "Dairy Form", "value": "tight ribbed", "score": 0.08, "opposite": "open ribbed" },
+    { "label": "Rump Width", "value": "narrow", "score": 0.28, "opposite": "wide" },
+    { "label": "Rump Angle", "value": "high pins", "score": 0.61, "opposite": "sloped" },
+    { "label": "Rear Leg (side view)", "value": "posty", "score": 1.47, "opposite": "sickled" },
+    { "label": "Rear Leg (rear view)", "value": "hock-in", "score": -0.44, "opposite": "straight" },
+    { "label": "Foot Angle", "value": "low angle", "score": -0.52, "opposite": "steep angle" },
+    { "label": "Feet & Leg Score", "value": "low", "score": -0.23, "opposite": "high" },
+    { "label": "Fore Udder", "value": "loose", "score": 0.21, "opposite": "strong" },
+    { "label": "Rear Udder Height", "value": "low", "score": -0.23, "opposite": "high" },
+    { "label": "Rear Udder Width", "value": "narrow", "score": 0.07, "opposite": "wide" },
+    { "label": "Udder Cleft", "value": "weak", "score": -0.26, "opposite": "strong" },
+    { "label": "Udder Depth", "value": "deep", "score": -0.04, "opposite": "shallow" },
+    { "label": "Front Teat Placement", "value": "wide", "score": 1.09, "opposite": "close" },
+    { "label": "Rear Teat Placement", "value": "wide", "score": 1.01, "opposite": "close" },
+    { "label": "Teat Length", "value": "short", "score": -1.48, "opposite": "long" }
+  ],
+  "wellnessTraits": [
+    { "trait": "Mastitis", "zoetis": { "value": 92, "rel": 95 }, "cdcb": { "value": 0.38, "rel": 86 } },
+    { "trait": "Retained Placenta", "zoetis": { "value": 106, "rel": 97 }, "cdcb": { "value": 0.8, "rel": 85 } },
+    { "trait": "Metritis", "zoetis": { "value": 106, "rel": 91 }, "cdcb": { "value": 1.3, "rel": 86 } },
+    { "trait": "Hypocalcemia/Milk Fever", "zoetis": { "value": 94, "rel": 76 }, "cdcb": { "value": 0.2, "rel": 71 } },
+    { "trait": "Ketosis", "zoetis": { "value": 92, "rel": 96 }, "cdcb": { "value": 0.4, "rel": 84 } },
+    { "trait": "Displaced Abomasum", "zoetis": { "value": 99, "rel": 95 }, "cdcb": { "value": 0.2, "rel": 89 } },
+    { "trait": "Lameness", "zoetis": { "value": 92, "rel": 94 }, "cdcb": { "value": null, "rel": null } },
+    { "trait": "Cow Respiratory Disease", "zoetis": { "value": 109, "rel": 93 }, "cdcb": { "value": null, "rel": null } },
+    { "trait": "Cow Abortion", "zoetis": { "value": 98, "rel": 91 }, "cdcb": { "value": null, "rel": null } },
+    { "trait": "Twinning", "zoetis": { "value": 80, "rel": 96 }, "cdcb": { "value": null, "rel": null } },
+    { "trait": "Cystic Ovary", "zoetis": { "value": 106, "rel": 59 }, "cdcb": { "value": null, "rel": null } },
+    { "trait": "Heifer Livability", "zoetis": { "value": 89, "rel": 59 }, "cdcb": { "value": 0.7, "rel": 76 } },
+    { "trait": "Calf Respiratory Disease", "zoetis": { "value": 93, "rel": 96 }, "cdcb": { "value": null, "rel": null } },
+    { "trait": "Calf Scours", "zoetis": { "value": 96, "rel": 92 }, "cdcb": { "value": null, "rel": null } }
+  ],
+  "genetics": [
+    "Born On: March 20, 2019",
+    "Beta-casein: A2A2",
+    "Kappa-casein: BB",
+    "EFI: 11.4%",
+    "aAa: 234",
+    "Daughter Average: 11,592 kgM 513 kgF 4.40%F 385 kgP 3.30%P"
+  ]
+  },
+  {
+  "id": "7HO15025",
+  "registration_number": "HO840003205703796",
+  "name": "TACITUS",
+  "full_name": "RENEGADE X HANS X MODESTY",
+  "price": 0,
+  "category": "HO",
+  "img": tacitus,
+  "pedigree": [
+    "Sire: S-S-I PR RENEGADE-ET",
+    "Dam: BERRYRIDGE SSI 2877 3424-ET EX-91 2-10 3X 290D 12,574 kgM 5.3% 661 kgF 3.7% 463 kgP",
+    "MGS: DE-SU HANGTIME HANS 13505-ET"
+  ],
+  "allDetails": [
+    {
+      "index": "indexes",
+      "fertility": "DAUGHTER FERTILITY",
+      "indexes": [
+        { "label": "TPI", "value": 2898 },
+        { "label": "NM$", "value": 212 },
+        { "label": "CM$", "value": 231 },
+        { "label": "GM$", "value": 240 },
+        { "label": "Feed Efficiency ($)", "value": 119 },
+        { "label": "Feed Saved", "value": -256 },
+        { "label": "HHP$", "value": 371 },
+        { "label": "DWP$", "value": 105 },
+        { "label": "WT$", "value": 105 },
+        { "label": "CW$", "value": 0 }
+      ],
+      "fertilities": [
+        { "label": "Fertility Index", "value": "0.1/82" },
+        { "label": "DPR", "value": "0.2/83" },
+        { "label": "HCR", "value": "-1.5/80" },
+        { "label": "CCR", "value": "0.2/83" }
+      ]
+    },
+    {
+      "index": "MANAGEMENT TRAITS",
+      "fertility": "SIRE FERTILITY",
+      "indexes": [
+        { "label": "SCE", "value": "2.3/85" },
+        { "label": "DCE", "value": "2.5/73" },
+        { "label": "Gestation Length", "value": "0.2/97" },
+        { "label": "Early First Calving", "value": "0.1/79" },
+        { "label": "SSB", "value": "6.1/76" },
+        { "label": "DSB", "value": "4.7/67" },
+        { "label": "Productive Life", "value": "-0.8/86" },
+        { "label": "Livability", "value": "-5.7/77" },
+        { "label": "Residual Feed Intake", "value": "156/35" },
+        { "label": "SCS/Rel", "value": "2.94/90" },
+        { "label": "Milking Speed", "value": "100/86" }
+      ],
+      "fertilities": [
+        { "label": "SCR", "value": "" }
+      ]
+    },
+    {
+      "index": "Production",
+      "fertility": "Type",
+      "indexes": [
+        { "label": "PTA Milk (lbs)", "value": 350 },
+        { "label": "PTA Protein (lbs)", "value": 32 },
+        { "label": "PTA Protein (%)", "value": 0.08 },
+        { "label": "PTA Fat (lbs)", "value": 52 },
+        { "label": "PTA Fat (%)", "value": 0.14 },
+        { "label": "Production Reliability", "value": 93 },
+        { "label": "Dtrs/Herds (Production)", "value": "294/84" }
+      ],
+      "fertilities": [
+        { "label": "PTA Type", "value": 0.94 },
+        { "label": "Udder Composite", "value": 0.75 },
+        { "label": "Feet & Leg Composite", "value": 1.20 },
+        { "label": "Body Weight Composite", "value": 0.62 },
+        { "label": "Dairy Composite", "value": 0.55 },
+        { "label": "Type Reliability", "value": 92 },
+        { "label": "Dtrs/Herds (Type)", "value": "125/40" }
+      ]
+    }
+  ],
+  "typeTraits": [
+    { "label": "Stature", "value": "short", "score": 0.96, "opposite": "tall" },
+    { "label": "Strength", "value": "frail", "score": 0.77, "opposite": "strong" },
+    { "label": "Body Depth", "value": "shallow", "score": 0.77, "opposite": "deep" },
+    { "label": "Dairy Form", "value": "tight ribbed", "score": 0.86, "opposite": "open ribbed" },
+    { "label": "Rump Width", "value": "narrow", "score": 1.08, "opposite": "wide" },
+    { "label": "Rump Angle", "value": "high pins", "score": 1.08, "opposite": "sloped" },
+    { "label": "Rear Leg (side view)", "value": "posty", "score": 0.86, "opposite": "sickled" },
+    { "label": "Rear Leg (rear view)", "value": "hock-in", "score": 1.77, "opposite": "straight" },
+    { "label": "Foot Angle", "value": "low angle", "score": 0.51, "opposite": "steep angle" },
+    { "label": "Feet & Leg Score", "value": "low", "score": 1.27, "opposite": "high" },
+    { "label": "Fore Udder", "value": "loose", "score": 0.80, "opposite": "strong" },
+    { "label": "Rear Udder Height", "value": "low", "score": 1.04, "opposite": "high" },
+    { "label": "Rear Udder Width", "value": "narrow", "score": 1.28, "opposite": "wide" },
+    { "label": "Udder Cleft", "value": "weak", "score": 1.05, "opposite": "strong" },
+    { "label": "Udder Depth", "value": "deep", "score": 0.55, "opposite": "shallow" },
+    { "label": "Front Teat Placement", "value": "wide", "score": 0.49, "opposite": "close" },
+    { "label": "Rear Teat Placement", "value": "wide", "score": 1.20, "opposite": "close" },
+    { "label": "Teat Length", "value": "short", "score": 0.60, "opposite": "long" }
+  ],
+  "wellnessTraits": [
+    { "trait": "Mastitis", "zoetis": { "value": 104, "rel": 66 }, "cdcb": { "value": 0.8, "rel": 72 } },
+    { "trait": "Retained Placenta", "zoetis": { "value": 99, "rel": 54 }, "cdcb": { "value": -0.3, "rel": 74 } },
+    { "trait": "Metritis", "zoetis": { "value": 98, "rel": 59 }, "cdcb": { "value": 0.5, "rel": 73 } },
+    { "trait": "Hypocalcemia/Milk Fever", "zoetis": { "value": 96, "rel": 56 }, "cdcb": { "value": 0.1, "rel": 54 } },
+    { "trait": "Ketosis", "zoetis": { "value": 94, "rel": 55 }, "cdcb": { "value": 0.2, "rel": 77 } },
+    { "trait": "Displaced Abomasum", "zoetis": { "value": 92, "rel": 56 }, "cdcb": { "value": -0.1, "rel": 77 } },
+    { "trait": "Lameness", "zoetis": { "value": 105, "rel": 62 }, "cdcb": { "value": null, "rel": null } },
+    { "trait": "Cow Respiratory Disease", "zoetis": { "value": 104, "rel": 50 }, "cdcb": { "value": null, "rel": null } },
+    { "trait": "Cow Abortion", "zoetis": { "value": 100, "rel": 62 }, "cdcb": { "value": null, "rel": null } },
+    { "trait": "Twinning", "zoetis": { "value": 103, "rel": 42 }, "cdcb": { "value": null, "rel": null } },
+    { "trait": "Cystic Ovary", "zoetis": { "value": null, "rel": null }, "cdcb": { "value": null, "rel": null } },
+    { "trait": "Heifer Livability", "zoetis": { "value": null, "rel": null }, "cdcb": { "value": -0.8, "rel": 68 } },
+    { "trait": "Calf Respiratory Disease", "zoetis": { "value": 102, "rel": 52 }, "cdcb": { "value": null, "rel": null } },
+    { "trait": "Calf Scours", "zoetis": { "value": 97, "rel": 51 }, "cdcb": { "value": null, "rel": null } }
+  ],
+  "genetics": [
+    "Born On: February 05, 2019",
+    "Beta-casein: A1A2",
+    "Kappa-casein: BB",
+    "EFI: 10.2%",
+    "Daughter Average: 11,624 kgM 491 kgF 4.20%F 385 kgP 3.30%P"
+  ]
+  },
+  {
+  "id": "7HO15139",
+  "registration_number": "HO840003205215583",
+  "name": "FANECA",
+  "full_name": "LUCIA X HELIX X RUBICON",
+  "price": 0,
+  "category": "HO",
+  "img": fineca,
+  "pedigree": [
+    "Sire: DE-SU SYR ST LUCIA 14199-ET",
+    "Dam: S-S-I BG 9494 15395-ET VG-87",
+    "3-00 2X 305D 11,860 kgM 4.5% 537 kgF 3.1% 369 kgP",
+    "MGS: AOT SILVER HELIX-ET"
+  ],
+  "allDetails": [
+    {
+      "index": "indexes",
+      "fertility": "DAUGHTER FERTILITY",
+      "indexes": [
+        { "label": "TPI", "value": 2854 },
+        { "label": "NM$", "value": 409 },
+        { "label": "CM$", "value": 375 },
+        { "label": "GM$", "value": 327 },
+        { "label": "Feed Efficiency ($)", "value": 125 },
+        { "label": "Feed Saved", "value": -261 },
+        { "label": "HHP$", "value": 394 },
+        { "label": "DWP$", "value": 535 },
+        { "label": "WT$", "value": 33 },
+        { "label": "CW$", "value": -67 }
+      ],
+      "fertilities": [
+        { "label": "Fertility Index", "value": "-3.6/97" },
+        { "label": "DPR", "value": "-3.5/97" },
+        { "label": "HCR", "value": "-2.4/95" },
+        { "label": "CCR", "value": "-4.1/97" }
+      ]
+    },
+    {
+      "index": "MANAGEMENT TRAITS",
+      "fertility": "SIRE FERTILITY",
+      "indexes": [
+        { "label": "SCE", "value": "2.3/98" },
+        { "label": "DCE", "value": "1.3/95" },
+        { "label": "Gestation Length", "value": "2.3/99" },
+        { "label": "Early First Calving", "value": "-3.5/95" },
+        { "label": "SSB", "value": "5.5/95" },
+        { "label": "DSB", "value": "3.2/93" },
+        { "label": "Productive Life", "value": "2.0/96" },
+        { "label": "Livability", "value": "-2.1/86" },
+        { "label": "Residual Feed Intake", "value": "84/34" },
+        { "label": "SCS/Rel", "value": "2.96/99" },
+        { "label": "Milking Speed", "value": "99/86" }
+      ],
+      "fertilities": [
+        { "label": "SCR", "value": "" }
+      ]
+    },
+    {
+      "index": "Production",
+      "fertility": "Type",
+      "indexes": [
+        { "label": "PTA Milk (lbs)", "value": 727 },
+        { "label": "PTA Protein (lbs)", "value": 20 },
+        { "label": "PTA Protein (%)", "value": -0.01 },
+        { "label": "PTA Fat (lbs)", "value": 89 },
+        { "label": "PTA Fat (%)", "value": 0.22 },
+        { "label": "Production Reliability", "value": 99 },
+        { "label": "Dtrs/Herds (Production)", "value": "3145/232" }
+      ],
+      "fertilities": [
+        { "label": "PTA Type", "value": 0.84 },
+        { "label": "Udder Composite", "value": 0.45 },
+        { "label": "Feet & Leg Composite", "value": 0.23 },
+        { "label": "Body Weight Composite", "value": 1.09 },
+        { "label": "Dairy Composite", "value": 0.47 },
+        { "label": "Type Reliability", "value": 99 },
+        { "label": "Dtrs/Herds (Type)", "value": "538/93" }
+      ]
+    }
+  ],
+  "typeTraits": [
+    { "label": "Stature", "value": "short", "score": 2.17, "opposite": "tall" },
+    { "label": "Strength", "value": "frail", "score": 0.72, "opposite": "strong" },
+    { "label": "Body Depth", "value": "shallow", "score": 0.56, "opposite": "deep" },
+    { "label": "Dairy Form", "value": "tight ribbed", "score": 0.59, "opposite": "open ribbed" },
+    { "label": "Rump Width", "value": "narrow", "score": 1.78, "opposite": "wide" },
+    { "label": "Rump Angle", "value": "high pins", "score": 1.21, "opposite": "sloped" },
+    { "label": "Rear Leg (side view)", "value": "posty", "score": 2.53, "opposite": "sickled" },
+    { "label": "Rear Leg (rear view)", "value": "hock-in", "score": 0.66, "opposite": "straight" },
+    { "label": "Foot Angle", "value": "low angle", "score": 0.91, "opposite": "steep angle" },
+    { "label": "Feet & Leg Score", "value": "low", "score": 0.81, "opposite": "high" },
+    { "label": "Fore Udder", "value": "loose", "score": 0.92, "opposite": "strong" },
+    { "label": "Rear Udder Height", "value": "low", "score": 0.41, "opposite": "high" },
+    { "label": "Rear Udder Width", "value": "narrow", "score": 0.93, "opposite": "wide" },
+    { "label": "Udder Cleft", "value": "weak", "score": 0.44, "opposite": "strong" },
+    { "label": "Udder Depth", "value": "deep", "score": 1.64, "opposite": "shallow" },
+    { "label": "Front Teat Placement", "value": "wide", "score": 1.07, "opposite": "close" },
+    { "label": "Rear Teat Placement", "value": "wide", "score": 0.61, "opposite": "close" },
+    { "label": "Teat Length", "value": "short", "score": -0.61, "opposite": "long" }
+  ],
+  "wellnessTraits": [
+    { "trait": "Mastitis", "zoetis": { "value": 102, "rel": 90 }, "cdcb": { "value": 0.2, "rel": 93 } },
+    { "trait": "Retained Placenta", "zoetis": { "value": 97, "rel": 90 }, "cdcb": { "value": -0.6, "rel": 93 } },
+    { "trait": "Metritis", "zoetis": { "value": 99, "rel": 86 }, "cdcb": { "value": -0.1, "rel": 93 } },
+    { "trait": "Hypocalcemia/Milk Fever", "zoetis": { "value": 103, "rel": 76 }, "cdcb": { "value": -0.1, "rel": 92 } },
+    { "trait": "Ketosis", "zoetis": { "value": 99, "rel": 84 }, "cdcb": { "value": -0.7, "rel": 90 } },
+    { "trait": "Displaced Abomasum", "zoetis": { "value": 98, "rel": 85 }, "cdcb": { "value": 0, "rel": 95 } },
+    { "trait": "Lameness", "zoetis": { "value": 103, "rel": 85 }, "cdcb": { "value": null, "rel": null } },
+    { "trait": "Cow Respiratory Disease", "zoetis": { "value": 95, "rel": 86 }, "cdcb": { "value": null, "rel": null } },
+    { "trait": "Cow Abortion", "zoetis": { "value": 105, "rel": 74 }, "cdcb": { "value": null, "rel": null } },
+    { "trait": "Twinning", "zoetis": { "value": 105, "rel": 92 }, "cdcb": { "value": null, "rel": null } },
+    { "trait": "Cystic Ovary", "zoetis": { "value": 99, "rel": 62 }, "cdcb": { "value": null, "rel": null } },
+    { "trait": "Heifer Livability", "zoetis": { "value": "N/A", "rel": "N/A" }, "cdcb": { "value": -0.3, "rel": 78 } },
+    { "trait": "Calf Respiratory Disease", "zoetis": { "value": 84, "rel": 91 }, "cdcb": { "value": null, "rel": null } },
+    { "trait": "Calf Scours", "zoetis": { "value": 96, "rel": 82 }, "cdcb": { "value": null, "rel": null } }
+  ],
+  "genetics": [
+    "Born On: May 09, 2019",
+    "Beta-casein: A1A2",
+    "Kappa-casein: BE",
+    "EFI: 11.0%",
+    "aAa: 243",
+    "Daughter Average: 12,245 kgM 559 kgF 4.60%F 405 kgP 3.30%P"
+  ]
+  },
+  {
+  "id": "250HO15657",
+  "registration_number": "HOCAN000013601204",
+  "name": "BIGGELO",
+  "full_name": "BIGGELO X HOUSE X SPRING",
+  "price": 0,
+  "category": "HO",
+  "img": cornalBull,
+  "pedigree": [
+    "Sire: SI-DELROY BIGGELO-ET",
+    "Dam: CLAYNOOK CHOICELY HOUSE",
+    "MGS: LEANINGHOUSE HELIX 22173-ET"
+  ],
+  "allDetails": [
+    {
+      "index": "indexes",
+      "fertility": "DAUGHTER FERTILITY",
+      "indexes": [
+        { "label": "TPI", "value": 2979 },
+        { "label": "NM$", "value": 595 },
+        { "label": "CM$", "value": 544 },
+        { "label": "GM$", "value": 505 },
+        { "label": "Feed Efficiency ($)", "value": 145 },
+        { "label": "Feed Saved", "value": 193 },
+        { "label": "HHP$", "value": 535 },
+        { "label": "DWP$", "value": 610 },
+        { "label": "WT$", "value": 193 },
+        { "label": "CW$", "value": -105 }
+      ],
+      "fertilities": [
+        { "label": "Fertility Index", "value": "0.7/78" },
+        { "label": "DPR", "value": "0.8/79" },
+        { "label": "HCR", "value": "-0.8/75" },
+        { "label": "CCR", "value": "1.2/79" }
+      ]
+    },
+    {
+      "index": "MANAGEMENT TRAITS",
+      "fertility": "SIRE FERTILITY",
+      "indexes": [
+        { "label": "SCE", "value": "1.6/71" },
+        { "label": "DCE", "value": "1.6/69" },
+        { "label": "Gestation Length", "value": "-1.4/77" },
+        { "label": "Early First Calving", "value": "-0.3/75" },
+        { "label": "SSB", "value": "5.7/64" },
+        { "label": "DSB", "value": "4.6/64" },
+        { "label": "Productive Life", "value": "2.7/79" },
+        { "label": "Livability", "value": "-0.6/70" },
+        { "label": "Residual Feed Intake", "value": "-0.2/66" },
+        { "label": "SCS/Rel", "value": "2.7/85" },
+        { "label": "Milking Speed", "value": "105/87" }
+      ],
+      "fertilities": [
+        { "label": "SCR", "value": "" }
+      ]
+    },
+    {
+      "index": "Production",
+      "fertility": "Type",
+      "indexes": [
+        { "label": "PTA Milk (lbs)", "value": 99 },
+        { "label": "PTA Protein (lbs)", "value": 26 },
+        { "label": "PTA Protein (%)", "value": 0.09 },
+        { "label": "PTA Fat (lbs)", "value": 50 },
+        { "label": "PTA Fat (%)", "value": 0.17 },
+        { "label": "Production Reliability", "value": 87 },
+        { "label": "Dtrs/Herds (Production)", "value": "32/24" }
+      ],
+      "fertilities": [
+        { "label": "PTA Type", "value": 0.50 },
+        { "label": "Udder Composite", "value": 0.83 },
+        { "label": "Feet & Leg Composite", "value": -0.14 },
+        { "label": "Body Weight Composite", "value": -0.19 },
+        { "label": "Dairy Composite", "value": -0.27 },
+        { "label": "Type Reliability", "value": 82 },
+        { "label": "Dtrs/Herds (Type)", "value": "25/20" }
+      ]
+    }
+  ],
+  "typeTraits": [
+    { "label": "Stature", "value": "short", "score": -0.06, "opposite": "tall" },
+    { "label": "Strength", "value": "frail", "score": 0.01, "opposite": "strong" },
+    { "label": "Body Depth", "value": "shallow", "score": 0.20, "opposite": "deep" },
+    { "label": "Dairy Form", "value": "tight ribbed", "score": 0.29, "opposite": "open ribbed" },
+    { "label": "Rump Width", "value": "narrow", "score": -0.36, "opposite": "wide" },
+    { "label": "Rump Angle", "value": "high pins", "score": -0.26, "opposite": "sloped" },
+    { "label": "Rear Leg (side view)", "value": "posty", "score": -0.38, "opposite": "sickled" },
+    { "label": "Rear Leg (rear view)", "value": "hock-in", "score": -0.53, "opposite": "straight" },
+    { "label": "Foot Angle", "value": "low angle", "score": 0.01, "opposite": "steep angle" },
+    { "label": "Feet & Leg Score", "value": "low", "score": -0.03, "opposite": "high" },
+    { "label": "Fore Udder", "value": "loose", "score": 1.45, "opposite": "strong" },
+    { "label": "Rear Udder Height", "value": "low", "score": 0.96, "opposite": "high" },
+    { "label": "Rear Udder Width", "value": "narrow", "score": 0.36, "opposite": "wide" },
+    { "label": "Udder Cleft", "value": "weak", "score": 0.38, "opposite": "strong" },
+    { "label": "Udder Depth", "value": "deep", "score": 1.17, "opposite": "shallow" },
+    { "label": "Front Teat Placement", "value": "wide", "score": 0.63, "opposite": "close" },
+    { "label": "Rear Teat Placement", "value": "wide", "score": 0.47, "opposite": "close" },
+    { "label": "Teat Length", "value": "short", "score": -1.90, "opposite": "long" }
+  ],
+  "wellnessTraits": [
+    { "trait": "Mastitis", "zoetis": { "value": 105, "rel": 63 }, "cdcb": { "value": 1.5, "rel": 75 } },
+    { "trait": "Retained Placenta", "zoetis": { "value": 103, "rel": 61 }, "cdcb": { "value": 0.1, "rel": 72 } },
+    { "trait": "Metritis", "zoetis": { "value": 107, "rel": 56 }, "cdcb": { "value": 1.4, "rel": 71 } },
+    { "trait": "Hypocalcemia/Milk Fever", "zoetis": { "value": 104, "rel": 47 }, "cdcb": { "value": 0.2, "rel": 66 } },
+    { "trait": "Ketosis", "zoetis": { "value": 104, "rel": 53 }, "cdcb": { "value": 2, "rel": 71 } },
+    { "trait": "Displaced Abomasum", "zoetis": { "value": 106, "rel": 53 }, "cdcb": { "value": 0.2, "rel": 74 } },
+    { "trait": "Lameness", "zoetis": { "value": 109, "rel": 59 }, "cdcb": { "value": null, "rel": null } },
+    { "trait": "Cow Respiratory Disease", "zoetis": { "value": 105, "rel": 63 }, "cdcb": { "value": null, "rel": null } },
+    { "trait": "Cow Abortion", "zoetis": { "value": 106, "rel": 47 }, "cdcb": { "value": null, "rel": null } },
+    { "trait": "Twinning", "zoetis": { "value": 105, "rel": 59 }, "cdcb": { "value": null, "rel": null } },
+    { "trait": "Cystic Ovary", "zoetis": { "value": 99, "rel": 34 }, "cdcb": { "value": null, "rel": null } },
+    { "trait": "Heifer Livability", "zoetis": { "value": "NA", "rel": "NA" }, "cdcb": { "value": -0.3, "rel": 65 } },
+    { "trait": "Calf Respiratory Disease", "zoetis": { "value": 84, "rel": 50 }, "cdcb": { "value": null, "rel": null } },
+    { "trait": "Calf Scours", "zoetis": { "value": 84, "rel": 54 }, "cdcb": { "value": null, "rel": null } }
+  ],
+  "genetics": [
+    "Born On: December 25, 2019",
+    "Beta-casein: A1A2",
+    "Kappa-casein: AA",
+    "EFI: 10.3%",
+    "aAa: 243"
+  ]
+}
+
+
 
 
 

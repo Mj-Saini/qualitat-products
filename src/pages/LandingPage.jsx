@@ -1,5 +1,5 @@
 /* eslint-disable no-const-assign */
-import React from 'react'
+import React, { useState } from 'react'
 import Hero from '../components/Hero'
 import { demandsList, FarmSunstainList, keyHighlight } from '../components/common/Helper'
 import breedProgramImg from '../assets/images/webp/breed-program-img.webp'
@@ -8,22 +8,32 @@ import Slider from 'react-slick'
 import CommonBtn from '../components/common/CommonBtn'
 import MarqueeSlide from '../components/MarqueeSlide'
 
-import Founder from '../assets/images/png/dr-anil.jpeg'
+import Founder from '../assets/images/png/dr-anil-berry.png'
 import wwsVideo from '../../src/assets/video/WhatsApp Video 2025-07-29 at 11.49.15.mp4'
-import customer1 from '../assets/images/png/customer1.png'
 import newsImg from '../assets/images/png/news-img.jpg'
 
 
 const LandingPage = () => {
-    var settings = {
+
+
+     const [expandedIndex, setExpandedIndex] = useState(null); // track which comment is expanded
+
+    const toggleReadMore = (index) => {
+        setExpandedIndex(expandedIndex === index ? null : index);
+    };
+
+    const settings = {
         dots: true,
         infinite: true,
         speed: 500,
-        autoplay: true,
+        autoplay: expandedIndex === null, // autoplay only when nothing expanded
         slidesToShow: 1,
         slidesToScroll: 1,
         initialSlide: 0,
-
+        beforeChange: () => {
+            // when user changes slide manually, close expanded comment
+            setExpandedIndex(null);
+        }
     };
     return (
         <div>
@@ -122,10 +132,10 @@ const LandingPage = () => {
                                     communities and shape the future of
                                     sustainable agriculture.
                                 </div>
-                                <div className='mt-5 md:mt-12 lg:mt-14 flex gap-5 items-center flex-wrap'>
+                                {/* <div className='mt-5 md:mt-12 lg:mt-14 flex gap-5 items-center flex-wrap'>
                                     <CommonBtn btnName="Read All" btnStyling=" py-2.5 px-3 xl:px-6" />
 
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>
@@ -181,11 +191,11 @@ const LandingPage = () => {
                                     support to help you make smarter,
                                     faster, and more profitable breeding
                                     decisions.</p>
-
+{/* 
                                 <div className='mt-5 md:mt-12 lg:mt-14 flex gap-5 items-center flex-wrap'>
                                     <CommonBtn btnName="Read All" btnStyling=" py-2.5 px-3 xl:px-6" />
 
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>
@@ -320,45 +330,82 @@ const LandingPage = () => {
 
 
             {/* CUSTOMER REVIEW */}
-            <section className='pb-14 pt-6 md:pb-32 lg:pb-40 xl:pb-44 overflow-hidden'>
-                <div className='custom_container container px-5 mx-auto'>
-                    <div className='flex flex-col justify-center items-center gap-4.5'>
-                        <p className='font-semibold text-lg md:text-xl xl:text-2xl flex items-center gap-2 uppercase'> <span className='black_star'><StarIcons /></span> testimonial</p>
-                        <h2 className='font-semibold text-3xl md:text-5xl xl:text-6xl xl:leading-[120%] text-center'>Meet our customers</h2>
-                    </div>
+     <section className='pb-14 pt-6 md:pb-32 lg:pb-40 xl:pb-44 overflow-hidden'>
+            <div className='custom_container container px-5 mx-auto'>
+                <div className='flex flex-col justify-center items-center gap-4.5'>
+                    <p className='font-semibold text-lg md:text-xl xl:text-2xl flex items-center gap-2 uppercase'>
+                        <span className='black_star'><StarIcons /></span> testimonial
+                    </p>
+                    <h2 className='font-semibold text-3xl md:text-5xl xl:text-6xl xl:leading-[120%] text-center'>
+                        Meet our customers
+                    </h2>
+                </div>
 
-                    <Slider {...settings}>
-                        {demandsList.map((items, index) => (
+                <Slider {...settings}>
+                    {demandsList.map((items, index) => {
+                        const isExpanded = expandedIndex === index;
+
+                        return (
                             <div key={index}>
-                                <div className="flex flex-col md:flex-row md:mt-10 lg:mt-20 -mx-3">
+                                <div className={`flex flex-col md:flex-row md:mt-10 lg:mt-20 -mx-3 transition-all duration-500 ease-in-out`}>
+                                    {/* Text Section */}
+                                    <div className={`px-3 mt-6 lg:mt-0 w-full transition-all duration-500 ease-in-out ${isExpanded ? 'md:w-full relative' : 'md:w-1/2'}`}>
+                                        {isExpanded && (
+                                            <div
+                                                className="absolute right-0 -top-20 mr-3 mt-3 transition-all duration-500 ease-in-out"
+                                                style={{ width: '150px', height: '150px' }}
+                                            >
+                                                <img
+                                                    className="w-full h-full object-cover rounded-full"
+                                                    src={items.img}
+                                                    alt="customer"
+                                                />
+                                            </div>
+                                        )}
 
-                                    <div className='w-full md:w-1/2 px-3 mt-6 lg:mt-0'>
-                                        <div className='relative h-full w-full group overflow-hidden'>
-                                            <DoubleQuoteIcons />
+                                        <DoubleQuoteIcons />
+                                        <p
+                                            className={`font-normal text-xl lg:text-2xl xl:text-3xl xl:leading-[160%] text-[#2E3646] mt-7 transition-all duration-300 ${!isExpanded && '!line-clamp-5'}`}
+                                        >
+                                            {items.comment}
+                                        </p>
 
-                                            <p className='font-normal text-xl lg:text-2xl xl:text-3xl xl:leading-[160%] text-[#2E3646] mt-7'>Bjarne Refsgaard milks 125 Holstein cows at the Vester Bjerregård farm in West Jutland, Denmark. He and his wife purchased the farm in 1991, along with the high-quality herd that came with it.</p>
-                                            <h3 className='font-semibold text-xl lg:text-2xl xl:3xl text-black mt-10 uppercase'>VH Gosvid</h3>
-                                            <p className='font-medium text-xl lg:text-2xl text-[#353535] mt-2'>Qualitat Products</p>
+                                        {items.comment.split(' ').length > 20 && (
+                                            <button
+                                                onClick={() => toggleReadMore(index)}
+                                                className="mt-2 text-blue-600 hover:underline"
+                                            >
+                                                {isExpanded ? 'Read less' : 'Read more'}
+                                            </button>
+                                        )}
 
-
-
-
-                                        </div>
+                                        <h3 className='font-semibold text-xl lg:text-2xl xl:3xl text-black mt-10 uppercase'>
+                                            {items.name}
+                                        </h3>
+                                        <p className='font-medium text-xl lg:text-2xl text-[#353535] mt-2'>
+                                            Qualitat Products
+                                        </p>
                                     </div>
-                                    <div className='w-full md:w-1/2 px-3 mt-6 lg:mt-0'>
-                                        <div className='flex justify-end'>
-                                            <div className='relative w-full lg:w-[530px] lg:h-[530px] bg-[#353535] rounded-full  group overflow-hidden'>
-                                                <img className='' src={customer1} alt='customer' />
+
+                                    {/* Image Section (big image when not expanded) */}
+                                    {!isExpanded && (
+                                        <div className='w-full md:w-1/2 px-3 mt-6 lg:mt-0 flex justify-end'>
+                                            <div className='relative w-full lg:w-[530px] lg:h-[530px] bg-[#353535] rounded-full group overflow-hidden flex justify-center items-center transition-all duration-500'>
+                                                <img
+                                                    className='w-full h-full object-cover'
+                                                    src={items.img}
+                                                    alt='customer'
+                                                />
                                             </div>
                                         </div>
-                                    </div>
+                                    )}
                                 </div>
                             </div>
-                        ))}</Slider>
-
-
-                </div>
-            </section>
+                        );
+                    })}
+                </Slider>
+            </div>
+        </section>
 
 
             {/* NEWS */}
