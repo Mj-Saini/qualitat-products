@@ -1,10 +1,10 @@
 import React from 'react'
-import bullImg from '../assets/images/png/bull-details-hero-img.png';
 import { StarIcons } from '../components/common/Icons';
 import BixiTable from '../components/BixiTable';
 import TraitsTable from '../components/TraitsTable';
 import WellnessTraitsTable from '../components/WellnessTraitsTable';
 import { useLocation } from 'react-router-dom';
+import PedigreeSheet from '../components/PedigreeSheet';
 
 const BullDetails = () => {
 
@@ -14,7 +14,9 @@ const BullDetails = () => {
 
   return (
     <>
-      <div className='pt-12 md:pt-24 md:pb-36 lg:pb-44 xl:pb-48 overflow-hidden pb-12'>
+      
+      <PedigreeSheet mapData={state}/>
+      {/* <div className='pt-12 md:pt-24 md:pb-36 lg:pb-44 xl:pb-48 overflow-hidden pb-12'>
         <div className='custom_container container px-5 mx-auto'>
           <div className='flex flex-col-reverse lg:flex-row justify-between text-center lg:-mx-4'>
             <div className='w-full lg:w-6/12 lg:pe-6  mt-8 lg:mt-0'>
@@ -70,11 +72,11 @@ const BullDetails = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
 
       {/* DETAILS TABLE */}
-      <div className='pt-12 md:pb-36 lg:pb-44 xl:pb-48 overflow-hidden pb-12'>
+      {/* <div className='pt-12 md:pb-36 lg:pb-44 xl:pb-48 overflow-hidden pb-12'>
         <div className='custom_container container px-5 mx-auto'>
            <h1 className="text-2xl md:text-3xl xl:text-[38px] text-black font-semibold">Car-Mer Reevered Bixy-Red</h1>
           <div>
@@ -97,7 +99,7 @@ const BullDetails = () => {
         <div className='custom_container container px-5 mx-auto'>
             <WellnessTraitsTable mapData={state}/>
         </div>
-      </div>
+      </div> */}
     </>
   )
 }

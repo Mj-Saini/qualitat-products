@@ -71,6 +71,7 @@ export const bullList = [
     registration_number: "HO840003141274941",
     name: "NEBULUS‑PP",
     full_name: "HOLYLAND NEBULUS‑PP",
+    breedingGenetics:"TR PP TC TY TV TL TD HH1T HH2T HH3T HH4T HH5T HH6T MWT",
     price: 1500,
     category: "HF",
     img:nebuls,
@@ -258,6 +259,7 @@ export const bullList = [
     registration_number: "HO840003132923887",
     name: "BANJO‑P",
     full_name: "ENGLAND‑AMMON BANJO‑P‑ET",
+    breedingGenetics:"TR PC TC TY TV TL TD TE HH1T HH2T HH3T HH4T HH5T HH6T",
     price: 6700,
     category: "HF",
     img:banjobull,
@@ -395,6 +397,7 @@ export const bullList = [
     registration_number: "HO840003147223744",
     name: "MAXIMUS",
     full_name: "RMD-DOTTERER SSI MAXIMUS-ET",
+     breedingGenetics:"TR TP TC TY TV TL TD TE HH1T HH2T HH3T HH4T HH5T HH6T",
     price: 1250,
     category: "HF",
     img:maximus,
@@ -532,6 +535,7 @@ export const bullList = [
     registration_number: "HO840003150910853", // Registration number not visible in image
     name: "STANNIS",
     full_name: "LARS-ACRES S-S-I STANNIS-ET",
+      breedingGenetics:"TR TP TC TY TV TL TD TE HH1T HH2T HH3T HH4T HH5T HH6T",
     price: 1450, // price not present in image
     category: "HF",
     img:stannis,
@@ -699,6 +703,14 @@ export const bullList = [
         cdcb: {}
       }
     ],
+       genetics: [
+      "Born On: November 16, 2018",
+      "Kappa-casein: AE",
+      "EFI: 10.6%",
+      "aAa: 354",
+     ]
+    
+
 
   },
   {
@@ -706,6 +718,7 @@ export const bullList = [
     registration_number: "HO840003062052322",
     name: "BOLD",
     full_name: "S-S-I BASIC BOLD-ET",
+      breedingGenetics:"TR TP TC TY TV TL TD TE HH1T HH2T HH3T HH4T HH5T HH6T",
     price: 5800,
     category: "HF",
     img:boldbull,
@@ -872,13 +885,27 @@ export const bullList = [
         zoetis: { value: 96, rel: 88 },
         cdcb: {}
       }
-    ]
+    ],
+     genetics: [
+      "Born On: February 08, 2019",
+      "Kappa-casein: AA",
+      "EFI: 10.5%",
+      "aAa: 21",
+     ]
+     
+     
+
+
+
+
   },
   {
     id: "7HO15099",
     registration_number: "HO840003203293228",
     name: "RELIANT",
     full_name: "T-SPRUCE HUEY RELIANT-ET",
+      breedingGenetics:"TR TP TC TY TV TL TD TE HH1T HH2T HH3T HH4T HH5T HH6T",
+
     price: 4500,
     category: "HF",
     img:reliant,
@@ -1045,13 +1072,24 @@ export const bullList = [
         zoetis: { value: 93, rel: 84 },
         cdcb: {}
       }
+    ],
+
+    genetics: [
+      "Born On: January 12, 2019",
+      "Beta-casein: A2A2",
+      "Kappa-casein: AB",
+      "EFI: 11.6%",
+      "aAa: 243"
     ]
+
+  
   },
   {
     id: "7HO15141",
     registration_number: "HO84000302551603",
     name: "AMARI",
     full_name: "S-S-I BG MOOLA AMARI-ET",
+      breedingGenetics:"TR TP TC TL TD MW HH1T HH2T HH3T HH4T HH5T HH6T",
     price: 1250,
     category: "HF",
       // img:amari,
@@ -1218,13 +1256,25 @@ export const bullList = [
         zoetis: { value: 102, rel: 67 },
         cdcb: {}
       }
+    ],
+
+    genetics: [
+      "Born On: May 18, 2019",
+      "Beta-casein: A1A2",
+      "Kappa-casein: AA",
+      "EFI: 11.2%",
     ]
+    
+
+
+
   },
   {
     id: "7HO15204",
     registration_number: "HO840003150997179",
     name: "MELLENCAMP",
     full_name: "FLY-HIGHER MELLENCAMP-ET",
+      breedingGenetics:"TR TP TM TC TY TV TL TD TE HH1T HH2T HH3T HH4T HH5T HH6T",
     price: 1750,
     category: "HF",
     img:mellencamp,
@@ -1391,13 +1441,27 @@ export const bullList = [
         zoetis: { value: 98, rel: 56 },
         cdcb: {}
       }
-    ]
+    ],
+      genetics: [
+      "Born On: February 19, 2019",
+      "Beta-casein: A2A2",
+      "Kappa-casein: BB",
+      "EFI: 10.3%",
+      "aAa: 432",
+    ],
+       
+      
+
+
+
+
   },
   {
     id: "7HO15323",
     registration_number: "HO840003150687388",
     name: "MILKY",
     full_name: "PINE-TREE LIONEL MILKY-ET",
+      breedingGenetics:"TR TP TC TY TV TL TD TE HH1T HH2T HH3T HH4T HH5T HH6T",
     price: 8500,
     category: "HF",
     img:milky,
@@ -1570,13 +1634,27 @@ export const bullList = [
         zoetis: { value: 97, rel: 64 },
         cdcb: {}
       }
-    ]
+    ],
+       genetics: [
+      " Born On: April 28, 2019",
+      "Beta-casein: A2A2",
+      "Kappa-casein: AB",
+      "EFI: 10.8%",
+      "aAa: 432",
+      ]
+     
+
+
+
+
   },
   {
     id: "7HO15314",
     registration_number: "HO840003150687438",
     name: "SAM-RED",
     full_name: "PINE-TREE MARK SAM-RED-ET",
+      breedingGenetics:"TP TC TY TV TL TD HH1T HH2T HH3T HH4T HH5T HH6T MWT",
+
     price: 750,
     category: "HF",
     img:sam,
@@ -1749,13 +1827,26 @@ export const bullList = [
         zoetis: { value: 91, rel: 46 },
         cdcb: {}
       }
-    ]
+    ],
+        genetics: [
+      "Born On: July 04, 2019",
+      "Beta-casein: A1A2",
+      "Kappa-casein: BE",
+      "EFI: 10.1%",
+      "aAa: 342",
+        ]
+        
+
+
+
+
   },
   {
     id: "7HO15337",
     registration_number: "HO840003148929351",
     name: "SUPERCHARGE",
     full_name: "SANDY-VALLEY SUPERCHARGE-ET",
+      breedingGenetics:" TR TP TC TY TV TL TD TE HH1T HH2T HH3T HH4T HH5T HH6T",
     price: 1250,
     category: "HF",
     img:supercharge,
@@ -1928,13 +2019,23 @@ export const bullList = [
         zoetis: { value: 102, rel: 65 },
         cdcb: {}
       }
-    ]
+    ],
+      genetics: [
+      "Born On: May 02, 2019",
+      "Beta-casein:  A1A2",
+      "Kappa-casein: BE",
+      "EFI: 243",
+      ]
+    
+    
   },
   {
     id: "7HO15420",
     registration_number: "HO840003207538024",
     name: "PORTER",
     full_name: "AARDEMA LIONEL PORTER-ET",
+      breedingGenetics:" TR TP TC TY TV TL TD TE HH1T HH2T HH3T HH4T HH5T HH6T",
+
     price: 7800,
     category: "HF",
     img:porter,
@@ -2105,10 +2206,17 @@ export const bullList = [
     ],
 
     genetics: [
-      "Daughter Average: 3-10 3X 305D 10,546 kgM 4.3% 451 kgF 3.5% 367 kgP",
-      "Portile-Ridge Porter 778-Grade",
-      "Portile-Ridge Porter 750-Grade"
+      "Born On: September 03, 2019",
+      "Beta-casein: A2A2",
+      "Kappa-casein: AA",
+      "EFI: 10.9%",
+      "aAa: 423",
     ],
+    
+
+
+
+
 
     typeComposites: [
       { label: "PTA Type", value: 0.61 },
@@ -2123,6 +2231,7 @@ export const bullList = [
     registration_number: "HO840003145445043",
     name: "REWIT",
     full_name: "HOUN S-S-I MAX REWIT-ET",
+      breedingGenetics:"TR TP TC TL TD TE HH1T HH2T HH3T HH4T HH5T HH6T",
     price: 8500,
     category: "HF",
     img:revvit,
@@ -2290,6 +2399,17 @@ export const bullList = [
         cdcb: {}
       }
     ],
+     genetics: [
+      "Born On: April 05, 2020",
+      "Beta-casein: A2A2",
+      "Kappa-casein: AB",
+      "EFI: 10.9%",
+      "EFI: 10.5%",
+    ],
+     
+  
+
+
 
 
   },
@@ -2298,6 +2418,7 @@ export const bullList = [
     registration_number: "HO840003212245780",
     name: "HEDGEFUND",
     full_name: "AOT MEGA HEDGEFUND-ET",
+      breedingGenetics:"TR TP TC TY TV TL TD TE HH1T HH2T HH3T HH4T HH5T HH6T",
     price: 1500,
     category: "HF",
     // img:hedgefund,
@@ -2313,7 +2434,7 @@ export const bullList = [
       "Kappa-casein: A1B",
       "ET: 10.4%",
       "aAa: 423",
-      "TR TP TCTY TVTL TD TE HH1T HH2T HH3T HH4T HH5T HH6T" // Genetic markers from name
+  
     ],
 
     allDetails: [
@@ -2471,13 +2592,15 @@ export const bullList = [
         zoetis: { value: 88, rel: 51 },
         cdcb: {}
       }
-    ]
+    ],
   },
   {
     id: "7H015967",
     registration_number: "HO840003214324421",
     name: "HIGH OOHM",
     full_name: "LADYS-MANOR HIGH OOHM-ET",
+      breedingGenetics:"TR TP TC TY TV TL TD TE HH1T HH2T HH3T HH4T HH5T HH6T",
+
     price: 0, // Not available
     category: "HF",
     img:ohhm,
@@ -2601,6 +2724,8 @@ export const bullList = [
     registration_number: "HO840003214541139",
     name: "ROCK PAUL",
     full_name: "WELCOME CONWY ROCK PAUL-ET",
+      breedingGenetics:"TR TP TC TY TV TL TD TE HH1T HH2T HH3T HH4T HH5T HH6T",
+
     price: 2200, // Not available
     category: "HF",
     img:rockpaul,
@@ -2724,6 +2849,8 @@ export const bullList = [
     registration_number: "JEUSA000067184544",
     name: "OLIVER-P",
     full_name: "DUTCH HOLLOW OLIVER-P ET",
+      breedingGenetics:"JNS-TF PC JHPC JH1F",
+
     price: 1200,
     category: "JE", // Jersey
     img:oliver,
@@ -2909,6 +3036,8 @@ export const bullList = [
     registration_number: "JE840003151456032",
     name: "FRINGE",
     full_name: "VICTORY S-S-I MIAMI FRINGE-ET",
+      breedingGenetics:"JNS-TF JH1F JHPF",
+
     price: 1050,
     img:fringe,
     category: "JE", // Jersey
@@ -3096,6 +3225,8 @@ export const bullList = [
     registration_number: "JE840003219480313",
     name: "KAMAKAZI",
     full_name: "BLACK LABEL THRASHING KAMAKAZI-ET",
+      breedingGenetics:"JNS-TF JH1F JHPF",
+
     price: 0,
     category: "JE", // Jersey
     img:kamakazi,
@@ -3268,24 +3399,22 @@ export const bullList = [
       }
     ],
 
-    additional_info: {
-      born_on: "August 16, 2020",
-      beta_casein: "A2A2",
-      kappa_casein: "BB",
-      EFI: "9.0%",
-      aAa: "651",
-      dam_record: "9-02 3X 274D 12,486 kgM 4.9% 616 kgF 4.0% 502 kgP",
-      photos_caption: [
-        "DAM Yosemite Valentino Kokomo 25143-ET",
-        "DAM Yosemite Valentino Kokomo 25143-ET"
-      ]
-    }
+    genetics: [
+     " born_on: August 16, 2020",
+      "beta_casein: A2A2",
+    "  kappa_casein: BB",
+     " EFI: 9.0%",
+     " aAa: 651",
+     
+]
   },
   {
     id: "7JE02023",
     registration_number: "JE840003221914142",
     name: "UNCOMMON",
     full_name: "VALSIGNA GISLEV UNCOMMON-ET",
+      breedingGenetics:"JNS-TF JH1F JHPF ",
+
     price: 7800,
     category: "JE", // Jersey
     img:uncommon,
@@ -3471,6 +3600,7 @@ export const bullList = [
     registration_number: "JE840003133234557",
     name: "CHEDDAR",
     full_name: "RIVER VALLEY CHARLEY CHEDDAR-ET",
+      breedingGenetics:" JH1F JHPF JNS-TF",
     price: 0,
     category: "JE", // Jersey
     img:cheddar,
@@ -3655,7 +3785,9 @@ export const bullList = [
   "id": "14HO14220",
   "registration_number": "HO840003133120549",
   "name": "RIVETING",
-  "full_name": "S-S-I BG FRZZLD RIVETING-ET",
+      "full_name": "S-S-I BG FRZZLD RIVETING-ET",
+      breedingGenetics:" TR TP TC TY TV TL TD TE HH1T HH2T HH3T HH4T HH5T HH6T",
+
   "price": 8500,
   "category": "HF",
   img:riveting,
@@ -3783,6 +3915,7 @@ export const bullList = [
     "registration_number": "HO840003143105079",
     "name": "DELPRO",
     "full_name": "WELCOME DELPRO 3565-ET",
+      breedingGenetics:" TR TP TC TY TV TL TD TE HH1T HH2T HH3T HH4T HH5T HH6T",
     "price": 0,
     "category": "Red",
     img:delpro,
@@ -3910,7 +4043,9 @@ export const bullList = [
   "registration_number": "HO840003203292370",
   "name": "BIGSHOT",
   'img':bigshotbull,
-  "full_name": "RENEGADE X FRAZZLED X AHEAD",
+      "full_name": "RENEGADE X FRAZZLED X AHEAD",
+      breedingGenetics:"TR TP TC TY TV TL TD TE HH1T HH2T HH3T HH4T HH5T HH6T",
+  
   "price": 8500,
   "category": "HF",
   "pedigree": [
@@ -4048,6 +4183,7 @@ export const bullList = [
     "registration_number": "HO840003223871570",
     "name": "GIBSON ",
     "full_name": "MOONSHINER X RENEGADE X FRAZZLED",
+      breedingGenetics:"TR TP TC TY TV TL TD TE HH1T HH2T HH3T HH4T HH5T HH6T",
     "price": 7800,
     "category": "Red",
     img:gibson,
@@ -4192,7 +4328,9 @@ export const bullList = [
   "id": "14HO16395",
   "registration_number": "HO840003217141058",
   "name": "GAMEPLAN",
-  "full_name": "GAMEDAY X LEGACY X ROLAN",
+      "full_name": "GAMEDAY X LEGACY X ROLAN",
+      breedingGenetics:"TR TP TC TY TV TL TD TE HH1T HH2T HH3T HH4T HH5T HH6T",
+  
   "price": 7800,
   "category": "HF",
   img:gameplan,
@@ -4318,6 +4456,8 @@ export const bullList = [
     "registration_number": "JEUSA000117192245",
     "name": "DANDEE",
     "full_name": "WINDHAVENS LOTTO DANDEE\nLOTTO X WINDHAVENS HANDIMAN X PARAMOUNT",
+      breedingGenetics:"JH1C JHPF JNS-TF",
+
     "price": 0,
     "category": "JE",
     // img:dandee,
@@ -4433,6 +4573,8 @@ export const bullList = [
     "registration_number": "JEUSA000067460157",
     "name": "KEYSTONE",
     "full_name": "LEMONHEAD X HILARIO X LEGAL",
+      breedingGenetics:"JH1F JHPF JNS-TF",
+
     "price": 900,
     "category": "JE",
     img:keystone,
@@ -4540,6 +4682,8 @@ export const bullList = [
     "registration_number": "JE840003011730374",
     "name": "STONEY",
     "full_name": "JX SPRING CREEK MARLO STONEY (3)-ET JNS-TF N1-F JPFF\nJX MARLO (2) X ALLSTAR X Q IMPULS",
+      breedingGenetics:"JNS-TF JH1F JHPF",
+
     "price": 6400,
     "category": "JE",
     img:stoney,
@@ -4664,7 +4808,9 @@ export const bullList = [
   "id": "250HO15026",
   "registration_number": "HO840003205703487",
   "name": "ROADSTER",
-  "full_name": "RIVETING X HIPHOP X RUBICON",
+      "full_name": "RIVETING X HIPHOP X RUBICON",
+      breedingGenetics:"TR TP TM TC TY TV TL TD TE HH1T HH2T HH3T HH4T HH5T HH6T",
+  
   "price": 6500,
   "category": "Red",
   img:roadster,
@@ -4785,6 +4931,8 @@ export const bullList = [
   "registration_number": "HO840003223871570",
   "name": "IMPROBABLE",
   "full_name": "S-S-I RENGADE IMPROBABLE-ET\nRENEGADE X TOOK X JEDI",
+      breedingGenetics:"TR TP TM TC TY TV TL TD TE HH1T HH2T HH3T HH4T HH5T HH6T",
+
   "price": 6400,
   "category": "Red", 
   img:improbable,
@@ -4912,7 +5060,9 @@ export const bullList = [
   "id": "250HO15152",
   "registration_number": "HO840003206144957",
   "name": "AHEAD",
-  "full_name": "RENEGADE X MYLES X YODER",
+    "full_name": "RENEGADE X MYLES X YODER",
+      breedingGenetics:" TR TP TM TC TY TV TL TD TE HH1T HH2T HH3T HH4T HH5T HH6T",
+  
   "price": 8000,
     "category": "Red",
   'img':aheadbull,
@@ -5032,7 +5182,9 @@ export const bullList = [
   "id": "250H015208",
   "registration_number": "HO840003200122612",
   "name": "LOGISTICS",
-  "full_name": "COOKIECUTTER LOGISTICS-ET TRIP IM TC TY TV TL TD TE HHLT HH2T HH3T HH4T HH5T HH6T",
+    "full_name": "COOKIECUTTER LOGISTICS-ET ",
+      breedingGenetics:"TR TP TM TC TY TV TL TD TE HH1T HH2T HH3T HH4T HH5T HH6T",
+  
   "price": 1200,
     "category": "Red", 
     img:logistics,
@@ -5163,7 +5315,9 @@ export const bullList = [
   "id": "250HO16110",
   "registration_number": "HO840003218470965",
   "name": "LETCHWORTH",
-  "full_name": "CONWAY X RAPID X FRAZZLED",
+    "full_name": "CONWAY X RAPID X FRAZZLED",
+      breedingGenetics:"TR TP TC TY TV TL TD TE HH1T HH2T HH3T HH4T HH5T HH6T",
+  
   "price": 8800,
     "category": "Red",
   img:letchworth,
@@ -5281,6 +5435,8 @@ export const bullList = [
   "registration_number": "JEUSA000075812139",
   "name": "BARLEY",
   "full_name": "PINE-TREE CHROME BARLEY 2139-ET\nNRS-TF\nJHIF JHPF\nCHROME X DISCO X DIMENSION",
+      breedingGenetics:"JNS-TF JH1F JHPF",
+
   "price": 1800,
     "category": "JE",
   // img:barley,
@@ -5396,6 +5552,8 @@ export const bullList = [
   "registration_number": "E840003211412088",
   "name": "MCCOMB",
   "full_name": "ROWLEYS 80 URLACHER MCCOMB-ET NIS-TF NHF JHPF\nJX URLACHER (6) X CHROME X VALSON",
+      breedingGenetics:"JNS-TF JH1F JHPF",
+
   "price": 6500,
     "category": "JE", 
   img:maccom,
@@ -5510,7 +5668,9 @@ export const bullList = [
   "id": "614H014885",
   "registration_number": "HO840003200059586",
   "name": "TED",
-  "full_name": "WILRA S-S-I NUGENT TED-ET TRIP ICH YU LTD TE HNIT HNZT HNST HNST HNST\nNUGENT X MODESTY X JOSUPER",
+  "full_name": "WILRA S-S-I NUGENT TED-ET ",
+      breedingGenetics:"TR TP TC TY TV TL TD TE HH1T HH2T HH3T HH4T HH5T HH6T",
+
   "price": 1250,
     "category": "Red", 
   // img:ted,
@@ -5625,6 +5785,8 @@ export const bullList = [
   "registration_number": "JEUSA000067460152",
   "name": "KNOCK-OUT",
   "full_name": "SHAN-MAR ARCHER KNOCK-OUT-ET\nARCHER X HILARIO X LEGAL",
+      breedingGenetics:"JNS-TF JH1F JHPF",
+
   "price": 950,
     "category": "JE",
   img:knockOut,
@@ -5741,7 +5903,9 @@ export const bullList = [
   "id": "7H015839",
   "registration_number": "H0840003216574976",
   "name": "MAGNUM",
-  "full_name": "OCD ALPHABET MAGNUM-ET TR TP TM TC TY TV TL TD TE HHTT HHZT HHST HHST HHST\nALPHABET X JARED X BURLEY",
+  "full_name": "OCD ALPHABET MAGNUM-ET  ALPHABET X JARED X BURLEY",
+      breedingGenetics:"TR TP TM TC TY TV TL TD TE HH1T HH2T HH3T HH4T HH5T HH6T",
+
     "price": 8500,
   "category": "Red", 
   img:magnum,
@@ -5870,7 +6034,9 @@ export const bullList = [
   "id": "71012678",
   "registration_number": "HO840003125982611",
   "name": "HOUSTON",
-  "full_name": "HONEYBEE X KRUNCH X DORCY",
+    "full_name": "HONEYBEE X KRUNCH X DORCY",
+      breedingGenetics:"TR TP TY TV TL TD HH1T HH2T HH3T HH4T HH5T HH6T M WT",
+  
   "price": 0,
     "category": "Red",
   img:houston,
@@ -5994,7 +6160,9 @@ export const bullList = [
   "id": "7H015335",
   "registration_number": "HO840003206963799",
   "name": "HANSEN",
-  "full_name": "LEGACY X SAMURI X MONTEREY",
+    "full_name": "LEGACY X SAMURI X MONTEREY",
+      breedingGenetics:"TR TP TC TY TV TL TD TE HH1T HH2T HH3T HH4T HH5T HH6T",
+
   "price": 1100,
     "category": "Red",
   img:houston,
@@ -6123,7 +6291,9 @@ export const bullList = [
   "id": '7HO15954', // Not provided in image
   "registration_number": 'HO840003220234236', // Not provided in image
   "name": "TOPAZ",
-  "full_name": "AHEAD X NUGENT X FRAZZLED",
+    "full_name": "AHEAD X NUGENT X FRAZZLED",
+      breedingGenetics:"TR TP TC TY TV TL TD TE HH1T HH2T HH3T HH4T HH5T HH6T",
+  
   "price": 7000,
     "category": "Red",
   img:topze,
@@ -6250,7 +6420,9 @@ export const bullList = [
   "id": ' 7HO15770', // Not provided in image
   "registration_number": 'HO840003218764734', // Not provided in image
   "name": "ULYSSES",
-  "full_name": "TAOS X LEGACY X FRAZZLED",
+    "full_name": "TAOS X LEGACY X FRAZZLED",
+      breedingGenetics:"TR TP TC TY TV TL TD TE HH1T HH2T HH3T HH4T HH5T HH6T",
+  
   "price": 6000,
     "category": "Red",
   img:ulyuess,
@@ -6373,7 +6545,9 @@ export const bullList = [
   "id": "7H015457",
   "registration_number": "HO840003206350171",
   "name": "TALON",
-  "full_name": "HOTJOB X PINNACLE X DENVER",
+    "full_name": "HOTJOB X PINNACLE X DENVER",
+      breedingGenetics:"TR TP TC TY TV TL TD TE HH1T HH2T HH3T HH4T HH5T HH6T",
+  
     "price": 6500,
   "category": "Red",
   img:talon,
@@ -6504,7 +6678,9 @@ export const bullList = [
   "id": "7H015420",
   "registration_number": "HO840003207538024",
   "name": "PORTER",
-  "full_name": "LIONEL X DELTA X CASHFLOW",
+    "full_name": "LIONEL X DELTA X CASHFLOW",
+      breedingGenetics:"TR TP TM TC TY TV TL TD TE HH1T HH2T HH3T HH4T HH5T HH6T",
+  
   "price": 0,
     "category": "Red",
   img:porter,
@@ -6632,7 +6808,9 @@ export const bullList = [
   "id": ' 14HO14963', // Not provided in image
   "registration_number": 'HO840003200059941', // Not provided in image
   "name": "FORD",
-  "full_name": "RENEGADE X FRAZZLED X BALISTO",
+    "full_name": "RENEGADE X FRAZZLED X BALISTO",
+      breedingGenetics:"TR TP TC TY TV TL TD TE HH1T HH2T HH3T HH4T HH5T HH6T",
+  
   "price": 0,
     "category": "Red",
   img:ford,

@@ -5,7 +5,6 @@ import { demandsList, FarmSunstainList, keyHighlight } from '../components/commo
 import breedProgramImg from '../assets/images/webp/breed-program-img.webp'
 import { DoubleQuoteIcons, StarIcons } from '../components/common/Icons'
 import Slider from 'react-slick'
-import CommonBtn from '../components/common/CommonBtn'
 import MarqueeSlide from '../components/MarqueeSlide'
 
 import Founder from '../assets/images/png/dr-anil-berry.png'
