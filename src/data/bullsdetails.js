@@ -89,37 +89,36 @@ export const bullList = [
         indexes: [
           { label: "TPI", value: 2441 },
           { label: "NM$", value: 516 },
-          { label: "CM$", value: 0 }, // not found
+          { label: "CM$", value: 520 }, // not found
           { label: "Feed_Efficiency", value: 193 },
           { label: "Feed_Saved", value: 154 },
           { label: "HHP$", value: 529 },
           { label: "DWP$", value: 521 },
-          { label: "WT$", value: 45 }, // assuming from production PTA Protein (lbs)
+          { label: "WT$", value: -45 }, // assuming from production PTA Protein (lbs)
           { label: "CW$", value: -50 }
         ],
         fertilities: [
-          { label: "Fertility Index", value: -1.1 },
-          { label: "DPR", value: -1.6 },
-          { label: "HCR", value: 0.7 },
-          { label: "CCR", value: -1.4 },
-          { label: "Reliability", value: 87 }
+          { label: "Fertility Index", value:'-1.1/87' },
+          { label: "DPR", value:'-1.6/88' },
+          { label: "HCR", value:'-0.7/82' },
+          { label: "CCR", value:'-1.4/ 87' },
         ]
       },
       {
         index: "MANAGEMENT TRAITS",
         fertility: "SIRE FERTILITY",
         indexes: [
-          { label: "SCE", value: 1.7 },
-          { label: "DCE", value: 2.1 },
-          { label: "Gestation Length", value: 1.0 },
-          { label: "Early First Calving", value: 1.7 },
-          { label: "SSB", value: 5.8 },
-          { label: "DSB", value: 5.8 },
-          { label: "Productive Life", value: 0.5 },
-          { label: "Livability", value: -1.7 },
-          { label: "Residual Feed Intake", value: -54 },
-          { label: "SCS", value: 3.07 },
-          { label: "Milking Speed", value: 103 }
+          { label: "SCE", value:'1.7/90 '},
+          { label: "DCE", value:'2.1/79 '},
+          { label: "Gestation Length", value:'-0.9/98 '},
+          { label: "Early First Calving", value:'1.7/82 '},
+          { label: "SSB", value:'5.8/79 '},
+          { label: "DSB", value:'5.8/78 '},
+          { label: "Productive Life", value:'0.5/90 '},
+          { label: "Livability", value:'-1.7/78 '},
+          { label: "Residual Feed Intake", value:'-54/29 '},
+          { label: "SCS", value:'3.07/94 '},
+          { label: "Milking Speed", value:'103/78'}
         ],
         fertilities: [
           { label: "Fertility Index", value: 0 },
@@ -138,12 +137,20 @@ export const bullList = [
           { label: "PTA Milk (lbs)", value: 1153 },
           { label: "PTA Protein (lbs)", value: 45 },
           { label: "PTA Protein (%)", value: 0.03 },
-          { label: "PTA Fat (lbs)", value: 6 },
+          { label: "PTA Fat (lbs)", value: 63 },
           { label: "PTA Fat (%)", value: 0.07 },
           { label: "Production Reliability", value: 96 },
-          { label: "Type Reliability", value: 81 }
+          { label: "Dtrs/Herds ", value: '545/163 '}
         ],
-        fertilities: [] // no fertility metrics in this section
+        fertilities: [
+          { label: "PTA Type (lbs)", value: 0.64 },
+          { label: "Udder Composite ", value: 0.48 },
+          { label: "Feet & Leg Composite ", value: -0.79 },
+          { label: "Body Weight Composite ", value: -0.66 },
+          { label: "Dairy Composite ", value: 0.14 },
+          { label: "Type Reliability % ", value: 81 },
+          { label: "Dtrs/Herds ", value: "" }
+        ]
       }
     ],
 
@@ -277,41 +284,39 @@ export const bullList = [
         indexes: [
           { label: "TPI", value: 2928 },
           { label: "NM$", value: 740 },
-          { label: "CM$", value: 356 },
+          { label: "CM$", value: 757 },
           { label: "Feed_Efficiency", value: 228 },
-          { label: "Feed_Saved", value: 71 },
+          { label: "Feed_Saved", value: -174 },
           { label: "HHP$", value: 971 },
           { label: "DWP$", value: 709 },
-          { label: "WT$", value: 29 },
-          { label: "CW$", value: 61 }
+          { label: "WT$", value: -29 },
+          { label: "CW$", value: -61 }
         ],
         fertilities: [
-          { label: "Fertility Index", value: 2.0 },
-          { label: "DPR", value: 1.3 },
-          { label: "HCR", value: 1.3 },
-          { label: "CCR", value: 2.4 },
-          { label: "Reliability", value: 90 }
+          { label: "Fertility Index", value: '2.0/89' },
+          { label: "DPR", value: '1.3/90' },
+          { label: "HCR", value: '1.3/84' },
+          { label: "CCR", value: '2.0/90'},
         ]
       },
       {
         index: "MANAGEMENT TRAITS",
         fertility: "SIRE FERTILITY",
         indexes: [
-          { label: "SCE", value: 2.3 },
-          { label: "DCE", value: 2.0 },
-          { label: "Gestation Length", value: 0.3 },
-          { label: "Early First Calving", value: -0.3 },
-          { label: "SSB", value: 6.3 },
-          { label: "DSB", value: 4.8 },
-          { label: "Productive Life", value: 4.6 },
-          { label: "Livability", value: 1.5 },
-          { label: "Residual Feed Intake", value: -93 },
-          { label: "SCS", value: 2.85 },
-          { label: "Milking Speed", value: 101 }
+          { label: "SCE/Rel. %", value: '2.3/97' },
+          { label: "DCE/Rel. %", value: '2.0/86' },
+          { label: "Gestation Length/Rel. %", value: '0.4/99' },
+          { label: "Early First Calving/Rel. %", value: '5.8/86' },
+          { label: "SSB/Rel. %", value: '6.3/94' },
+          { label: "DSB/Rel. %", value: '4.8/87' },
+          { label: "Productive Life /Rel. %", value: '1.3/91' },
+          { label: "Livability/Rel. %", value: '-1.5/80' },
+          { label: "Residual Feed Intake/Rel. %", value: '-93/26' },
+          { label: "SCS/Rel. %", value: '2.85/96'},
+          { label: "Milking Speed/Rel. %", value: '101/77' }
         ],
         fertilities: [
-          { label: "SCR", value: 2.0 },
-          { label: "Reliability", value: 96 }
+          { label: "SCR", value:2.0/96 },
         ]
       },
       {
@@ -323,29 +328,37 @@ export const bullList = [
           { label: "PTA Protein (%)", value: 0.09 },
           { label: "PTA Fat (lbs)", value: 84 },
           { label: "PTA Fat (%)", value: 0.12 },
-          { label: "Production Reliability", value: 96 },
-          { label: "Type Reliability", value: 95 }
+          { label: "Production Reliability", value:'657/136' },
         ],
-        fertilities: []
+        fertilities: [
+
+          { label: "PTA Type ", value: 1.43 },
+          { label: "Udder Composite ", value: 1.32 },
+          { label: "Feet & Leg Composite ", value: 1.19 },
+          { label: "Body Weight Composite ", value: 1.76 },
+          { label: "Dairy Composite ", value: -0.69 },
+          { label: "Type Reliability % ", value:  95 },
+          { label: "Dtrs/Herds ", value: '183/31'},
+        ]
       }
     ],
 
     typeTraits: [
       { label: "Stature", value: "short", score: 0.74, opposite: "tall" },
-      { label: "Strength", value: "frail", score: 1.41, opposite: "strong" },
+      { label: "Strength", value: "frail", score: 1.44, opposite: "strong" },
       { label: "Body Depth", value: "shallow", score: 0.48, opposite: "deep" },
-      { label: "Dairy Form", value: "tight ribbed", score: 1.82, opposite: "open ribbed" },
-      { label: "Rump Width", value: "narrow", score: -0.02, opposite: "wide" },
-      { label: "Rump Angle", value: "high pins", score: 0.93, opposite: "sloped" },
-      { label: "Rear Leg (side view)", value: "posty", score: 0.81, opposite: "sickled" },
+      { label: "Dairy Form", value: "tight ribbed", score: -1.02 , opposite: "open ribbed" },
+      { label: "Rump Width", value: "narrow", score: 0.20, opposite: "wide" },
+      { label: "Rump Angle", value: "high pins", score: -0.93, opposite: "sloped" },
+      { label: "Rear Leg (side view)", value: "posty", score: -0.81, opposite: "sickled" },
       { label: "Rear Leg (rear view)", value: "hock-in", score: 1.91, opposite: "straight" },
       { label: "Foot Angle", value: "low angle", score: 2.00, opposite: "steep angle" },
-      { label: "Feet & Leg Score", value: "low", score: 1.36, opposite: "high" },
+      { label: "Feet & Leg Score", value: "low", score: 1.04, opposite: "high" },
       { label: "Fore Udder", value: "loose", score: 2.36, opposite: "strong" },
       { label: "Rear Udder Height", value: "low", score: 1.60, opposite: "high" },
       { label: "Rear Udder Width", value: "narrow", score: 1.03, opposite: "wide" },
       { label: "Udder Cleft", value: "weak", score: 0.42, opposite: "strong" },
-      { label: "Udder Depth", value: "deep", score: 1.92, opposite: "shallow" },
+      { label: "Udder Depth", value: "deep", score: 1.97, opposite: "shallow" },
       { label: "Front Teat Placement", value: "wide", score: -0.51, opposite: "close" },
       { label: "Rear Teat Placement", value: "wide", score: -0.79, opposite: "close" },
       { label: "Teat Length", value: "short", score: 0.39, opposite: "long" }
@@ -364,25 +377,72 @@ export const bullList = [
       },
       {
         trait: "Metritis",
-        zoetis: { value: 100, rel: 52 },
-        cdcb: { value: 0.5, rel: 74 }
+        zoetis: { value: 103, rel: 52 },
+        cdcb: { value: 1.5, rel: 74 }
       },
       {
         trait: "Hypocalcemia/Milk Fever",
-        zoetis: { value: 103, rel: 56 },
-        cdcb: { value: 0.1, rel: 64 }
+        zoetis: { value: 100, rel: 46 },
+        cdcb: { value: 0.5, rel: 64 }
       },
       {
         trait: "Ketosis",
-        zoetis: { value: 106, rel: 45 },
+        zoetis: { value: 99, rel: 46 },
         cdcb: { value: 1.9, rel: 73 }
       },
       {
         trait: "Displaced Abomasum",
-        zoetis: { value: 102, rel: 45 },
+        zoetis: { value: 104, rel: 45 },
         cdcb: { value: 0.4, rel: 85 }
-      }
+      },
+      {
+        trait: "Lameness",
+        zoetis: { value: 100, rel: 51 },
+        cdcb: {  }
+      },
+      {
+        trait: "Cow Respiratory Disease",
+        zoetis: { value: 100, rel: 45 },
+        cdcb: {  }
+      },
+      {
+        trait: " Cow Abortion",
+        zoetis: { value: 100, rel: 38 },
+        cdcb: {  }
+      },
+      {
+        trait: " Twinning",
+        zoetis: { value: 90, rel: 51 },
+        cdcb: {  }
+      },
+      {
+        trait: " Cystic Ovary",
+        zoetis: { value: 100, rel: 38 },
+        cdcb: {  }
+      },
+      {
+        trait: " Heifer Livability",
+        cdcb: { value: 0, rel: 70 },
+        zoetis: {  }
+      },
+      {
+        trait: " Calf Respiratory Disease",
+        zoetis: { value: 97, rel: 43 },
+        cdcb: {  }
+      },
+      {
+        trait: " Calf Scours",
+        zoetis: { value: 95, rel: 43 },
+        cdcb: {  }
+      },
+      {
+        trait: "Calf Livability",
+        zoetis: { value: 91, rel: 47 },
+        cdcb: {  }
+      },
     ],
+
+     
 
     genetics: [
       "birth_date : 2018-01-26",
