@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
-import logo from '../../assets/images/png/footer-logo.png'
+import logo from '../../assets/images/png/logo.png'
 import { Link } from 'react-router'
 import {  InstaIcons, LinkedinIcons,  YouTubeIcons } from './Icons'
 

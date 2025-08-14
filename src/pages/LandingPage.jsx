@@ -25,7 +25,7 @@ const LandingPage = () => {
         dots: true,
         infinite: true,
         speed: 500,
-        autoplay: expandedIndex === null, // autoplay only when nothing expanded
+        // autoplay: expandedIndex === null, // autoplay only when nothing expanded
         slidesToShow: 1,
         slidesToScroll: 1,
         initialSlide: 0,
@@ -355,7 +355,7 @@ const LandingPage = () => {
                                                 style={{ width: '150px', height: '150px' }}
                                             >
                                                 <img
-                                                    className="w-full h-full object-cover rounded-full"
+                                                    className="w-full h-full object-contain rounded-full"
                                                     src={items.img}
                                                     alt="customer"
                                                 />
