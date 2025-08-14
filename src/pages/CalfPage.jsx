@@ -1,7 +1,7 @@
 import React from 'react'
 import CommonHero from '../components/common/CommonHero'
 import AnimalsCard from '../components/AnimalsCard'
-import { BullList, CalfList } from '../components/common/Helper'
+import {  CalfList } from '../components/common/Helper'
 
 const CalfPage = () => {
   return (
@@ -16,7 +16,7 @@ const CalfPage = () => {
             {CalfList.map((obj, index) => {
             return (
               <div key={index} className='w-full  sm:w-1/2 md:w-1/3 xl:w-1/4 sm:px-3 mt-6 lg:mb-0'>
-                <AnimalsCard mapData={obj} path={`/calfs-details/${obj.id}`} />
+              <img className='w-full h-full object-fit'  src={obj.img} alt="calf" />
               </div>
             )
           })}  

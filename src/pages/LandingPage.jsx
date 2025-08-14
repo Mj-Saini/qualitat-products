@@ -1,4 +1,4 @@
-/* eslint-disable no-const-assign */
+
 import React, { useState } from 'react'
 import Hero from '../components/Hero'
 import { demandsList, FarmSunstainList, keyHighlight } from '../components/common/Helper'

@@ -4,23 +4,42 @@ import cow1 from '../../assets/images/png/cow-img1.png'
 import cow2 from '../../assets/images/png/cow-img2.png'
 import cow3 from '../../assets/images/png/cow-img4.jpg'
 
-import bull1 from '../../assets/images/png/bull1.jpg'
-import bull2 from '../../assets/images/png/bull2.jpg'
-import bull3 from '../../assets/images/png/bull3.jpg'
-import bull4 from '../../assets/images/png/bull4.jpg'
-import bull5 from '../../assets/images/png/bull6.jpg'
-import bull6 from '../../assets/images/png/bull7.jpg'
-import bull7 from '../../assets/images/png/bull8.jpg'
-import bull8 from '../../assets/images/png/bull5.jpg'
 
-import calf1 from '../../assets/images/png/calf1.png'
-import calf2 from '../../assets/images/png/calf2.png'
-import calf3 from '../../assets/images/png/calf3.png'
-import calf4 from '../../assets/images/png/calf4.png'
-import calf5 from '../../assets/images/png/calf5.png'
-import calf6 from '../../assets/images/png/calf6.png'
-import calf7 from '../../assets/images/png/calf7.png'
-import calf8 from '../../assets/images/png/calf8.jpg'
+import calf1 from '../../assets/images/calfs-img/431.png'
+import calf2 from '../../assets/images/calfs-img/432.png'
+import calf3 from '../../assets/images/calfs-img/433.png'
+import calf4 from '../../assets/images/calfs-img/434.png'
+import calf5 from '../../assets/images/calfs-img/435.png'
+import calf6 from '../../assets/images/calfs-img/436.png'
+import calf7 from '../../assets/images/calfs-img/437.png'
+import calf8 from '../../assets/images/calfs-img/438.png'
+import calf9 from '../../assets/images/calfs-img/439.png'
+import calf10 from '../../assets/images/calfs-img/440.png'
+import calf11 from '../../assets/images/calfs-img/441.png'
+import calf12 from '../../assets/images/calfs-img/442.png'
+import calf13 from '../../assets/images/calfs-img/443.png'
+import calf14 from '../../assets/images/calfs-img/444.png'
+import calf15 from '../../assets/images/calfs-img/445.png'
+import calf16 from '../../assets/images/calfs-img/456.png'
+import calf17 from '../../assets/images/calfs-img/447.png'
+import calf18 from '../../assets/images/calfs-img/448.png'
+import calf19 from '../../assets/images/calfs-img/449.png'
+import calf20 from '../../assets/images/calfs-img/450.png'
+import calf21 from '../../assets/images/calfs-img/451.png'
+import calf22 from '../../assets/images/calfs-img/452.png'
+import calf23 from '../../assets/images/calfs-img/453.png'
+import calf24 from '../../assets/images/calfs-img/454.png'
+import calf25 from '../../assets/images/calfs-img/455.png'
+import calf26 from '../../assets/images/calfs-img/456.png'
+import calf27 from '../../assets/images/calfs-img/457.png'
+import calf28 from '../../assets/images/calfs-img/458.png'
+import calf29 from '../../assets/images/calfs-img/459.png'
+import calf30 from '../../assets/images/calfs-img/460.png'
+import calf31 from '../../assets/images/calfs-img/461.png'
+import calf32 from '../../assets/images/calfs-img/462.png'
+import calf33 from '../../assets/images/calfs-img/463.png'
+import calf34 from '../../assets/images/calfs-img/464.png'
+import calf35 from '../../assets/images/calfs-img/465.png'
 
 import testimonial1 from '../../assets/images/png/testimonial1.png'
 import testimonial2 from '../../assets/images/png/parminder.png'
@@ -134,113 +153,148 @@ export const demandsList = [
     },
    
 ]
-export const BullList = [
-    {
-        id:1,
-        img:bull1,
-        title: "BUILD A BETTER CALF®",
-        type: "HF",
-        description:"The Build a Better Calf program focuses on four key categories formulated solely for pre-weaned dairy and beef calves. Uniting industry calf and nutrition experts, this program focuses on colostrum management, immune system development, critical health stages and strategic liquid feeding to ensure your calves become healthy, productive replacements in the herd."
-    },
-    {
-        id:2,
-        img:bull2,
-        title: "MAXIMIZE COW PERFORMANCE®",
-        type: "Red",
-        description:"Maximize Cow Performance is Select Sires’ program featuring products for mature dairy cows. This program focuses on the changing needs of the cow throughout each phase of transition, lactation and dry period, as well as management and environmental events."
-    },
-    {
-        id:3,
-        img:bull3,
-        title: "HEAT DETECTION AIDS",
-        type: "HF",
-        description:"Detecting heat and maintaining a healthy estrous cycle can have a significant impact on income. Optimizing breeding efficiencies with precision-designed, economic and easy-to-use breeding tools is essential to getting cows pregnant."
-    },
-    {
-        id:4,
-        img:bull4,
-        title: "UDDER CARE",
-        type: "Red",
-        description:"Promoting udder health and hygiene are imperative. The presence of environmental and contagious pathogens that can cause mastitis are a threat on almost all dairy operations. Implementing stringent protocols for udder health care and milking parlor cleaning and sanitation are effective ways to support milk quality and minimize mastitis occurrence."
-    },
- 
-    {
-        id:5,
-        img:bull5,
-        title: "COWMANAGER®",
-        type: "HF",
-        description:"CowManager is a revolutionary ear tag system that provides accurate information about your herd's fertility, health, nutrition and location around the clock."
-    }, {
-        id:6,
-        img:bull6,
-        title: "MANURE MANAGEMENT",
-        type: "Jersey",
-        description:"Implementing the right manure management strategy is essential to maximize byproduct value. Storage additives and conditioners can help aid dairies in experiencing immediate operational benefits and cost savings, while mitigating the release of emissions and odors. "
-    },
-    {
-        id:7,
-        img:bull7,
-        title: "BUILD A BETTER CALF®",
-        type: "HF",
-        description:"The Build a Better Calf program focuses on four key categories formulated solely for pre-weaned dairy and beef calves. Uniting industry calf and nutrition experts, this program focuses on colostrum management, immune system development, critical health stages and strategic liquid feeding to ensure your calves become healthy, productive replacements in the herd."
-    },
-    {
-        id:8,
-        img:bull8,
-        title: "UDDER CARE",
-        type: "Jersey",
-        description:"Promoting udder health and hygiene are imperative. The presence of environmental and contagious pathogens that can cause mastitis are a threat on almost all dairy operations. Implementing stringent protocols for udder health care and milking parlor cleaning and sanitation are effective ways to support milk quality and minimize mastitis occurrence."
-    },
-   
-]
+
 export const CalfList = [
     {
         id:1,
         img:calf1,
-        title: "BUILD A BETTER CALF®",
-        description:"The Build a Better Calf program focuses on four key categories formulated solely for pre-weaned dairy and beef calves. Uniting industry calf and nutrition experts, this program focuses on colostrum management, immune system development, critical health stages and strategic liquid feeding to ensure your calves become healthy, productive replacements in the herd."
     },
     {id:2,
         img:calf2,
-        title: "MAXIMIZE COW PERFORMANCE®",
-        description:"Maximize Cow Performance is Select Sires’ program featuring products for mature dairy cows. This program focuses on the changing needs of the cow throughout each phase of transition, lactation and dry period, as well as management and environmental events."
-    },
+   },
     {
         id:3,
         img:calf3,
-        title: "HEAT DETECTION AIDS",
-        description:"Detecting heat and maintaining a healthy estrous cycle can have a significant impact on income. Optimizing breeding efficiencies with precision-designed, economic and easy-to-use breeding tools is essential to getting cows pregnant."
     },
     {
         id:4,
         img:calf4,
-        title: "UDDER CARE",
-        description:"Promoting udder health and hygiene are imperative. The presence of environmental and contagious pathogens that can cause mastitis are a threat on almost all dairy operations. Implementing stringent protocols for udder health care and milking parlor cleaning and sanitation are effective ways to support milk quality and minimize mastitis occurrence."
-    },
+     },
  
     {
         id:5,
         img:calf5,
-        title: "COWMANAGER®",
-        description:"CowManager is a revolutionary ear tag system that provides accurate information about your herd's fertility, health, nutrition and location around the clock."
-    }, {
+     }, {
         id:6,
         img:calf6,
-        title: "MANURE MANAGEMENT",
-        description:"Implementing the right manure management strategy is essential to maximize byproduct value. Storage additives and conditioners can help aid dairies in experiencing immediate operational benefits and cost savings, while mitigating the release of emissions and odors. "
-    },
+     },
     {
         id:7,
         img:calf7,
-        title: "BUILD A BETTER CALF®",
-        description:"The Build a Better Calf program focuses on four key categories formulated solely for pre-weaned dairy and beef calves. Uniting industry calf and nutrition experts, this program focuses on colostrum management, immune system development, critical health stages and strategic liquid feeding to ensure your calves become healthy, productive replacements in the herd."
     },
     {
         id:8,
         img:calf8,
-        title: "UDDER CARE",
-        description:"Promoting udder health and hygiene are imperative. The presence of environmental and contagious pathogens that can cause mastitis are a threat on almost all dairy operations. Implementing stringent protocols for udder health care and milking parlor cleaning and sanitation are effective ways to support milk quality and minimize mastitis occurrence."
     },
+    {
+        id:9,
+        img:calf9,
+    },
+    {
+        id:10,
+        img:calf10,
+    },
+    {
+        id:11,
+        img:calf11,
+    },
+    {
+        id:12,
+        img:calf12,
+    },
+    {
+        id:13,
+        img:calf13,
+    },
+    {
+        id:14,
+        img:calf14,
+    },
+    {
+        id:15,
+        img:calf15,
+    },
+    {
+        id:16,
+        img:calf16,
+    },
+    {
+        id:17,
+        img:calf17,
+    },
+    {
+        id:18,
+        img:calf18,
+    },
+    {
+        id:19,
+        img:calf19,
+    },
+    {
+        id:20,
+        img:calf20,
+    },
+    {
+        id:21,
+        img:calf21,
+    },
+    {
+        id:22,
+        img:calf22,
+    },
+    {
+        id:23,
+        img:calf23,
+    },
+    {
+        id:24,
+        img:calf24,
+    },
+    {
+        id:25,
+        img:calf25,
+    },
+    {
+        id:26,
+        img:calf26,
+    },
+    {
+        id:27,
+        img:calf27,
+    },
+    {
+        id:28,
+        img:calf28,
+    },
+    {
+        id:29,
+        img:calf29,
+    },
+    {
+        id:30,
+        img:calf30,
+    },
+    {
+        id:31,
+        img:calf31,
+    },
+    {
+        id:32,
+        img:calf32,
+    },
+    {
+        id:33,
+        img:calf33,
+    },
+    {
+        id:34,
+        img:calf34,
+    },
+    {
+        id:35,
+        img:calf35,
+    },
+  
    
 ]
 

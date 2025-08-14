@@ -63,10 +63,10 @@ const Header = ({ contactPage }) => {
               <div className=" flex justify-end items-center gap-5">
                   <div className="flex gap-2 items-center border border-[#000]/40 px-3 py-2.5 lg:max-w-[350px] lg:w-[470px]">
                       <span><SearchIcons/></span>
-                      <input className="bg-transparent outline-none w-full" type="search" name="search" id="search" placeholder="search" />
+                      <input className="bg-transparent outline-none w-full " type="search" name="search" id="search" placeholder="search" />
                   </div>
           <div className="hidden md:flex">
-              <CommonBtn path="/contact-us" btnName="contact us" btnStyling=" py-2.5 px-3 xl:px-6"/>
+              <CommonBtn path="/contact-us" btnName="contact us" btnStyling=" py-2.5 px-3 xl:px-6  !whitespace-nowrap"/>
         </div>
         
           
