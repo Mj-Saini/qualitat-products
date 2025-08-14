@@ -140,37 +140,37 @@ const Gallery = () => {
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
             <div className="group overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer" onClick={() => openImageModal(allImages[7], 7)}>
-              <img src={drBo1} alt="Dr. Bo Harstine Visit 1" className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300" />
+              <img src={drBo1} alt="Dr. Bo Harstine Visit 1" className="w-full h-48 object-contain group-hover:scale-105 transition-transform duration-300" />
             </div>
             <div className="group overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer" onClick={() => openImageModal(allImages[8], 8)}>
-              <img src={drBo2} alt="Dr. Bo Harstine Visit 2" className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300" />
+              <img src={drBo2} alt="Dr. Bo Harstine Visit 2" className="w-full h-48 object-contain group-hover:scale-105 transition-transform duration-300" />
             </div>
             <div className="group overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer" onClick={() => openImageModal(allImages[9], 9)}>
-              <img src={drBo3} alt="Dr. Bo Harstine Visit 3" className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300" />
+              <img src={drBo3} alt="Dr. Bo Harstine Visit 3" className="w-full h-48 object-contain group-hover:scale-105 transition-transform duration-300" />
             </div>
             <div className="group overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer" onClick={() => openImageModal(allImages[10], 10)}>
-              <img src={drBo4} alt="Dr. Bo Harstine Visit 4" className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300" />
+              <img src={drBo4} alt="Dr. Bo Harstine Visit 4" className="w-full h-48 object-contain group-hover:scale-105 transition-transform duration-300" />
             </div>
             <div className="group overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer" onClick={() => openImageModal(allImages[11], 11)}>
-              <img src={drBo5} alt="Dr. Bo Harstine Visit 5" className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300" />
+              <img src={drBo5} alt="Dr. Bo Harstine Visit 5" className="w-full h-48 object-contain group-hover:scale-105 transition-transform duration-300" />
             </div>
             <div className="group overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer" onClick={() => openImageModal(allImages[12], 12)}>
-              <img src={drBo6} alt="Dr. Bo Harstine Visit 6" className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300" />
+              <img src={drBo6} alt="Dr. Bo Harstine Visit 6" className="w-full h-48 object-contain group-hover:scale-105 transition-transform duration-300" />
             </div>
             <div className="group overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer" onClick={() => openImageModal(allImages[13], 13)}>
-              <img src={drBo7} alt="Dr. Bo Harstine Visit 7" className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300" />
+              <img src={drBo7} alt="Dr. Bo Harstine Visit 7" className="w-full h-48 object-contain group-hover:scale-105 transition-transform duration-300" />
             </div>
             <div className="group overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer" onClick={() => openImageModal(allImages[14], 14)}>
-              <img src={drBo8} alt="Dr. Bo Harstine Visit 8" className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300" />
+              <img src={drBo8} alt="Dr. Bo Harstine Visit 8" className="w-full h-48 object-contain group-hover:scale-105 transition-transform duration-300" />
             </div>
             <div className="group overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer" onClick={() => openImageModal(allImages[15], 15)}>
-              <img src={drBo9} alt="Dr. Bo Harstine Visit 9" className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300" />
+              <img src={drBo9} alt="Dr. Bo Harstine Visit 9" className="w-full h-48 object-contain group-hover:scale-105 transition-transform duration-300" />
             </div>
             <div className="group overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer" onClick={() => openImageModal(allImages[16], 16)}>
-              <img src={drBo10} alt="Dr. Bo Harstine Visit 10" className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300" />
+              <img src={drBo10} alt="Dr. Bo Harstine Visit 10" className="w-full h-48 object-contain group-hover:scale-105 transition-transform duration-300" />
             </div>
             <div className="group overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer" onClick={() => openImageModal(allImages[17], 17)}>
-              <img src={drBo11} alt="Dr. Bo Harstine Visit 11" className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300" />
+              <img src={drBo11} alt="Dr. Bo Harstine Visit 11" className="w-full h-48 object-contain group-hover:scale-105 transition-transform duration-300" />
             </div>
           </div>
         </div>

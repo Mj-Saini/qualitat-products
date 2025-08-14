@@ -41,7 +41,7 @@ import calf33 from '../../assets/images/calfs-img/463.png'
 import calf34 from '../../assets/images/calfs-img/464.png'
 import calf35 from '../../assets/images/calfs-img/465.png'
 
-import testimonial1 from '../../assets/images/png/testimonial1.png'
+import testimonial1 from '../../assets/images/png/waman.png'
 import testimonial2 from '../../assets/images/png/parminder.png'
 import testimonial3 from '../../assets/images/png/varun-komboj.png'
 import testimonial4 from '../../assets/images/png/rajvir-singh.png'
