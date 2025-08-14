@@ -61,17 +61,17 @@ const LandingPage = () => {
 
             <div className='pt-14 pb-20 md:py-32 lg:py-40 xl:py-44 '>
                 <div className='custom_container container px-5 mx-auto'>
-                    <div className='flex flex-col-reverse lg:flex-row justify-center items-center text-center lg:-mx-4'>
+                    <div className='flex flex-col-reverse lg:flex-row justify-center text-center lg:-mx-4'>
                         <div className='w-full lg:w-5/12 lg:px-4  mt-8 lg:mt-0'>
                             <div className='relative h-full lg:pe-10'>
                              
-                                <img className='h-full object-cover min-h-[230px]' src={Founder} alt="profitable-product" />
+                                <img className='h-full object-cover lg:min-h-[700px]' src={Founder} alt="profitable-product" />
                             </div>
                         </div>
                         <div className='w-full lg:w-7/12 lg:px-4'>
                             <div className='relative text-start'>
 
-                                <p className='font-semibold text-lg md:text-xl xl:text-2xl flex items-center gap-2 uppercase'> <span className='black_star'><StarIcons /></span>QUALITAT PRODUCTS (INDIA): EMPOWERING DAIRY FARMERS NATIONWIDE</p>
+                                <p className='font-semibold text-base md:text-xl xl:text-2xl flex gap-2 uppercase'> <span className='black_star'><StarIcons /></span>QUALITAT PRODUCTS (INDIA): EMPOWERING DAIRY FARMERS NATIONWIDE</p>
                                 <h2 className='font-extrabold text-2xl md:text-5xl xl:leading-[120%] text-start my-4.5'>
                                     Dr. Anil Berry
                                 </h2>
