@@ -133,7 +133,7 @@ export const MarqueeList = [
 export const demandsList = [
     {
         img:testimonial1,
-        name: "Longevity",
+        name: "Waman Gaikwad",
         comment:"As dedicated distributors of World Wide Sires in India Since 2019, Qualitat Products proudly celebrates the outstanding accomplishments of Utkarsh Dairy Farm, situated in Warwade Solapur District, Maharashtra with more than 100 animals. Under the dynamic leadership of Mr. Waman Gaikwad, a passionate fourth-generation dairy farmer, the farm has set new benchmarks in India’s dairy sector. I sincerely thank Dr. Anil Berry Sir and Qualitat Products for their continuous guidance and support. Their regular visits to our farm and timely solutions to our challenges have been invaluable. By providing us with top-quality semen from World Wide Sires, they have shown us the path to success and helped take our farm to the next level."
     },
     {

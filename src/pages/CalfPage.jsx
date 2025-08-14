@@ -1,12 +1,11 @@
 import React from 'react'
 import CommonHero from '../components/common/CommonHero'
-import AnimalsCard from '../components/AnimalsCard'
 import {  CalfList } from '../components/common/Helper'
 
 const CalfPage = () => {
   return (
     <div>
-      <CommonHero heading="Strong Starts Begin with the Right Genetics" lable="Born for Excellence"/>
+      <CommonHero heading="Strong Starts Begin with the Right Genetics" />
          
       
       {/* CALFS */}
