@@ -1,18 +1,17 @@
 // src/components/GeneticsGrid.jsx
 import React from "react";
-import { geneticsData } from "../components/common/Helper";
 import { Link } from "react-router-dom";
 
-const GeneticsPage = () => {
+const GeneticsPage = ({mapData,pageName}) => {
     return (
         <div className="container custom_container px-5 mx-auto mt-6 py-14 mb-10">
             <div className="flex flex-wrap">
-                {geneticsData.map((item, idx) => (
+                {mapData.map((item, idx) => (
                     <div key={idx} className="w-full sm:w-1/2 lg:w-1/3 px-2.5 mt-5">
                         <div className="px-5 shadow-2xl h-full pb-5">
                             <Link
 
-                                to={`/genetics/${item.slug}`}
+                                to={`/${pageName}/${item.slug}`}
                                 className=""
                             >
                                 <img src={item.img} alt={item.title} className="w-full" />

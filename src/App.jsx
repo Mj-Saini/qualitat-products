@@ -16,6 +16,7 @@ import Header from './components/common/Header';
 import BullDetails from './pages/BullDetails';
 import GeneticsPage from './pages/GeneticsPage';
 import GeneticsDetails from './pages/GeneticsDetails';
+import { calvesData, geneticsData, healthData, managementData } from './components/common/Helper';
 
 function App() {
   const location = useLocation();
@@ -36,8 +37,13 @@ function App() {
         <Route path="/calfs-details/:id" element={<BullDetails />} />
         <Route path="/bulls-details/:id" element={<BullDetails />} />
         <Route path="/contact-us" element={<Contact />} />
-        <Route path="/genetics" element={<GeneticsPage />} />
-        <Route path="/genetics/:id" element={<GeneticsDetails />} />
+        <Route path="/genetics" element={<GeneticsPage mapData={geneticsData} pageName="genetics"/>} />
+        <Route path="/genetics/:id" element={<GeneticsDetails  mapData={geneticsData} />} />
+        <Route path="/management" element={<GeneticsPage mapData={managementData}  pageName="management"/>} />
+        <Route path="/health" element={<GeneticsPage mapData={healthData}  pageName="health"/>} />
+        <Route path="/calves" element={<GeneticsPage mapData={calvesData}  pageName="calves"/>} />
+        <Route path="/health/:id" element={<GeneticsDetails mapData={healthData}/>} />
+        <Route path="/calves/:id" element={<GeneticsDetails mapData={calvesData}/>} />
       </Routes>
         {!contactPage && <GetInTouch />
      }   <Footer />

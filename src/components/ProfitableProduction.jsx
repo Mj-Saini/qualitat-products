@@ -2,7 +2,7 @@ import React from 'react'
 import CommonBtn from './common/CommonBtn'
 import { StarIcons } from './common/Icons'
 
-const ProfitableProduction = ({ image, lable, heading,heading2, para1, para2,founder }) => {
+const ProfitableProduction = ({ image, lable, heading,heading, para1, para2,founder }) => {
     return (
         <>
             <div className='pt-14 pb-20 md:py-32 lg:py-40 xl:py-44 '>
@@ -29,7 +29,7 @@ const ProfitableProduction = ({ image, lable, heading,heading2, para1, para2,fou
                                 </h2>
                                 <div className='font-normal text-lg lg:text-xl text-black text-start'>
                                   <p className='font-normal text-lg lg:text-xl text-black text-start'>{para1}</p>  <br />
-                                    <h3 className={` text-2xl lg:text-4xl font-semibold text-[#030F26]`}>{ heading2}</h3><br />
+                                    <h3 className={` text-2xl lg:text-4xl font-semibold text-[#030F26]`}>{ heading}</h3><br />
                                   <p className='font-normal text-lg lg:text-xl text-black text-start'>  {para2}</p></div>
                                 <div className='mt-5 md:mt-12 lg:mt-14 flex gap-5 items-center flex-wrap'>
                                     <CommonBtn btnName="Read All" btnStyling=" py-2.5 px-3 xl:px-6" />
