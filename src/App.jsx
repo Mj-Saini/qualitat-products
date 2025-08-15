@@ -14,6 +14,8 @@ import GetInTouch from './components/common/GetInTouch';
 import Footer from './components/common/Footer';
 import Header from './components/common/Header';
 import BullDetails from './pages/BullDetails';
+import GeneticsPage from './pages/GeneticsPage';
+import GeneticsDetails from './pages/GeneticsDetails';
 
 function App() {
   const location = useLocation();
@@ -34,6 +36,8 @@ function App() {
         <Route path="/calfs-details/:id" element={<BullDetails />} />
         <Route path="/bulls-details/:id" element={<BullDetails />} />
         <Route path="/contact-us" element={<Contact />} />
+        <Route path="/genetics" element={<GeneticsPage />} />
+        <Route path="/genetics/:id" element={<GeneticsDetails />} />
       </Routes>
         {!contactPage && <GetInTouch />
      }   <Footer />
