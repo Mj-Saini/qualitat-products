@@ -54,12 +54,109 @@ const Header = ({ contactPage }) => {
           <NavLink onClick={() => setToggle(false)} to="/products" className={` hover:text-[#C62524] text-sm text_stroke duration-300 transition-all ${location.pathname === '/products' ? 'text-black text_stroke_active' : 'text-black/70'}`}>
             Products
           </NavLink>
+      
+
+         
+
+          {/* Genetics Dropdown */}
+          <div className="relative group">
+            <button
+              className={`hover:text-[#C62524] text-sm text_stroke duration-300 transition-all flex items-center gap-1 ${location.pathname.startsWith("/resources")
+                ? "text-black text_stroke_active"
+                : "text-black/70"
+                }`}
+            >
+              Genetics
+              <svg
+                className="w-3 h-3 transition-transform group-hover:rotate-180"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M19 9l-7 7-7-7"
+                />
+              </svg>
+            </button>
+
+            {/* Dropdown Menu */}
+            <div className="absolute top-full left-0 mt-4 bg-white shadow-lg rounded-lg z-50 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 w-2xs lg:w-sm">
+               <div className="px-4 py-5 mx-auto max-w-6xl">
+                <ul className="flex flex-wrap">
+               
+                    <div className="w-full md:w-1/2 px-2.5">
+                              {/* DESIGNATIONS (Parent with children) */}
+                  <li className="is-parent is-page">
+                    <Link
+                      to="genetics/designations/"
+                      className="block py-2 font-semibold text-base"
+                    >
+                      DESIGNATIONS
+                    </Link>
+                    <ul>
+                      {[
+                        { path: "genetics/designations/feedpro", text: "FeedPRO®" },
+                        { path: "genetics/designations/fertilitypro", text: "FertilityPRO®" },
+                        { path: "genetics/designations/grazingpro", text: "GrazingPRO®" },
+                        { path: "genetics/designations/mastitis-resistantpro", text: "Mastitis ResistantPRO®" },
+                        { path: "genetics/designations/robotpro", text: "RobotPRO®" },
+                        { path: "genetics/designations/showcase", text: "Showcase™" },
+                        { path: "genetics/designations/gender-selected", text: "gender SELECTED™" },
+                        { path: "genetics/designations/elite-sexed-fertility", text: "Elite Sexed Fertility™" },
+                        { path: "genetics/designations/gforce", text: "GForce™" },
+                        { path: "genetics/designations/gforce-plus", text: "GForce+™" },
+                        { path: "genetics/designations/progeny-proven", text: "Progeny Proven" },
+                        { path: "genetics/designations/nxgen", text: "NxGEN®" },
+                      ].map((item, idx) => (
+                        <li key={idx}>
+                          <Link
+                            to={item.path}
+                            className="block text-xs lg:text-sm py-2 hover:bg-[#EEEEEE]"
+                          >
+                            {item.text}
+                          </Link>
+                        </li>
+                      ))}
+                    </ul>
+                  </li>
+               </div>
+                    {/* <div className="w-full md:w-1/2 px-2.5">
+                            
+                  <div>
+                    {[
+                      { path: "genetics/showbox-sires", text: "SHOWBOX SIRES" },
+                      { path: "genetics/beef-on-dairy", text: "BEEF ON DAIRY" },
+                      { path: "https://selectsiresbeef.com/bulls/angus/", text: "BEEF" },
+                      { path: "https://ct.wwsires.com", text: "CUSTOMER TOOLS" },
+                      { path: "https://ct.wwsires.com/search", text: "ADVANCE DAIRY SEARCH" },
+                      { path: "https://ct.wwsires.com/sire-directory", text: "SIRE DIRECTORY" },
+                    ].map((link, idx) => (
+                      <li key={idx} className="is-not-parent is-page">
+                        <Link
+                          to={link.path}
+                          className="block px-4 py-2 font-semibold text-xs lg:text-base"
+                        >
+                          {link.text}
+                        </Link>
+                      </li>
+                    ))}
+                  </div>
+            </div> */}
+               
+
+                </ul>
+              </div>
+            </div>
+          </div>
           {/* Resources Dropdown */}
           <div className="relative group">
             <button
               className={`hover:text-[#C62524] text-sm text_stroke duration-300 transition-all flex items-center gap-1 ${location.pathname.startsWith("/resources")
-                  ? "text-black text_stroke_active"
-                  : "text-black/70"
+                ? "text-black text_stroke_active"
+                : "text-black/70"
                 }`}
             >
               Resources
@@ -79,31 +176,31 @@ const Header = ({ contactPage }) => {
             </button>
 
             {/* Dropdown Menu */}
-            <div className="absolute top-full left-0 mt-2 w-48 bg-white shadow-lg rounded-lg z-50 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
+            <div className="absolute top-full left-0 mt-4 w-48 bg-white shadow-lg rounded-lg z-50 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
               <NavLink
                 onClick={() => setToggle(false)}
-                to="/genetics"
+                to="/resources/genetics"
                 className="block px-4 py-2 text-sm text-black text_stroke"
               >
                 Genetics
               </NavLink>
               <NavLink
                 onClick={() => setToggle(false)}
-                to="/management"
+                to="/resources/management"
                 className="block px-4 py-2 text-sm text-black text_stroke"
               >
                 Managements
               </NavLink>
               <NavLink
                 onClick={() => setToggle(false)}
-                to="/health"
+                to="/resources/health"
                 className="block px-4 py-2 text-sm text-black text_stroke capitalize"
               >
                 health
               </NavLink>
               <NavLink
                 onClick={() => setToggle(false)}
-                to="/calves"
+                to="/resources/calves"
                 className="block px-4 py-2 text-sm text-black text_stroke capitalize"
               >
                 calves

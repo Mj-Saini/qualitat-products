@@ -16,7 +16,9 @@ import Header from './components/common/Header';
 import BullDetails from './pages/BullDetails';
 import GeneticsPage from './pages/GeneticsPage';
 import GeneticsDetails from './pages/GeneticsDetails';
-import { calvesData, geneticsData, healthData, managementData } from './components/common/Helper';
+import { calvesData, geneticsData, geneticsTabData, healthData, managementData } from './components/common/Helper';
+import ResourcesPage from './pages/ResourcesPage';
+import ResourceDetails from './pages/ResourceDetails';
 
 function App() {
   const location = useLocation();
@@ -37,13 +39,17 @@ function App() {
         <Route path="/calfs-details/:id" element={<BullDetails />} />
         <Route path="/bulls-details/:id" element={<BullDetails />} />
         <Route path="/contact-us" element={<Contact />} />
-        <Route path="/genetics" element={<GeneticsPage mapData={geneticsData} pageName="genetics"/>} />
-        <Route path="/genetics/:id" element={<GeneticsDetails  mapData={geneticsData} />} />
-        <Route path="/management" element={<GeneticsPage mapData={managementData}  pageName="management"/>} />
-        <Route path="/health" element={<GeneticsPage mapData={healthData}  pageName="health"/>} />
-        <Route path="/calves" element={<GeneticsPage mapData={calvesData}  pageName="calves"/>} />
-        <Route path="/health/:id" element={<GeneticsDetails mapData={healthData}/>} />
-        <Route path="/calves/:id" element={<GeneticsDetails mapData={calvesData}/>} />
+       
+        <Route path="/resources/genetics" element={<ResourcesPage mapData={geneticsData} pageName="/resources/genetics"/>} />
+        <Route path="/resources/management" element={<ResourcesPage mapData={managementData}  pageName="/resources/management"/>} />
+        <Route path="/resources/health" element={<ResourcesPage mapData={healthData}  pageName="/resources/health"/>} />
+        <Route path="/resources/calves" element={<ResourcesPage mapData={calvesData} pageName="/resources/calves" />} />
+        <Route path="/resources/genetics/:id" element={<ResourceDetails  mapData={geneticsData} />} />
+        <Route path="/resources/health/:id" element={<ResourceDetails mapData={healthData}/>} />
+        <Route path="/resources/calves/:id" element={<ResourceDetails mapData={calvesData}/>} />
+        
+         <Route path="/genetics" element={<GeneticsPage mapData={geneticsData} pageName="genetics"/>} />
+        <Route path="/genetics/designations/:id" element={<GeneticsDetails  mapData={geneticsTabData} />} />
       </Routes>
         {!contactPage && <GetInTouch />
      }   <Footer />

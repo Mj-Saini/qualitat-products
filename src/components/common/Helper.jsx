@@ -1,8 +1,24 @@
 import { ExeperienceIcons, ProductQltyIcons, Service24Icons } from "./Icons";
 
-import cow1 from '../../assets/images/png/cow-img1.png'
-import cow2 from '../../assets/images/png/cow-img2.png'
-import cow3 from '../../assets/images/png/cow-img4.jpg'
+import slide1 from '../../assets/images/sliderImg/384.png'
+import slide2 from '../../assets/images/sliderImg/385.png'
+import slide3 from '../../assets/images/sliderImg/5e782a19e09248a0b224e7408c4dc852.jpeg'
+import slide4 from '../../assets/images/sliderImg/386.png'
+import slide5 from '../../assets/images/sliderImg/387.png'
+import slide6 from '../../assets/images/sliderImg/804345-cattle-cows-holstein-animal-farm-rural-agriculture.jpg'
+import slide7 from '../../assets/images/sliderImg/BULLS.jpg'
+import slide8 from '../../assets/images/sliderImg/CALF.jpg'
+import slide9 from '../../assets/images/sliderImg/defaultHeader.jpg'
+import slide10 from '../../assets/images/sliderImg/GALLERY.jpg'
+import slide11 from '../../assets/images/sliderImg/HOME.jpg'
+import slide12 from '../../assets/images/sliderImg/images (3).jpeg'
+import slide13 from '../../assets/images/sliderImg/PIC (2).jpg'
+import slide14 from '../../assets/images/sliderImg/PIC.jpg'
+import slide15 from '../../assets/images/sliderImg/PROJECTS FILE-2 (4).png'
+import slide16 from '../../assets/images/sliderImg/PROJECTS FILE-2 (5).png'
+import slide17 from '../../assets/images/sliderImg/varun kamboj.mp4'
+import slide18 from '../../assets/images/sliderImg/Video-486.mp4'
+
 
 
 import calf1 from '../../assets/images/calfs-img/431.png'
@@ -100,34 +116,71 @@ export const keyHighlight = [
 ]
 export const MarqueeList = [
     {
-        img: cow1,
-        title: "24 hours service",
-        description: "Committed to Serving You 24/7, Without Interruptions"
+        img: slide1,
     },
     {
-        img: cow2,
-        title: "8 years of exp.",
-        description: "Serving the Healthcare Industry for Over 8 Years"
+        img: slide2,
     },
     {
-        img: cow3,
-        title: "High quality Products",
-        description: "High-Quality Medical-Grade Glucose Bottles"
+        img: slide3,
     },
     {
-        img: cow1,
-        title: "24 hours service",
-        description: "Committed to Serving You 24/7, Without Interruptions"
+        img: slide4,
     },
     {
-        img: cow2,
-        title: "8 years of exp.",
-        description: "Serving the Healthcare Industry for Over 8 Years"
+        img: slide5,
     },
     {
-        img: cow3,
-        title: "High quality Products",
-        description: "High-Quality Medical-Grade Glucose Bottles"
+        img: slide6,
+    
+    },
+    {
+        img: slide7,
+    
+    },
+    {
+        img: slide8,
+    
+    },
+    {
+        img: slide9,
+    
+    },
+    {
+        img: slide10,
+    
+    },
+    {
+        img: slide11,
+    
+    },
+    {
+        img: slide12,
+    
+    },
+    {
+        img: slide13,
+    
+    },
+    {
+        img: slide14,
+    
+    },
+    {
+        img: slide15,
+    
+    },
+    {
+        img: slide16,
+    
+    },
+    {
+        video: slide17,
+    
+    },
+    {
+        video: slide18,
+    
     },
 ]
 export const demandsList = [
@@ -1439,7 +1492,7 @@ Washington State University Veterinary Medicine Extension. Rationale for a Dairy
                 type: "paragraph",
                 text: `To genetically increase resistance to lameness in your herd, use an index that includes the Zoetis Lameness trait (such as DWP$®) or select sires who are above average for Lameness resistance `
             },
-{
+            {
                 type: "links", items: [
                     "Dolecheck K. and Bewley J. 2018. Animal board invited review: Dairy cow lameness expenditures losses and total cost. Animal 12:7 1462 – 1474. Morris M.J., et al. 2011. Influence of lameness on follicular growth, ovulation, reproductive hormone concentrations and estrus behavior in dairy cows. Theriogenology 76 658 – 668 Sprecher D.J., Hostetler D.E., Kaneene J.B. 1997. A lameness scoring system that uses posture and gait to predict dairy cattle reproductive performance. Theriogenology 47 (6): 1179-87 ®Dairy Wellness Profit Index (DWP$) is a registered trademarks of Zoetis Inc., its affiliates and/or its licensors."
                 ]
@@ -1483,14 +1536,14 @@ export const calvesData = [
                         text: "Harvest clean colostrum – Bacteria in colostrum cause disease and interfere with antibody absorption. Bacteria survive in milk residue and grow rapidly between 4 - 60 °C. ",
                         subList: [
                             { text: "Clean and disinfect all colostrum collection and feeding equipment with soap/detergent, hot water, and disinfectant. " },
-                            
+
                             { text: "Milk clean, dry teats, make sure cow does not have mastitis or blood in colostrum. " },
 
                             { text: "Cool colostrum quickly to <4 °C for storage. Use an ice bath or cold water to reduce temperature before putting in fridge or freezer. " },
 
                             { text: "Warm quickly to 39 °C for feeding in 52 - 60 °C water – feed as soon as it is warm, do not let it sit out!" },
 
-                            
+
                         ]
                     },
                     {
@@ -1499,17 +1552,17 @@ export const calvesData = [
                             { text: "Complete coverage of naval area within one hour of birth with an effective disinfectant product. " }
                         ]
                     },
-                   
+
                 ]
             },
-           
+
             {
                 type: "heading",
                 text: ` Milk Feeding `
             },
 
 
-              {
+            {
                 type: "list",
                 items: [
                     {
@@ -1526,18 +1579,18 @@ export const calvesData = [
                         text: "Consistency – changes from feeding to feeding can cause nutritional scours and disease. ",
                         subList: [
                             { text: "Milk replacer mixing – same percent solids every day, thoroughly mixed at correct temperature >47 °C to ensure complete mixing. ) " },
-                            
+
                             { text: "Quantity fed – same each day (unless changing due to age or weaning" },
 
                             { text: "Temperature at feeding 38 – 40 °C " },
 
                             { text: "Time of day – same time daily at even intervals is best (e.g. 12 hours apart for 2X feeding)" },
 
-                            
+
                         ]
                     },
-                   
-                   
+
+
                 ]
             },
 
@@ -1548,21 +1601,21 @@ export const calvesData = [
             },
             {
                 type: "list", items: [
-                    
+
                     `Bedding – clean, dry and deep for warmth in winter. Sand or dirt okay for hot weather. `,
-                    
+
                     `Ventilation – fresh air! Allow airflow, use bedding and/or calf jackets to keep calves warm.  `,
-                    
+
                     `Hygiene – clean and disinfect housing and calf carts or trailers between calves. Refresh bedding as needed to keep it clean and dry.  `,
-                    
-                    
+
+
                 ]
             },
-             {
+            {
                 type: "heading",
                 text: `The Genetic Connection     `
             },
-             {
+            {
                 type: "paragraph",
                 text: `To genetically improve calf health and survival rates, select sires with positive Zoetis Calf Wellness Traits™ (CW$™).     `
             },
@@ -1589,8 +1642,8 @@ export const calvesData = [
                 text: `The right beginning makes all the difference! With every newborn calf comes the hope and promise of improved genetics and increased profitability. In fact, the lifetime productivity of each cow is keenly tied to her calfhood health and environment. Calves that thrive, meet and exceed growth and development benchmarks and resist disease will mature to be the best lactating cows and achieve your herd's longevity goals. `
             },
 
-          
-           
+
+
             {
                 type: "heading",
                 text: `ON FARM RESULTS`
@@ -1605,7 +1658,7 @@ export const calvesData = [
             },
 
 
-           
+
 
 
             {
@@ -1630,11 +1683,7 @@ export const calvesData = [
             },
             {
                 type: "paragraph",
-                text: `While calf wellness traits have a lower heritability than production or type traits, genetic improvement is evident as seen at Rosy Lane Holsteins and herds throughout the U.S. The more optimal the calfhood environment the higher the likelihood of gene expression for calf livability. 
-
- 
-
- `
+                text: `While calf wellness traits have a lower heritability than production or type traits, genetic improvement is evident as seen at Rosy Lane Holsteins and herds throughout the U.S. The more optimal the calfhood environment the higher the likelihood of gene expression for calf livability. `
             },
             {
                 type: "paragraph",
@@ -1642,7 +1691,7 @@ export const calvesData = [
             },
 
 
-           
+
 
 
             {
@@ -1657,16 +1706,115 @@ export const calvesData = [
 
             { type: "image", src: "https://a-us.storyblok.com/f/1013974/2880x800/32045d2a53/cw-table-2.png" },
 
-             {
+            {
                 type: "paragraph",
                 text: `Reach out to your local World Wide Sires representative to evaluate your calf rearing program. Environment, nutrition, protocols, and genetics each play a critical role in calf wellness and ultimately cow productivity.`
             },
 
         ]
     },
-   
+
 
 ];
 
+
+export const geneticsTabData = [
+  {
+    slug: "feedpro",
+    img: "https://a-us.storyblok.com/f/1013974/752x121/ee0b9f519e/feedpro.png",
+    video: "https://youtu.be/bvAU_fuUGOA?si=LzJS2Ubj8eDzBOGz",
+    title: "FeedPRO®",
+    description:
+      "FeedPRO is a sire selection tool for the dairy producer concerned about feed costs and wanting to improve overall profitability. This index optimizes the selection for increased production and moderate body size while maintaining body condition score, mastitis resistance and daughter fertility. FeedPRO is a revolutionary index that designates sires with the genetics to improve income over feed costs and maintain health and reproductive traits.",
+  },
+  {
+    slug: "fertilitypro",
+      img: "https://a-us.storyblok.com/f/1013974/1031x125/d7b89b64ff/fertilitypro.png",
+    video:"https://youtu.be/KyB8Sgu4U0E?si=ivjXrfmg-cqXBHwL",
+    title: "FertilityPRO®",
+    description:
+      "FertilityPRO identifies sires with semen that will likely improve pregnancy rates. This designation is assigned by examining industry Sire Conception Rate (SCR) values, along with intensive in-house semen quality evaluations.",
+  },
+  {
+    slug: "grazingpro",
+      img: "https://a-us.storyblok.com/f/1013974/991x126/ad728bf355/grazingpro.png",
+    video:"https://youtu.be/RofX61aIalI?si=lwQPAe7_9oCOBiBw",
+    title: "GrazingPRO®",
+    description:
+      "sires are selected to improve the profitability of grass-based production systems by transmitting outstanding daughter fertility, greater longevity, mobility, moderate stature and improved component yields.",
+  },
+  {
+    slug: "mastitis-resistantpro",
+      img: "https://a-us.storyblok.com/f/1013974/1714x124/1abe4e41b9/mastitisresistantpro.png",
+    video:"https://youtu.be/M4hg1X-fuLk?si=JNb2eXAeE71qevuR",
+    title: "Mastitis ResistantPRO®",
+    description:
+      "Sires which excel in multiple indicators of mastitis resistance are more likely to deliver genetic improvement. Mastitis ResistantPRO uses a combination of CDCB Mastitis Resistance, CDCB Somatic Cell Score (SCS) and Zoetis Mastitis Resistance.",
+  },
+  {
+    slug: "robotpro",
+      img: "https://a-us.storyblok.com/f/1013974/805x120/982f113d17/robotpro.png",
+    video:"https://youtu.be/P10OVwYLsio?si=meMHqjZBlcMwMTjd",
+    title: "RobotPRO®",
+    description:
+      "RobotPRO identifies sires that transmit the desired traits for robotic milking systems. These sires are selected by focusing on components and milk yield, udder health, longevity and durability, as well as functional udder traits.",
+  },
+  {
+    slug: "showcase",
+      img: "https://a-us.storyblok.com/f/1013974/836x124/771d46b72e/showcase.png",
+    video:"https://youtu.be/PA2SBfi_VlQ?si=OKFPt8YHfTCvYvki",
+    title: "Showcase™",
+    description:
+      "Showcase sires earn this designation through outstanding breed-leading Type or show-winning pedigrees. This designation is for customers who want to produce the next show winner or improve the overall Type in their herd.",
+  },
+  {
+    slug: "gender-selected",
+      img: "https://a-us.storyblok.com/f/1013974/1030x188/75025a9d19/genderselected.png",
+    video:"https://youtu.be/4ebeOVB7UT8?si=yMxBfzDVH9keSAyj",
+    title: "gender SELECTED™",
+    description:
+      "gender SELECTED designees have sex-sorted semen available. Select Sires continually collects conception data from herds using gender SELECTED semen to calculate sexed semen fertility deviations and removes bulls from the lineup that perform unacceptably.",
+  },
+  {
+    slug: "elite-sexed-fertility",
+      img: "https://a-us.storyblok.com/f/1013974/1114x96/4dd49a472f/elitesexedfertility.png",
+    video:"https://youtu.be/bl1QXz0Omvo?si=KRaPjfSOQV519IKv",
+    title: "Elite Sexed Fertility™",
+    description:
+      "The Elite Sexed Fertility icon designates sires that can help you achieve the highest sex-sorted semen conception rates, enhancing the return on your investment! This designation identifies gender SELECTED sires with above average conception performance for sex-sorted semen in both 2M and 4M products. ",
+  },
+  {
+    slug: "gforce",
+      img: "https://a-us.storyblok.com/f/1013974/694x122/72147959a5/gforce.png",
+    video:"https://youtu.be/UZUt_zPOPFk?si=dDUF52fBOzY8v-qy",
+    title: "GForce™",
+    description:
+      "The GForce lineup includes sires with elite genomic evaluations based on a combination of traditional pedigree data and genomic data, but does not contain actual daughter data. This combination of data increases the reliability of a young sires’ genetic prediction prior to the availability of actual daughter data.",
+  },
+  {
+    slug: "gforce-plus",
+      img: "https://a-us.storyblok.com/f/1013974/761x126/76239ba8a1/gforceplus.png",
+    video:"https://youtu.be/wVVPlJdg2JM?si=KIcqX7Qeg9gOvbC5",
+    title: "GForce+™",
+    description:
+      "The GForce+ lineup includes proven and young sires selected based on rigid semen quality standards and their high-ranking Sire Conception Rate (SCR) from progeny test semen usage. GForce+ sires must have outstanding genetic merit, a highly reliable sire stack and actual calving ease observations.",
+  },
+  {
+    slug: "progeny-proven",
+      img: "https://a-us.storyblok.com/f/1013974/1276x124/df90554eba/proven.png",
+    video:"https://youtu.be/bRFBZhRmT5g?si=_r1O6jWCdzNgjPh0",
+    title: "Progeny Proven™",
+    description:
+      "If you want the most reliable sires available for your breeding program, look for the Progeny Proven icon. This lineup designates sires with an evaluation based on both genomic data and actual daughter performance data.",
+  },
+  {
+    slug: "nxgen",
+      img: "https://a-us.storyblok.com/f/1013974/823x443/16751ed881/nxgen_logo_1.jpg",
+    // video:"https://youtu.be/bRFBZhRmT5g?si=_r1O6jWCdzNgjPh0",
+    title: "Nxgen™",
+    description:
+      "The goal of Select Sires' NxGEN program is to provide genetic advantages to dairy producers who are looking for next-level genetic gains. By joining and accepting the terms and conditions of the NxGEN program, members will have earlier access to our most elite genetics, which are widely respected in today’s genomic world, and the ability to capture breed-leading genetic trends like never before.",
+  },
+];
 
 

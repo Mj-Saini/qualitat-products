@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import aheadbull from '../assets/images/png/ahead.png'
 import banjobull from '../assets/images/png/banjo.png'
 import bigshotbull from '../assets/images/png/bigshot.png'
@@ -10,9 +11,9 @@ import talon from '../assets/images/png/talon.png'
 import stoney from '../assets/images/png/stoney.png'
 import stannis from '../assets/images/png/stannis.png'
 import sam from '../assets/images/png/sam.png'
-import rockpaul from '../assets/images/png/rockpaul.png'
+import ronald from '../assets/images/png/ronald.png'
 import roadster from '../assets/images/png/roadStar.png'
-import revvit from '../assets/images/png/revvit.png'
+import sandman from '../assets/images/png/sandman.png'
 import riveting from '../assets/images/png/reveting.png'
 import porter from '../assets/images/png/porter.png'
 import oliver from '../assets/images/png/oliver.png'
@@ -37,64 +38,86 @@ import uncommon from '../assets/images/png/uncommon.png'
 import cheddar from '../assets/images/png/cheddar.png'
 import gibson from '../assets/images/png/gibson-bull.png'
 import gameplan from '../assets/images/png/gameplan-bull.png'
-import houston from '../assets/images/png/henson.png'
+import rameway from '../assets/images/png/rameway.png'
 import ford from '../assets/images/png/ford.png'
 import hensen from '../assets/images/png/hensen.png'
 
 import ted from '../assets/images/png/hensen.png'
 import barley from '../assets/images/png/hensen.png'
-import dandee from '../assets/images/png/dandee-img.png'
+import varika from '../assets/images/png/varika.png'
+import TACITUSImg from '../assets/images/png/tacitus.png'
 import hedgefund from '../assets/images/png/hensen.png'
 import amari from '../assets/images/png/hensen.png'
+import reeva from '../assets/images/png/revee.png'
+import mattImg from '../assets/images/png/matt.png'
+import jamarco from '../assets/images/png/jamarco.png'
+import faneca from '../assets/images/png/faneca.png'
+import cornell from '../assets/images/png/cornell.png'
+import chilton from '../assets/images/png/chillton.png'
+import casino from '../assets/images/png/casino.png'
 
 
 // DETAILS IMAGES
 
-  import detailNebulus from '../assets/images/bulldetailsImg/nebulus.png'
-  import detailBigshot from '../assets/images/bulldetailsImg/webp/bigshot.webp'
-import detailBenjo from '../assets/images/bulldetailsImg/webp/benjo.webp'
-import detailBold from '../assets/images/bulldetailsImg/webp/bold.webp'
-import detailMaximus from '../assets/images/bulldetailsImg/maximus.png'
-import detailStannis from '../assets/images/bulldetailsImg/stannis.png'
-import detailReliant from '../assets/images/bulldetailsImg/reliant.png'
-import detailAmari from '../assets/images/bulldetailsImg/webp/amari.webp'
-import detailMellencamp from '../assets/images/bulldetailsImg/mellencamp.png'
-import detailMilky from '../assets/images/bulldetailsImg/milky.png'
-import detailSamRed from '../assets/images/bulldetailsImg/sam-red.png'
-import detailSupercharge from '../assets/images/bulldetailsImg/supercharge.png'
-import detailPorter from '../assets/images/bulldetailsImg/porter.png'
-import detailRewit from '../assets/images/bulldetailsImg/revvit.png'
-import detailHedgefund from '../assets/images/bulldetailsImg/webp/hedgefund.webp'
-import detailOohm from '../assets/images/bulldetailsImg/webp/high-ohhm.webp'
-import detailRockPaul from '../assets/images/bulldetailsImg/rock-paul.png'
-import detailOliver from '../assets/images/bulldetailsImg/oliver-p.png'
-import detailFringe from '../assets/images/bulldetailsImg/webp/fringer.webp'
-import detailKamakazi from '../assets/images/bulldetailsImg/webp/kamakazi.webp'
-import detailUncommon from '../assets/images/bulldetailsImg/uncommon.png'
-import detailCheddar from '../assets/images/bulldetailsImg/webp/chedder.webp'
-import detailRiveting from '../assets/images/bulldetailsImg/riveting.png'
-import detailDelpro from '../assets/images/bulldetailsImg/webp/delpro.webp'
-import detailGibson from '../assets/images/bulldetailsImg/webp/gibson.webp'
-import detailGameplan from '../assets/images/bulldetailsImg/webp/gameplan.webp'
-import detailDandee from '../assets/images/bulldetailsImg/webp/dendee.webp'
-import detailKeystone from '../assets/images/bulldetailsImg/keystone.png'
-import detailStoney from '../assets/images/bulldetailsImg/stony.png'
-import detailRoadster from '../assets/images/bulldetailsImg/roadster.png'
-import detailImprobable from '../assets/images/bulldetailsImg/improbabel.png'
-import detailAhead from '../assets/images/bulldetailsImg/webp/ahead.webp'
-import detailLogistics from '../assets/images/bulldetailsImg/webp/logistics.webp'
-import detailLetchworth from '../assets/images/bulldetailsImg/webp/letchworth.webp'
-import detailBarley from '../assets/images/bulldetailsImg/webp/barley.webp'
-import detailMccomb from '../assets/images/bulldetailsImg/mccomb.png'
-import detailTed from '../assets/images/bulldetailsImg/ted.png'
-import detailKnockOut from '../assets/images/bulldetailsImg/webp/knock-out.webp'
-import detailMagnum from '../assets/images/bulldetailsImg/mugnam.png'
-import detailHouston from '../assets/images/bulldetailsImg/webp/housten.webp'
-import detailHensen from '../assets/images/bulldetailsImg/webp/henson.webp'
-import detailTopaz from '../assets/images/bulldetailsImg/topze.png'
-import detailUlysses from '../assets/images/bulldetailsImg/ulysis.png'
-import detailTalon from '../assets/images/bulldetailsImg/talon.png'
-import detailFord from '../assets/images/bulldetailsImg/webp/ford.webp'
+  import detailNebulus from '../assets/images/bull-details/NEBULUS.pdf'
+  import detailBigshot from '../assets/images/bull-details/BIGSHOT.pdf'
+import detailBenjo from '../assets/images/bull-details/BANJO‑P.pdf'
+import detailBold from '../assets/images/bull-details/BOLD.pdf'
+import detailMaximus from '../assets/images/bull-details/MAXIMUS.pdf'
+import detailStannis from '../assets/images/bull-details/STANNIS.pdf'
+import detailReliant from '../assets/images/bull-details/RELIANT.pdf'
+import detailAmari from '../assets/images/bull-details/AMARI.pdf'
+import detailMellencamp from '../assets/images/bull-details/MELLENCAMP.pdf'
+import detailMilky from '../assets/images/bull-details/MILKY.pdf'
+import detailSamRed from '../assets/images/bull-details/SAM-RED.pdf'
+import detailSupercharge from '../assets/images/bull-details/SUPERCHARGE.pdf'
+import detailPorter from '../assets/images/bull-details/PORTER.pdf'
+// import detailRewit from '../assets/images/bull-details/RIVETING.pdf'
+import detailHedgefund from '../assets/images/bull-details/HEDGEFUND.pdf'
+import detailOohm from '../assets/images/bull-details/HIGH-OOHM.pdf'
+// import detailRockPaul from '../assets/images/bull-details/rock-paul.png'
+import detailOliver from '../assets/images/bull-details/OLIVER-P.pdf'
+import detailFringe from '../assets/images/bull-details/FRINGE.pdf'
+import detailKamakazi from '../assets/images/bull-details/KAMAKAZI.pdf'
+import detailUncommon from '../assets/images/bull-details/UNCOMMON.pdf'
+// import detailCheddar from '../assets/images/bull-details/webp/chedder.webp'
+import detailRiveting from '../assets/images/bull-details/RIVETING.pdf'
+import detailDelpro from '../assets/images/bull-details/DELPRO.pdf'
+import detailGibson from '../assets/images/bull-details/GIBSON.pdf'
+import detailGameplan from '../assets/images/bull-details/GAMEPLAN.pdf'
+// import detailDandee from '../assets/images/bull-details/'
+import detailKeystone from '../assets/images/bull-details/KEYSTONE.pdf'
+import detailStoney from '../assets/images/bull-details/STONEY.pdf'
+import detailRoadster from '../assets/images/bull-details/ROADSTER.pdf'
+import detailImprobable from '../assets/images/bull-details/IMPROBABLE.pdf'
+import detailAhead from '../assets/images/bull-details/AHEAD.pdf'
+import detailLogistics from '../assets/images/bull-details/LOGISTICS.pdf'
+import detailLetchworth from '../assets/images/bull-details/LETCHWORTH.pdf'
+import detailBarley from '../assets/images/bull-details/BARLEY.pdf'
+import detailMccomb from '../assets/images/bull-details//MCCOMB.pdf'
+import detailTed from '../assets/images/bull-details/TED.pdf'
+import detailKnockOut from '../assets/images/bull-details/KNOCKOUT.pdf'
+import detailMagnum from '../assets/images/bull-details/MAGNUM.pdf'
+// import detailHouston from '../assets/images/bull-details/'
+import detailHensen from '../assets/images/bull-details/HANSEN.pdf'
+import detailTopaz from '../assets/images/bull-details/TOPAZ.pdf'
+import detailUlysses from '../assets/images/bull-details/ULYSSES.pdf'
+import detailTalon from '../assets/images/bull-details/TALON.pdf'
+import detailFord from '../assets/images/bull-details/FORD.pdf'
+import detailVarick from '../assets/images/bull-details/VARICK.pdf'
+import detailTacitus from '../assets/images/bull-details/TACITUS.pdf'
+import detailSunrise from '../assets/images/bull-details/SUNRISE.pdf'
+import detailSandman from '../assets/images/bull-details/SANDMAN.pdf'
+import detailRonals from '../assets/images/bull-details/RONALD.pdf'
+import detailRameway from '../assets/images/bull-details/RAMEWAY-RED.pdf'
+import detailReeva from '../assets/images/bull-details/REEVE-RED.pdf'
+import detailMatt from '../assets/images/bull-details/MATT.pdf'
+import detailJamarco from '../assets/images/bull-details/JAMARCO.pdf'
+import detailInferNo from '../assets/images/bull-details/INFERNO.pdf'
+import detailfaneca from '../assets/images/bull-details/FANECA.pdf'
+import detailCornell from '../assets/images/bull-details/CORNELL.pdf'
+import detailChilton from '../assets/images/bull-details/CHILTON.pdf'
+import detailCasino from '../assets/images/bull-details/CASINO.pdf'
 
 
 
@@ -115,7 +138,8 @@ export const bullList = [
     name: "NEBULUS‑PP",
     category: "HF",
     img: nebuls,
-    detailsImg:detailNebulus,
+    detailsPdf: detailNebulus,
+
    
   },
   {
@@ -123,7 +147,7 @@ export const bullList = [
     name: "BANJO‑P",
     category: "HF",
     img: banjobull,
-    detailsImg:detailBenjo,
+    detailsPdf:detailBenjo,
    
   },
   {
@@ -131,7 +155,7 @@ export const bullList = [
     name: "MAXIMUS",
     category: "HF",
     img: maximus,
-    detailsImg:detailMaximus,
+    detailsPdf:detailMaximus,
    
   },
   {
@@ -140,7 +164,7 @@ export const bullList = [
    
     category: "HF",
     img:stannis,
-   detailsImg:detailStannis,
+   detailsPdf:detailStannis,
 
   },
   {
@@ -150,7 +174,7 @@ export const bullList = [
       
     category: "HF",
     img:boldbull,
-      detailsImg:detailBold,
+      detailsPdf:detailBold,
 
   },
   {
@@ -158,14 +182,14 @@ export const bullList = [
     name: "RELIANT",
     category: "HF",
     img:reliant,
-    detailsImg:detailReliant,
+    detailsPdf:detailReliant,
   },
   {
     id: "7HO15141",
     name: "AMARI",
     category: "HF",
       img:amari,
-   detailsImg:detailAmari,
+   detailsPdf:detailAmari,
 
   },
   {
@@ -173,7 +197,7 @@ export const bullList = [
     name: "MELLENCAMP",
     category: "HF",
     img:mellencamp,
-   detailsImg:detailMellencamp,
+   detailsPdf:detailMellencamp,
   },
   {
     id: "7HO15323",
@@ -182,38 +206,38 @@ export const bullList = [
      
     category: "HF",
     img:milky,
-   detailsImg:detailMilky,
+   detailsPdf:detailMilky,
 
 
   },
   {
     id: "7HO15314",
     name: "SAM-RED",
-    category: "HF",
+    category: "Red",
     img:sam,
-   detailsImg:detailSamRed,
+   detailsPdf:detailSamRed,
   },
   {
     id: "7HO15337",
     name: "SUPERCHARGE",
     category: "HF",
     img:supercharge,
-    detailsImg:detailSupercharge,
+    detailsPdf:detailSupercharge,
   },
   {
     id: "7HO15420",
     name: "PORTER",
     category: "HF",
     img:porter,
- detailsImg:detailPorter,
+ detailsPdf:detailPorter,
 
   },
   {
-    id: "7H015595",
-    name: "REVVIT",
+    id: "7JE01331",
+    name: "VARICK",
     category: "HF",
-    img:revvit,
-    detailsImg:detailRewit,
+    img:varika,
+    detailsPdf:detailVarick,
 
   },
   {
@@ -221,7 +245,7 @@ export const bullList = [
     name: "HEDGEFUND",
     category: "HF",
     img:hedgefund,
-    detailsImg:detailHedgefund,
+    detailsPdf:detailHedgefund,
   },
   {
     id: "7H015967",
@@ -230,16 +254,16 @@ export const bullList = [
   
     category: "HF",
     img:ohhm,
- detailsImg:detailOohm,
+ detailsPdf:detailOohm,
   },
 
   {
-    id: "7HO15979",
-    name: "ROCK PAUL",
+    id: "7HO15025",
+    name: "TACITUS",
    
     category: "HF",
-    img:rockpaul,
-  detailsImg:detailRockPaul,
+    img:TACITUSImg,
+  detailsPdf:detailTacitus,
   },
   {
     id: "7JE01219",
@@ -247,7 +271,7 @@ export const bullList = [
    
     category: "JE", // Jersey
     img:oliver,
-    detailsImg:detailOliver,
+    detailsPdf:detailOliver,
   },
   {
     id: "7JE01822",
@@ -256,7 +280,7 @@ export const bullList = [
     img:fringe,
     category: "JE", // Jersey
  
-   detailsImg:detailFringe,
+   detailsPdf:detailFringe,
 
   },
   {
@@ -264,7 +288,7 @@ export const bullList = [
     name: "KAMAKAZI",
     category: "JE", // Jersey
     img:kamakazi,
-  detailsImg:detailKamakazi,
+  detailsPdf:detailKamakazi,
   },
   {
     id: "7JE02023",
@@ -272,30 +296,30 @@ export const bullList = [
     
     category: "JE", // Jersey
     img:uncommon,
-  detailsImg:detailUncommon,
+  detailsPdf:detailUncommon,
   },
   {
-    id: "7JE05069",
-    name: "CHEDDAR",
+    id: "7HO17782",
+    name: "SUNRISE",
     
     category: "JE", // Jersey
-    img:cheddar,
-   detailsImg:detailCheddar,
+    // img:sunriseImg,
+   detailsPdf:detailSunrise,
   },
     {
   "id": "14HO14220",
   "name": "RIVETING",
   "category": "HF",
   img:riveting,
-    detailsImg:detailRiveting,
+    detailsPdf:detailRiveting,
   },
   {
     "id": "14HO14442",
     "name": "DELPRO",
   
-    "category": "Red",
+    "category": "HF",
     img:delpro,
-    detailsImg:detailDelpro,
+    detailsPdf:detailDelpro,
   },
     {
   "id": "14HO15154",
@@ -303,16 +327,16 @@ export const bullList = [
   'img':bigshotbull,
     
   "category": "HF",
-  detailsImg:detailBigshot,
+  detailsPdf:detailBigshot,
 
   },
   {
     "id": "14HO15779",
     "name": "GIBSON ",
     
-    "category": "Red",
+    "category": "HF",
     img:gibson,
-   detailsImg:detailGibson,
+   detailsPdf:detailGibson,
 
 
 
@@ -323,16 +347,16 @@ export const bullList = [
   "name": "GAMEPLAN",
   "category": "HF",
   img:gameplan,
-    detailsImg:detailGameplan,
+    detailsPdf:detailGameplan,
   }
   ,
   {
     "id": "14JE00560",
-    "name": "DANDEE",
+    "name": "SANDMAN",
     
-    "category": "JE",
-    img:dandee,
-    detailsImg:detailDandee,
+    "category": "HF",
+    img:sandman,
+    detailsPdf:detailSandman,
 
   },
   {
@@ -341,7 +365,7 @@ export const bullList = [
     
     "category": "JE",
     img:keystone,
-  detailsImg:detailKeystone,
+  detailsPdf:detailKeystone,
   },
   {
     "id": "141E00769",
@@ -349,50 +373,50 @@ export const bullList = [
    
     "category": "JE",
     img:stoney,
-    detailsImg:detailStoney,
+    detailsPdf:detailStoney,
   
   },
     {
   "id": "250HO15026",
   "name": "ROADSTER",
   
-  "category": "Red",
+  "category": "HF",
   img:roadster,
-   detailsImg:detailRoadster,
+   detailsPdf:detailRoadster,
   },
 {
   "id": "14HO15779",
   "name": "IMPROBABLE",
   
-  "category": "Red", 
+  "category": "HF", 
   img:improbable,
-  detailsImg:detailImprobable,
+  detailsPdf:detailImprobable,
 },
 
   {
   "id": "250HO15152",
   "name": "AHEAD",
   
-    "category": "Red",
+    "category": "HF",
   'img':aheadbull,
-  detailsImg:detailAhead,
+  detailsPdf:detailAhead,
   },
   {
   "id": "250H015208",
   "name": "LOGISTICS",
   
-    "category": "Red", 
+    "category": "HF", 
     img:logistics,
-  detailsImg:detailLogistics,
+  detailsPdf:detailLogistics,
   
   },
   {
   "id": "250HO16110",
   "name": "LETCHWORTH",
  
-    "category": "Red",
+    "category": "HF",
   img:letchworth,
-   detailsImg:detailLetchworth,
+   detailsPdf:detailLetchworth,
   },
   {
   "id": "507JE01838",
@@ -400,7 +424,7 @@ export const bullList = [
   
     "category": "JE",
   img:barley,
-  detailsImg:detailBarley,
+  detailsPdf:detailBarley,
   
   },
   
@@ -410,15 +434,15 @@ export const bullList = [
  
     "category": "JE", 
   img:maccom,
-  detailsImg:detailMccomb,
+  detailsPdf:detailMccomb,
   },
   {
   "id": "614H014885",
   "name": "TED",
   
-    "category": "Red", 
+    "category": "HF", 
   img:ted,
-  detailsImg:detailTed,
+  detailsPdf:detailTed,
   },
   {
   "id": "614JE00758",
@@ -426,7 +450,7 @@ export const bullList = [
   
     "category": "JE",
   img:knockOut,
-   detailsImg:detailKnockOut,
+   detailsPdf:detailKnockOut,
 
   },
  
@@ -434,64 +458,137 @@ export const bullList = [
   "id": "7H015839",
   "name": "MAGNUM",
  
-  "category": "Red", 
+  "category": "HF", 
   img:magnum,
-  detailsImg:detailMagnum,
+  detailsPdf:detailMagnum,
   },
   {
-  "id": "71012678",
-  "name": "HOUSTON",
+  "id": "250HO14465",
+  "name": "RONALD*RC",
   
-    "category": "Red",
-  img:houston,
- detailsImg:detailHouston,
+    "category": "HF",
+  img:ronald,
+ detailsPdf:detailRonals,
   },
   {
   "id": "7H015335",
   "name": "HANSEN",
   
-    "category": "Red",
+    "category": "HF",
   img:hensen,
- detailsImg:detailHensen,
+ detailsPdf:detailHensen,
   },
   
 
   {
   "id": '7HO15954', 
   "name": "TOPAZ",
-    "category": "Red",
+    "category": "HF",
   img:topze,
-  detailsImg:detailTopaz,
+  detailsPdf:detailTopaz,
   },
  
 
   {
-  "id": ' 7HO15770', 
+  "id": '7HO15770', 
   "name": "ULYSSES",
    
-    "category": "Red",
+    "category": "HF",
   img:ulyuess,
-  detailsImg:detailUlysses,
+  detailsPdf:detailUlysses,
   },
   {
   "id": "7H015457",
   "name": "TALON",
   
-  "category": "Red",
+  "category": "HF",
   img:talon,
- detailsImg:detailTalon,
+ detailsPdf:detailTalon,
 
   },
 
  
 
   {
-  "id": ' 14HO14963', 
+  "id": '14HO14963', 
   "name": "FORD",
     
-    "category": "Red",
+    "category": "HF",
   img:ford,
-   detailsImg:detailFord,
+   detailsPdf:detailFord,
+  },
+ 
+  {
+  "id": '14HO14464', 
+  "name": "REEVE‑RED",
+    
+    "category": "Red",
+  img:reeva,
+   detailsPdf:detailReeva,
+  },
+  {
+  "id": '14HO15725', 
+  "name": "RAMEWAY‑RED",
+    
+    "category": "Red",
+  img:rameway,
+   detailsPdf:detailRameway,
+  },
+  {
+  "id": '7JE01344', 
+  "name": "MATT",
+    
+    "category": "HF",
+  img:mattImg,
+   detailsPdf:detailMatt,
+  },
+  {
+  "id": '7HO14545', 
+  "name": "JAMARCO",
+    
+    "category": "HF",
+  img:jamarco,
+   detailsPdf:detailJamarco,
+  },
+  {
+  "id": '9HO16182', 
+  "name": "INFERNO",
+    
+    "category": "HF",
+  // img:jamarco,
+   detailsPdf:detailInferNo,
+  },
+  {
+  "id": '507HO15139', 
+  "name": "FANECA",
+    
+    "category": "HF",
+  img:faneca,
+   detailsPdf:detailfaneca,
+  },
+  {
+  "id": '250HO15657', 
+  "name": "cornell",
+    
+    "category": "HF",
+  img:cornell,
+   detailsPdf:detailCornell,
+  },
+  {
+  "id": '7HO14681', 
+  "name": "CHILTON",
+    
+    "category": "HF",
+  img:chilton,
+   detailsPdf:detailChilton,
+  },
+  {
+  "id": '614JE00725', 
+  "name": "CASINO",
+    
+    "category": "HF",
+  img:casino,
+   detailsPdf:detailChilton,
   },
  
 
