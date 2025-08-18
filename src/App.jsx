@@ -13,7 +13,6 @@ import Contact from './pages/Contact';
 import GetInTouch from './components/common/GetInTouch';
 import Footer from './components/common/Footer';
 import Header from './components/common/Header';
-import BullDetails from './pages/BullDetails';
 import GeneticsPage from './pages/GeneticsPage';
 import GeneticsDetails from './pages/GeneticsDetails';
 import { calvesData, geneticsData, geneticsTabData, healthData, managementData } from './components/common/Helper';
@@ -36,8 +35,6 @@ function App() {
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/products" element={<Products />} />
         <Route path="/products-details/:id" element={<ProductDetails />} />
-        <Route path="/calfs-details/:id" element={<BullDetails />} />
-        <Route path="/bulls-details/:id" element={<BullDetails />} />
         <Route path="/contact-us" element={<Contact />} />
        
         <Route path="/resources/genetics" element={<ResourcesPage mapData={geneticsData} pageName="/resources/genetics"/>} />

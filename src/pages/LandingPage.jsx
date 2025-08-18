@@ -9,13 +9,13 @@ import MarqueeSlide from '../components/MarqueeSlide'
 
 import Founder from '../assets/images/png/dr-anil-berry.png'
 import wwsVideo from '../../src/assets/video/WhatsApp Video 2025-07-29 at 11.49.15.mp4'
-import newsImg from '../assets/images/png/news-img.jpg'
+import Designation from '../components/Designation'
 
 
 const LandingPage = () => {
 
 
-     const [expandedIndex, setExpandedIndex] = useState(null); // track which comment is expanded
+    const [expandedIndex, setExpandedIndex] = useState(null); // track which comment is expanded
 
     const toggleReadMore = (index) => {
         setExpandedIndex(expandedIndex === index ? null : index);
@@ -64,7 +64,7 @@ const LandingPage = () => {
                     <div className='flex flex-col-reverse lg:flex-row justify-center text-center lg:-mx-4'>
                         <div className='w-full lg:w-5/12 lg:px-4  mt-8 lg:mt-0'>
                             <div className='relative h-full lg:pe-10'>
-                             
+
                                 <img className='h-full object-cover lg:min-h-[700px]' src={Founder} alt="profitable-product" />
                             </div>
                         </div>
@@ -190,7 +190,7 @@ const LandingPage = () => {
                                     support to help you make smarter,
                                     faster, and more profitable breeding
                                     decisions.</p>
-{/* 
+                                {/* 
                                 <div className='mt-5 md:mt-12 lg:mt-14 flex gap-5 items-center flex-wrap'>
                                     <CommonBtn btnName="Read All" btnStyling=" py-2.5 px-3 xl:px-6" />
 
@@ -296,162 +296,90 @@ const LandingPage = () => {
                     </div>
                 </div>
             </div>
-            {/* GLOBAL DEMANDS */}
-            {/* <section className='pb-14 md:pb-32 lg:pb-40 xl:pb-44 overflow-hidden'>
-                <div className='custom_container container px-5 mx-auto'>
-                    <div className='flex flex-col justify-center items-center gap-4.5'>
-                        <p className='font-semibold text-lg md:text-xl xl:text-2xl flex items-center gap-2 uppercase'> <span className='black_star'><StarIcons /></span> global demand</p>
-                        <h2 className='font-semibold text-3xl md:text-5xl xl:text-6xl xl:leading-[120%] text-center'>Growing to meet global demand</h2>
-                    </div>
 
-                    <div className="flex flex-wrap justify-center mt-10 lg:mt-20 sm:-mx-3">
-                        {demandsList.map((items, index) => (
-
-                            <div key={index} className='w-full sm:w-1/2 lg:w-1/4 sm:px-3 mt-6 lg:mt-0'>
-                                <div className='relative h-[250px] w-full group overflow-hidden'>
-                                    <div className='absolute bottom-0 -left-full p-5 w-full h-full bg-black/50 z-10 flex flex-col justify-center gap-3 duration-300 group-hover:opacity-100 opacity-0  group-hover:left-0'>
-                                        <h3 className='font-semibold text-xl lg:text-2xl text-white'>{items.title}</h3>
-                                        <p className='font-normal text-base lg:text-lg text-white/80'>{items.description}</p>
-                                        <button className='flex gap-2 py-2.5 capitalize font-semibold text-base lg:text-lg text-white duration-300'>Explore More <span><ArrowIcons /></span></button>
-
-                                    </div>
-                                    <img className='h-full w-full object-cover' src={items.img} alt={items.title} />
-                                </div>
-                            </div>))}
-                        <div className='mt-8'>
-                            <CommonBtn path='/products' btnName="View All" btnStyling=" py-2.5 px-3 xl:px-6" />
-                        </div>
-                    </div>
-
-
-                </div>
-            </section> */}
 
 
             {/* CUSTOMER REVIEW */}
-     <section className='pb-14 pt-6 md:pb-32 lg:pb-40 xl:pb-44 overflow-hidden'>
-            <div className='custom_container container px-5 mx-auto'>
-                <div className='flex flex-col justify-center items-center gap-4.5'>
-                    <p className='font-semibold text-lg md:text-xl xl:text-2xl flex items-center gap-2 uppercase'>
-                        <span className='black_star'><StarIcons /></span> testimonial
-                    </p>
-                    <h2 className='font-semibold text-3xl md:text-5xl xl:text-6xl xl:leading-[120%] text-center'>
-                        Meet our customers
-                    </h2>
-                </div>
+            <section className='pb-14 pt-6 md:pb-32 lg:pb-40 xl:pb-44 overflow-hidden'>
+                <div className='custom_container container px-5 mx-auto'>
+                    <div className='flex flex-col justify-center items-center gap-4.5'>
+                        <p className='font-semibold text-lg md:text-xl xl:text-2xl flex items-center gap-2 uppercase'>
+                            <span className='black_star'><StarIcons /></span> testimonial
+                        </p>
+                        <h2 className='font-semibold text-3xl md:text-5xl xl:text-6xl xl:leading-[120%] text-center'>
+                            Meet our customers
+                        </h2>
+                    </div>
 
-                <Slider {...settings}>
-                    {demandsList.map((items, index) => {
-                        const isExpanded = expandedIndex === index;
+                    <Slider {...settings}>
+                        {demandsList.map((items, index) => {
+                            const isExpanded = expandedIndex === index;
 
-                        return (
-                            <div key={index}>
-                                <div className={`flex flex-col md:flex-row md:mt-10 lg:mt-20 -mx-3 transition-all duration-500 ease-in-out`}>
-                                    {/* Text Section */}
-                                    <div className={`px-3 mt-6 lg:mt-0 w-full transition-all duration-500 ease-in-out ${isExpanded ? 'md:w-full relative' : 'md:w-1/2'}`}>
-                                        {isExpanded && (
-                                            <div
-                                                className="absolute right-0 -top-20 mr-3 mt-3 transition-all duration-500 ease-in-out"
-                                                style={{ width: '150px', height: '150px' }}
+                            return (
+                                <div key={index}>
+                                    <div className={`flex flex-col md:flex-row md:mt-10 lg:mt-20 -mx-3 transition-all duration-500 ease-in-out`}>
+                                        {/* Text Section */}
+                                        <div className={`px-3 mt-6 lg:mt-0 w-full transition-all duration-500 ease-in-out ${isExpanded ? 'md:w-full relative' : 'md:w-1/2'}`}>
+                                            {isExpanded && (
+                                                <div
+                                                    className="absolute right-0 -top-20 mr-3 mt-3 transition-all duration-500 ease-in-out"
+                                                    style={{ width: '150px', height: '150px' }}
+                                                >
+                                                    <img
+                                                        className="w-full h-full object-contain rounded-full"
+                                                        src={items.img}
+                                                        alt="customer"
+                                                    />
+                                                </div>
+                                            )}
+
+                                            <DoubleQuoteIcons />
+                                            <p
+                                                className={`font-normal text-xl lg:text-2xl xl:text-3xl xl:leading-[160%] text-[#2E3646] mt-7 transition-all duration-300 ${!isExpanded && '!line-clamp-5'}`}
                                             >
-                                                <img
-                                                    className="w-full h-full object-contain rounded-full"
-                                                    src={items.img}
-                                                    alt="customer"
-                                                />
-                                            </div>
-                                        )}
+                                                {items.comment}
+                                            </p>
 
-                                        <DoubleQuoteIcons />
-                                        <p
-                                            className={`font-normal text-xl lg:text-2xl xl:text-3xl xl:leading-[160%] text-[#2E3646] mt-7 transition-all duration-300 ${!isExpanded && '!line-clamp-5'}`}
-                                        >
-                                            {items.comment}
-                                        </p>
+                                            {items.comment.split(' ').length > 20 && (
+                                                <button
+                                                    onClick={() => toggleReadMore(index)}
+                                                    className="mt-2 text-blue-600 hover:underline"
+                                                >
+                                                    {isExpanded ? 'Read less' : 'Read more'}
+                                                </button>
+                                            )}
 
-                                        {items.comment.split(' ').length > 20 && (
-                                            <button
-                                                onClick={() => toggleReadMore(index)}
-                                                className="mt-2 text-blue-600 hover:underline"
-                                            >
-                                                {isExpanded ? 'Read less' : 'Read more'}
-                                            </button>
-                                        )}
-
-                                        <h3 className='font-semibold text-xl lg:text-2xl xl:3xl text-black mt-10 uppercase'>
-                                            {items.name}
-                                        </h3>
-                                        <p className='font-medium text-xl lg:text-2xl text-[#353535] mt-2'>
-                                            Qualitat Products
-                                        </p>
-                                    </div>
-
-                                    {/* Image Section (big image when not expanded) */}
-                                    {!isExpanded && (
-                                        <div className='w-full md:w-1/2 px-3 mt-6 lg:mt-0 flex justify-end'>
-                                            <div className='relative w-full lg:w-[530px] lg:h-[530px] bg-[#353535] rounded-full group overflow-hidden flex justify-center items-center transition-all duration-500'>
-                                                <img
-                                                    className='w-full h-full object-cover'
-                                                    src={items.img}
-                                                    alt='customer'
-                                                />
-                                            </div>
+                                            <h3 className='font-semibold text-xl lg:text-2xl xl:3xl text-black mt-10 uppercase'>
+                                                {items.name}
+                                            </h3>
+                                            <p className='font-medium text-xl lg:text-2xl text-[#353535] mt-2'>
+                                                Qualitat Products
+                                            </p>
                                         </div>
-                                    )}
+
+                                        {/* Image Section (big image when not expanded) */}
+                                        {!isExpanded && (
+                                            <div className='w-full md:w-1/2 px-3 mt-6 lg:mt-0 flex justify-end'>
+                                                <div className='relative w-full lg:w-[530px] lg:h-[530px] bg-[#353535] rounded-full group overflow-hidden flex justify-center items-center transition-all duration-500'>
+                                                    <img
+                                                        className='w-full h-full object-cover'
+                                                        src={items.img}
+                                                        alt='customer'
+                                                    />
+                                                </div>
+                                            </div>
+                                        )}
+                                    </div>
                                 </div>
-                            </div>
-                        );
-                    })}
-                </Slider>
-            </div>
-        </section>
+                            );
+                        })}
+                    </Slider>
+                </div>
+            </section>
 
 
             {/* NEWS */}
-            <section id='news' className='mt-6 md:mb-32 lg:mb-40 xl:mb-44  bg-[#C8F9E4] py-6 relative'>
-                <div className='custom_container container px-5 mx-auto'>
-                    <div className="flex flex-col md:flex-row md:mt-10 lg:mt-20 -mx-3">
-
-                        <div className='w-full md:w-1/2 px-3 mt-6 lg:mt-0'>
-                            <p className='font-semibold text-lg md:text-xl xl:text-2xl flex items-center gap-2 uppercase'> <span className='black_star'><StarIcons /></span> testimonial</p>
-                            <div className='relative h-full w-full group overflow-hidden'>
-                                <div className='pb-6 mt-10 border-b border-[#000]'>
-
-                                    <span className='font-semibold text-xl lg:text-2xl lg:leading-[140%] text-[#2E3646] '>10 Jul 2025</span>
-                                    <p className='font-semibold text-2xl lg:text-3xl xl:text-4xl xl:leading-[140%] text-[#2E3646] '>
-                                        New milestone in Red Cow Diplomacy</p>
-                                </div>
-                                <div className='pb-6 mt-10 border-b border-[#000]'>
-
-                                    <span className='font-semibold text-xl lg:text-2xl lg:leading-[140%] text-[#2E3646] '>10 Jul 2025</span>
-                                    <p className='font-semibold text-2xl lg:text-3xl xl:text-4xl xl:leading-[140%] text-[#2E3646] '>
-                                        New milestone in Red Cow Diplomacy</p>
-                                </div>
-                                <div className='pb-6 mt-10 border-b border-[#000]'>
-
-                                    <span className='font-semibold text-xl lg:text-2xl lg:leading-[140%] text-[#2E3646] '>10 Jul 2025</span>
-                                    <p className='font-semibold text-2xl lg:text-3xl xl:text-4xl xl:leading-[140%] text-[#2E3646] '>
-                                        New milestone in Red Cow Diplomacy</p>
-                                </div>
-                                <div className='pb-6 mt-10 border-b border-[#000]'>
-
-                                    <span className='font-semibold text-xl lg:text-2xl lg:leading-[140%] text-[#2E3646] '>10 Jul 2025</span>
-                                    <p className='font-semibold text-2xl lg:text-3xl xl:text-4xl xl:leading-[140%] text-[#2E3646] '>
-                                        New milestone in Red Cow Diplomacy</p>
-                                </div>
-
-                            </div>
-                        </div>
-                        <div className='w-full md:w-1/2 px-3 mt-6 lg:mt-0'>
-                            <div className='flex justify-end'>
-                                <div className='relative w-full h-[400px] md:h-full md:w-[43%] md:absolute top-0 right-0 bg-[#353535] group overflow-hidden'>
-                                    <img className='w-full h-full object-cover' src={newsImg} alt='customer' />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+            <Designation/>
 
 
         </div>

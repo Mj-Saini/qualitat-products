@@ -1818,3 +1818,160 @@ export const geneticsTabData = [
 ];
 
 
+export const designationList = [
+  {
+    name: "GrazingPro",
+    href: "/genetics/designations/grazingpro",
+    greyIcon: "https://wwsires.com/designations/grazingpro_icon_grey.png",
+    colorIcon: "https://wwsires.com/designations/grazingpro_icon.png",
+    title: (
+      <>
+        GrazingPro<sup>®</sup>
+      </>
+    ),
+    description:
+      "GrazingPRO sires are selected to improve the profitability of grass-based production systems by transmitting outstanding daughter fertility, greater longevity, mobility, moderate stature and improved component yields.",
+  },
+    {
+      name: "FeedPro",
+    href: "/genetics/designations/feedpro",
+      greyIcon: "https://wwsires.com/designations/feedpro_icon_grey.png",
+      colorIcon: "https://wwsires.com/designations/feedpro_icon.png",
+     title: (
+      <>
+        <em>Feed</em>PRO<sup>®</sup>
+      </>
+    ),
+    description:
+          "gFeedPRO is a sire selection tool for the dairy producer concerned about feed costs and wanting to improve overall profitability. This index optimizes the selection for increased production and moderate body size while maintaining body condition score, mastitis resistance and daughter fertility. FeedPRO is a revolutionary index that designates sires with the genetics to improve income over feed costs and maintain health and reproductive traits.",
+    
+    
+
+  },
+  {
+    name: "Fertility",
+    href: "/genetics/designations/fertilitypro",
+      greyIcon: "https://wwsires.com/designations/fertilitypro_icon_grey.png",
+    colorIcon:"https://wwsires.com/designations/fertilitypro_icon.png",
+   
+       title: (
+      <>
+        <em>Fertility</em>PRO<sup>®</sup>
+      </>
+    ),
+    description:
+      "FertilityPRO identifies sires with semen that will likely improve pregnancy rates. This designation is assigned by examining industry Sire Conception Rate (SCR) values, along with intensive in-house semen quality evaluations.",
+  },
+  {
+    name: "Showcase",
+    href: "/genetics/designations/showcase",
+    greyIcon:"https://wwsires.com/designations/showcase_icon_grey.png",
+    colorIcon : "https://wwsires.com/designations/showcase_icon.png",
+   
+      title: (
+      <>
+        Showcase<sup>™</sup>
+      </>
+    ),
+    description:
+      "Showcase sires earn this designation through outstanding breed-leading Type or show-winning pedigrees. This designation is for customers who want to produce the next show winner or improve the overall Type in their herd.",
+  },
+  
+  {
+    name: "elite-sexed-fertility",
+    href: "/genetics/designations/elite-sexed-fertility",
+    greyIcon:"https://wwsires.com/designations/elitesexedfertility_icon_grey.png",
+    colorIcon : "https://wwsires.com/designations/elitesexedfertility_icon.png",
+    title: (
+      <>
+        <em>elite-sexed-fertility</em><sup>TM</sup>
+      </>
+    ),
+    description:
+      "The Elite Sexed Fertility icon designates sires that can help you achieve the highest sex-sorted semen conception rates, enhancing the return on your investment! This designation identifies gender SELECTED sires with above average conception performance for sex-sorted semen in both 2M and 4M products. ",
+  },
+  
+    {
+      name: "RobotPRO",
+    href: "/genetics/designations/robotpro",
+    
+     greyIcon:"https://wwsires.com/designations/robotpro_icon_grey.png",
+    colorIcon : "https://wwsires.com/designations/robotpro_icon.png",
+    title: (
+      <>
+        <em>Robot</em>PRO<sup>®</sup>
+      </>
+    ),
+    description:
+      "RobotPRO identifies sires that transmit the desired traits for robotic milking systems. These sires are selected by focusing on components and milk yield, udder health, longevity and durability, as well as functional udder traits.",
+  },
+    {
+      name: "gforce-plus",
+    href: "/genetics/designations/gforce-plus",
+    greyIcon:"https://wwsires.com/designations/gforceplus_icon_grey.png",
+    colorIcon : "https://wwsires.com/designations/gforceplus_icon.png",
+    title: (
+      <>
+        <em>G</em>Force+<sup>™</sup>
+      </>
+    ),
+    description:
+      "The GForce+ lineup includes proven and young sires selected based on rigid semen quality standards and their high-ranking Sire Conception Rate (SCR) from progeny test semen usage. GForce+ sires must have outstanding genetic merit, a highly reliable sire stack and actual calving ease observations.",
+  },
+  {
+    name: "Gforce",
+    href: "/genetics/designations/gforce",
+    
+     greyIcon:"http://wwsires.com/designations/gforce_icon_grey.png",
+    colorIcon : "https://wwsires.com/designations/gforce_icon.png",
+    title: (
+      <>
+        <em>G</em>Force<sup>™</sup>
+      </>
+    ),
+    description:
+      "The GForce lineup includes sires with elite genomic evaluations based on a combination of traditional pedigree data and genomic data, but does not contain actual daughter data. This combination of data increases the reliability of a young sires’ genetic prediction prior to the availability of actual daughter data.",
+  },
+  {
+    name: "mastitis-resistantpro",
+    href: "/genetics/designations/mastitis-resistantpro",
+   greyIcon:"https://wwsires.com/designations/mastitisresistantpro_icon_grey.png",
+      colorIcon: "https://wwsires.com/designations/mastitisresistantpro_icon.png",
+    title: (
+      <>
+        <em>Mastitis Resistant</em>PRO<sup>®</sup>
+      </>
+    ),
+    description:
+      "Sires which excel in multiple indicators of mastitis resistance are more likely to deliver genetic improvement. Mastitis ResistantPRO uses a combination of CDCB Mastitis Resistance, CDCB Somatic Cell Score (SCS) and Zoetis Mastitis Resistance.",
+  },
+  {
+    name: "progeny-proven",
+    href: "/genetics/designations/progeny-proven",
+    greyIcon:"https://wwsires.com/designations/proven_icon_grey.png",
+    colorIcon : "https://wwsires.com/designations/proven_icon.png",
+    title: (
+      <>
+        <em>Progeny Proven</em><sup>™</sup>
+      </>
+    ),
+    description:
+      "If you want the most reliable sires available for your breeding program, look for the Progeny Proven icon. This lineup designates sires with an evaluation based on both genomic data and actual daughter performance data.",
+  },
+  {
+    name: "Gender Selected",
+    href: "/genetics/designations/gender-selected",
+   greyIcon:"https://wwsires.com/designations/genderselected_icon_grey.png",
+        colorIcon: "https://wwsires.com/designations/genderselected_icon.png",
+    title: (
+      <>
+        <em>gender</em>SELECTED<sup>™</sup>
+      </>
+    ),
+    description:
+      "genderSELECTED designees have sex-sorted semen available. Select Sires continually collects conception data from herds using gender SELECTED semen to calculate fertility deviations and removes bulls that perform unacceptably.",
+  },
+  
+];
+
+
