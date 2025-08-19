@@ -1940,19 +1940,19 @@ export const designationList = [
     description:
       "RobotPRO identifies sires that transmit the desired traits for robotic milking systems. These sires are selected by focusing on components and milk yield, udder health, longevity and durability, as well as functional udder traits.",
   },
-    {
-      name: "gforce-plus",
-    href: "/genetics/designations/gforce-plus",
-    greyIcon:"https://wwsires.com/designations/gforceplus_icon_grey.png",
-    colorIcon : "https://wwsires.com/designations/gforceplus_icon.png",
-    title: (
-      <>
-        <em>G</em>Force+<sup>™</sup>
-      </>
-    ),
-    description:
-      "The GForce+ lineup includes proven and young sires selected based on rigid semen quality standards and their high-ranking Sire Conception Rate (SCR) from progeny test semen usage. GForce+ sires must have outstanding genetic merit, a highly reliable sire stack and actual calving ease observations.",
-  },
+//     {
+//       name: "gforce-plus",
+//     href: "/genetics/designations/gforce-plus",
+//     greyIcon:"https://wwsires.com/designations/gforceplus_icon_grey.png",
+//     colorIcon : "https://wwsires.com/designations/gforceplus_icon.png",
+//     title: (
+//       <>
+//         <em>G</em>Force+<sup>™</sup>
+//       </>
+//     ),
+//     description:
+//       "The GForce+ lineup includes proven and young sires selected based on rigid semen quality standards and their high-ranking Sire Conception Rate (SCR) from progeny test semen usage. GForce+ sires must have outstanding genetic merit, a highly reliable sire stack and actual calving ease observations.",
+//   },
   {
     name: "Gforce",
     href: "/genetics/designations/gforce",

@@ -24,7 +24,7 @@ import maximus from '../assets/images/png/maxmus.png'
 import magnum from '../assets/images/png/magnum.png'
 import maccom from '../assets/images/png/maccom.png'
 import logistics from '../assets/images/png/logistic.png'
-import letchworth from '../assets/images/png/letchowerth.png'
+import letchworth from '../assets/images/png/letchoworth.png'
 import knockOut from '../assets/images/png/knock-out.png'
 import keystone from '../assets/images/png/keystone.png'
 import kamakazi from '../assets/images/png/kamakazi.png'
@@ -441,7 +441,7 @@ export const bullList = [
   "name": "TED",
   
     "category": "HF", 
-  img:ted,
+  // img:ted,
   detailsPdf:detailTed,
   },
   {
