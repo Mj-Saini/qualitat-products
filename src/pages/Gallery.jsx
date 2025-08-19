@@ -96,7 +96,7 @@ const Gallery = () => {
 
   return (
     <div>
-      <CommonHero heading="Explore Our Visual Collection" lable="Gallery"/>
+      <CommonHero heading="Explore Our Visual Collection" lable="Gallery" heroBgImg="gallary_hero_bg_img"/>
       
       {/* Osaka Japan Conference Section */}
       <section className='py-14 md:py-20 relative'>

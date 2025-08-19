@@ -5,7 +5,7 @@ import {  CalfList } from '../components/common/Helper'
 const CalfPage = () => {
   return (
     <div>
-      <CommonHero heading="Strong Starts Begin with the Right Genetics" />
+      <CommonHero heading="Strong Starts Begin with the Right Genetics" heroBgImg="calf_hero_bg_img" />
          
       
       {/* CALFS */}

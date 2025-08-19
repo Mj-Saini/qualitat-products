@@ -18,29 +18,19 @@ const GeneticsDetails = ({ mapData }) => {
         </div>
 
         {/* THUMBNAIL + LINK */}
-        <div className="w-full h-full max-w-full aspect-video mt-12 relative content-center">
-          {article?.video && (
-            <Link
-              to={article.video}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="block relative bg-black/40 h-full content-center"
-            >
-              {/* Thumbnail -> ab yaha youtube ki jagah article.img use hoga */}
-              <img
-                src={article?.img} 
-                alt={`${article?.title} thumbnail`}
-                className="w-full rounded-lg object-cover"
-              />
-              {/* Play button */}
-              <div className="absolute inset-0 flex items-center justify-center">
-                <button className="bg-red-600 text-white px-2 sm:px-6 py-3 rounded-lg text-xs sm:text-xl font-semibold cursor-pointer">
-                  ▶ Watch on YouTube
-                </button>
-              </div>
-            </Link>
-          )}
-        </div>
+       
+         {article?.video && (
+          <div className="w-full h-full max-w-full aspect-video mt-12 relative content-center">
+            <video
+              className="w-full h-full object-cover rounded-lg"
+              src={article.video}
+              autoPlay
+              muted
+              loop
+              controls
+            />
+          </div>
+        )}
 
         {/* DESCRIPTION */}
         <p className="mt-6 text-black text-base leading-relaxed">

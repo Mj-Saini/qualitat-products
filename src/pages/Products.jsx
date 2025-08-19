@@ -14,13 +14,15 @@ const Products = () => {
           <section className='py-14 md:py-32  relative'>
         <div className='custom_container container px-5 mx-auto'>
           <div className="flex flex-wrap sm:-mx-3">
-            {CalfList.map((obj, index) => {
+            {/* {CalfList.map((obj, index) => {
             return (
               <div key={index} className='w-full sm:w-1/2 xl:w-1/4 sm:px-3 mt-6 lg:mb-0'>
                 <AnimalsCard mapData={obj} path={`/products-details/${obj.id}`} />
               </div>
-            )
-          })}  
+            ) 
+          })}  */}
+            
+            <h2 className='3xl  text-bold text-center uppercase w-full'>add Products here</h2>
         
           </div>
         </div>

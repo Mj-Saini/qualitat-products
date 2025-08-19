@@ -63,6 +63,40 @@ import testimonial3 from '../../assets/images/png/varun-komboj.png'
 import testimonial4 from '../../assets/images/png/rajvir-singh.png'
 
 
+
+// VIDEOS
+import feedPro from '../../assets/video/PROJECTS FILE-2 (2).mp4'
+import fartilitypro from '../../assets/video/PROJECTS FILE-2 (1).mp4'
+import grazingoPro from '../../assets/video/PROJECTS FILE-2 (7).mp4'
+import mastitisRes from '../../assets/video/PROJECTS FILE-2 (3).mp4'
+import robotPro from '../../assets/video/PROJECTS FILE-2 (8).mp4'
+import showCase from '../../assets/video/PROJECTS FILE-2 (1).mp4'
+import genderSelect from '../../assets/video/PROJECTS FILE-2 (10).mp4'
+import eliteSexedFertility from '../../assets/video/PROJECTS FILE-2 (5).mp4'
+import GForceVdo from '../../assets/video/PROJECTS FILE-2 (6).mp4'
+import GforcePlus from '../../assets/video/PROJECTS FILE-2 (9).mp4'
+import progenyProven from '../../assets/video/PROJECTS FILE-2 (4).mp4'
+
+import homePageBg from '../../assets/images/sliderImg/HOME.jpg'
+
+
+export const heroSlides = [
+  {
+    type: 'image',
+    src: homePageBg,
+    title: 'Innovative breeding',
+    description:
+      'Get healthy, efficient, trouble-free cows with the highest milk production and the lowest use of antibiotics and hormones.',
+  },
+  {
+    type: 'image',
+    src: homePageBg,
+    title: 'Efficient Genetics',
+    description:
+      'Optimize your dairy herd with proven results from elite genetics and responsible farming.',
+  },
+];
+
 export const FarmSunstainList = [
     {
 
@@ -1722,7 +1756,7 @@ export const geneticsTabData = [
   {
     slug: "feedpro",
     img: "https://a-us.storyblok.com/f/1013974/752x121/ee0b9f519e/feedpro.png",
-    video: "https://youtu.be/bvAU_fuUGOA?si=LzJS2Ubj8eDzBOGz",
+    video: feedPro,
     title: "FeedPRO®",
     description:
       "FeedPRO is a sire selection tool for the dairy producer concerned about feed costs and wanting to improve overall profitability. This index optimizes the selection for increased production and moderate body size while maintaining body condition score, mastitis resistance and daughter fertility. FeedPRO is a revolutionary index that designates sires with the genetics to improve income over feed costs and maintain health and reproductive traits.",
@@ -1730,7 +1764,7 @@ export const geneticsTabData = [
   {
     slug: "fertilitypro",
       img: "https://a-us.storyblok.com/f/1013974/1031x125/d7b89b64ff/fertilitypro.png",
-    video:"https://youtu.be/KyB8Sgu4U0E?si=ivjXrfmg-cqXBHwL",
+    video:fartilitypro,
     title: "FertilityPRO®",
     description:
       "FertilityPRO identifies sires with semen that will likely improve pregnancy rates. This designation is assigned by examining industry Sire Conception Rate (SCR) values, along with intensive in-house semen quality evaluations.",
@@ -1738,7 +1772,7 @@ export const geneticsTabData = [
   {
     slug: "grazingpro",
       img: "https://a-us.storyblok.com/f/1013974/991x126/ad728bf355/grazingpro.png",
-    video:"https://youtu.be/RofX61aIalI?si=lwQPAe7_9oCOBiBw",
+    video:grazingoPro,
     title: "GrazingPRO®",
     description:
       "sires are selected to improve the profitability of grass-based production systems by transmitting outstanding daughter fertility, greater longevity, mobility, moderate stature and improved component yields.",
@@ -1746,7 +1780,7 @@ export const geneticsTabData = [
   {
     slug: "mastitis-resistantpro",
       img: "https://a-us.storyblok.com/f/1013974/1714x124/1abe4e41b9/mastitisresistantpro.png",
-    video:"https://youtu.be/M4hg1X-fuLk?si=JNb2eXAeE71qevuR",
+    video:mastitisRes,
     title: "Mastitis ResistantPRO®",
     description:
       "Sires which excel in multiple indicators of mastitis resistance are more likely to deliver genetic improvement. Mastitis ResistantPRO uses a combination of CDCB Mastitis Resistance, CDCB Somatic Cell Score (SCS) and Zoetis Mastitis Resistance.",
@@ -1754,7 +1788,7 @@ export const geneticsTabData = [
   {
     slug: "robotpro",
       img: "https://a-us.storyblok.com/f/1013974/805x120/982f113d17/robotpro.png",
-    video:"https://youtu.be/P10OVwYLsio?si=meMHqjZBlcMwMTjd",
+    video:robotPro,
     title: "RobotPRO®",
     description:
       "RobotPRO identifies sires that transmit the desired traits for robotic milking systems. These sires are selected by focusing on components and milk yield, udder health, longevity and durability, as well as functional udder traits.",
@@ -1762,7 +1796,7 @@ export const geneticsTabData = [
   {
     slug: "showcase",
       img: "https://a-us.storyblok.com/f/1013974/836x124/771d46b72e/showcase.png",
-    video:"https://youtu.be/PA2SBfi_VlQ?si=OKFPt8YHfTCvYvki",
+    video:showCase,
     title: "Showcase™",
     description:
       "Showcase sires earn this designation through outstanding breed-leading Type or show-winning pedigrees. This designation is for customers who want to produce the next show winner or improve the overall Type in their herd.",
@@ -1770,7 +1804,7 @@ export const geneticsTabData = [
   {
     slug: "gender-selected",
       img: "https://a-us.storyblok.com/f/1013974/1030x188/75025a9d19/genderselected.png",
-    video:"https://youtu.be/4ebeOVB7UT8?si=yMxBfzDVH9keSAyj",
+    video:genderSelect,
     title: "gender SELECTED™",
     description:
       "gender SELECTED designees have sex-sorted semen available. Select Sires continually collects conception data from herds using gender SELECTED semen to calculate sexed semen fertility deviations and removes bulls from the lineup that perform unacceptably.",
@@ -1778,7 +1812,7 @@ export const geneticsTabData = [
   {
     slug: "elite-sexed-fertility",
       img: "https://a-us.storyblok.com/f/1013974/1114x96/4dd49a472f/elitesexedfertility.png",
-    video:"https://youtu.be/bl1QXz0Omvo?si=KRaPjfSOQV519IKv",
+    video:eliteSexedFertility,
     title: "Elite Sexed Fertility™",
     description:
       "The Elite Sexed Fertility icon designates sires that can help you achieve the highest sex-sorted semen conception rates, enhancing the return on your investment! This designation identifies gender SELECTED sires with above average conception performance for sex-sorted semen in both 2M and 4M products. ",
@@ -1786,7 +1820,7 @@ export const geneticsTabData = [
   {
     slug: "gforce",
       img: "https://a-us.storyblok.com/f/1013974/694x122/72147959a5/gforce.png",
-    video:"https://youtu.be/UZUt_zPOPFk?si=dDUF52fBOzY8v-qy",
+    video:GForceVdo,
     title: "GForce™",
     description:
       "The GForce lineup includes sires with elite genomic evaluations based on a combination of traditional pedigree data and genomic data, but does not contain actual daughter data. This combination of data increases the reliability of a young sires’ genetic prediction prior to the availability of actual daughter data.",
@@ -1794,7 +1828,7 @@ export const geneticsTabData = [
   {
     slug: "gforce-plus",
       img: "https://a-us.storyblok.com/f/1013974/761x126/76239ba8a1/gforceplus.png",
-    video:"https://youtu.be/wVVPlJdg2JM?si=KIcqX7Qeg9gOvbC5",
+    video:GforcePlus,
     title: "GForce+™",
     description:
       "The GForce+ lineup includes proven and young sires selected based on rigid semen quality standards and their high-ranking Sire Conception Rate (SCR) from progeny test semen usage. GForce+ sires must have outstanding genetic merit, a highly reliable sire stack and actual calving ease observations.",
@@ -1802,7 +1836,7 @@ export const geneticsTabData = [
   {
     slug: "progeny-proven",
       img: "https://a-us.storyblok.com/f/1013974/1276x124/df90554eba/proven.png",
-    video:"https://youtu.be/bRFBZhRmT5g?si=_r1O6jWCdzNgjPh0",
+    video:progenyProven,
     title: "Progeny Proven™",
     description:
       "If you want the most reliable sires available for your breeding program, look for the Progeny Proven icon. This lineup designates sires with an evaluation based on both genomic data and actual daughter performance data.",

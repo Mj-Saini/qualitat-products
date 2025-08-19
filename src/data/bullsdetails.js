@@ -214,7 +214,7 @@ export const bullList = [
     id: "7HO15314",
     name: "SAM-RED",
     category: "Red",
-    img:sam,
+    // img:sam,
    detailsPdf:detailSamRed,
   },
   {
@@ -235,7 +235,7 @@ export const bullList = [
   {
     id: "7JE01331",
     name: "VARICK",
-    category: "HF",
+    category: "JE",
     img:varika,
     detailsPdf:detailVarick,
 
@@ -302,7 +302,7 @@ export const bullList = [
     id: "7HO17782",
     name: "SUNRISE",
     
-    category: "JE", // Jersey
+    category: "HF", // Jersey
     // img:sunriseImg,
    detailsPdf:detailSunrise,
   },
@@ -423,7 +423,7 @@ export const bullList = [
   "name": "BARLEY",
   
     "category": "JE",
-  img:barley,
+  // img:barley,
   detailsPdf:detailBarley,
   
   },

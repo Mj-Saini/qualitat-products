@@ -21,7 +21,7 @@ const BullPage = () => {
 
   return (
     <div>
-      <CommonHero heading="Empowering Farmers Through World-Class Genetics"  />
+      <CommonHero heading="Empowering Farmers Through World-Class Genetics" heroBgImg="bull_hero_bg_img"  />
 
       {/* Description Section */}
       <section className='mt-6 py-14 md:py-32 lg:py-40 xl:py-44 relative'>

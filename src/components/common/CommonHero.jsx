@@ -1,10 +1,9 @@
 import React from 'react'
-import { StarIcons } from './Icons'
 
-const CommonHero = ({heading }) => {
+const CommonHero = ({heading,heroBgImg }) => {
   return (
     <>
-       <div className='hero_bg_img h-[calc(70vh-87px)] relative flex'>
+       <div className={`${heroBgImg} h-[calc(70vh-87px)] relative flex`}>
                 <div className='bg-[#111111]/50 absolute w-full h-[calc(70vh-87px)] top-0 left-0'></div>
                 <div className='custom_container container px-5 mx-auto grow'>
                     <div className='flex flex-col justify-center items-center text-start text-white h-full relative z-10'>

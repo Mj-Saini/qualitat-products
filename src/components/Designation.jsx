@@ -7,6 +7,10 @@ import { Link } from "react-router";
 const Designation = () => {
   const [active, setActive] = useState(designationList[0]);
 
+   const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
   return (
     <section
       id="designations"
@@ -31,7 +35,8 @@ const Designation = () => {
             ];
  const isActive = active.name === item.name;
             return (
-                <Link
+              <Link
+                 onClick={scrollToTop}
                     to={item.href} 
                 key={index}
                 className={`cursor-pointer flex justify-center items-center ${gridPositions[index]}`}

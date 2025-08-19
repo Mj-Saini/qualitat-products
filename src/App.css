@@ -23,8 +23,20 @@
   -webkit-text-stroke: 1px #000000;
 }
 
-.hero_bg_img{
-  background-image: url('/src/assets/images/webp/hero-bg-img.webp');
+.bull_hero_bg_img{
+  background-image: url('/src/assets/images/sliderImg/BULLS.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+.calf_hero_bg_img{
+  background-image: url('/src/assets/images/sliderImg/CALF.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+.gallary_hero_bg_img{
+  background-image: url('/src/assets/images/sliderImg/GALLERY.jpg');
   background-size: cover;
   background-position: center;
   width: 100%;

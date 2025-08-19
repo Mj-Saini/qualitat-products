@@ -5,25 +5,9 @@ import React from 'react';
 import Slider from 'react-slick';
 import { ArrowIcons } from './common/Icons';
 import CommonBtn from './common/CommonBtn';
-import video1 from '../assets/video/WhatsApp Video 2025-07-29 at 11.49.15.mp4';
-import heroImage from '../assets/images/png/hero-bg-img.png'; // example image
+import { heroSlides } from './common/Helper';
 
-const heroSlides = [
-  {
-    type: 'video',
-    src: video1,
-    title: 'Innovative breeding',
-    description:
-      'Get healthy, efficient, trouble-free cows with the highest milk production and the lowest use of antibiotics and hormones.',
-  },
-  {
-    type: 'image',
-    src: heroImage,
-    title: 'Efficient Genetics',
-    description:
-      'Optimize your dairy herd with proven results from elite genetics and responsible farming.',
-  },
-];
+
 
 const HeroSlider = () => {
   const settings = {
