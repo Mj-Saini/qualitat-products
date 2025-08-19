@@ -538,7 +538,7 @@ export const bullList = [
   "id": '7JE01344', 
   "name": "MATT",
     
-    "category": "HF",
+    "category": "JE",
   img:mattImg,
    detailsPdf:detailMatt,
   },
@@ -586,9 +586,9 @@ export const bullList = [
   "id": '614JE00725', 
   "name": "CASINO",
     
-    "category": "HF",
+    "category": "JE",
   img:casino,
-   detailsPdf:detailChilton,
+   detailsPdf:detailCasino,
   },
  
 

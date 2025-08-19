@@ -7,7 +7,7 @@ import AnimalsCard from '../components/AnimalsCard'
 const Products = () => {
   return (
     <div>
-      <CommonHero heading="Strong Starts Begin with the Right Genetics" lable="Products"/>
+      <CommonHero heading="Strong Starts Begin with the Right Genetics" lable="Products" heroBgImg={"product_hero_bg_img"}/>
          
          <MarqueeSlide />
     {/* Products */}

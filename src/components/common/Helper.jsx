@@ -70,7 +70,7 @@ import fartilitypro from '../../assets/video/PROJECTS FILE-2 (1).mp4'
 import grazingoPro from '../../assets/video/PROJECTS FILE-2 (7).mp4'
 import mastitisRes from '../../assets/video/PROJECTS FILE-2 (3).mp4'
 import robotPro from '../../assets/video/PROJECTS FILE-2 (8).mp4'
-import showCase from '../../assets/video/PROJECTS FILE-2 (1).mp4'
+import showCase from '../../assets/video/PROJECTS FILE-2 (9).mp4'
 import genderSelect from '../../assets/video/PROJECTS FILE-2 (10).mp4'
 import eliteSexedFertility from '../../assets/video/PROJECTS FILE-2 (5).mp4'
 import GForceVdo from '../../assets/video/PROJECTS FILE-2 (6).mp4'
@@ -78,22 +78,23 @@ import GforcePlus from '../../assets/video/PROJECTS FILE-2 (9).mp4'
 import progenyProven from '../../assets/video/PROJECTS FILE-2 (4).mp4'
 
 import homePageBg from '../../assets/images/sliderImg/HOME.jpg'
+import homePageBgVideo from '../../assets/video/WhatsApp Video 2025-07-29 at 11.49.15.mp4'
 
 
 export const heroSlides = [
-  {
-    type: 'image',
-    src: homePageBg,
-    title: 'Innovative breeding',
-    description:
-      'Get healthy, efficient, trouble-free cows with the highest milk production and the lowest use of antibiotics and hormones.',
-  },
+ 
   {
     type: 'image',
     src: homePageBg,
     title: 'Efficient Genetics',
     description:
       'Optimize your dairy herd with proven results from elite genetics and responsible farming.',
+  }, {
+    type: 'video',
+    src: homePageBgVideo,
+    title: 'Innovative breeding',
+    description:
+      'Get healthy, efficient, trouble-free cows with the highest milk production and the lowest use of antibiotics and hormones.',
   },
 ];
 
@@ -1825,14 +1826,14 @@ export const geneticsTabData = [
     description:
       "The GForce lineup includes sires with elite genomic evaluations based on a combination of traditional pedigree data and genomic data, but does not contain actual daughter data. This combination of data increases the reliability of a young sires’ genetic prediction prior to the availability of actual daughter data.",
   },
-  {
-    slug: "gforce-plus",
-      img: "https://a-us.storyblok.com/f/1013974/761x126/76239ba8a1/gforceplus.png",
-    video:GforcePlus,
-    title: "GForce+™",
-    description:
-      "The GForce+ lineup includes proven and young sires selected based on rigid semen quality standards and their high-ranking Sire Conception Rate (SCR) from progeny test semen usage. GForce+ sires must have outstanding genetic merit, a highly reliable sire stack and actual calving ease observations.",
-  },
+//   {
+//     slug: "gforce-plus",
+//       img: "https://a-us.storyblok.com/f/1013974/761x126/76239ba8a1/gforceplus.png",
+//     video:GforcePlus,
+//     title: "GForce+™",
+//     description:
+//       "The GForce+ lineup includes proven and young sires selected based on rigid semen quality standards and their high-ranking Sire Conception Rate (SCR) from progeny test semen usage. GForce+ sires must have outstanding genetic merit, a highly reliable sire stack and actual calving ease observations.",
+//   },
   {
     slug: "progeny-proven",
       img: "https://a-us.storyblok.com/f/1013974/1276x124/df90554eba/proven.png",

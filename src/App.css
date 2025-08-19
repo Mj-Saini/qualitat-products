@@ -41,6 +41,12 @@
   background-position: center;
   width: 100%;
 }
+.product_hero_bg_img{
+  background-image: url('/src/assets/images/png/hero-bg-img.png');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
 .get_in_touch_bg{
   background-image: url('/src/assets/images/png//get-in-touch-img.png');
   background-size: cover;
