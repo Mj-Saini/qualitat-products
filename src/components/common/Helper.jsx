@@ -63,6 +63,14 @@ import testimonial3 from '../../assets/images/png/varun-komboj.png'
 import testimonial4 from '../../assets/images/png/rajvir-singh.png'
 
 
+// PRODUCTS IMAGES
+import product1 from '../../assets/images/PRODUCTS/1 (1).png'
+import product2 from '../../assets/images/PRODUCTS/1 (2).png'
+import product3 from '../../assets/images/PRODUCTS/1 (3).png'
+import product4 from '../../assets/images/PRODUCTS/1 (4).png'
+import product5 from '../../assets/images/PRODUCTS/1 (5).png'
+
+
 
 // VIDEOS
 import feedPro from '../../assets/video/PROJECTS FILE-2 (2).mp4'
@@ -2009,4 +2017,22 @@ export const designationList = [
   
 ];
 
+
+export const productList = [
+    {
+        img:product1
+    },
+    {
+        img:product2
+    },
+    {
+        img:product3
+    },
+    {
+        img:product4
+    },
+    {
+        img:product5
+    },
+]
 
