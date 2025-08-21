@@ -1,9 +1,11 @@
 import React from 'react'
 import { ArrowIcons } from './common/Icons'
 import previewImg from '../assets/images/png/no-preview.jpg'
-import CommonBtn from './common/CommonBtn';
+import { useCart } from '../context/CardContext';
+// import { useCart } from '../context/CardContext';
 
-const AnimalsCard = ({ mapData,btnStyling }) => {
+const AnimalsCard = ({ mapData, btnStyling }) => {
+      const { addToCart } = useCart();
 
 
     const handleOpenPdf = (e) => {
@@ -12,6 +14,7 @@ const AnimalsCard = ({ mapData,btnStyling }) => {
             window.open(mapData.detailsPdf, "_blank");
         }
     };
+
 
 
 
@@ -27,11 +30,9 @@ const AnimalsCard = ({ mapData,btnStyling }) => {
                             <span className='red_Icon'><ArrowIcons />
                             </span>
                         </button>
-                         {/* <CommonBtn
-                    path="/products"
-                    btnName="View Products"
-                    btnStyling="py-2.5 px-3 xl:px-6 text-center"
-                  /> */}
+                        <button  onClick={() => addToCart(mapData)} className={`btn btn-primary bg-[#9E1E1D] capitalize font-semibold text-base lg:text-lg text-white inline-block py-2.5 px-3 xl:px-6 cursor-pointer`}>Add to Cart
+                        </button>
+                       
                     </div>
 
                 </div>

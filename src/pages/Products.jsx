@@ -13,7 +13,10 @@ const Products = () => {
     {/* Products */}
           <section className='py-14 md:py-32  relative'>
         <div className='custom_container container px-5 mx-auto'>
-          <div className="flex flex-wrap sm:-mx-3">
+              <p className="text-2xl md:text-3xl lg:text-4xl font-semibold text-center text-[#9E1E1D] mb-6">
+        ALL PRODUCTS AVAILABLE IN 1 LTR, 5 LTR, 25 LTR
+      </p>
+          <div className="flex flex-wrap sm:-mx-3 mt-6">
             {productList.map((obj, index) => {
             return (
               <div key={index} className='w-full sm:w-1/2 xl:w-1/4 sm:px-3 mt-6 lg:mb-0'>
@@ -22,7 +25,7 @@ const Products = () => {
             ) 
           })} 
             
-            <h2 className='3xl  text-bold text-center uppercase w-full'>add Products here</h2>
+           
         
           </div>
         </div>

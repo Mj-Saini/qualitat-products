@@ -38,21 +38,19 @@ const Footer = () => {
                                 <div className='w-full sm:w-1/3 mb-4 sm:mb-0 mt-8 sm:mt-0'>
                                     <h4 className='font-semibold text-lg text-white uppercase'>Quick Links</h4>
                                     <ul className='text-base lg:text-lg text-white mt-6 flex flex-col gap-3'>
-                                        <li><Link onClick={handleScrollTop} to="/" className='hover:text-[#9E1E1D] uppercase'>Cases</Link></li>
+                                       
                                         <li><Link onClick={handleScrollTop} to="/#news" className='hover:text-[#9E1E1D] uppercase'>News</Link></li>
-                                        <li><Link onClick={handleScrollTop} to="/" className='hover:text-[#9E1E1D] duration-300 uppercase'>About Us</Link></li>
-                                        <li><Link onClick={handleScrollTop} to="/" className='hover:text-[#9E1E1D] duration-300 uppercase'>Career</Link></li>
-                                        <li><Link onClick={handleScrollTop} to="/" className='hover:text-[#9E1E1D] duration-300 uppercase'>Management tips</Link></li>
+                                        <li><Link onClick={handleScrollTop} to="/about-us" className='hover:text-[#9E1E1D] duration-300 uppercase'>About Us</Link></li>
+                                    
                                         <li><Link onClick={handleScrollTop} to="/" className='hover:text-[#9E1E1D] duration-300 uppercase'>Download</Link></li>
-                                        <li><Link onClick={handleScrollTop} to="/" className='hover:text-[#9E1E1D] duration-300 uppercase'>NAV Bull search</Link></li>
-                                        <li><Link onClick={handleScrollTop} to="/" className='hover:text-[#9E1E1D] duration-300 uppercase'>Future-friendly farming</Link></li>
+                                       
                                     </ul>
                                 </div>
                                 <div className='w-full sm:w-1/5 lg:w-1/3 mb-4 sm:mb-0 mt-8 sm:mt-0'>
                                     <h4 className='font-semibold text-lg text-white uppercase'>Products</h4>
                                     <ul className='text-base lg:text-lg text-white mt-6 flex flex-col gap-3'>
                                         <li><Link onClick={handleScrollTop} to="/" className='hover:text-[#9E1E1D] duration-300 uppercase'>Dairy</Link></li>
-                                        <li><Link onClick={handleScrollTop} to="/" className='hover:text-[#9E1E1D] duration-300 uppercase '>poultry</Link></li>
+                                       
                                     </ul>
                                 </div>
                               

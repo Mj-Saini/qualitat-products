@@ -11,7 +11,8 @@ const CommonHero = ({heading,heroBgImg }) => {
                       
                         <h2 className='font-extrabold text-3xl md:text-4xl text-center lg:text-5xl xl:text-7xl leading-[120%] my-2'>
                           {heading}
-                        </h2>
+            </h2>
+            
                 
                     </div>
                 </div>     </div>

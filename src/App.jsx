@@ -18,6 +18,8 @@ import GeneticsDetails from './pages/GeneticsDetails';
 import { calvesData, geneticsData, geneticsTabData, healthData, managementData } from './components/common/Helper';
 import ResourcesPage from './pages/ResourcesPage';
 import ResourceDetails from './pages/ResourceDetails';
+import CartPage from './pages/CartPage';
+import AboutPage from './pages/AboutPage';
 
 function App() {
   const location = useLocation();
@@ -35,7 +37,9 @@ function App() {
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/products" element={<Products />} />
         <Route path="/products-details/:id" element={<ProductDetails />} />
+        <Route path="/cart" element={<CartPage />} />
         <Route path="/contact-us" element={<Contact />} />
+        <Route path="/about-us" element={<AboutPage />} />
        
         <Route path="/resources/genetics" element={<ResourcesPage mapData={geneticsData} pageName="/resources/genetics"/>} />
         <Route path="/resources/management" element={<ResourcesPage mapData={managementData}  pageName="/resources/management"/>} />
