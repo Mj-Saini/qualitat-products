@@ -11,7 +11,7 @@ const ResourcesPage = ({mapData,pageName}) => {
                         <div className="px-5 shadow-2xl h-full pb-5">
                             <Link
 
-                                to={`/${pageName}/${item.slug}`}
+                                to={`${pageName}/${item.slug}`}
                                 className=""
                             >
                                 <img src={item.img} alt={item.title} className="w-full" />

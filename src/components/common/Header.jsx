@@ -25,8 +25,8 @@ const Header = ({ contactPage }) => {
         {/* Logo */}
 
         <div className=" flex items-center relative w-[150px]">
-          <Link to="/" title="Qualitat Products" className="md:absolute -top-5  left-0 w-[100px]">
-            <img className="!w-[100px] h-[100px]" src={logo} alt="logo" />
+          <Link to="/" title="Qualitat Products" className="md:absolute -top-5  left-0 w-[150px]">
+            <img className="!w-[150px] h-[150px]" src={logo} alt="logo" />
           </Link>
         </div>
 

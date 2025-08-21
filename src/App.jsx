@@ -20,6 +20,7 @@ import ResourcesPage from './pages/ResourcesPage';
 import ResourceDetails from './pages/ResourceDetails';
 import CartPage from './pages/CartPage';
 import AboutPage from './pages/AboutPage';
+import NewsPage from './pages/NewsPage';
 
 function App() {
   const location = useLocation();
@@ -40,6 +41,7 @@ function App() {
         <Route path="/cart" element={<CartPage />} />
         <Route path="/contact-us" element={<Contact />} />
         <Route path="/about-us" element={<AboutPage />} />
+        <Route path="news" element={<NewsPage />} />
        
         <Route path="/resources/genetics" element={<ResourcesPage mapData={geneticsData} pageName="/resources/genetics"/>} />
         <Route path="/resources/management" element={<ResourcesPage mapData={managementData}  pageName="/resources/management"/>} />

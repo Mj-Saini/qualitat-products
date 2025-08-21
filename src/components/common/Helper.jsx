@@ -73,6 +73,11 @@ import product7 from '../../assets/images/PRODUCTS/1 (7).jpeg'
 import product8 from '../../assets/images/PRODUCTS/1 (8).jpeg'
 import product9 from '../../assets/images/PRODUCTS/1 (9).jpeg'
 
+//  NEWS IMAGES
+import news1 from '../../assets/images/png/news1.png'
+import news2 from '../../assets/images/png/news2.png'
+import news3 from '../../assets/images/png/new3.jpeg'
+
 
 
 // VIDEOS
@@ -2077,3 +2082,24 @@ export const servicesList = [
    
 ]
 
+
+export  const newsData = [
+    {
+      id: 1,
+      title: "Exciting Adventure News",
+      img: news1,
+      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+      id: 2,
+      title: "Travel Updates",
+      img: news2,
+      desc: "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      id: 3,
+      title: "New Destinations",
+      img: news3,
+      desc: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+    },
+  ];
