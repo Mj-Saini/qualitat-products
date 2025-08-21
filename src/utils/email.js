@@ -12,10 +12,10 @@ export const sendEmail = async (formData) => {
 
   try {
     const result = await emailjs.send(
-      'service_188fgu9',     
-      'template_j4aqotk',   
+      'service_dg18emw',     
+      'template_je2sydb',   
       templateParams,
-      'A7kWaOn36_TB6sQfr'      
+      'YAfDwngdmdO4GfSwe'      
     );
 
     console.log('Email successfully sent!', result.status, result.text);

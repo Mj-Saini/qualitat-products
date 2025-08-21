@@ -25,7 +25,7 @@ const Header = ({ contactPage }) => {
         {/* Logo */}
 
         <div className=" flex items-center relative w-[150px]">
-          <Link to="/" title="Qualitat Products" className="lg:absolute -top-5  left-0 w-[300px]">
+          <Link to="/" title="Qualitat Products" className="lg:absolute -top-10  left-0 w-[300px]">
             <img className="w-[300px] h-[150px]" src={logo} alt="logo" />
           </Link>
         </div>
@@ -65,7 +65,7 @@ const Header = ({ contactPage }) => {
           {/* Genetics Dropdown */}
           <div className="relative group">
             <button
-              className={`hover:text-[#C62524] text-sm text_stroke duration-300 transition-all flex items-center gap-1 ${location.pathname.startsWith("/resources")
+              className={`hover:text-[#C62524] text-sm text_stroke duration-300 transition-all flex items-center gap-1 ${location.pathname.startsWith("/genetics")
                 ? "text-black text_stroke_active"
                 : "text-black/70"
                 }`}

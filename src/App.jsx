@@ -18,7 +18,6 @@ import GeneticsDetails from './pages/GeneticsDetails';
 import { calvesData, geneticsData, geneticsTabData, healthData, managementData } from './components/common/Helper';
 import ResourcesPage from './pages/ResourcesPage';
 import ResourceDetails from './pages/ResourceDetails';
-import CartPage from './pages/CartPage';
 import AboutPage from './pages/AboutPage';
 import NewsPage from './pages/NewsPage';
 
@@ -48,6 +47,7 @@ function App() {
         <Route path="/resources/health" element={<ResourcesPage mapData={healthData}  pageName="/resources/health"/>} />
         <Route path="/resources/calves" element={<ResourcesPage mapData={calvesData} pageName="/resources/calves" />} />
         <Route path="/resources/genetics/:id" element={<ResourceDetails  mapData={geneticsData} />} />
+        <Route path="/resources/management/:id" element={<ResourceDetails  mapData={managementData} />} />
         <Route path="/resources/health/:id" element={<ResourceDetails mapData={healthData}/>} />
         <Route path="/resources/calves/:id" element={<ResourceDetails mapData={calvesData}/>} />
         

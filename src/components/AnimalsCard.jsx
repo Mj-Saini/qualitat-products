@@ -1,11 +1,9 @@
 import React from 'react'
 import { ArrowIcons } from './common/Icons'
 import previewImg from '../assets/images/png/no-preview.jpg'
-import { useCart } from '../context/CardContext';
 // import { useCart } from '../context/CardContext';
 
 const AnimalsCard = ({ mapData, btnStyling }) => {
-      const { addToCart } = useCart();
 
 
     const handleOpenPdf = (e) => {
@@ -30,8 +28,8 @@ const AnimalsCard = ({ mapData, btnStyling }) => {
                             <span className='red_Icon'><ArrowIcons />
                             </span>
                         </button>
-                        <button  onClick={() => addToCart(mapData)} className={`btn btn-primary bg-[#9E1E1D] capitalize font-semibold text-base lg:text-lg text-white inline-block py-2.5 px-3 xl:px-6 cursor-pointer`}>Add to Cart
-                        </button>
+                        {/* <button  onClick={() => addToCart(mapData)} className={`btn btn-primary bg-[#9E1E1D] capitalize font-semibold text-base lg:text-lg text-white inline-block py-2.5 px-3 xl:px-6 cursor-pointer`}>Add to Cart
+                        </button> */}
                        
                     </div>
 
