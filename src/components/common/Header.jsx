@@ -25,14 +25,18 @@ const Header = ({ contactPage }) => {
         {/* Logo */}
 
         <div className=" flex items-center relative w-[150px]">
-          <Link to="/" title="Qualitat Products" className="md:absolute -top-5  left-0 w-[150px]">
-            <img className="!w-[150px] h-[150px]" src={logo} alt="logo" />
+          <Link to="/" title="Qualitat Products" className="lg:absolute -top-5  left-0 w-[300px]">
+            <img className="w-[300px] h-[150px]" src={logo} alt="logo" />
           </Link>
         </div>
 
+       
+
+        {/* Action Buttons */}
+        <div className=" flex justify-end items-center gap-3 xl:gap-5">
         {/* Navigation Menu */}
         <div
-          className={`flex justify-center max-md:w-screen max-md:h-screen max-md:items-center gap-3 xl:gap-5 max-md:fixed flex-col md:flex-row duration-300 ${contactPage ? 'bg-[#C8F9E4]' : 'bg-white '}  ${toggle ? "top-0 left-0" : "-top-full -left-full"
+          className={`flex justify-center max-lg:w-screen max-lg:h-screen max-lg:items-center gap-3 xl:gap-5 max-lg:fixed flex-col lg:flex-row duration-300 ${contactPage ? 'bg-[#C8F9E4]' : 'bg-white '}  ${toggle ? "top-0 left-0" : "-top-full -left-full"
             } `}
         >
           <NavLink onClick={() => setToggle(false)} to="/" className={` hover:text-[#C62524] text-sm text_stroke duration-300 transition-all ${location.pathname === '/' ? 'text-black text_stroke_active' : 'text-black/70'}`}>
@@ -87,7 +91,7 @@ const Header = ({ contactPage }) => {
                <div className="px-4 py-5 mx-auto max-w-6xl">
                 <ul className="flex flex-wrap">
                
-                    <div className="w-full md:w-1/2 px-2.5">
+                    <div className="w-full lg:w-1/2 px-2.5">
                               {/* DESIGNATIONS (Parent with children) */}
                   <li className="is-parent is-page">
                     <Link
@@ -123,28 +127,7 @@ const Header = ({ contactPage }) => {
                     </ul>
                   </li>
                </div>
-                    {/* <div className="w-full md:w-1/2 px-2.5">
-                            
-                  <div>
-                    {[
-                      { path: "genetics/showbox-sires", text: "SHOWBOX SIRES" },
-                      { path: "genetics/beef-on-dairy", text: "BEEF ON DAIRY" },
-                      { path: "https://selectsiresbeef.com/bulls/angus/", text: "BEEF" },
-                      { path: "https://ct.wwsires.com", text: "CUSTOMER TOOLS" },
-                      { path: "https://ct.wwsires.com/search", text: "ADVANCE DAIRY SEARCH" },
-                      { path: "https://ct.wwsires.com/sire-directory", text: "SIRE DIRECTORY" },
-                    ].map((link, idx) => (
-                      <li key={idx} className="is-not-parent is-page">
-                        <Link
-                          to={link.path}
-                          className="block px-4 py-2 font-semibold text-xs lg:text-base"
-                        >
-                          {link.text}
-                        </Link>
-                      </li>
-                    ))}
-                  </div>
-            </div> */}
+                   
                
 
                 </ul>
@@ -207,26 +190,19 @@ const Header = ({ contactPage }) => {
               </NavLink>
             </div>
           </div>
-          <div onClick={() => setToggle(false)} className="md:hidden flex">
+          <div onClick={() => setToggle(false)} className="lg:hidden flex">
             <CommonBtn path="/contact-us" btnName="contact us" btnStyling=" py-2.5 px-3 xl:px-6" />
           </div>
 
         </div>
-
-        {/* Action Buttons */}
-        <div className=" flex justify-end items-center gap-3 xl:gap-5">
-          {/* <div className="flex gap-2 items-center border border-[#000]/40 px-3 py-2.5 lg:max-w-[350px] lg:w-[200px]">
-                      <span><SearchIcons/></span>
-                      <input className="bg-transparent text-sm outline-none w-full " type="search" name="search" id="search" placeholder="search" />
-                  </div> */}
-          <div className="hidden md:flex">
+          <div className="hidden lg:flex">
             <CommonBtn path="/contact-us" btnName="contact us" btnStyling=" py-2.5 px-3 xl:px-6  !whitespace-nowrap !text-sm" />
           </div>
 
 
           <div
             onClick={handleToggle}
-            className="w-5 h-3 flex flex-col gap-1 items-end relative z-[51] md:hidden cursor-pointer"
+            className="w-5 h-3 flex flex-col gap-1 items-end relative z-[51] lg:hidden cursor-pointer"
           >
             <span
               className={`w-full border border-[#222] rounded-2xl duration-300 ${toggle ? "rotate-45 translate-x-[-3px] translate-y-[9px]" : ""

@@ -6,9 +6,14 @@ import { bullList } from '../data/bullsdetails';
 const BullPage = () => {
   const [activeType, setActiveType] = useState('HF');
   const [visibleCount, setVisibleCount] = useState(8);
+   const [searchTerm, setSearchTerm] = useState("");
 
-  // Filter bull list by category
-  const filteredBullList = bullList.filter(bull => bull.category === activeType);
+  // Filter bull list by category & search
+  const filteredBullList = bullList.filter(
+    (bull) =>
+      bull.category === activeType &&
+      bull.name.toLowerCase().includes(searchTerm.toLowerCase()) // searching by name
+  );
 
   // Show only the bulls up to the visible count
   const visibleBulls = filteredBullList.slice(0, visibleCount);
@@ -17,7 +22,21 @@ const BullPage = () => {
   const handleTypeChange = (type) => {
     setActiveType(type);
     setVisibleCount(8); // reset on type change
+    setSearchTerm(""); // reset search when switching category
   };
+
+
+  // // Filter bull list by category
+  // const filteredBullList = bullList.filter(bull => bull.category === activeType);
+
+  // // Show only the bulls up to the visible count
+  // const visibleBulls = filteredBullList.slice(0, visibleCount);
+
+  // // Reset visible count when type changes
+  // const handleTypeChange = (type) => {
+  //   setActiveType(type);
+  //   setVisibleCount(8); // reset on type change
+  // };
 
   return (
     <div>
@@ -51,7 +70,7 @@ const BullPage = () => {
       <section className='pb-14 md:pb-32 mt-6 relative'>
         <div className='custom_container container px-5 mx-auto'>
           {/* Filter Buttons */}
-          <div className="flex mb-8">
+          <div className="flex justify-between items-center mb-8">
             <div className="flex shadow-sm border border-[#9E1E1D] overflow-clip rounded-full !bg-[#C8F9E4]" role="group">
               {['HF', 'JE', 'Red'].map(type => (
                 <button
@@ -67,6 +86,15 @@ const BullPage = () => {
                   {type}
                 </button>
               ))}
+            </div>
+            <div className="relative w-full lg:w-1/3">
+              <input
+                type="text"
+                placeholder="Search bulls..."
+                value={searchTerm}
+                onChange={(e) => setSearchTerm(e.target.value)}
+                className="w-full px-5 py-3 border border-[#9E1E1D] rounded-full focus:outline-none focus:ring-2 focus:ring-[#9E1E1D] text-base"
+              />
             </div>
           </div>
 

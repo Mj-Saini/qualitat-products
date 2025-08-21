@@ -38,7 +38,7 @@ function App() {
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/products" element={<Products />} />
         <Route path="/products-details/:id" element={<ProductDetails />} />
-        <Route path="/cart" element={<CartPage />} />
+        {/* <Route path="/cart" element={<CartPage />} /> */}
         <Route path="/contact-us" element={<Contact />} />
         <Route path="/about-us" element={<AboutPage />} />
         <Route path="news" element={<NewsPage />} />
