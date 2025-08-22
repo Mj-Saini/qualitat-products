@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { ExeperienceIcons, ProductQltyIcons, Service24Icons } from "./Icons";
 
 import slide1 from '../../assets/images/sliderImg/384.png'
@@ -56,6 +57,7 @@ import calf32 from '../../assets/images/calfs-img/462.png'
 import calf33 from '../../assets/images/calfs-img/463.png'
 import calf34 from '../../assets/images/calfs-img/464.png'
 import calf35 from '../../assets/images/calfs-img/465.png'
+import calf36 from '../../assets/images/calfs-img/466.jpeg'
 
 import testimonial1 from '../../assets/images/png/waman.png'
 import testimonial2 from '../../assets/images/png/parminder.png'
@@ -398,6 +400,10 @@ export const CalfList = [
     {
         id: 35,
         img: calf35,
+    },
+    {
+        id: 36,
+        img: calf36,
     },
 
 
@@ -2046,9 +2052,9 @@ export const productList = [
     {
         img: product7
     },
-    {
-        img: product8
-    },
+    // {
+    //     img: product8
+    // },
     {
         img: product9
     },

@@ -57,9 +57,9 @@ const Footer = () => {
                             </div>
                         </div>
                     </div>
-                    <p className='text-base lg:text-lg text-white text-center py-5 lg:py-[30px] mt-10 border-t border-white/20'>
-                        {/* Copyright © {currentYear} Chetan Medical & Distributors, All Rights Reserved. */}
-                    </p>
+                    {/* <p className='text-base lg:text-lg text-white text-center py-5 lg:py-[30px] mt-10 border-t border-white/20'>
+                        Copyright © {currentYear} Chetan Medical & Distributors, All Rights Reserved.
+                    </p> */}
                 </div>
             </section>
         </>

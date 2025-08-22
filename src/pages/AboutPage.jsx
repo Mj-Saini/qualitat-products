@@ -40,7 +40,7 @@ const AboutPage = () => {
             </div>
 
             {/* Products Section */}
-            <div className="bg-white py-16 px-6">
+            <div className="bg-white py-16 md:px-6">
                 <div className="container custom_container px-4 mx-auto">
                     <h2 className="text-2xl sm:text-3xl lg:text-5xl font-semibold text-center mb-3">
                         🔹 Products – World Wide Sires (WWS) Semen
@@ -73,7 +73,7 @@ const AboutPage = () => {
             </div>
 
             {/* Services Section */}
-            <div className="bg-gray-100 py-16 px-6">
+            <div className="bg-gray-100 py-16 md:px-6">
                 <div className="container custom_container px-4 mx-auto">
                     <h2 className="text-2xl sm:text-3xl lg:text-5xl font-semibold text-center mb-3">
                         🔹 Our Services
