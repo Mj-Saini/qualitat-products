@@ -19,45 +19,42 @@ import slide15 from '../../assets/images/sliderImg/PROJECTS FILE-2 (4).png'
 import slide16 from '../../assets/images/sliderImg/PROJECTS FILE-2 (5).png'
 import slide17 from '../../assets/images/sliderImg/varun kamboj.mp4'
 import slide18 from '../../assets/images/sliderImg/Video-486.mp4'
+import slide19 from '../../assets/images/sliderImg/388.jpeg'
 
 
 
-import calf1 from '../../assets/images/calfs-img/431.png'
-import calf2 from '../../assets/images/calfs-img/432.png'
-import calf3 from '../../assets/images/calfs-img/433.png'
-import calf4 from '../../assets/images/calfs-img/434.png'
-import calf5 from '../../assets/images/calfs-img/435.png'
-import calf6 from '../../assets/images/calfs-img/436.png'
-import calf7 from '../../assets/images/calfs-img/437.png'
-import calf8 from '../../assets/images/calfs-img/438.png'
-import calf9 from '../../assets/images/calfs-img/439.png'
-import calf10 from '../../assets/images/calfs-img/440.png'
-import calf11 from '../../assets/images/calfs-img/441.png'
-import calf12 from '../../assets/images/calfs-img/442.png'
-import calf13 from '../../assets/images/calfs-img/443.png'
-import calf14 from '../../assets/images/calfs-img/444.png'
-import calf15 from '../../assets/images/calfs-img/445.png'
-import calf16 from '../../assets/images/calfs-img/456.png'
-import calf17 from '../../assets/images/calfs-img/447.png'
-import calf18 from '../../assets/images/calfs-img/448.png'
-import calf19 from '../../assets/images/calfs-img/449.png'
-import calf20 from '../../assets/images/calfs-img/450.png'
-import calf21 from '../../assets/images/calfs-img/451.png'
-import calf22 from '../../assets/images/calfs-img/452.png'
-import calf23 from '../../assets/images/calfs-img/453.png'
-import calf24 from '../../assets/images/calfs-img/454.png'
-import calf25 from '../../assets/images/calfs-img/455.png'
-import calf26 from '../../assets/images/calfs-img/456.png'
-import calf27 from '../../assets/images/calfs-img/457.png'
-import calf28 from '../../assets/images/calfs-img/458.png'
-import calf29 from '../../assets/images/calfs-img/459.png'
-import calf30 from '../../assets/images/calfs-img/460.png'
-import calf31 from '../../assets/images/calfs-img/461.png'
-import calf32 from '../../assets/images/calfs-img/462.png'
-import calf33 from '../../assets/images/calfs-img/463.png'
-import calf34 from '../../assets/images/calfs-img/464.png'
-import calf35 from '../../assets/images/calfs-img/465.png'
-import calf36 from '../../assets/images/calfs-img/466.jpeg'
+import calf1 from '../../assets/images/calfs-img/433.jpg'
+import calf2 from '../../assets/images/calfs-img/434.jpg'
+import calf3 from '../../assets/images/calfs-img/435.jpg'
+import calf4 from '../../assets/images/calfs-img/436.jpg'
+import calf5 from '../../assets/images/calfs-img/437.jpg'
+import calf6 from '../../assets/images/calfs-img/438.jpg'
+import calf7 from '../../assets/images/calfs-img/439.jpg'
+import calf8 from '../../assets/images/calfs-img/440.jpg'
+import calf9 from '../../assets/images/calfs-img/441.jpg'
+import calf10 from '../../assets/images/calfs-img/442.jpg'
+import calf11 from '../../assets/images/calfs-img/443.jpg'
+import calf12 from '../../assets/images/calfs-img/444.jpg'
+import calf13 from '../../assets/images/calfs-img/445.jpg'
+import calf14 from '../../assets/images/calfs-img/446.jpg'
+import calf15 from '../../assets/images/calfs-img/447.jpg'
+import calf16 from '../../assets/images/calfs-img/458.jpg'
+import calf17 from '../../assets/images/calfs-img/449.jpg'
+import calf18 from '../../assets/images/calfs-img/450.jpg'
+import calf19 from '../../assets/images/calfs-img/451.jpg'
+import calf20 from '../../assets/images/calfs-img/452.jpg'
+import calf21 from '../../assets/images/calfs-img/453.jpg'
+import calf22 from '../../assets/images/calfs-img/454.jpg'
+import calf23 from '../../assets/images/calfs-img/455.jpg'
+import calf24 from '../../assets/images/calfs-img/456.jpg'
+import calf25 from '../../assets/images/calfs-img/457.jpg'
+import calf26 from '../../assets/images/calfs-img/458.jpg'
+import calf27 from '../../assets/images/calfs-img/459.jpg'
+import calf28 from '../../assets/images/calfs-img/460.jpg'
+import calf29 from '../../assets/images/calfs-img/461.jpg'
+import calf30 from '../../assets/images/calfs-img/462.jpg'
+import calf31 from '../../assets/images/calfs-img/463.jpg'
+
 
 import testimonial1 from '../../assets/images/png/waman.png'
 import testimonial2 from '../../assets/images/png/parminder.png'
@@ -235,6 +232,10 @@ export const MarqueeList = [
         video: slide18,
 
     },
+    {
+        img: slide19,
+
+    },
 ]
 export const demandsList = [
     {
@@ -385,26 +386,7 @@ export const CalfList = [
         id: 31,
         img: calf31,
     },
-    {
-        id: 32,
-        img: calf32,
-    },
-    {
-        id: 33,
-        img: calf33,
-    },
-    {
-        id: 34,
-        img: calf34,
-    },
-    {
-        id: 35,
-        img: calf35,
-    },
-    {
-        id: 36,
-        img: calf36,
-    },
+  
 
 
 ]
