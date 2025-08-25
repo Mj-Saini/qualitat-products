@@ -14,7 +14,7 @@ const Footer = () => {
         <>
             <section className='pt-14 bg-[#000000E5]'>
                 <div className='custom_container container px-5 mx-auto'>
-                    <div className="flex flex-wrap lg:-mx-3">
+                    <div className="flex flex-wrap lg:-mx-3 pb-5">
                         <div className='w-full lg:w-1/3 lg:px-3 xl:pe-10'>
                          <Link onClick={handleScrollTop} to="/">   <img className='mb-6 sm:-translate-x-3.5' width={250} src={logo} alt="logo" /></Link>
                        <ul className='text-base lg:text-lg text-white flex gap-3 items-center mt-6'>
