@@ -111,9 +111,9 @@ const Header = ({ contactPage }) => {
                         { path: "genetics/designations/gender-selected", text: "gender SELECTED™" },
                         { path: "genetics/designations/elite-sexed-fertility", text: "Elite Sexed Fertility™" },
                         { path: "genetics/designations/gforce", text: "GForce™" },
-                        { path: "genetics/designations/gforce-plus", text: "GForce+™" },
+                        // { path: "genetics/designations/gforce-plus", text: "GForce+™" },
                         { path: "genetics/designations/progeny-proven", text: "Progeny Proven" },
-                        { path: "genetics/designations/nxgen", text: "NxGEN®" },
+                        // { path: "genetics/designations/nxgen", text: "NxGEN®" },
                       ].map((item, idx) => (
                         <li key={idx}>
                           <Link

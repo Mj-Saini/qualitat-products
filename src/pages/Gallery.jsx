@@ -97,45 +97,11 @@ const Gallery = () => {
   return (
     <div>
       <CommonHero heading="Capturing Moments, Showcasing Success" lable="Gallery" heroBgImg="gallary_hero_bg_img"/>
-      
-      {/* Osaka Japan Conference Section */}
-      <section className='py-14 md:py-20 relative'>
-        <div className='custom_container container px-5 mx-auto'>
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Global Conference Meeting in Osaka, Japan</h2>
-            <p className="text-gray-600 max-w-2xl mx-auto">Experience the international collaboration and knowledge sharing at our global conference in Osaka, Japan.</p>
-          </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-            <div className="group overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer" onClick={() => openImageModal(allImages[0], 0)}>
-              <img src={osaka1} alt="Osaka Conference 1" className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300" />
-            </div>
-            <div className="group overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer" onClick={() => openImageModal(allImages[1], 1)}>
-              <img src={osaka2} alt="Osaka Conference 2" className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300" />
-            </div>
-            <div className="group overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer" onClick={() => openImageModal(allImages[2], 2)}>
-              <img src={osaka3} alt="Osaka Conference 3" className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300" />
-            </div>
-            <div className="group overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer" onClick={() => openImageModal(allImages[3], 3)}>
-              <img src={osaka4} alt="Osaka Conference 4" className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300" />
-            </div>
-            <div className="group overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer" onClick={() => openImageModal(allImages[4], 4)}>
-              <img src={osaka5} alt="Osaka Conference 5" className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300" />
-            </div>
-            <div className="group overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer" onClick={() => openImageModal(allImages[5], 5)}>
-              <img src={osaka6} alt="Osaka Conference 6" className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300" />
-            </div>
-            <div className="group overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer" onClick={() => openImageModal(allImages[6], 6)}>
-              <img src={osaka7} alt="Osaka Conference 7" className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300" />
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Dr. Bo Harstine Visit Section */}
+          {/* Dr. Bo Harstine Visit Section */}
       <section className='py-14 md:py-20 relative bg-gray-50'>
         <div className='custom_container container px-5 mx-auto'>
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Dr. Bo Harstine - From USA Visited to India</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Dr. Bo Harstine - From USA Visited to India - 2025</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">Celebrating the visit of Dr. Bo Harstine from USA to Qualitat Products, India - strengthening international partnerships.</p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
@@ -175,6 +141,40 @@ const Gallery = () => {
           </div>
         </div>
       </section>
+      {/* Osaka Japan Conference Section */}
+      <section className='py-14 md:py-20 relative'>
+        <div className='custom_container container px-5 mx-auto'>
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Global Conference Meeting in Osaka, Japan - 2024</h2>
+            <p className="text-gray-600 max-w-2xl mx-auto">Experience the international collaboration and knowledge sharing at our global conference in Osaka, Japan.</p>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+            <div className="group overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer" onClick={() => openImageModal(allImages[0], 0)}>
+              <img src={osaka1} alt="Osaka Conference 1" className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300" />
+            </div>
+            <div className="group overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer" onClick={() => openImageModal(allImages[1], 1)}>
+              <img src={osaka2} alt="Osaka Conference 2" className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300" />
+            </div>
+            <div className="group overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer" onClick={() => openImageModal(allImages[2], 2)}>
+              <img src={osaka3} alt="Osaka Conference 3" className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300" />
+            </div>
+            <div className="group overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer" onClick={() => openImageModal(allImages[3], 3)}>
+              <img src={osaka4} alt="Osaka Conference 4" className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300" />
+            </div>
+            <div className="group overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer" onClick={() => openImageModal(allImages[4], 4)}>
+              <img src={osaka5} alt="Osaka Conference 5" className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300" />
+            </div>
+            <div className="group overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer" onClick={() => openImageModal(allImages[5], 5)}>
+              <img src={osaka6} alt="Osaka Conference 6" className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300" />
+            </div>
+            <div className="group overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer" onClick={() => openImageModal(allImages[6], 6)}>
+              <img src={osaka7} alt="Osaka Conference 7" className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+  
 
       {/* Beijing China Conference Section */}
       <section className='py-14 md:py-20 relative'>

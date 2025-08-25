@@ -54,7 +54,7 @@ import jamarco from '../assets/images/png/jamarco.png'
 import faneca from '../assets/images/png/faneca.png'
 import cornell from '../assets/images/png/cornell.png'
 import chilton from '../assets/images/png/chillton.png'
-import casino from '../assets/images/png/casino.png'
+import casino from '../assets/images/png/casino.jpeg'
 
 
 // DETAILS IMAGES
@@ -188,7 +188,7 @@ export const bullList = [
     id: "7HO15141",
     name: "AMARI",
     category: "HF",
-      img:amari,
+      // img:amari,
    detailsPdf:detailAmari,
 
   },
@@ -244,7 +244,7 @@ export const bullList = [
     id: "7H015714",
     name: "HEDGEFUND",
     category: "HF",
-    img:hedgefund,
+    // img:hedgefund,
     detailsPdf:detailHedgefund,
   },
   {
