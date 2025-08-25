@@ -3,6 +3,7 @@ import React from 'react'
 import logo from '../../assets/images/svg/logo.svg'
 import { Link } from 'react-router'
 import {  InstaIcons, LinkedinIcons,  YouTubeIcons } from './Icons'
+import { FacebookIcon } from 'lucide-react'
 
 const Footer = () => {
     const currentYear = new Date().getFullYear();
@@ -28,6 +29,10 @@ const Footer = () => {
                                       
                                         <li>
                                             <Link onClick={handleScrollTop} to="https://www.linkedin.com/feed/" target="_blank" rel="noopener noreferrer" className='hover:text-[#9E1E1D] duration-300 hover:border-[#9E1E1D] group border border-white rounded-full w-10 lg:w-12 h-10 lg:h-12 flex items-center justify-center'><LinkedinIcons />
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link onClick={handleScrollTop} to="https://www.facebook.com/qualitatproducts-" target="_blank" rel="noopener noreferrer" className='hover:text-[#9E1E1D] duration-300 hover:border-[#9E1E1D] group border border-white rounded-full w-10 lg:w-12 h-10 lg:h-12 flex items-center justify-center'><FacebookIcon />
                                             </Link>
                                         </li>
 
