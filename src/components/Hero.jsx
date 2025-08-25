@@ -61,9 +61,9 @@ const HeroSlider = () => {
                     btnName="View Products"
                     btnStyling="py-2.5 px-3 xl:px-6"
                   />
-                  <button className="flex gap-2 py-2.5 px-3 capitalize font-semibold text-base lg:text-lg text-white hover:bg-[#9E1E1D] duration-300">
+                  {/* <button className="flex gap-2 py-2.5 px-3 capitalize font-semibold text-base lg:text-lg text-white hover:bg-[#9E1E1D] duration-300">
                     Explore More <span><ArrowIcons /></span>
-                  </button>
+                  </button> */}
                 </div>
               </div>
             </div>
