@@ -20,6 +20,10 @@ import slide16 from '../../assets/images/sliderImg/PROJECTS FILE-2 (5).png'
 import slide17 from '../../assets/images/sliderImg/varun kamboj.mp4'
 import slide18 from '../../assets/images/sliderImg/Video-486.mp4'
 import slide19 from '../../assets/images/sliderImg/388.jpeg'
+import slide20 from '../../assets/images/sliderImg/WhatsApp Image 2025-08-27 at 10.49.18 (1).jpeg'
+import slide21 from '../../assets/images/sliderImg/WhatsApp Image 2025-08-27 at 10.49.18 (2).jpeg'
+import slide22 from '../../assets/images/sliderImg/WhatsApp Image 2025-08-27 at 10.49.18.jpeg'
+import slide23 from '../../assets/images/sliderImg/WhatsApp Video 2025-08-27 at 10.49.22.mp4'
 
 
 
@@ -55,6 +59,13 @@ import calf29 from '../../assets/images/calfs-img/461.jpg'
 import calf30 from '../../assets/images/calfs-img/462.jpg'
 import calf31 from '../../assets/images/calfs-img/463.jpg'
 
+import calf32 from '../../assets/video/calf-video/RAMEWAY-RED.mp4'
+import calf33 from '../../assets/video/calf-video/WWS-MILKY.mp4'
+import calf34 from '../../assets/video/calf-video/WWS DEVANTE.mp4'
+import calf35 from '../../assets/video/calf-video/WWS-LETCHWORTH.mp4'
+import calf36 from '../../assets/video/calf-video/WWS-RIVETING.mp4'
+import calf37 from '../../assets/video/calf-video/MAGNUM.mp4'
+
 
 import testimonial1 from '../../assets/images/png/waman.png'
 import testimonial2 from '../../assets/images/png/parminder.png'
@@ -76,6 +87,34 @@ import product9 from '../../assets/images/PRODUCTS/1 (9).jpeg'
 import news1 from '../../assets/images/png/news1.png'
 import news2 from '../../assets/images/png/news2.png'
 import news3 from '../../assets/images/png/new3.jpeg'
+
+// OUR TEAM IMAGES
+
+import team1 from '../../assets/images/png/rakhi.png'
+import team2 from '../../assets/images/png/kusum.png'
+import team3 from '../../assets/images/png/rajni.png'
+import team4 from '../../assets/images/png/surbhi.png'
+import team5 from '../../assets/images/png/arvind.png'
+import team6 from '../../assets/images/png/nakul.png'
+
+// DISTRIBUTORS IMAGES
+
+import dist1 from '../../assets/images/distributors/amerdeep.png'
+import dist2 from '../../assets/images/distributors/mandeep.png'
+import dist3 from '../../assets/images/distributors/sukhvinder.png'
+import dist4 from '../../assets/images/distributors/monu.png'
+import dist5 from '../../assets/images/distributors/balraj.png'
+import dist6 from '../../assets/images/distributors/ashish.png'
+import dist7 from '../../assets/images/distributors/waman.png'
+import dist8 from '../../assets/images/distributors/randhir.png'
+// import dist9 from '../../assets/images/distributors/s'
+import dist10 from '../../assets/images/distributors/sorashi.png'
+import dist11 from '../../assets/images/distributors/sanjay.png'
+import dist12 from '../../assets/images/distributors/kritiman.png'
+// import dist13 from '../../assets/images/distributors'
+import dist14 from '../../assets/images/distributors/surabhi.png'
+import dist15 from '../../assets/images/distributors/ajay-kumar.png'
+// import dist16 from '../../assets/images/distributors/'
 
 
 
@@ -234,7 +273,18 @@ export const MarqueeList = [
     },
     {
         img: slide19,
-
+    },
+    {
+        img: slide20,
+    },
+    {
+        img: slide21,
+    },
+    {
+        img: slide22,
+    },
+    {
+        video: slide23,
     },
 ]
 export const demandsList = [
@@ -264,127 +314,188 @@ export const demandsList = [
 export const CalfList = [
     {
         id: 1,
+        type: 'image',
         img: calf1,
     },
     {
         id: 2,
+        type: 'image',
         img: calf2,
     },
     {
         id: 3,
+        type: 'image',
         img: calf3,
     },
     {
         id: 4,
+        type: 'image',
         img: calf4,
     },
 
     {
         id: 5,
+        type: 'image',
         img: calf5,
     }, {
         id: 6,
+        type: 'image',
         img: calf6,
     },
     {
         id: 7,
+        type: 'image',
         img: calf7,
     },
     {
         id: 8,
+        type: 'image',
         img: calf8,
     },
     {
         id: 9,
+        type: 'image',
         img: calf9,
     },
     {
         id: 10,
+        type: 'image',
         img: calf10,
     },
     {
         id: 11,
+        type: 'image',
         img: calf11,
     },
     {
         id: 12,
+        type: 'image',
         img: calf12,
     },
     {
         id: 13,
+        type: 'image',
         img: calf13,
     },
     {
         id: 14,
+        type: 'image',
         img: calf14,
     },
     {
         id: 15,
+        type: 'image',
         img: calf15,
     },
     {
         id: 16,
+        type: 'image',
         img: calf16,
     },
     {
         id: 17,
+        type: 'image',
         img: calf17,
     },
     {
         id: 18,
+        type: 'image',
         img: calf18,
     },
     {
         id: 19,
+        type: 'image',
         img: calf19,
     },
     {
         id: 20,
+        type: 'image',
         img: calf20,
     },
     {
         id: 21,
+        type: 'image',
         img: calf21,
     },
     {
         id: 22,
+        type: 'image',
         img: calf22,
     },
     {
         id: 23,
+        type: 'image',
         img: calf23,
     },
     {
         id: 24,
+        type: 'image',
         img: calf24,
     },
     {
         id: 25,
+        type: 'image',
         img: calf25,
     },
     {
         id: 26,
+        type: 'image',
         img: calf26,
     },
     {
         id: 27,
+        type: 'image',
         img: calf27,
     },
     {
         id: 28,
+        type: 'image',
         img: calf28,
     },
     {
         id: 29,
+        type: 'image',
         img: calf29,
     },
     {
         id: 30,
+        type: 'image',
         img: calf30,
     },
     {
         id: 31,
+        type: 'image',
         img: calf31,
+    },
+    {
+        id: 32,
+        type: 'video',
+        video: calf32,
+    },
+    {
+        id: 33,
+        type: 'video',
+        video: calf33,
+    },
+    {
+        id: 34,
+        type: 'video',
+        video: calf34,
+    },
+    {
+        id: 35,
+        type: 'video',
+        video: calf35,
+    },
+    {
+        id: 36,
+        type: 'video',
+        video: calf36,
+    },
+    {
+        id: 37,
+        type: 'video',
+        video: calf37,
     },
   
 
@@ -2067,6 +2178,156 @@ export const servicesList = [
         heading: "24×7 Farmer Support Lines",
         about: "for order booking, guidance, and after-sales service."
     },
+   
+]
+export const ourTeamList = [
+    {
+        img: team1,
+        Name: "Rakhi Bahri",
+        role: "Sales Manager"
+    },
+    {
+        img: team2,
+        Name: "Kusum Thakur",
+        role: "Logistics Manager"
+    },
+
+    {
+        img: team3,
+        Name: "Rajni Malik",
+        role: "Operations Analyst"
+    },
+    {
+        img: team4,
+        Name: "Surbhi",
+        role: "Accounting Manager"
+    },
+    {
+        img: team5,
+        Name: "Arvind",
+        role: "Senior Accountant"
+    },
+    {
+        img: team6,
+        Name: "Nakul",
+        role: "Marketing Strategist"
+    },
+  
+
+
+   
+]
+export const ourDistributorsList = [
+    {
+        img: dist1,
+        Name: "Amanpreet Singh",
+        company:"Sakai & Glanz Genetic Solutions",
+        add:"Moga",
+        contact: "9465593745"
+    },
+    {
+        img: dist2,
+        Name: "Mandeep Turna ",
+        company:"Punjab Dairy Genetic",
+        add:"Patiala",
+        contact: "7009636216"
+    },
+    {
+        img: dist3,
+        Name: "Sukhwinder Singh",
+        // company:"Punjab Dairy Genetic",
+        add:"Barnala",
+        contact: "9779923255"
+    },
+    {
+        img: dist4,
+        Name: "Monu Arora",
+        company:"Saanjh Enterprises",
+        add:"Fazilka",
+        contact: "9780766438"
+    },
+    {
+        img: dist5,
+        Name: "Balraj Singh",
+        // company:"Saanjh Enterprises",
+        add:"Ludhiana",
+        contact: "9256561313"
+    },
+    {
+        img: dist6,
+        Name: "Ashish Chauhan ",
+        company:"Guru Brahmanand Pet and Vet",
+        add:"Karnal (Haryana)",
+        contact: "9068333366"
+    },
+  
+    {
+        img: dist7,
+        Name: "Waman Gaiwad ",
+        company:"Utkarsh Enterprises",
+        add:"Pune (Maharashtra)",
+        contact: "9422446226"
+    },
+    {
+        img: dist8,
+        Name: "Randhir Patel",
+        company:"R. R. Agro",
+        add:"Kolhapur (Maharashtra)",
+        contact: "98232 28585"
+    },
+    {
+        // img: dist9,
+        Name: "Shabir Ali",
+        company:"Anoor Medicals",
+        add:"Gujrat",
+        contact: "9474701253"
+    },
+    {
+        img: dist10,
+        Name: "Shorashi Mohan Koner",
+        company:"Annapurna Dairy Farm",
+        add:"West Bengal",
+        contact: "9624055431"
+    },
+    {
+        img: dist11,
+        Name: "Sanjay Kumar ",
+        // company:"Annapurna Dairy Farm",
+        add:"Patna (Bihar)",
+        contact: "9430690309"
+    },
+    {
+        img: dist12,
+        Name: "Kirtiman Singh ",
+        company:"Dhenushya Dairy Farm",
+        add:"Mirzapur (UP)",
+        contact: "8299515263"
+    },
+    {
+        // img: dist13,
+        Name: "Krishna (A to Z solutions)",
+        company:"Krishna (A to Z solutions)",
+        add:"Bangalore (Karnataka)",
+        contact: "8880333444"
+    },
+    {
+        img: dist14,
+        Name: "Surabhi Enterprises",
+        company:"Surabhi Enterprises",
+        add:"Tamil Nadu",
+        contact: "9442888722"
+    },
+    {
+        img: dist15,
+        Name: "Ajay Kumar Waghmare ",
+        company:"N.D Dairy Solutions",
+        add:"Ujjain (MP)",
+        contact: "8770788282"
+    },
+    
+  
+
+
    
 ]
 

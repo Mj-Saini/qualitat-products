@@ -21,11 +21,11 @@ const Header = ({ contactPage }) => {
   };
   return (
     <header className={`glass_shadow  ${contactPage ? 'bg-[#C8F9E4]' : 'bg-white '}`}>
-      <div className="px-5 lg:px-18 mx-auto flex gap-3  xl:gap-5 items-center justify-between py-4">
+      <div className="px-5 xl:px-18 mx-auto flex gap-3  xl:gap-5 items-center justify-between py-4">
         {/* Logo */}
 
         <div className=" flex items-center relative w-[150px]">
-          <Link to="/" title="Qualitat Products" className="lg:absolute -top-10  left-0 w-[300px]">
+          <Link to="/" title="Qualitat Products" className="xl:absolute -top-10  xl:left-0 w-[300px]">
             <img className="w-[300px] h-[150px]" src={logo} alt="logo" />
           </Link>
         </div>
@@ -36,7 +36,7 @@ const Header = ({ contactPage }) => {
         <div className=" flex justify-end items-center gap-3 xl:gap-5">
         {/* Navigation Menu */}
         <div
-          className={`flex justify-center max-lg:w-screen max-lg:h-screen max-lg:items-center gap-3 xl:gap-5 max-lg:fixed flex-col lg:flex-row duration-300 ${contactPage ? 'bg-[#C8F9E4]' : 'bg-white '}  ${toggle ? "top-0 left-0" : "-top-full -left-full"
+          className={`flex justify-center max-xl:w-screen max-xl:h-screen max-xl:items-center gap-3 xl:gap-5 max-xl:fixed flex-col xl:flex-row duration-300 ${contactPage ? 'bg-[#C8F9E4]' : 'bg-white '}  ${toggle ? "top-0 left-0" : "-top-full -left-full"
             } `}
         >
           <NavLink onClick={() => setToggle(false)} to="/" className={` hover:text-[#C62524] text-sm text_stroke duration-300 transition-all ${location.pathname === '/' ? 'text-black text_stroke_active' : 'text-black/70'}`}>
@@ -57,6 +57,12 @@ const Header = ({ contactPage }) => {
           </NavLink>
           <NavLink onClick={() => setToggle(false)} to="/products" className={` hover:text-[#C62524] text-sm text_stroke duration-300 transition-all ${location.pathname === '/products' ? 'text-black text_stroke_active' : 'text-black/70'}`}>
             Products
+          </NavLink>
+          <NavLink onClick={() => setToggle(false)} to="/about-us" className={` hover:text-[#C62524] text-sm text_stroke duration-300 transition-all ${location.pathname === '/about-us' ? 'text-black text_stroke_active' : 'text-black/70'}`}>
+            About Us
+          </NavLink>
+          <NavLink onClick={() => setToggle(false)} to="/our-distributors" className={` hover:text-[#C62524] text-sm text_stroke duration-300 transition-all ${location.pathname === '/our-distributors' ? 'text-black text_stroke_active' : 'text-black/70'}`}>
+           Distributors
           </NavLink>
       
 
@@ -87,11 +93,11 @@ const Header = ({ contactPage }) => {
             </button>
 
             {/* Dropdown Menu */}
-            <div className="absolute top-full left-0 mt-4 bg-white shadow-lg rounded-lg z-50 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 w-2xs lg:w-sm">
+            <div className="absolute top-full left-0 mt-4 bg-white shadow-lg rounded-lg z-50 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 w-2xs xl:w-sm">
                <div className="px-4 py-5 mx-auto max-w-6xl">
                 <ul className="flex flex-wrap">
                
-                    <div className="w-full lg:w-1/2 px-2.5">
+                    <div className="w-full xl:w-1/2 px-2.5">
                               {/* DESIGNATIONS (Parent with children) */}
                   <li className="is-parent is-page">
                     <Link
@@ -100,7 +106,7 @@ const Header = ({ contactPage }) => {
                     >
                       DESIGNATIONS
                     </Link>
-                    <ul>
+                    <ul className="max-xl:overflow-auto max-xl:h-40">
                       {[
                         { path: "genetics/designations/feedpro", text: "FeedPRO®" },
                         { path: "genetics/designations/fertilitypro", text: "FertilityPRO®" },
@@ -115,10 +121,10 @@ const Header = ({ contactPage }) => {
                         { path: "genetics/designations/progeny-proven", text: "Progeny Proven" },
                         // { path: "genetics/designations/nxgen", text: "NxGEN®" },
                       ].map((item, idx) => (
-                        <li key={idx}>
+                        <li key={idx} >
                           <Link
                             to={item.path}
-                            className="block text-xs lg:text-sm py-2 hover:bg-[#EEEEEE]"
+                            className="block text-xs xl:text-sm py-2 hover:bg-[#EEEEEE]"
                           >
                             {item.text}
                           </Link>
@@ -190,19 +196,19 @@ const Header = ({ contactPage }) => {
               </NavLink>
             </div>
           </div>
-          <div onClick={() => setToggle(false)} className="lg:hidden flex">
+          <div onClick={() => setToggle(false)} className="xl:hidden flex">
             <CommonBtn path="/contact-us" btnName="contact us" btnStyling=" py-2.5 px-3 xl:px-6" />
           </div>
 
         </div>
-          <div className="hidden lg:flex">
+          <div className="hidden xl:flex">
             <CommonBtn path="/contact-us" btnName="contact us" btnStyling=" py-2.5 px-3 xl:px-6  !whitespace-nowrap !text-sm" />
           </div>
 
 
           <div
             onClick={handleToggle}
-            className="w-5 h-3 flex flex-col gap-1 items-end relative z-[51] lg:hidden cursor-pointer"
+            className="w-5 h-3 flex flex-col gap-1 items-end relative z-[51] xl:hidden cursor-pointer"
           >
             <span
               className={`w-full border border-[#222] rounded-2xl duration-300 ${toggle ? "rotate-45 translate-x-[-3px] translate-y-[9px]" : ""

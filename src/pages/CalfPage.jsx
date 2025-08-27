@@ -76,11 +76,23 @@ const CalfPage = () => {
                 className="w-full sm:w-1/2 md:w-1/3 xl:w-1/4 sm:px-3 mt-6 lg:mb-0 cursor-pointer group overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-all duration-300"
                 onClick={() => openImageModal(obj, index)}
               >
-                <img
+                {obj.img ? (
+                   <img
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                   src={obj.img}
                   alt="calf"
                 />
+                ) : obj.video ? (
+                    
+                  <video
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    src={obj.video}
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                  />  
+               ): null}
               </div>
             ))}
           </div>
@@ -132,12 +144,12 @@ const CalfPage = () => {
             />
 
             {/* Image Info */}
-            <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 text-white text-center bg-black bg-opacity-50 px-4 py-2 rounded-lg">
+            {/* <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 text-white text-center bg-black bg-opacity-50 px-4 py-2 rounded-lg">
               <p className="text-sm font-medium">Calf Image</p>
               <p className="text-xs text-gray-300">
                 {currentImageIndex + 1} of {CalfList.length}
               </p>
-            </div>
+            </div> */}
           </div>
         </div>
       )}

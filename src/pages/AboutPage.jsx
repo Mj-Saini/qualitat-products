@@ -1,17 +1,19 @@
 import React from "react";
 import aboutImg from "../assets/images/png/about-us-img.png";
-import { servicesList } from "../components/common/Helper";
+import { ourTeamList, servicesList } from "../components/common/Helper";
 import CommonHero from "../components/common/CommonHero";
+import anantBerry from "../assets/images/png/Anant_Berry.jpeg";
 
 const AboutPage = () => {
     return (
         <>
-          
 
-      <CommonHero heading=" Delivering Genetics & Services That Transform Dairy Farming" lable=" " heroBgImg="gallary_hero_bg_img"/>
+
+            <CommonHero heading=" Delivering Genetics & Services That Transform Dairy Farming" lable=" " heroBgImg="gallary_hero_bg_img" />
 
 
             {/* About Section */}
+         
             <div className="container custom_container mx-auto px-4 py-16 grid md:grid-cols-2 gap-12 items-center">
                 <div>
                     <h2 className="text-3xl font-semibold mb-4">About Us</h2>
@@ -38,7 +40,54 @@ const AboutPage = () => {
                     />
                 </div>
             </div>
+   <div className="container custom_container mx-auto px-4 py-16">
+                <div className="flex flex-col-reverse items-center lg:flex-row justify-between px-[-12px] py-14 lg:py-28 lg:-mx-4">
+                    {/* LEFT SIDE CONTENT */}
+                    <div className="w-full xl:w-1/2 px-4">
+                     
+                        <h1 className="font_outfit font-medium text-lg lg:text-5xl mt-3 lg:mt-4 xl:mt-6 text-black lg:leading-[60px]">
+                            Meet Our Team Adviser – Mr. Anant Berry
 
+                        </h1>
+                        <p>Mr. Anant Berry is a trusted name in dairy genetics and herd improvement, with years of experience in animal breeding and dairy farm management. As an official partner of World Wide Sires (WWS), he connects Indian farmers with world-class bovine genetics to boost productivity and profitability.
+                            At Qualitat Products (India), Mr. Berry provides progressive farmers with expert guidance, technical support, and reliable access to high-quality semen. His vision and leadership drive innovation, digital solutions, and farmer-centric services, ensuring sustainable growth for India’s dairy industry.</p>
+
+
+
+                    
+                    </div>
+
+                    {/* RIGHT SIDE IMAGE */}
+                    <div className="w-full sm:w-8/12 lg:w-1/2 px-4 mx-auto">
+                     <div className="flex justify-center">  <img src={anantBerry} alt="advisor-img" /></div>
+                    </div>
+                </div>
+            </div>
+
+               {/* Our team */}
+            <div className="bg-gray-100 py-16 md:px-6">
+                <div className="container custom_container px-4 mx-auto">
+                    <h2 className="text-2xl sm:text-3xl lg:text-5xl font-semibold text-center mb-3">
+                        Our Team Members
+                    </h2>
+                    <p className="text-base font-normal text-center mb-10">Meet the passionate individuals behind our mission.</p>
+                    <div className="flex flex-wrap">
+                        {ourTeamList.map((team, index) => (
+                            <div className="w-full sm:w-1/2 lg:w-1/4 p-4" key={index}>
+                                 <div
+                                className="bg-white rounded-xl shadow hover:shadow-2xl transition"
+                            >
+                                <img className="w-full" src={team.img} alt="" />
+                                    <div className="p-6 text-center">
+                                         <h3 className="font-semibold text-lg md:text-xl">{team.Name}</h3>
+                                <p>{ team.role}</p>
+                               </div>
+                            </div>
+                           </div>
+                        ))}
+                    </div>
+                </div>
+            </div>
             {/* Products Section */}
             <div className="bg-white py-16 md:px-6">
                 <div className="container custom_container px-4 mx-auto">
@@ -96,7 +145,9 @@ const AboutPage = () => {
                 </div>
             </div>
 
-       
+         
+
+
         </>
     );
 };
