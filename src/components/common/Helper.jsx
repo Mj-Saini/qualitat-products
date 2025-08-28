@@ -52,7 +52,6 @@ import calf22 from '../../assets/images/calfs-img/454.jpg'
 import calf23 from '../../assets/images/calfs-img/455.jpg'
 import calf24 from '../../assets/images/calfs-img/456.jpg'
 import calf25 from '../../assets/images/calfs-img/457.jpg'
-import calf26 from '../../assets/images/calfs-img/458.jpg'
 import calf27 from '../../assets/images/calfs-img/459.jpg'
 import calf28 from '../../assets/images/calfs-img/460.jpg'
 import calf29 from '../../assets/images/calfs-img/461.jpg'
@@ -437,11 +436,7 @@ export const CalfList = [
         type: 'image',
         img: calf25,
     },
-    {
-        id: 26,
-        type: 'image',
-        img: calf26,
-    },
+ 
     {
         id: 27,
         type: 'image',
