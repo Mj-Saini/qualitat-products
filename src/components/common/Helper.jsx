@@ -24,6 +24,7 @@ import slide20 from '../../assets/images/sliderImg/WhatsApp Image 2025-08-27 at 
 import slide21 from '../../assets/images/sliderImg/WhatsApp Image 2025-08-27 at 10.49.18 (2).jpeg'
 import slide22 from '../../assets/images/sliderImg/WhatsApp Image 2025-08-27 at 10.49.18.jpeg'
 import slide23 from '../../assets/images/sliderImg/WhatsApp Video 2025-08-27 at 10.49.22.mp4'
+import slide24 from '../../assets/images/sliderImg/WhatsApp Video 2025-08-28 at 13.54.12.mp4'
 
 
 
@@ -284,6 +285,9 @@ export const MarqueeList = [
     },
     {
         video: slide23,
+    },
+    {
+        video: slide24,
     },
 ]
 export const demandsList = [
