@@ -8,7 +8,6 @@ import { SearchIcons } from "./Icons";
 const Header = ({ contactPage }) => {
   const location = useLocation();
   const [toggle, setToggle] = React.useState(false);
-  const [dropdownOpen, setDropdownOpen] = useState(false);
 
   if (toggle) {
     document.body.style.overflow = "hidden"
@@ -24,9 +23,9 @@ const Header = ({ contactPage }) => {
       <div className="px-5 xl:px-18 mx-auto flex gap-3  xl:gap-5 items-center justify-between py-4">
         {/* Logo */}
 
-        <div className=" flex items-center relative w-[150px]">
-          <Link to="/" title="Qualitat Products" className="xl:absolute -top-10  xl:left-0 w-[300px]">
-            <img className="w-[300px] h-[150px]" src={logo} alt="logo" />
+        <div className=" flex items-center relative">
+          <Link to="/" title="Qualitat Products" className="w-[150px] sm:w-[300px]">
+            <img className="sm:w-[300px]" src={logo} alt="logo" />
           </Link>
         </div>
 

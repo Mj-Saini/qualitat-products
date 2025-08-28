@@ -2351,4 +2351,6 @@ export  const newsData = [
       img: news3,
       desc: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
     },
-  ];
+];
+  
+
