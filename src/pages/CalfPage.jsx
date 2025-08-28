@@ -272,12 +272,25 @@ const CalfPage = () => {
             </button>
 
             {/* Image */}
-            <img
-              src={selectedImage.img}
-              alt="calf preview"
-              className="max-w-full max-h-[90vh] object-contain rounded-lg"
-              onClick={(e) => e.stopPropagation()}
-            />
+         {/* Image OR Video */}
+      {selectedImage.img ? (
+        <img
+          src={selectedImage.img}
+          alt="calf preview"
+          className="max-w-full max-h-[90vh] object-contain rounded-lg"
+          onClick={(e) => e.stopPropagation()}
+        />
+      ) : selectedImage.video ? (
+        <video
+          className="max-w-full max-h-[90vh] object-contain rounded-lg"
+          src={selectedImage.video}
+          autoPlay
+          controls
+          loop
+          muted={false}   // keep sound available
+          onClick={(e) => e.stopPropagation()}
+        />
+      ) : null}
           </div>
         </div>
       )}

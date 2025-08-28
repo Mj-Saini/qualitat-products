@@ -16,8 +16,9 @@ const Distributors = () => {
                         {ourDistributorsList.map((dist, index) => (
                             <div className="w-full sm:w-1/2 lg:w-1/4 p-2.5" key={index}>
                                 <div
-                                    className="bg-white rounded-xl h-full shadow hover:shadow-2xl transition"
+                                    className="bg-white rounded-xl h-full shadow hover:shadow-2xl transition relative"
                                 >
+                                    <img className='w-16 absolute top-2 right-2' src={dist.logo} alt="" />
                                    
                                         <img className="w-full h-[300px]" src={dist.img} alt="" />
                                    

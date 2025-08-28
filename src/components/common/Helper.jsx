@@ -75,10 +75,9 @@ import testimonial4 from '../../assets/images/png/rajvir-singh.png'
 
 // PRODUCTS IMAGES
 import product1 from '../../assets/images/PRODUCTS/1 (1).png'
-import product2 from '../../assets/images/PRODUCTS/1 (2).png'
-import product3 from '../../assets/images/PRODUCTS/1 (3).png'
-import product4 from '../../assets/images/PRODUCTS/1 (4).png'
-import product5 from '../../assets/images/PRODUCTS/1 (5).png'
+import product2 from '../../assets/images/PRODUCTS/habla.jpeg'
+import product4 from '../../assets/images/PRODUCTS/livotal.jpeg'
+// import product5 from '../../assets/images/PRODUCTS/1 (5).png'
 import product7 from '../../assets/images/PRODUCTS/1 (7).jpeg'
 import product8 from '../../assets/images/PRODUCTS/1 (8).jpeg'
 import product9 from '../../assets/images/PRODUCTS/1 (9).jpeg'
@@ -134,6 +133,10 @@ import progenyProven from '../../assets/video/PROJECTS FILE-2 (4).mp4'
 import homePageBg from '../../assets/images/sliderImg/HOME.jpg'
 import homePageBgVideo from '../../assets/video/WhatsApp Video 2025-07-29 at 11.49.15.mp4'
 
+
+import logo2 from '../../assets/images/distributors/punjab-dairy-logo.png'
+import logo14 from '../../assets/images/distributors/surbhi-logo.png'
+import logo15 from '../../assets/images/distributors/nd-dairy-loog.png'
 
 export const heroSlides = [
 
@@ -2131,15 +2134,11 @@ export const productList = [
     {
         img: product2
     },
-    {
-        img: product3
-    },
+   
     {
         img: product4
     },
-    {
-        img: product5
-    },
+ 
 
     {
         img: product7
@@ -2219,6 +2218,7 @@ export const ourTeamList = [
 export const ourDistributorsList = [
     {
         img: dist1,
+        // logo:,
         Name: "Amanpreet Singh",
         company:"Sakai & Glanz Genetic Solutions",
         add:"Moga",
@@ -2226,6 +2226,7 @@ export const ourDistributorsList = [
     },
     {
         img: dist2,
+        logo:logo2,
         Name: "Mandeep Turna ",
         company:"Punjab Dairy Genetic",
         add:"Patiala",
@@ -2233,6 +2234,7 @@ export const ourDistributorsList = [
     },
     {
         img: dist3,
+        // logo:,
         Name: "Sukhwinder Singh",
         // company:"Punjab Dairy Genetic",
         add:"Barnala",
@@ -2240,6 +2242,7 @@ export const ourDistributorsList = [
     },
     {
         img: dist4,
+        // logo:,
         Name: "Monu Arora",
         company:"Saanjh Enterprises",
         add:"Fazilka",
@@ -2247,6 +2250,7 @@ export const ourDistributorsList = [
     },
     {
         img: dist5,
+        // logo:,
         Name: "Balraj Singh",
         // company:"Saanjh Enterprises",
         add:"Ludhiana",
@@ -2254,6 +2258,7 @@ export const ourDistributorsList = [
     },
     {
         img: dist6,
+        // logo:,
         Name: "Ashish Chauhan ",
         company:"Guru Brahmanand Pet and Vet",
         add:"Karnal (Haryana)",
@@ -2262,6 +2267,7 @@ export const ourDistributorsList = [
   
     {
         img: dist7,
+        // logo:,
         Name: "Waman Gaiwad ",
         company:"Utkarsh Enterprises",
         add:"Pune (Maharashtra)",
@@ -2269,6 +2275,7 @@ export const ourDistributorsList = [
     },
     {
         img: dist8,
+        // logo:,
         Name: "Randhir Patel",
         company:"R. R. Agro",
         add:"Kolhapur (Maharashtra)",
@@ -2276,6 +2283,7 @@ export const ourDistributorsList = [
     },
     {
         // img: dist9,
+        // logo:,
         Name: "Shabir Ali",
         company:"Anoor Medicals",
         add:"Gujrat",
@@ -2283,6 +2291,7 @@ export const ourDistributorsList = [
     },
     {
         img: dist10,
+        // logo:,
         Name: "Shorashi Mohan Koner",
         company:"Annapurna Dairy Farm",
         add:"West Bengal",
@@ -2290,6 +2299,7 @@ export const ourDistributorsList = [
     },
     {
         img: dist11,
+        // logo:,
         Name: "Sanjay Kumar ",
         // company:"Annapurna Dairy Farm",
         add:"Patna (Bihar)",
@@ -2297,6 +2307,7 @@ export const ourDistributorsList = [
     },
     {
         img: dist12,
+        // logo:,
         Name: "Kirtiman Singh ",
         company:"Dhenushya Dairy Farm",
         add:"Mirzapur (UP)",
@@ -2304,6 +2315,7 @@ export const ourDistributorsList = [
     },
     {
         // img: dist13,
+        // logo:,
         Name: "Krishna (A to Z solutions)",
         company:"Krishna (A to Z solutions)",
         add:"Bangalore (Karnataka)",
@@ -2311,6 +2323,7 @@ export const ourDistributorsList = [
     },
     {
         img: dist14,
+        logo:logo14,
         Name: "Surabhi Enterprises",
         company:"Surabhi Enterprises",
         add:"Tamil Nadu",
@@ -2318,6 +2331,7 @@ export const ourDistributorsList = [
     },
     {
         img: dist15,
+        logo:logo15,
         Name: "Ajay Kumar Waghmare ",
         company:"N.D Dairy Solutions",
         add:"Ujjain (MP)",
