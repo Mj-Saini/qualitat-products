@@ -77,9 +77,9 @@ import testimonial4 from '../../assets/images/png/rajvir-singh.png'
 import product1 from '../../assets/images/PRODUCTS/1 (1).png'
 import product2 from '../../assets/images/PRODUCTS/habla.jpeg'
 import product4 from '../../assets/images/PRODUCTS/livotal.jpeg'
-// import product5 from '../../assets/images/PRODUCTS/1 (5).png'
-import product7 from '../../assets/images/PRODUCTS/1 (7).jpeg'
-import product8 from '../../assets/images/PRODUCTS/1 (8).jpeg'
+import product5 from '../../assets/images/PRODUCTS/1 (5).png'
+import product3 from '../../assets/images/PRODUCTS/1 (4).jpeg'
+// import product8 from '../../assets/images/PRODUCTS/1 (8).jpeg'
 import product9 from '../../assets/images/PRODUCTS/1 (9).jpeg'
 
 //  NEWS IMAGES
@@ -134,9 +134,11 @@ import homePageBg from '../../assets/images/sliderImg/HOME.jpg'
 import homePageBgVideo from '../../assets/video/WhatsApp Video 2025-07-29 at 11.49.15.mp4'
 
 
+import logo1 from '../../assets/images/distributors/amandeep-logo.jpeg'
 import logo2 from '../../assets/images/distributors/punjab-dairy-logo.png'
 import logo14 from '../../assets/images/distributors/surbhi-logo.png'
 import logo15 from '../../assets/images/distributors/nd-dairy-loog.png'
+
 
 export const heroSlides = [
 
@@ -2136,13 +2138,21 @@ export const productList = [
     },
    
     {
+        img: product3
+    },
+    {
         img: product4
     },
  
-
+   
     {
-        img: product7
+        img: product5
     },
+ 
+
+    // {
+    //     img: product7
+    // },
     // {
     //     img: product8
     // },
@@ -2218,7 +2228,7 @@ export const ourTeamList = [
 export const ourDistributorsList = [
     {
         img: dist1,
-        // logo:,
+        logo:logo1,
         Name: "Amanpreet Singh",
         company:"Sakai & Glanz Genetic Solutions",
         add:"Moga",
