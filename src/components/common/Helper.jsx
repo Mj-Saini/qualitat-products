@@ -86,6 +86,7 @@ import product9 from '../../assets/images/PRODUCTS/1 (9).jpeg'
 import news1 from '../../assets/images/png/news1.png'
 import news2 from '../../assets/images/png/news2.png'
 import news3 from '../../assets/images/png/new3.jpeg'
+import news4 from '../../assets/images/png/news4.jpeg'
 
 // OUR TEAM IMAGES
 
@@ -2421,6 +2422,12 @@ export  const newsData = [
       id: 3,
       title: "New Destinations",
       img: news3,
+      desc: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+    },
+    {
+      id: 4,
+      title: "New Destinations",
+      img: news4,
       desc: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
     },
 ];
