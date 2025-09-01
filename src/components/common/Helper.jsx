@@ -74,7 +74,7 @@ import testimonial4 from '../../assets/images/png/rajvir-singh.png'
 
 
 // PRODUCTS IMAGES
-import product1 from '../../assets/images/PRODUCTS/1 (1).png'
+import product1 from '../../assets/images/PRODUCTS/1 (1).jpeg'
 import product2 from '../../assets/images/PRODUCTS/habla.jpeg'
 import product4 from '../../assets/images/PRODUCTS/livotal.jpeg'
 import product5 from '../../assets/images/PRODUCTS/1 (5).png'
