@@ -69,17 +69,18 @@ const Footer = () => {
                                      <Link href="mailto:qualitatproducts02@gmail.com"
                                         className=' pt-2 inline-flex items-center text-xs gap-2 text-[#00BFFF]'
                                     > <Mail /> qualitatproducts02@gmail.com</Link>
+                                    <br />
                                     <Link href="tel:9592912726"
                                         className=' pt-2 inline-flex items-center text-xs gap-2 text-[#00BFFF]'
                                     > <Phone />9592912726, 9517772726</Link>
-                                    
+
                                     <h3 className='text-xl font-bold uppercase pb-2  mt-10'>Dubai Address</h3>
                                     <p className='text-white text-sm'>Qualitat Products Dubai Unit No.107 Sheikh Al Latifa Building , Opposite AL Ras Metro Station ,Deira ,Dubai</p>
                                       
 
                                       <Link href="mailto:qualitatproductsdubai@gmail.com"
                                         className=' pt-2 inline-flex items-center text-xs gap-2 text-[#00BFFF]'
-                                    > <Mail /> qualitatproductsdubai@gmail.com</Link>
+                                    > <Mail /> qualitatproductsdubai@gmail.com</Link> <br />
                                     <Link href="tel:+971 55 519 6545"
                                         className=' pt-2 inline-flex items-center text-xs gap-2 text-[#00BFFF]'
                                     > <Phone /> +971 55 519 6545</Link>
