@@ -102,6 +102,7 @@ import team8 from '../../assets/images/png/savita.png'
 import team9 from '../../assets/images/png/seema.png'
 import team10 from '../../assets/images/png/deepak-kumar.jpeg'
 import team11 from '../../assets/images/png/pappu.jpeg'
+import team12 from '../../assets/images/png/jai-sankar.jpeg'
 
 // DISTRIBUTORS IMAGES
 
@@ -2268,7 +2269,7 @@ export const ourTeamList = [
         about: "The Senior Delivery Manager at Qualitat Products ensures the timely and safe delivery of WWS semen to farmers, along with accurate billing. They also guide and supervise the delivery team, maintaining high standards of service and reliability."
     },
     {
-        // img: team9,
+        img: team12,
         Name: "Jai Shankar Singh",
         role:"Senior Delivery Manager",
         about: "The Senior Delivery Manager at Qualitat Products is responsible for ensuring WWS semen reaches farmers on time and with complete safety, accompanied by proper billing. They also lead and mentor the delivery team, upholding efficiency, accuracy, and trust in every delivery."
