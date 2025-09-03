@@ -71,6 +71,7 @@ import testimonial1 from '../../assets/images/png/waman.png'
 import testimonial2 from '../../assets/images/png/parminder.png'
 import testimonial3 from '../../assets/images/png/varun-komboj.png'
 import testimonial4 from '../../assets/images/png/rajvir-singh.png'
+import testimonial5 from '../../assets/images/png/vikas-testimonial.png'
 
 
 // PRODUCTS IMAGES
@@ -99,6 +100,8 @@ import team6 from '../../assets/images/png/nakul.png'
 import team7 from '../../assets/images/png/deepika.png'
 import team8 from '../../assets/images/png/savita.png'
 import team9 from '../../assets/images/png/seema.png'
+import team10 from '../../assets/images/png/deepak-kumar.jpeg'
+import team11 from '../../assets/images/png/pappu.jpeg'
 
 // DISTRIBUTORS IMAGES
 
@@ -320,6 +323,12 @@ export const demandsList = [
         name: "Rajbir Singh Aulakh",
         comment: "	I am Rajbir Singh Aulakh, owner of Aulakh Dairy Farm, located in VPO Nissing, District Karnal, Haryana. I have been engaged in dairy farming since 2003, currently managing a herd of 100 animals. When I started, the average milk yield per animal was around 15 liters, and today in 2025, with two-time milking, we have proudly reached up to 60 liters per animal. This growth and success have been possible thanks to the constant support and guidance of Dr. Anil Berry Sir, whose expertise has played a key role in transforming my farm. Qualitat Products has always kept us updated on time and provided valuable guidance whenever needed. I sincerely thank Qualitat Products for being a reliable partner in our dairy journey."
     },
+    {
+        img: testimonial5,
+        name: "Vikas Bishnoi",
+        comment: "My name is Vikas Bishnoi from vpo Sardarpura, tehsil Abohar, dist- Fazilka, Punjab, and my farm is known as Sardarpura Dairy Farm. Initially, I had a very small farm and it was extremely difficult for me to manage it, as I had no proper guidance about dairy farming. In 2021, I came to know about World Wide Sires through Dr. Anil Berry, the owner of Qualitat Products. Dr. Berry guided me thoroughly about WWS and provided me with the best-quality semen.Thanks to his support, today my farm has grown to a top-level dairy farm with more than 100 HF cows. I sincerely thank Dr. Anil Berry and Qualitat Products for always providing me with the best semen, excellent guidance, and consistent top-class service."
+    },
+   
 
 ]
 
@@ -2253,7 +2262,7 @@ export const ourTeamList = [
     },
   
     {
-        // img: team9,
+        img: team10,
         Name: "Deepak Kumar",
         role:"Senior Delivery Manager",
         about: "The Senior Delivery Manager at Qualitat Products ensures the timely and safe delivery of WWS semen to farmers, along with accurate billing. They also guide and supervise the delivery team, maintaining high standards of service and reliability."
@@ -2265,7 +2274,7 @@ export const ourTeamList = [
         about: "The Senior Delivery Manager at Qualitat Products is responsible for ensuring WWS semen reaches farmers on time and with complete safety, accompanied by proper billing. They also lead and mentor the delivery team, upholding efficiency, accuracy, and trust in every delivery."
     },
     {
-        // img: team9,
+        img: team11,
         Name: "Papu Singh",
         role:"Delivery Executive",
         about: "The Delivery Executive at Qualitat Products ensures timely and secure delivery of products to farmers and clients. Along with maintaining trust and smooth supply chain operations, they are also responsible for carefully packing semen, as well as regularly monitoring cylinders, gas, and semen storage to ensure quality and reliability."
