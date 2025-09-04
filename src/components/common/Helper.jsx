@@ -1,4 +1,4 @@
-/* eslint-disable no-unused-vars */
+
 import { ExeperienceIcons, ProductQltyIcons, Service24Icons } from "./Icons";
 
 import slide1 from '../../assets/images/sliderImg/384.png'
@@ -115,7 +115,7 @@ import dist5 from '../../assets/images/distributors/balraj.png'
 import dist6 from '../../assets/images/distributors/ashish.png'
 import dist7 from '../../assets/images/distributors/waman.png'
 import dist8 from '../../assets/images/distributors/randhir.png'
-// import dist9 from '../../assets/images/distributors/s'
+import dist9 from '../../assets/images/distributors/sabir-ali.jpeg'
 import dist10 from '../../assets/images/distributors/sorashi.png'
 import dist11 from '../../assets/images/distributors/sanjay.png'
 import dist12 from '../../assets/images/distributors/kritiman.png'
@@ -2359,7 +2359,7 @@ export const ourDistributorsList = [
         contact: "98232 28585"
     },
     {
-        // img: dist9,
+        img: dist9,
         // logo:,
         Name: "Shabir Ali",
         company:"Anoor Medicals",
