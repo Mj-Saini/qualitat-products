@@ -2213,6 +2213,7 @@ export const ourTeamList = [
        {
         img: team2,
         Name: "Kusum Thakur",
+         category: "Operations",
         role:"Senior Operation Manager",
         about: "The Senior Operation Manager at Qualitat Products plays a key role in ensuring smooth business operations, timely product distribution, and service excellence. They focus on aligning teams, optimizing processes, and delivering the best support to farmers with efficiency and reliability."
     }, 
@@ -2221,70 +2222,81 @@ export const ourTeamList = [
     {
         img: team3,
         Name: "Rajni Malik",
-        role:"Operations Analyst",
+        role: "Operations Analyst",
+        category: "Operations",
         about: "An Operations Analyst at Qualitat Products plays a key role in streamlining daily processes, analyzing data, and improving efficiency across supply chain and distribution and collect INAPH tags from farmers and ensure timely uploading on the Government portal (Bharat Pashudhan). The role ensures timely delivery of products, smooth coordination with teams, and supports strategic decision-making for business growth."
     },
    
     {
         img: team6,
         Name: "Nakul",
-        role:"Marketing Strategist Manager",
+        role: "Marketing Strategist Manager",
+        category: "Sales & Marketing",
         about: "As a Marketing Strategist at Qualitat Products, the role involves managing and growing the brand’s presence across all social media platforms. From creating engaging content to driving farmer-centric campaigns, the focus is on building strong connections, enhancing visibility, and promoting innovative dairy solutions."
     },
     {
         img: team7,
         Name: "Deepika",
-        role:"Senior Sales Manager",
+        role: "Senior Sales Manager",
+        category: "Sales & Marketing",
         about: "The Senior Sales Manager at Qualitat Products ensures complete record-keeping of sales while driving growth with full dedication. With a focus on performance and farmer satisfaction, he plays a vital role in strengthening the company’s reach and success."
     },
     {
         img: team1,
         Name: "Rakhi Bahri",
-        role:"Sales Manager",
+        role: "Sales Manager",
+          category: "Sales & Marketing",
         about: "The Sales Manager plays a key role in increasing WWS product sales by making regular follow-up calls, maintaining records, and addressing farmers’ concerns. He ensures smooth communication, timely support, and strong farmer relations to drive growth for Qualitat Products."
     },
     {
         img: team8,
         Name: "Savita",
-        role:"Logistic Manager",
+        role: "Logistic Manager",
+        category: "Delivery",
         about: "The Logistic Manager at Qualitat Products plays a key role in ensuring the smooth and timely delivery of products to farmers and distributors. By managing supply chains efficiently, they help maintain product availability and support farmers with uninterrupted services."
     },
     {
         img: team9,
         Name: "Seema",
-        role:"Executive",
+        role: "Executive",
+         category: "Admin",
         about: "As an Executive at Qualitat Products, the role involves following up on tasks assigned by senior management, maintaining and managing office files and records, handling all banking operations, and attending to farmers’ calls to ensure smooth communication and support."
     },
 
      {
         img: team4,
         Name: "Surbhi",
-        role:"Accounting Manager",
+         role: "Accounting Manager",
+             category: "Accounts",
         about: "The Accounting Manager at Qualitat Products oversees financial operations, ensuring accuracy in accounts, budgeting, and compliance. By maintaining transparent financial records, the role supports strategic decision-making and smooth business growth."
     },
     {
         img: team5,
         Name: "Arvind",
-        role:"Senior Accountant",
+        role: "Senior Accountant",
+            category: "Accounts",
         about: "At Qualitat Products, the Senior Accountant is responsible for maintaining precise financial records and ensuring accuracy across all accounts. By preparing timely reports and managing budgets, compliance, and financial strategies, they contribute significantly to the company’s stability and long-term growth."
     },
   
     {
         img: team10,
         Name: "Deepak Kumar",
-        role:"Senior Delivery Manager",
+        role: "Senior Delivery Manager",
+        category: "Delivery",
         about: "The Senior Delivery Manager at Qualitat Products ensures the timely and safe delivery of WWS semen to farmers, along with accurate billing. They also guide and supervise the delivery team, maintaining high standards of service and reliability."
     },
     {
         img: team12,
         Name: "Jai Shankar Singh",
-        role:"Senior Delivery Manager",
+        role: "Senior Delivery Manager",
+        category: "Delivery",
         about: "The Senior Delivery Manager at Qualitat Products is responsible for ensuring WWS semen reaches farmers on time and with complete safety, accompanied by proper billing. They also lead and mentor the delivery team, upholding efficiency, accuracy, and trust in every delivery."
     },
     {
         img: team11,
         Name: "Papu Singh",
-        role:"Delivery Executive",
+        role: "Delivery Executive",
+        category: "Delivery",
         about: "The Delivery Executive at Qualitat Products ensures timely and secure delivery of products to farmers and clients. Along with maintaining trust and smooth supply chain operations, they are also responsible for carefully packing semen, as well as regularly monitoring cylinders, gas, and semen storage to ensure quality and reliability."
     },
   

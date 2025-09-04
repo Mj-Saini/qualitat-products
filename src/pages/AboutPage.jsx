@@ -5,6 +5,9 @@ import CommonHero from "../components/common/CommonHero";
 import anantBerry from "../assets/images/png/Anant_Berry.jpeg";
 
 const AboutPage = () => {
+
+    const categories = ["Admin","Operations",  "Accounts","Sales & Marketing", "Delivery" ];
+
     return (
         <>
 
@@ -50,12 +53,12 @@ const AboutPage = () => {
 
                         </h1>
                         <p className="pt-3">Mr. Anant Berry is a trusted name in dairy genetics and herd improvement, with years of expertise in animal breeding and dairy farm management. As an official partner of World Wide Sires (WWS), he has been instrumental in connecting Indian farmers with world-class bovine genetics that enhance both productivity and profitability.
-<br />
+                            <br />
 
-<br />
+                            <br />
                             At Qualitat Products (India), Mr. Berry provides progressive farmers with expert guidance, technical support, and reliable access to high-quality semen. His leadership ensures farmers receive the right solutions at the right time, empowering them to adopt modern breeding practices.
-<br />
-<br />
+                            <br />
+                            <br />
                             With more than 20 years of sales experience and having served in multiple leadership positions, Mr. Berry brings unmatched knowledge, vision, and dedication to the dairy sector. His focus on innovation, digital integration, and farmer-centric services is driving sustainable growth and shaping the future of India’s dairy industry.
                         </p>
 
@@ -78,7 +81,7 @@ const AboutPage = () => {
                         Our Team Members
                     </h2>
                     <p className="text-base font-normal text-center mb-10">Meet the passionate individuals behind our mission.</p>
-                    <div className="flex flex-wrap">
+                    {/* <div className="flex flex-wrap">
                         {ourTeamList.map((team, index) => (
                             <div className="w-full sm:w-1/2 lg:w-1/4 p-4" key={index}>
                                 <div
@@ -94,7 +97,30 @@ const AboutPage = () => {
                                 </div>
                             </div>
                         ))}
+                    </div> */}
+                      {categories.map((cat) => (
+          <div key={cat} className="mb-12">
+            <h3 className="text-xl sm:text-2xl font-bold mb-6">{cat}</h3>
+            <div className="flex flex-wrap">
+              {ourTeamList
+                .filter((team) => team.category === cat)
+                .map((team, index) => (
+                  <div className="w-full sm:w-1/2 lg:w-1/4 p-4" key={index}>
+                    <div className="bg-white rounded-xl shadow hover:shadow-2xl transition relative overflow-hidden group h-full">
+                      <div className="absolute top-0 -left-full group-hover:left-0 h-full text-center align-bottom overflow-auto duration-300 w-full bg-black/70 text-white p-6 flex items-center">
+                        <p>{team.about}</p>
+                      </div>
+                      <img className="w-full h-[280px]" src={team.img} alt={team.Name} />
+                      <div className="p-6 text-center">
+                        <h3 className="font-semibold text-lg md:text-xl">{team.Name}</h3>
+                        <p>{team.role}</p>
+                      </div>
                     </div>
+                  </div>
+                ))}
+            </div>
+          </div>
+        ))}
                 </div>
             </div>
             {/* Products Section */}
