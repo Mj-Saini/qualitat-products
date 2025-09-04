@@ -6,7 +6,7 @@ import anantBerry from "../assets/images/png/Anant_Berry.jpeg";
 
 const AboutPage = () => {
 
-    const categories = ["Admin","Operations",  "Accounts","Sales & Marketing", "Delivery" ];
+    const categories = ["Team","Accounts", "Delivery" ];
 
     return (
         <>
