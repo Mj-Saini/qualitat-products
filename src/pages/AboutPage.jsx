@@ -107,8 +107,8 @@ const AboutPage = () => {
                                     .map((team, index) => (
                                         <div className="w-full sm:w-1/2 lg:w-1/4 p-4" key={index}>
                                             <div className="bg-white rounded-xl shadow hover:shadow-2xl transition relative overflow-hidden group h-full">
-                                                <div className="absolute top-0 -left-full group-hover:left-0 h-full text-center align-bottom overflow-auto duration-300 w-full bg-black/70 text-white flex ">
-                                                    <p className="p-4 pb-3">{team.about}</p>
+                                                <div className="absolute top-0 -left-full group-hover:left-0 h-full text-center align-bottom overflow-auto duration-300 w-full bg-black/70 text-white p-5">
+                                                    <p >{team.about}</p>
                                                 </div>
                                                 <img className="w-full h-[280px]" src={team.img} alt={team.Name} />
                                                 <div className="p-6 text-center">
