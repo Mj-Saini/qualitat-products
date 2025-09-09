@@ -26,6 +26,11 @@ import slide22 from '../../assets/images/sliderImg/WhatsApp Image 2025-08-27 at 
 import slide23 from '../../assets/images/sliderImg/WhatsApp Video 2025-08-27 at 10.49.22.mp4'
 import slide24 from '../../assets/images/sliderImg/WhatsApp Video 2025-08-28 at 13.54.12.mp4'
 
+import slickGenetic from '../../assets/images/png/slick-img.jpeg'
+import temList from '../../assets/images/png/slick-tem-list.png'
+import profoundDeffrence from '../../assets/images/png/profound-defference.png'
+import hairCost from '../../assets/images/png/slick-cow-hair-cost.png'
+import slickHeaderImg from '../../assets/images/png/slick-genetic.png'
 
 
 import calf1 from '../../assets/images/calfs-img/433.jpg'
@@ -326,18 +331,18 @@ export const demandsList = [
         name: "Rajbir Singh Aulakh",
         comment: "	I am Rajbir Singh Aulakh, owner of Aulakh Dairy Farm, located in VPO Nissing, District Karnal, Haryana. I have been engaged in dairy farming since 2003, currently managing a herd of 100 animals. When I started, the average milk yield per animal was around 15 liters, and today in 2025, with two-time milking, we have proudly reached up to 60 liters per animal. This growth and success have been possible thanks to the constant support and guidance of Dr. Anil Berry Sir, whose expertise has played a key role in transforming my farm. Qualitat Products has always kept us updated on time and provided valuable guidance whenever needed. I sincerely thank Qualitat Products for being a reliable partner in our dairy journey."
     },
-  
+
     {
         img: testimonial5,
         name: "Vikas Bishnoi",
         comment: "My name is Vikas Bishnoi from vpo Sardarpura, tehsil Abohar, dist- Fazilka, Punjab, and my farm is known as Sardarpura Dairy Farm. Initially, I had a very small farm and it was extremely difficult for me to manage it, as I had no proper guidance about dairy farming. In 2021, I came to know about World Wide Sires through Dr. Anil Berry, the owner of Qualitat Products. Dr. Berry guided me thoroughly about WWS and provided me with the best-quality semen.Thanks to his support, today my farm has grown to a top-level dairy farm with more than 100 HF cows. I sincerely thank Dr. Anil Berry and Qualitat Products for always providing me with the best semen, excellent guidance, and consistent top-class service."
     },
-      {
+    {
         img: testimonial6,
         name: "Dr. Noorpreetinder Singh (Dr. Noor Brar)",
         comment: "I am Dr. Noorpreetinder Singh (Dr. Noor Brar), proud owner of Veerjindera Dairy Farm, a three-generation legacy farm established in 1971 by my grandfather, S. Tej Singh (Sarpanch). Today, our farm houses 150 cattle and stands as a symbol of dedication and progress. We have been using imported semen since 1988, with our first imported semen calf born in 1989. Continuing this journey of improvement, we started using World Wide Sires semen in 2013, which has significantly contributed to the genetic strength and productivity of our herd.Located in Village Channuwal, Tehsil Baghapurana, District Moga, our farm is recognized among the top-level farms in Punjab. This success would not have been possible without the constant support of Dr. Anil Berry and the excellent service of Qualitat Products. Dr. Berry has always provided me with the best guidance, regular farm visits, and established a strong, trustworthy relationship. I sincerely thank him and his team for helping us achieve excellence in dairy farming."
     },
-   
+
 
 ]
 
@@ -467,7 +472,7 @@ export const CalfList = [
         type: 'image',
         img: calf25,
     },
- 
+
     {
         id: 27,
         type: 'image',
@@ -523,7 +528,7 @@ export const CalfList = [
         type: 'video',
         video: calf37,
     },
-  
+
 
 
 ]
@@ -752,7 +757,7 @@ export const geneticsData = [
         slug: "genetics-impacting-mastitis",
         img: "https://a-us.storyblok.com/f/1013974/400x400/4845dd6dc1/0724_genetics-impacting-mastitis-thumbnail.png",
         title: "Genetics Impacting Mastitis",
-        author: "Author: Rebekah Mast, VP Global Talent Development, World Wide sires",
+        // author: "Author: Rebekah Mast, VP Global Talent Development, World Wide sires",
 
         // Details page data
         detailsImg: "https://a-us.storyblok.com/f/1013974/2880x800/bce39b328f/genetics-impacting-mastitis.png",
@@ -797,6 +802,69 @@ export const geneticsData = [
                     "https://webconnect.uscdcb.com/#/summary-stats/genetic-trend"
                 ]
             },
+
+        ]
+    },
+    {
+        slug: "slick-genetics",
+        img: slickGenetic,
+        title: "SLICK GENETICS",
+        author: "Author: Rebekah Mast, VP Global Talent Development, World Wide sires",
+
+        // Details page data
+        detailsImg: slickHeaderImg,
+        // date: "September 2024",
+        content: [
+
+            { type: "heading", text: "WHAT ARE SLICK GENETICS?" },
+            {
+                type: "paragraph", text: "Animals that carry the slick allele are genetically more resistant to heat stress in hot or humid environments .This is t he result of a mutation in the prolactin receptor gene and affords cattle the ability to better regulate internal body temperature with an increased capacity for sweating.The slick allele is dominant, much like the Polled allele.Only one copy of the allele must be present in an animal for the phenotype to be expressed."
+            },
+
+            { type: "image", src: hairCost },
+
+            { type: "heading", text: "THE BENEFITS OF A SLICK HAIR COAT" },
+            {
+                type: "paragraph", text: `Cattle in environments with constant outside temperatures above 21° Celsius and humidity above 50% are subject to heat stress.The slick allele, through its thermo- control mechanisms, adds to m a n a g e m e n t efforts such as fans,
+            sprinklers, etc., to reduce the negative effects of heat stress.`
+            },
+            {
+                type: "paragraph", text: `Research conducted by the University of Florida and the
+University of Puerto Rico supports the heat resistant abilities
+of Holsteins carrying the slick allele. By measuring vaginal
+temperatures in cows living in a freestall environment at the
+University of Florida, researchers
+found the cows with a slick hair coat averaged 61° Celsius
+lower body temperatures at the hottest times of the day
+(noon to 3 p.m.) c o m p a r e d to t h e non-slick hair coat c o w s
+(Figure 1).`
+            },
+            {
+                type: "paragraph", text: `Researchers also studied milk yield in cows at the University
+of Florida, comparing slick and non-slick hair coat cows calv-
+ing in cool months (October to December) and hot months
+(May to July). In Figure 2 you can see that the cool months of
+the year provided little production advantage to the slick
+coat animals, yet the hot months showed a m u c h more pro-
+found difference in milk yield`
+            },
+            { type: "image", src: profoundDeffrence },
+            {
+                type: "paragraph", text: `Cattle in environments with constant outside temperatures above 21° Celsius and humidity above 50%
+are subject to heat stress. The slick allele, through its thermo-control mechanisms, combined with
+management efforts such as fans and sprinklers, reduces the negative effects of heat stress.`
+            },
+            { type: "image", src: temList },
+            {
+                type: "paragraph", text: `08/25 CDCB-S/HA Genomic Evaluations. Evaluations for non-conformation traits are Powered by CDCB™.
+BHHP$, Mastitis ResistantPRO, GrazingPRO, RobotPRO, Your Success Our Passion. and the Select Sires logo are
+registered trademarks of Select Sires Inc., Plain City, OH. Mgender SELECTED is a trademark of Select Sires Inc.
+Al gender SELECTED semen is processed using Ultraplus™ Technology. Ultraplus is a trademark of ST Gen LLC.
+All sires listed on this page qualify for semen export to Canada. 9 = Universal Marketing Code`
+            },
+
+           
+
 
         ]
     }
@@ -2158,19 +2226,19 @@ export const productList = [
     {
         img: product2
     },
-   
+
     {
         img: product3
     },
     {
         img: product4
     },
- 
-   
+
+
     {
         img: product5
     },
- 
+
 
     // {
     //     img: product7
@@ -2208,16 +2276,16 @@ export const servicesList = [
         heading: "24×7 Farmer Support Lines",
         about: "for order booking, guidance, and after-sales service."
     },
-   
+
 ]
 export const ourTeamList = [
-       {
+    {
         img: team2,
         Name: "Kusum Thakur",
-         category: "Team",
-        role:"Senior Operation Manager",
+        category: "Team",
+        role: "Senior Operation Manager",
         about: "Kusum, Senior Operation Manager at Qualitat Products plays a key role in ensuring smooth business operations, timely product distribution, and service excellence. They focus on aligning teams, optimizing processes, and delivering the best support to farmers with efficiency and reliability."
-    }, 
+    },
 
 
     {
@@ -2227,7 +2295,7 @@ export const ourTeamList = [
         category: "Team",
         about: "Rajni,  our Operations Analyst at Qualitat Products plays a key role in streamlining daily processes, analyzing data, and improving efficiency across supply chain and distribution and collect INAPH tags from farmers and ensure timely uploading on the Government portal (Bharat Pashudhan). The role ensures timely delivery of products, smooth coordination with teams, and supports strategic decision-making for business growth."
     },
-   
+
     {
         img: team6,
         Name: "Nakul",
@@ -2246,7 +2314,7 @@ export const ourTeamList = [
         img: team1,
         Name: "Rakhi Bahri",
         role: "Sales Manager",
-          category: "Team",
+        category: "Team",
         about: "Rakhi, our Sales Manager plays a vital role in driving WWS product sales by conducting regular follow-ups, maintaining accurate records, and addressing farmers’ concerns with care. Through clear communication, timely support, and strong relationship-building, she ensures farmer satisfaction and contributes to the growth of Qualitat Products."
     },
     {
@@ -2260,25 +2328,25 @@ export const ourTeamList = [
         img: team9,
         Name: "Seema",
         role: "Executive",
-         category: "Team",
+        category: "Team",
         about: "Seema, who is the Executive at Qualitat Products, this role involves managing day-to-day administrative tasks assigned by senior management, maintaining organized office records, overseeing banking operations, and responding to farmers’ calls. Her focus is on ensuring smooth communication, efficient support, and seamless office operations."
     },
 
-     {
+    {
         img: team4,
         Name: "Surbhi",
-         role: "Accounting Manager",
-             category: "Accounts",
-         about: "Surbhi, our Accounting Manager at Qualitat Products oversees financial operations, ensuring accuracy in accounts, budgeting, and compliance. By maintaining transparent financial records, the role supports strategic decision-making and smooth business growth."
+        role: "Accounting Manager",
+        category: "Accounts",
+        about: "Surbhi, our Accounting Manager at Qualitat Products oversees financial operations, ensuring accuracy in accounts, budgeting, and compliance. By maintaining transparent financial records, the role supports strategic decision-making and smooth business growth."
     },
     {
         img: team5,
         Name: "Arvind",
         role: "Senior Accountant",
-            category: "Accounts",
+        category: "Accounts",
         about: "Arvind, our Senior Accountant, ensures accuracy and integrity across all financial records. By preparing timely reports, managing budgets, overseeing compliance, and supporting financial strategies, he plays a key role in maintaining the company’s stability and driving long-term growth."
     },
-  
+
     {
         img: team10,
         Name: "Deepak Kumar",
@@ -2300,42 +2368,42 @@ export const ourTeamList = [
         category: "Delivery",
         about: "Pappu Singh, the Delivery Executive at Qualitat Products is responsible for ensuring products reach farmers and distributors accurately and on time. By managing daily delivery schedules and coordinating logistics on the ground, he plays a key role in maintaining consistent product availability and providing reliable, uninterrupted service to the farming and livestock community."
     },
-  
 
 
-   
+
+
 ]
 export const ourDistributorsList = [
     {
         img: dist1,
-        logo:logo1,
+        logo: logo1,
         Name: "Amanpreet Singh",
-        company:"Sakai & Glanz Genetic Solutions",
-        add:"Moga",
+        company: "Sakai & Glanz Genetic Solutions",
+        add: "Moga",
         contact: "9465593745"
     },
     {
         img: dist2,
-        logo:logo2,
+        logo: logo2,
         Name: "Mandeep Turna ",
-        company:"Punjab Dairy Genetic",
-        add:"Patiala",
+        company: "Punjab Dairy Genetic",
+        add: "Patiala",
         contact: "7009636216"
     },
-    {
-        img: dist3,
-        // logo:,
-        Name: "Sukhwinder Singh",
-        // company:"Punjab Dairy Genetic",
-        add:"Barnala",
-        contact: "9779923255"
-    },
+    // {
+    //     img: dist3,
+    //     // logo:,
+    //     Name: "Sukhwinder Singh",
+    //     // company:"Punjab Dairy Genetic",
+    //     add:"Barnala",
+    //     contact: "9779923255"
+    // },
     {
         img: dist4,
         // logo:,
         Name: "Monu Arora",
-        company:"Saanjh Enterprises",
-        add:"Fazilka",
+        company: "Saanjh Enterprises",
+        add: "Fazilka",
         contact: "9780766438"
     },
     {
@@ -2343,123 +2411,123 @@ export const ourDistributorsList = [
         // logo:,
         Name: "Balraj Singh",
         // company:"Saanjh Enterprises",
-        add:"Ludhiana",
+        add: "Ludhiana",
         contact: "9256561313"
     },
     {
         img: dist6,
         // logo:,
         Name: "Ashish Chauhan ",
-        company:"Guru Brahmanand Pet and Vet",
-        add:"Karnal (Haryana)",
+        company: "Guru Brahmanand Pet and Vet",
+        add: "Karnal (Haryana)",
         contact: "9068333366"
     },
-  
+
     {
         img: dist7,
         // logo:,
         Name: "Waman Gaiwad ",
-        company:"Utkarsh Enterprises",
-        add:"Pune (Maharashtra)",
+        company: "Utkarsh Enterprises",
+        add: "Pune (Maharashtra)",
         contact: "9422446226"
     },
     {
         img: dist8,
         // logo:,
         Name: "Randhir Patel",
-        company:"R. R. Agro",
-        add:"Kolhapur (Maharashtra)",
+        company: "R. R. Agro",
+        add: "Kolhapur (Maharashtra)",
         contact: "98232 28585"
     },
     {
         img: dist9,
         // logo:,
         Name: "Shabir Ali",
-        company:"Anoor Medicals",
-        add:"Gujrat",
-        contact: "9474701253"
+        company: "Anoor Medicals",
+        add: "Gujrat",
+        contact: "9624055431"
     },
     {
         img: dist10,
         // logo:,
         Name: "Shorashi Mohan Koner",
-        company:"Annapurna Dairy Farm",
-        add:"West Bengal",
-        contact: "9624055431"
+        company: "Annapurna Dairy Farm",
+        add: "West Bengal",
+        contact: "9474701253"
     },
     {
         img: dist11,
         // logo:,
         Name: "Sanjay Kumar ",
         // company:"Annapurna Dairy Farm",
-        add:"Patna (Bihar)",
+        add: "Patna (Bihar)",
         contact: "9430690309"
     },
     {
         img: dist12,
         // logo:,
         Name: "Kirtiman Singh ",
-        company:"Dhenushya Dairy Farm",
-        add:"Mirzapur (UP)",
+        company: "Dhenushya Dairy Farm",
+        add: "Mirzapur (UP)",
         contact: "8299515263"
     },
     {
         img: dist13,
-        logo:logo13,
+        logo: logo13,
         Name: "Krishna (A to Z solutions)",
-        company:"Krishna (A to Z solutions)",
-        add:"Bangalore (Karnataka)",
+        company: "Krishna (A to Z solutions)",
+        add: "Bangalore (Karnataka)",
         contact: "8880333444"
     },
     {
         img: dist14,
-        logo:logo14,
+        logo: logo14,
         Name: "Surabhi Enterprises",
-        company:"Surabhi Enterprises",
-        add:"Tamil Nadu",
+        company: "Surabhi Enterprises",
+        add: "Tamil Nadu",
         contact: "9442888722"
     },
     {
         img: dist15,
-        logo:logo15,
+        logo: logo15,
         Name: "Ajay Kumar Waghmare ",
-        company:"N.D Dairy Solutions",
-        add:"Ujjain (MP)",
+        company: "N.D Dairy Solutions",
+        add: "Ujjain (MP)",
         contact: "8770788282"
     },
-    
-  
 
 
-   
+
+
+
 ]
 
 
-export  const newsData = [
+export const newsData = [
     {
-      id: 1,
-      title: "Exciting Adventure News",
-      img: news1,
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        id: 1,
+        title: "Exciting Adventure News",
+        img: news1,
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
     },
     {
-      id: 2,
-      title: "Travel Updates",
-      img: news2,
-      desc: "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        id: 2,
+        title: "Travel Updates",
+        img: news2,
+        desc: "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
-      id: 3,
-      title: "New Destinations",
-      img: news3,
-      desc: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+        id: 3,
+        title: "New Destinations",
+        img: news3,
+        desc: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
     },
     {
-      id: 4,
-      title: "New Destinations",
-      img: news4,
-      desc: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+        id: 4,
+        title: "New Destinations",
+        img: news4,
+        desc: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
     },
 ];
-  
+
 
