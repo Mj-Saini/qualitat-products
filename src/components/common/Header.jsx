@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import { Link, NavLink, useLocation } from "react-router-dom";
 import CommonBtn from "./CommonBtn";
-import logo from "../../../src/assets/images/svg/logo.svg";
+import logo from "../../../src/assets/images/png/new-logo-removebg-preview.png";
 import { SearchIcons } from "./Icons";
 
 const Header = ({ contactPage }) => {

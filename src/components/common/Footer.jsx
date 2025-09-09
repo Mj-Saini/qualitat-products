@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
-import logo from '../../assets/images/svg/logo.svg'
+import logo from '../../assets/images/png/new-logo-removebg-preview.png'
 import { Link } from 'react-router'
 import { InstaIcons, LinkedinIcons, YouTubeIcons } from './Icons'
 import { FacebookIcon, Mail, Phone } from 'lucide-react'

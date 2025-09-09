@@ -119,7 +119,7 @@ import dist9 from '../../assets/images/distributors/sabir-ali.jpeg'
 import dist10 from '../../assets/images/distributors/sorashi.png'
 import dist11 from '../../assets/images/distributors/sanjay.png'
 import dist12 from '../../assets/images/distributors/kritiman.png'
-// import dist13 from '../../assets/images/distributors'
+import dist13 from '../../assets/images/distributors/krishna.jpeg'
 import dist14 from '../../assets/images/distributors/surabhi.png'
 import dist15 from '../../assets/images/distributors/ajay-kumar.png'
 // import dist16 from '../../assets/images/distributors/'
@@ -145,6 +145,7 @@ import homePageBgVideo from '../../assets/video/WhatsApp Video 2025-07-29 at 11.
 
 import logo1 from '../../assets/images/distributors/amandeep-logo.jpeg'
 import logo2 from '../../assets/images/distributors/punjab-dairy-logo.png'
+import logo13 from '../../assets/images/distributors/a-to-z-dairy.jpeg'
 import logo14 from '../../assets/images/distributors/surbhi-logo.png'
 import logo15 from '../../assets/images/distributors/nd-dairy-loog.png'
 
@@ -2224,7 +2225,7 @@ export const ourTeamList = [
         Name: "Rajni Malik",
         role: "Operations Analyst",
         category: "Team",
-        about: "An Operations Analyst at Qualitat Products plays a key role in streamlining daily processes, analyzing data, and improving efficiency across supply chain and distribution and collect INAPH tags from farmers and ensure timely uploading on the Government portal (Bharat Pashudhan). The role ensures timely delivery of products, smooth coordination with teams, and supports strategic decision-making for business growth."
+        about: "Rajni our Operations Analyst at Qualitat Products plays a key role in streamlining daily processes, analyzing data, and improving efficiency across supply chain and distribution and collect INAPH tags from farmers and ensure timely uploading on the Government portal (Bharat Pashudhan). The role ensures timely delivery of products, smooth coordination with teams, and supports strategic decision-making for business growth."
     },
    
     {
@@ -2232,35 +2233,35 @@ export const ourTeamList = [
         Name: "Nakul",
         role: "Marketing Strategist Manager",
         category: "Team",
-        about: "As a Marketing Strategist at Qualitat Products, the role involves managing and growing the brand’s presence across all social media platforms. From creating engaging content to driving farmer-centric campaigns, the focus is on building strong connections, enhancing visibility, and promoting innovative dairy solutions."
+        about: "Nakul, who is our Marketing Strategist at Qualitat Products, focuses on strengthening and expanding the brand’s presence across social media platforms. By creating impactful content and leading farmer-focused campaigns, the aim is to build meaningful connections, increase brand visibility, and showcase innovative dairy solutions that drive value for farmers and the livestock industry."
     },
     {
         img: team7,
         Name: "Deepika",
         role: "Senior Sales Manager",
         category: "Team",
-        about: "The Senior Sales Manager at Qualitat Products ensures complete record-keeping of sales while driving growth with full dedication. With a focus on performance and farmer satisfaction, he plays a vital role in strengthening the company’s reach and success."
+        about: "Deepika, who is our Senior Sales Manager at Qualitat Products ensures complete record-keeping of sales while driving growth of the company with full dedication. With a focus on performance and farmer satisfaction, she plays a vital role in strengthening the company’s reach and success."
     },
     {
         img: team1,
         Name: "Rakhi Bahri",
         role: "Sales Manager",
           category: "Team",
-        about: "The Sales Manager plays a key role in increasing WWS product sales by making regular follow-up calls, maintaining records, and addressing farmers’ concerns. He ensures smooth communication, timely support, and strong farmer relations to drive growth for Qualitat Products."
+        about: "Rakhi our Sales Manager plays a vital role in driving WWS product sales by conducting regular follow-ups, maintaining accurate records, and addressing farmers’ concerns with care. Through clear communication, timely support, and strong relationship-building, she ensures farmer satisfaction and contributes to the growth of Qualitat Products."
     },
     {
         img: team8,
         Name: "Savita",
         role: "Logistic Manager",
         category: "Delivery",
-        about: "The Logistic Manager at Qualitat Products plays a key role in ensuring the smooth and timely delivery of products to farmers and distributors. By managing supply chains efficiently, they help maintain product availability and support farmers with uninterrupted services."
+        about: "Savita, who is our Logistics Manager at Qualitat Products has had 18 years of experience in the field of Logistics. Her role is pivotal in ensuring the timely and seamless delivery of products to farmers and distributors. She make sure to streamline supply chain operations, she maintains consistent product availability, enabling farmers to receive uninterrupted support and reinforcing the company’s commitment to reliability and growth."
     },
     {
         img: team9,
         Name: "Seema",
         role: "Executive",
          category: "Team",
-        about: "As an Executive at Qualitat Products, the role involves following up on tasks assigned by senior management, maintaining and managing office files and records, handling all banking operations, and attending to farmers’ calls to ensure smooth communication and support."
+        about: "Seema who is the Executive at Qualitat Products, this role involves managing day-to-day administrative tasks assigned by senior management, maintaining organized office records, overseeing banking operations, and responding to farmers’ calls. Her focus is on ensuring smooth communication, efficient support, and seamless office operations."
     },
 
      {
@@ -2268,14 +2269,14 @@ export const ourTeamList = [
         Name: "Surbhi",
          role: "Accounting Manager",
              category: "Accounts",
-        about: "The Accounting Manager at Qualitat Products oversees financial operations, ensuring accuracy in accounts, budgeting, and compliance. By maintaining transparent financial records, the role supports strategic decision-making and smooth business growth."
+         about: "Surbhi our Accounting Manager at Qualitat Products oversees financial operations, ensuring accuracy in accounts, budgeting, and compliance. By maintaining transparent financial records, the role supports strategic decision-making and smooth business growth."
     },
     {
         img: team5,
         Name: "Arvind",
         role: "Senior Accountant",
             category: "Accounts",
-        about: "At Qualitat Products, the Senior Accountant is responsible for maintaining precise financial records and ensuring accuracy across all accounts. By preparing timely reports and managing budgets, compliance, and financial strategies, they contribute significantly to the company’s stability and long-term growth."
+        about: "Arvind our Senior Accountant, ensures accuracy and integrity across all financial records. By preparing timely reports, managing budgets, overseeing compliance, and supporting financial strategies, he plays a key role in maintaining the company’s stability and driving long-term growth."
     },
   
     {
@@ -2283,21 +2284,21 @@ export const ourTeamList = [
         Name: "Deepak Kumar",
         role: "Senior Delivery Manager",
         category: "Delivery",
-        about: "The Senior Delivery Manager at Qualitat Products ensures the timely and safe delivery of WWS semen to farmers, along with accurate billing. They also guide and supervise the delivery team, maintaining high standards of service and reliability."
+        about: "Deepak, our operations and Delivery Manager at Qualitat Products oversees the end-to-end distribution of products, ensuring they reach farmers and distributors accurately and on time. By coordinating logistics, monitoring delivery performance, and addressing challenges proactively, his team guarantees a smooth and reliable delivery process. Their efforts help maintain consistent product availability, enhance customer satisfaction, and support the company’s mission of providing uninterrupted service to the farmers and the entire agricultural community."
     },
     {
         img: team12,
         Name: "Jai Shankar Singh",
         role: "Senior Delivery Manager",
         category: "Delivery",
-        about: "The Senior Delivery Manager at Qualitat Products is responsible for ensuring WWS semen reaches farmers on time and with complete safety, accompanied by proper billing. They also lead and mentor the delivery team, upholding efficiency, accuracy, and trust in every delivery."
+        about: "Jai Shankar Singh, the Distribution Manager at Qualitat Products oversees the efficient movement of products from warehouses to farmers and distributors. By optimizing distribution processes and monitoring performance, they ensure timely deliveries, consistent product availability, and seamless service, supporting both farmer satisfaction and the company’s operational excellence."
     },
     {
         img: team11,
         Name: "Papu Singh",
         role: "Delivery Executive",
         category: "Delivery",
-        about: "The Delivery Executive at Qualitat Products ensures timely and secure delivery of products to farmers and clients. Along with maintaining trust and smooth supply chain operations, they are also responsible for carefully packing semen, as well as regularly monitoring cylinders, gas, and semen storage to ensure quality and reliability."
+        about: "Pappu Singh, the Delivery Executive at Qualitat Products is responsible for ensuring products reach farmers and distributors accurately and on time. By managing daily delivery schedules and coordinating logistics on the ground, he plays a key role in maintaining consistent product availability and providing reliable, uninterrupted service to the farming and livestock community."
     },
   
 
@@ -2403,8 +2404,8 @@ export const ourDistributorsList = [
         contact: "8299515263"
     },
     {
-        // img: dist13,
-        // logo:,
+        img: dist13,
+        logo:logo13,
         Name: "Krishna (A to Z solutions)",
         company:"Krishna (A to Z solutions)",
         add:"Bangalore (Karnataka)",
