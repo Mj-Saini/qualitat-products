@@ -6,7 +6,7 @@ import anantBerry from "../assets/images/png/Anant_Berry.jpeg";
 
 const AboutPage = () => {
 
-    const categories = ["Team","Accounts", "Delivery" ];
+    const categories = ["Team", "Accounts", "Delivery"];
 
     return (
         <>
@@ -98,29 +98,29 @@ const AboutPage = () => {
                             </div>
                         ))}
                     </div> */}
-                      {categories.map((cat) => (
-          <div key={cat} className="mb-12">
-            <h3 className="text-xl sm:text-2xl font-bold mb-6">{cat}</h3>
-            <div className="flex flex-wrap">
-              {ourTeamList
-                .filter((team) => team.category === cat)
-                .map((team, index) => (
-                  <div className="w-full sm:w-1/2 lg:w-1/4 p-4" key={index}>
-                    <div className="bg-white rounded-xl shadow hover:shadow-2xl transition relative overflow-hidden group h-full">
-                      <div className="absolute top-0 -left-full group-hover:left-0 h-full text-center align-bottom overflow-auto duration-300 w-full bg-black/70 text-white p-6 flex items-center">
-                        <p>{team.about}</p>
-                      </div>
-                      <img className="w-full h-[280px]" src={team.img} alt={team.Name} />
-                      <div className="p-6 text-center">
-                        <h3 className="font-semibold text-lg md:text-xl">{team.Name}</h3>
-                        <p>{team.role}</p>
-                      </div>
-                    </div>
-                  </div>
-                ))}
-            </div>
-          </div>
-        ))}
+                    {categories.map((cat) => (
+                        <div key={cat} className="mb-12">
+                            <h3 className="text-xl sm:text-2xl font-bold mb-6">{cat}</h3>
+                            <div className="flex flex-wrap">
+                                {ourTeamList
+                                    .filter((team) => team.category === cat)
+                                    .map((team, index) => (
+                                        <div className="w-full sm:w-1/2 lg:w-1/4 p-4" key={index}>
+                                            <div className="bg-white rounded-xl shadow hover:shadow-2xl transition relative overflow-hidden group h-full">
+                                                <div className="absolute top-0 -left-full group-hover:left-0 h-full text-center align-bottom overflow-auto duration-300 w-full bg-black/70 text-white flex ">
+                                                    <p className="p-4 pb-3">{team.about}</p>
+                                                </div>
+                                                <img className="w-full h-[280px]" src={team.img} alt={team.Name} />
+                                                <div className="p-6 text-center">
+                                                    <h3 className="font-semibold text-lg md:text-xl">{team.Name}</h3>
+                                                    <p>{team.role}</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    ))}
+                            </div>
+                        </div>
+                    ))}
                 </div>
             </div>
             {/* Products Section */}

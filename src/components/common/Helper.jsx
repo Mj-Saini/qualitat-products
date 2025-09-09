@@ -2216,7 +2216,7 @@ export const ourTeamList = [
         Name: "Kusum Thakur",
          category: "Team",
         role:"Senior Operation Manager",
-        about: "The Senior Operation Manager at Qualitat Products plays a key role in ensuring smooth business operations, timely product distribution, and service excellence. They focus on aligning teams, optimizing processes, and delivering the best support to farmers with efficiency and reliability."
+        about: "Kusum, Senior Operation Manager at Qualitat Products plays a key role in ensuring smooth business operations, timely product distribution, and service excellence. They focus on aligning teams, optimizing processes, and delivering the best support to farmers with efficiency and reliability."
     }, 
 
 
@@ -2225,7 +2225,7 @@ export const ourTeamList = [
         Name: "Rajni Malik",
         role: "Operations Analyst",
         category: "Team",
-        about: "Rajni our Operations Analyst at Qualitat Products plays a key role in streamlining daily processes, analyzing data, and improving efficiency across supply chain and distribution and collect INAPH tags from farmers and ensure timely uploading on the Government portal (Bharat Pashudhan). The role ensures timely delivery of products, smooth coordination with teams, and supports strategic decision-making for business growth."
+        about: "Rajni,  our Operations Analyst at Qualitat Products plays a key role in streamlining daily processes, analyzing data, and improving efficiency across supply chain and distribution and collect INAPH tags from farmers and ensure timely uploading on the Government portal (Bharat Pashudhan). The role ensures timely delivery of products, smooth coordination with teams, and supports strategic decision-making for business growth."
     },
    
     {
@@ -2247,7 +2247,7 @@ export const ourTeamList = [
         Name: "Rakhi Bahri",
         role: "Sales Manager",
           category: "Team",
-        about: "Rakhi our Sales Manager plays a vital role in driving WWS product sales by conducting regular follow-ups, maintaining accurate records, and addressing farmers’ concerns with care. Through clear communication, timely support, and strong relationship-building, she ensures farmer satisfaction and contributes to the growth of Qualitat Products."
+        about: "Rakhi, our Sales Manager plays a vital role in driving WWS product sales by conducting regular follow-ups, maintaining accurate records, and addressing farmers’ concerns with care. Through clear communication, timely support, and strong relationship-building, she ensures farmer satisfaction and contributes to the growth of Qualitat Products."
     },
     {
         img: team8,
@@ -2261,7 +2261,7 @@ export const ourTeamList = [
         Name: "Seema",
         role: "Executive",
          category: "Team",
-        about: "Seema who is the Executive at Qualitat Products, this role involves managing day-to-day administrative tasks assigned by senior management, maintaining organized office records, overseeing banking operations, and responding to farmers’ calls. Her focus is on ensuring smooth communication, efficient support, and seamless office operations."
+        about: "Seema, who is the Executive at Qualitat Products, this role involves managing day-to-day administrative tasks assigned by senior management, maintaining organized office records, overseeing banking operations, and responding to farmers’ calls. Her focus is on ensuring smooth communication, efficient support, and seamless office operations."
     },
 
      {
@@ -2269,14 +2269,14 @@ export const ourTeamList = [
         Name: "Surbhi",
          role: "Accounting Manager",
              category: "Accounts",
-         about: "Surbhi our Accounting Manager at Qualitat Products oversees financial operations, ensuring accuracy in accounts, budgeting, and compliance. By maintaining transparent financial records, the role supports strategic decision-making and smooth business growth."
+         about: "Surbhi, our Accounting Manager at Qualitat Products oversees financial operations, ensuring accuracy in accounts, budgeting, and compliance. By maintaining transparent financial records, the role supports strategic decision-making and smooth business growth."
     },
     {
         img: team5,
         Name: "Arvind",
         role: "Senior Accountant",
             category: "Accounts",
-        about: "Arvind our Senior Accountant, ensures accuracy and integrity across all financial records. By preparing timely reports, managing budgets, overseeing compliance, and supporting financial strategies, he plays a key role in maintaining the company’s stability and driving long-term growth."
+        about: "Arvind, our Senior Accountant, ensures accuracy and integrity across all financial records. By preparing timely reports, managing budgets, overseeing compliance, and supporting financial strategies, he plays a key role in maintaining the company’s stability and driving long-term growth."
     },
   
     {
