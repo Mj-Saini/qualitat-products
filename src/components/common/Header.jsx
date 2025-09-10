@@ -61,7 +61,7 @@ const Header = ({ contactPage }) => {
             About Us
           </NavLink>
           <NavLink onClick={() => setToggle(false)} to="/our-distributors" className={` hover:text-[#C62524] text-sm text_stroke duration-300 transition-all ${location.pathname === '/our-distributors' ? 'text-black text_stroke_active' : 'text-black/70'}`}>
-           Distributors
+           Dealers
           </NavLink>
       
 

@@ -8,7 +8,7 @@ const Distributors = () => {
             <CommonHero heading="The Faces Behind Our Strong Network" lable=" " heroBgImg="gallary_hero_bg_img" />
             <div className="bg-gray-100 py-16 lg:py-24 md:px-6">
                 <div className="container custom_container px-4 mx-auto">
-                    <h2 className="text-2xl sm:text-3xl lg:text-5xl font-semibold text-center mb-3">
+                    <h2 className="text-2xl sm:text-3xl lg:text-5xl font-semibold text-center mb-12">
                       Our Dealers
                     </h2>
                     {/* <p className="text-base font-normal text-center mb-10">Meet the passionate individuals behind our mission.</p> */}
