@@ -2386,7 +2386,7 @@ export const ourDistributorsList = [
         img: dist2,
         logo: logo2,
         Name: "Mandeep Turna ",
-        company: "Punjab Dairy Genetic",
+        company: "Samana Punjab Dairy Genetic",
         add: "Patiala",
         contact: "7009636216"
     },
@@ -2414,14 +2414,14 @@ export const ourDistributorsList = [
     //     add: "Ludhiana",
     //     contact: "9256561313"
     // },
-    {
-        img: dist6,
-        // logo:,
-        Name: "Ashish Chauhan ",
-        company: "Guru Brahmanand Pet and Vet",
-        add: "Karnal (Haryana)",
-        contact: "9068333366"
-    },
+    // {
+    //     img: dist6,
+    //     // logo:,
+    //     Name: "Ashish Chauhan ",
+    //     company: "Guru Brahmanand Pet and Vet",
+    //     add: "Karnal (Haryana)",
+    //     contact: "9068333366"
+    // },
 
     {
         img: dist7,
@@ -2447,14 +2447,14 @@ export const ourDistributorsList = [
         add: "Gujrat",
         contact: "9624055431"
     },
-    {
-        img: dist10,
-        // logo:,
-        Name: "Shorashi Mohan Koner",
-        company: "Annapurna Dairy Farm",
-        add: "West Bengal",
-        contact: "9474701253"
-    },
+    // {
+    //     img: dist10,
+    //     // logo:,
+    //     Name: "Shorashi Mohan Koner",
+    //     company: "Annapurna Dairy Farm",
+    //     add: "West Bengal",
+    //     contact: "9474701253"
+    // },
     {
         img: dist11,
         // logo:,
@@ -2471,14 +2471,14 @@ export const ourDistributorsList = [
         add: "Mirzapur (UP)",
         contact: "8299515263"
     },
-    {
-        img: dist13,
-        logo: logo13,
-        Name: "Krishna (A to Z solutions)",
-        company: "Krishna (A to Z solutions)",
-        add: "Bangalore (Karnataka)",
-        contact: "8880333444"
-    },
+    // {
+    //     img: dist13,
+    //     logo: logo13,
+    //     Name: "Krishna (A to Z solutions)",
+    //     company: "Krishna (A to Z solutions)",
+    //     add: "Bangalore (Karnataka)",
+    //     contact: "8880333444"
+    // },
     {
         img: dist14,
         logo: logo14,

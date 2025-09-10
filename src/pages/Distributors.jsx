@@ -9,7 +9,7 @@ const Distributors = () => {
             <div className="bg-gray-100 py-16 lg:py-24 md:px-6">
                 <div className="container custom_container px-4 mx-auto">
                     <h2 className="text-2xl sm:text-3xl lg:text-5xl font-semibold text-center mb-3">
-                      Our Sub - Distributors
+                      Our Dealers
                     </h2>
                     {/* <p className="text-base font-normal text-center mb-10">Meet the passionate individuals behind our mission.</p> */}
                     <div className="flex flex-wrap">
@@ -32,6 +32,31 @@ const Distributors = () => {
                             </div>
                         ))}
                     </div>
+                </div>
+            </div>
+            <div className="bg-gray-100 py-16 lg:py-24 md:px-6">
+                <div className="container custom_container px-4 mx-auto">
+                    {/* <h2 className="text-2xl sm:text-3xl lg:text-5xl font-semibold text-center mb-3">
+                      Our Dealers
+                    </h2> */}
+                    <p className="text-base lg:text-lg font-normal text-start mb-10">All farmers/customers are informed that they can get semen/requirement either through our authorized dealers in their respective states and nearby regions, or directly from Qualitat Products (India).
+                        <br />
+                        <br />
+                        Thank you for your trust and support.
+                        <br />
+                        <br />
+
+
+
+                        Qualitat Products (India)
+<br />
+                        Plot no- 805,
+
+                        <br />
+                        Industrial Area - Phase-2, Chandigarh-160002
+<br />
+                        Mobile- 9592912726, 9517772726</p>
+                   
                 </div>
             </div>
         </>
