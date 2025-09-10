@@ -114,9 +114,9 @@ import team12 from '../../assets/images/png/jai-sankar.jpeg'
 
 import dist1 from '../../assets/images/distributors/amerdeep.png'
 import dist2 from '../../assets/images/distributors/mandeep.png'
-import dist3 from '../../assets/images/distributors/sukhvinder.png'
+// import dist3 from '../../assets/images/distributors/sukhvinder.png'
 import dist4 from '../../assets/images/distributors/monu.png'
-import dist5 from '../../assets/images/distributors/balraj.png'
+// import dist5 from '../../assets/images/distributors/balraj.png'
 import dist6 from '../../assets/images/distributors/ashish.png'
 import dist7 from '../../assets/images/distributors/waman.png'
 import dist8 from '../../assets/images/distributors/randhir.png'
@@ -2406,14 +2406,14 @@ export const ourDistributorsList = [
         add: "Fazilka",
         contact: "9780766438"
     },
-    {
-        img: dist5,
-        // logo:,
-        Name: "Balraj Singh",
-        // company:"Saanjh Enterprises",
-        add: "Ludhiana",
-        contact: "9256561313"
-    },
+    // {
+    //     img: dist5,
+    //     // logo:,
+    //     Name: "Balraj Singh",
+    //     // company:"Saanjh Enterprises",
+    //     add: "Ludhiana",
+    //     contact: "9256561313"
+    // },
     {
         img: dist6,
         // logo:,
