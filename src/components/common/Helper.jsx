@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 
 import { ExeperienceIcons, ProductQltyIcons, Service24Icons } from "./Icons";
 
@@ -90,9 +91,9 @@ import product3 from '../../assets/images/PRODUCTS/1 (4).jpeg'
 import product9 from '../../assets/images/PRODUCTS/1 (9).jpeg'
 
 //  NEWS IMAGES
-import news1 from '../../assets/images/png/news1.png'
-import news2 from '../../assets/images/png/news2.png'
-import news3 from '../../assets/images/png/new3.jpeg'
+import news1 from '../../assets/images/png/news-price-list.png'
+import news2 from '../../assets/images/png/announcement.png'
+// import news3 from '../../assets/images/png/new3.jpeg'
 import news4 from '../../assets/images/png/news4.jpeg'
 
 // OUR TEAM IMAGES
@@ -117,11 +118,11 @@ import dist2 from '../../assets/images/distributors/mandeep.png'
 // import dist3 from '../../assets/images/distributors/sukhvinder.png'
 import dist4 from '../../assets/images/distributors/monu.png'
 // import dist5 from '../../assets/images/distributors/balraj.png'
-import dist6 from '../../assets/images/distributors/ashish.png'
+// import dist6 from '../../assets/images/distributors/ashish.png'
 import dist7 from '../../assets/images/distributors/waman.png'
 import dist8 from '../../assets/images/distributors/randhir.png'
 import dist9 from '../../assets/images/distributors/sabir-ali.jpeg'
-import dist10 from '../../assets/images/distributors/sorashi.png'
+// import dist10 from '../../assets/images/distributors/sorashi.png'
 import dist11 from '../../assets/images/distributors/sanjay.png'
 import dist12 from '../../assets/images/distributors/kritiman.png'
 import dist13 from '../../assets/images/distributors/krishna.jpeg'
@@ -150,7 +151,7 @@ import homePageBgVideo from '../../assets/video/WhatsApp Video 2025-07-29 at 11.
 
 import logo1 from '../../assets/images/distributors/amandeep-logo.jpeg'
 import logo2 from '../../assets/images/distributors/punjab-dairy-logo.png'
-import logo13 from '../../assets/images/distributors/a-to-z-dairy.jpeg'
+// import logo13 from '../../assets/images/distributors/a-to-z-dairy.jpeg'
 import logo14 from '../../assets/images/distributors/surbhi-logo.png'
 import logo15 from '../../assets/images/distributors/nd-dairy-loog.png'
 
@@ -2516,12 +2517,12 @@ export const newsData = [
         img: news2,
         desc: "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
-    {
-        id: 3,
-        title: "New Destinations",
-        img: news3,
-        desc: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
-    },
+    // {
+    //     id: 3,
+    //     title: "New Destinations",
+    //     img: news3,
+    //     desc: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+    // },
     {
         id: 4,
         title: "New Destinations",
