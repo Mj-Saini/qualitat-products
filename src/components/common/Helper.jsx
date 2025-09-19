@@ -93,7 +93,7 @@ import product9 from '../../assets/images/PRODUCTS/1 (9).jpeg'
 //  NEWS IMAGES
 import news1 from '../../assets/images/png/news-price-list.png'
 import news2 from '../../assets/images/png/announcement.png'
-// import news3 from '../../assets/images/png/new3.jpeg'
+import news3 from '../../assets/images/png/sheep-news.jpeg'
 import news4 from '../../assets/images/png/news4.jpeg'
 
 // OUR TEAM IMAGES
@@ -2517,16 +2517,17 @@ export const newsData = [
         img: news2,
         desc: "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
-    // {
-    //     id: 3,
-    //     title: "New Destinations",
-    //     img: news3,
-    //     desc: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
-    // },
+
     {
         id: 4,
         title: "New Destinations",
         img: news4,
+        desc: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+    },
+    {
+        id: 3,
+        title: "New Destinations",
+        img: news3,
         desc: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
     },
 ];
