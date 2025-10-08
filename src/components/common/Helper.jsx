@@ -72,6 +72,14 @@ import calf35 from '../../assets/video/calf-video/WWS-LETCHWORTH.mp4'
 import calf36 from '../../assets/video/calf-video/WWS-RIVETING.mp4'
 import calf37 from '../../assets/video/calf-video/MAGNUM.mp4'
 
+import calf38 from '../../assets/video/calf-video/KAMAKAZI.mp4'
+import calf39 from '../../assets/video/calf-video/MAGNUM (3).mp4'
+import calf40 from '../../assets/video/calf-video/MAGNUM (4).mp4'
+import calf41 from '../../assets/video/calf-video/PRO DAIRY FARM.mp4'
+import calf42 from '../../assets/video/calf-video/sandhu dairy farm.mp4'
+import calf43 from '../../assets/video/calf-video/SUNRISE-.mp4'
+import calf44 from '../../assets/video/calf-video/TACITUS.mp4'
+import calf45 from '../../assets/video/calf-video/UNCOMMON.mp4'
 
 import testimonial1 from '../../assets/images/png/waman.png'
 import testimonial2 from '../../assets/images/png/parminder.png'
@@ -528,6 +536,46 @@ export const CalfList = [
         id: 37,
         type: 'video',
         video: calf37,
+    },
+    {
+        id: 38,
+        type: 'video',
+        video: calf38,
+    },
+    {
+        id: 39,
+        type: 'video',
+        video: calf39,
+    },
+    {
+        id: 40,
+        type: 'video',
+        video: calf40,
+    },
+    {
+        id: 41,
+        type: 'video',
+        video: calf41,
+    },
+    {
+        id: 42,
+        type: 'video',
+        video: calf42,
+    },
+    {
+        id: 43,
+        type: 'video',
+        video: calf43,
+    },
+    {
+        id: 44,
+        type: 'video',
+        video: calf44,
+    },
+    {
+        id: 45,
+        type: 'video',
+        video: calf45,
     },
 
 

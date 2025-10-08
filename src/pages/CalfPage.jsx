@@ -38,7 +38,7 @@ const CalfPage = () => {
 
 
       {/* CALFS */}
-      <section className="py-14 md:py-32 relative">
+      {/* <section className="py-14 md:py-32 relative">
         <div className="custom_container container px-5 mx-auto">
           <div
             className="
@@ -78,6 +78,56 @@ const CalfPage = () => {
                 ) : null}
               </div>
             ))}
+          </div>
+        </div>
+      </section> */}
+
+      <section className="py-14 md:py-32 relative">
+        <div className="custom_container container px-5 mx-auto">
+          <div
+            className="
+        grid 
+        grid-cols-1 
+        sm:grid-cols-2 
+        md:grid-cols-3 
+        lg:grid-cols-4 
+        gap-6 
+        auto-rows-[250px]
+      "
+          >
+            {CalfList.map((obj, index) => {
+              // ✨ Adjust pattern logic for balanced layout
+              const isTall = index % 9 === 0 || index % 11 === 0; // taller items spaced evenly
+              const isWide = index % 13 === 0; // a few wide ones
+
+              return (
+                <div
+                  key={index}
+                  className={`relative cursor-pointer group overflow-hidden rounded-xl shadow-md hover:shadow-xl transition-all duration-300 
+              ${isTall ? "md:row-span-2" : ""} 
+              ${isWide ? "md:col-span-2" : ""}
+            `}
+                  onClick={() => openImageModal(obj, index)}
+                >
+                  {obj.img ? (
+                    <img
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                      src={obj.img}
+                      alt={`calf-${index}`}
+                    />
+                  ) : obj.video ? (
+                    <video
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                      src={obj.video}
+                      autoPlay
+                      loop
+                      muted
+                      playsInline
+                    />
+                  ) : null}
+                </div>
+              )
+            })}
           </div>
         </div>
       </section>
