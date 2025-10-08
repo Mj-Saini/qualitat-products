@@ -2279,9 +2279,9 @@ export const productList = [
     {
         img: product3
     },
-    {
-        img: product4
-    },
+    // {
+    //     img: product4
+    // },
 
 
     {
