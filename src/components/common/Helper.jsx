@@ -164,6 +164,10 @@ import logo14 from '../../assets/images/distributors/surbhi-logo.png'
 import logo15 from '../../assets/images/distributors/nd-dairy-loog.png'
 
 
+
+import podcast1 from '../../assets/images/png/podcast-prev1.png'
+
+
 export const heroSlides = [
 
     {
@@ -2581,3 +2585,13 @@ export const newsData = [
 ];
 
 
+
+export const podcastsList = [
+    {
+        id: 1,
+        title: "“Welcome to our Podcast – where dairy innovation meets farmer success!”",
+        thumbnail: podcast1,
+        videoUrl: "https://youtu.be/fbDDg00Fxxw?si=tHRscefjsa7TZ-K0",
+    },
+ 
+];

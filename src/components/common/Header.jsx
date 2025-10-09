@@ -60,6 +60,9 @@ const Header = ({ contactPage }) => {
           <NavLink onClick={() => setToggle(false)} to="/about-us" className={` hover:text-[#C62524] text-sm text_stroke duration-300 transition-all ${location.pathname === '/about-us' ? 'text-black text_stroke_active' : 'text-black/70'}`}>
             About Us
           </NavLink>
+          <NavLink onClick={() => setToggle(false)} to="/podcast" className={` hover:text-[#C62524] text-sm text_stroke duration-300 transition-all ${location.pathname === '/about-us' ? 'text-black text_stroke_active' : 'text-black/70'}`}>
+            Podcast
+          </NavLink>
           <NavLink onClick={() => setToggle(false)} to="/our-distributors" className={` hover:text-[#C62524] text-sm text_stroke duration-300 transition-all ${location.pathname === '/our-distributors' ? 'text-black text_stroke_active' : 'text-black/70'}`}>
            Dealers
           </NavLink>

@@ -21,6 +21,7 @@ import ResourceDetails from './pages/ResourceDetails';
 import AboutPage from './pages/AboutPage';
 import NewsPage from './pages/NewsPage';
 import Distributors from './pages/Distributors';
+import PodCast from './pages/PodCast';
 
 function App() {
   const location = useLocation();
@@ -43,6 +44,7 @@ function App() {
         <Route path="/about-us" element={<AboutPage />} />
         <Route path="news" element={<NewsPage />} />
         <Route path="/our-distributors" element={<Distributors />} />
+        <Route path="/podcast" element={<PodCast />} />
        
         <Route path="/resources/genetics" element={<ResourcesPage mapData={geneticsData} pageName="/resources/genetics"/>} />
         <Route path="/resources/management" element={<ResourcesPage mapData={managementData}  pageName="/resources/management"/>} />
