@@ -213,10 +213,7 @@ const PodCast = () => {
                     <h2 className="text-2xl md:text-3xl font-semibold">
                         "Building Excellence in Dairy Innovation – A Talk with Dr. Anil Berry"
                     </h2>
-                    <p className="text-gray-600">
-                        Join Dr. Ramesh Kumar as he breaks down the evolution of bull semen
-                        preservation and AI advancements transforming the livestock industry.
-                    </p>
+                   
                     <button
                         onClick={() =>
                             openVideoModal("https://youtu.be/CJZ4EJvF71E?si=bqHl7QJryyqyCaQK")
