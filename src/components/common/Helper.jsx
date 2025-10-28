@@ -138,6 +138,9 @@ import dist14 from '../../assets/images/distributors/surabhi.png'
 import dist15 from '../../assets/images/distributors/ajay-kumar.png'
 // import dist16 from '../../assets/images/distributors/'
 
+import podcastvdo1 from '../../assets/video/podcast/podcast1.mp4'
+import anilberry from '../../assets/images/png/dr-anil-berry.jpeg'
+
 
 
 // VIDEOS
@@ -2589,9 +2592,15 @@ export const newsData = [
 export const podcastsList = [
     {
         id: 1,
-        title: "“Welcome to our Podcast – where dairy innovation meets farmer success!”",
+        // title: "“Welcome to our Podcast – where dairy innovation meets farmer success!”",
         thumbnail: podcast1,
         videoUrl: "https://youtu.be/fbDDg00Fxxw?si=tHRscefjsa7TZ-K0",
+    },
+    {
+        id: 1,
+        // title: "“Welcome to our Podcast – where dairy innovation meets farmer success!”",
+        thumbnail: anilberry,
+        videoUrl: podcastvdo1,
     },
  
 ];
