@@ -2352,13 +2352,13 @@ export const ourTeamList = [
         about: "Rajni,  our Operations Analyst at Qualitat Products plays a key role in streamlining daily processes, analyzing data, and improving efficiency across supply chain and distribution and collect INAPH tags from farmers and ensure timely uploading on the Government portal (Bharat Pashudhan). The role ensures timely delivery of products, smooth coordination with teams, and supports strategic decision-making for business growth."
     },
 
-    {
-        img: team6,
-        Name: "Nakul",
-        role: "Marketing Strategist Manager",
-        category: "Team",
-        about: "Nakul, who is our Marketing Strategist at Qualitat Products, focuses on strengthening and expanding the brand’s presence across social media platforms. By creating impactful content and leading farmer-focused campaigns, the aim is to build meaningful connections, increase brand visibility, and showcase innovative dairy solutions that drive value for farmers and the livestock industry."
-    },
+    // {
+    //     img: team6,
+    //     Name: "Nakul",
+    //     role: "Marketing Strategist Manager",
+    //     category: "Team",
+    //     about: "Nakul, who is our Marketing Strategist at Qualitat Products, focuses on strengthening and expanding the brand’s presence across social media platforms. By creating impactful content and leading farmer-focused campaigns, the aim is to build meaningful connections, increase brand visibility, and showcase innovative dairy solutions that drive value for farmers and the livestock industry."
+    // },
     {
         img: team7,
         Name: "Deepika",
