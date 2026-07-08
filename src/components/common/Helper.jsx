@@ -118,6 +118,9 @@ import team9 from '../../assets/images/png/seema.png'
 import team10 from '../../assets/images/png/deepak-kumar.jpeg'
 import team11 from '../../assets/images/png/pappu.jpeg'
 import team12 from '../../assets/images/png/jai-sankar.jpeg'
+import team13 from '../../assets/images/png/pinky-yadav.png'
+import team14 from '../../assets/images/png/manjit-kaur.png'
+import team15 from '../../assets/images/png/poonam-row.png'
 
 // DISTRIBUTORS IMAGES
 
@@ -2344,13 +2347,13 @@ export const ourTeamList = [
     },
 
 
-    {
-        img: team3,
-        Name: "Rajni Malik",
-        role: "Operations Analyst",
-        category: "Team",
-        about: "Rajni,  our Operations Analyst at Qualitat Products plays a key role in streamlining daily processes, analyzing data, and improving efficiency across supply chain and distribution and collect INAPH tags from farmers and ensure timely uploading on the Government portal (Bharat Pashudhan). The role ensures timely delivery of products, smooth coordination with teams, and supports strategic decision-making for business growth."
-    },
+    // {
+    //     img: team3,
+    //     Name: "Rajni Malik",
+    //     role: "Operations Analyst",
+    //     category: "Team",
+    //     about: "Rajni,  our Operations Analyst at Qualitat Products plays a key role in streamlining daily processes, analyzing data, and improving efficiency across supply chain and distribution and collect INAPH tags from farmers and ensure timely uploading on the Government portal (Bharat Pashudhan). The role ensures timely delivery of products, smooth coordination with teams, and supports strategic decision-making for business growth."
+    // },
 
     // {
     //     img: team6,
@@ -2367,19 +2370,40 @@ export const ourTeamList = [
         about: "Deepika, who is our Senior Sales Manager at Qualitat Products ensures complete record-keeping of sales while driving growth of the company with full dedication. With a focus on performance and farmer satisfaction, she plays a vital role in strengthening the company’s reach and success."
     },
     {
-        img: team1,
-        Name: "Rakhi Bahri",
-        role: "Sales Manager",
+        img: team13,
+        Name: "pinky yadav",
+        role: "Operations Analyst",
         category: "Team",
-        about: "Rakhi, our Sales Manager plays a vital role in driving WWS product sales by conducting regular follow-ups, maintaining accurate records, and addressing farmers’ concerns with care. Through clear communication, timely support, and strong relationship-building, she ensures farmer satisfaction and contributes to the growth of Qualitat Products."
+        about: "Our Operations Analyst at Qualitat Products plays a key role in streamlining daily processes, analyzing data, and improving efficiency across supply chain and distribution and collect INAPH tags from farmers and ensure timely uploading on the Government portal (Bharat Pashudhan). The role ensures timely delivery of products, smooth coordination with teams, and supports strategic decision-making for business growth."
     },
     {
-        img: team8,
-        Name: "Savita",
-        role: "Logistic Manager",
-        category: "Delivery",
-        about: "Savita, who is our Logistics Manager at Qualitat Products has had 18 years of experience in the field of Logistics. Her role is pivotal in ensuring the timely and seamless delivery of products to farmers and distributors. She make sure to streamline supply chain operations, she maintains consistent product availability, enabling farmers to receive uninterrupted support and reinforcing the company’s commitment to reliability and growth."
+        img: team14,
+        Name: "Manjeet kaur",
+        role: "Logistics Manager",
+        category: "Team",
+        about: "who is our Logistics Manager. Her role is pivotal in ensuring the timely and seamless delivery of products to farmers and distributors. She make sure to streamline supply chain operations, she maintains consistent product availability, enabling farmers to receive uninterrupted support and reinforcing the company’s commitment to reliability and growth."
     },
+    {
+        img: team15,
+        Name: "poonam roa",
+        role: "Digital Communications Executive",
+        category: "Team",
+        about: "As a Digital Communications Executive, she develops and manages digital content across social media, websites, and email campaigns. She creates engaging marketing materials, coordinates brand communication, analyzes campaign performance, supports product promotions, collaborates with internal teams, and ensures consistent messaging to strengthen brand visibility, audience engagement, and business growth."
+    },
+    // {
+    //     img: team1,
+    //     Name: "Rakhi Bahri",
+    //     role: "Sales Manager",
+    //     category: "Team",
+    //     about: "Rakhi, our Sales Manager plays a vital role in driving WWS product sales by conducting regular follow-ups, maintaining accurate records, and addressing farmers’ concerns with care. Through clear communication, timely support, and strong relationship-building, she ensures farmer satisfaction and contributes to the growth of Qualitat Products."
+    // },
+    // {
+    //     img: team8,
+    //     Name: "Savita",
+    //     role: "Logistic Manager",
+    //     category: "Delivery",
+    //     about: "Savita, who is our Logistics Manager at Qualitat Products has had 18 years of experience in the field of Logistics. Her role is pivotal in ensuring the timely and seamless delivery of products to farmers and distributors. She make sure to streamline supply chain operations, she maintains consistent product availability, enabling farmers to receive uninterrupted support and reinforcing the company’s commitment to reliability and growth."
+    // },
     {
         img: team9,
         Name: "Seema",

@@ -142,14 +142,14 @@ export const bullList = [
 
    
   },
-  {
-    id: "7HO14694",
-    name: "BANJO‑P",
-    category: "HF",
-    img: banjobull,
-    detailsPdf:detailBenjo,
+  // {
+  //   id: "7HO14694",
+  //   name: "BANJO‑P",
+  //   category: "HF",
+  //   img: banjobull,
+  //   detailsPdf:detailBenjo,
    
-  },
+  // },
   {
     id: "7HO14859",
     name: "MAXIMUS",
@@ -158,15 +158,15 @@ export const bullList = [
     detailsPdf:detailMaximus,
    
   },
-  {
-    id: "7HO14951", 
-    name: "STANNIS",
+  // {
+  //   id: "7HO14951", 
+  //   name: "STANNIS",
    
-    category: "HF",
-    img:stannis,
-   detailsPdf:detailStannis,
+  //   category: "HF",
+  //   img:stannis,
+  //  detailsPdf:detailStannis,
 
-  },
+  // },
   {
     id: "7HO15033",
     name: "BOLD",
@@ -410,14 +410,14 @@ export const bullList = [
   detailsPdf:detailLogistics,
   
   },
-  {
-  "id": "250HO16110",
-  "name": "LETCHWORTH",
+  // {
+  // "id": "250HO16110",
+  // "name": "LETCHWORTH",
  
-    "category": "HF",
-  img:letchworth,
-   detailsPdf:detailLetchworth,
-  },
+  //   "category": "HF",
+  // img:letchworth,
+  //  detailsPdf:detailLetchworth,
+  // },
   {
   "id": "507JE01838",
   "name": "BARLEY",
@@ -444,15 +444,15 @@ export const bullList = [
   // img:ted,
   detailsPdf:detailTed,
   },
-  {
-  "id": "614JE00758",
-  "name": "KNOCK-OUT",
+  // {
+  // "id": "614JE00758",
+  // "name": "KNOCK-OUT",
   
-    "category": "JE",
-  img:knockOut,
-   detailsPdf:detailKnockOut,
+  //   "category": "JE",
+  // img:knockOut,
+  //  detailsPdf:detailKnockOut,
 
-  },
+  // },
  
   {
   "id": "7H015839",
@@ -509,14 +509,14 @@ export const bullList = [
 
  
 
-  {
-  "id": '14HO14963', 
-  "name": "FORD",
+  // {
+  // "id": '14HO14963', 
+  // "name": "FORD",
     
-    "category": "HF",
-  img:ford,
-   detailsPdf:detailFord,
-  },
+  //   "category": "HF",
+  // img:ford,
+  //  detailsPdf:detailFord,
+  // },
  
   {
   "id": '14HO14464', 
@@ -550,22 +550,22 @@ export const bullList = [
   img:jamarco,
    detailsPdf:detailJamarco,
   },
-  {
-  "id": '9HO16182', 
-  "name": "INFERNO",
+  // {
+  // "id": '9HO16182', 
+  // "name": "INFERNO",
     
-    "category": "HF",
-  // img:jamarco,
-   detailsPdf:detailInferNo,
-  },
-  {
-  "id": '507HO15139', 
-  "name": "FANECA",
+  //   "category": "HF",
+  // // img:jamarco,
+  //  detailsPdf:detailInferNo,
+  // },
+  // {
+  // "id": '507HO15139', 
+  // "name": "FANECA",
     
-    "category": "HF",
-  img:faneca,
-   detailsPdf:detailfaneca,
-  },
+  //   "category": "HF",
+  // img:faneca,
+  //  detailsPdf:detailfaneca,
+  // },
   {
   "id": '250HO15657', 
   "name": "cornell",
@@ -574,14 +574,14 @@ export const bullList = [
   img:cornell,
    detailsPdf:detailCornell,
   },
-  {
-  "id": '7HO14681', 
-  "name": "CHILTON",
+  // {
+  // "id": '7HO14681', 
+  // "name": "CHILTON",
     
-    "category": "HF",
-  img:chilton,
-   detailsPdf:detailChilton,
-  },
+  //   "category": "HF",
+  // img:chilton,
+  //  detailsPdf:detailChilton,
+  // },
   {
   "id": '614JE00725', 
   "name": "CASINO",
