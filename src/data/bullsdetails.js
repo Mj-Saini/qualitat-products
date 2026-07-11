@@ -42,12 +42,12 @@ import rameway from '../assets/images/png/rameway.png'
 import ford from '../assets/images/png/ford.png'
 import hensen from '../assets/images/png/hensen.png'
 
-import ted from '../assets/images/png/hensen.png'
+import ted from '../assets/images/png/ted-bull.jpeg'
 import barley from '../assets/images/png/hensen.png'
 import varika from '../assets/images/png/varika.png'
 import TACITUSImg from '../assets/images/png/tacitus.png'
-import hedgefund from '../assets/images/png/hensen.png'
-import amari from '../assets/images/png/hensen.png'
+import hedgefund from '../assets/images/png/hedgefund.jpeg'
+import amari from '../assets/images/png/amari.jpeg'
 import reeva from '../assets/images/png/revee.png'
 import mattImg from '../assets/images/png/matt.png'
 import jamarco from '../assets/images/png/jamarco.png'
@@ -55,6 +55,12 @@ import faneca from '../assets/images/png/faneca.png'
 import cornell from '../assets/images/png/cornell.png'
 import chilton from '../assets/images/png/chillton.png'
 import casino from '../assets/images/png/casino.jpeg'
+import TRENT from '../assets/images/png/Jeffrey-Way Spunky-Red-ET.png'
+import TRENTDetails from '../assets/images/png/TRENTDetails.png'
+import Jenny from '../assets/images/png/Jenny-Lou Ronald Aces.png'
+import Everlane from '../assets/images/png/Everlane Ronald Serena.png'
+import sunriseImg from '../assets/images/png/sunrise.jpeg'
+
 
 
 // DETAILS IMAGES
@@ -188,7 +194,7 @@ export const bullList = [
     id: "7HO15141",
     name: "AMARI",
     category: "HF",
-      // img:amari,
+      img:amari,
    detailsPdf:detailAmari,
 
   },
@@ -214,7 +220,7 @@ export const bullList = [
     id: "7HO15314",
     name: "SAM-RED",
     category: "Red",
-    // img:sam,
+    img:sam,
    detailsPdf:detailSamRed,
   },
   {
@@ -244,7 +250,7 @@ export const bullList = [
     id: "7H015714",
     name: "HEDGEFUND",
     category: "HF",
-    // img:hedgefund,
+    img:hedgefund,
     detailsPdf:detailHedgefund,
   },
   {
@@ -303,7 +309,7 @@ export const bullList = [
     name: "SUNRISE",
     
     category: "HF", // Jersey
-    // img:sunriseImg,
+    img:sunriseImg,
    detailsPdf:detailSunrise,
   },
     {
@@ -441,7 +447,7 @@ export const bullList = [
   "name": "TED",
   
     "category": "HF", 
-  // img:ted,
+  img:ted,
   detailsPdf:detailTed,
   },
   // {
@@ -590,6 +596,7 @@ export const bullList = [
   img:casino,
    detailsPdf:detailCasino,
   },
+ 
  
 
 

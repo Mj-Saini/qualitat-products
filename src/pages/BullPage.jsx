@@ -101,11 +101,13 @@ const BullPage = () => {
           {/* Bull Cards */}
           <div className="flex flex-wrap sm:-mx-3">
             {visibleBulls.length > 0 ? (
-              visibleBulls.map((obj, index) => (
-                <div key={index} className='w-full sm:w-1/2 md:w-1/3 xl:w-1/4 sm:px-3 mt-6 lg:mb-0'>
-                  <AnimalsCard mapData={obj} path={`/bulls-details/${obj.id}`} />
-                </div>
-              ))
+              visibleBulls.map((obj, index) => {
+                return (
+                  <div key={index} className='w-full sm:w-1/2 md:w-1/3 xl:w-1/4 sm:px-3 mt-6 lg:mb-0'>
+                    <AnimalsCard mapData={obj} path={`/bulls-details/${obj.id}`} />
+                  </div>
+                )
+              })
             ) : (
               <div className="w-full text-center py-10 text-xl text-gray-500">No bulls found for this type.</div>
             )}

@@ -77,7 +77,7 @@ import calf39 from '../../assets/video/calf-video/MAGNUM (3).mp4'
 import calf40 from '../../assets/video/calf-video/MAGNUM (4).mp4'
 import calf41 from '../../assets/video/calf-video/PRO DAIRY FARM.mp4'
 import calf42 from '../../assets/video/calf-video/sandhu dairy farm.mp4'
-import calf43 from '../../assets/video/calf-video/SUNRISE-.mp4'
+import calf43 from '../../assets/images/png/sunrise.jpeg'
 import calf44 from '../../assets/video/calf-video/TACITUS.mp4'
 import calf45 from '../../assets/video/calf-video/UNCOMMON.mp4'
 
@@ -574,7 +574,7 @@ export const CalfList = [
     },
     {
         id: 43,
-        type: 'video',
+        type: 'image',
         video: calf43,
     },
     {
@@ -2385,8 +2385,8 @@ export const ourTeamList = [
     },
     {
         img: team15,
-        Name: "poonam roa",
-        role: "Digital Communications Executive",
+        Name: "poonam rao",
+        role: "Social Media Executive",
         category: "Team",
         about: "As a Digital Communications Executive, she develops and manages digital content across social media, websites, and email campaigns. She creates engaging marketing materials, coordinates brand communication, analyzes campaign performance, supports product promotions, collaborates with internal teams, and ensures consistent messaging to strengthen brand visibility, audience engagement, and business growth."
     },
